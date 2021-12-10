@@ -39,7 +39,19 @@ def main():
     for i in range(0,len(weaponName)):
         if weaponName[i].find("(") != -1:
             weaponName[i] =" ".join(weaponName[i].split(" ")[:-1])
+    
+    for i in range(0, len(weaponName)):
+        if weaponName[i].find("/") != -1:
+            weaponName[i] = weaponName[i].split("/")[0]
+            if weaponName[i].find(" ") != -1:
+                weaponName[i] = weaponName[i].replace(" ", "")
+        elif weaponName[i].find("_") != -1:
+            weaponName[i] = weaponName[i].replace("_", "")
+        elif weaponName[i].find(" ") != -1:
+            weaponName[i] = weaponName[i].replace(" ", "")
         
+
+
     for i in range(0, len(weaponMod)):
         if weaponMod[i].find("(") != -1:
             weaponMod[i] = "".join(weaponMod[i].split(" ")[0])
@@ -54,7 +66,7 @@ def main():
     
     print(df)
 
-    df.to_csv('WeaponModifier.csv', encoding='utf-8')
+    df.to_csv('WeapMod.csv', encoding='utf-8')
     
     end = time.time()
 

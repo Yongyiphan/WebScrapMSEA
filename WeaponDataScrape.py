@@ -28,6 +28,12 @@ def main():
     start = time.time()
     
     weapDF = retrieveMainWeap()
+    weapDF.loc[(weapDF.WeaponType == 'Bladecaster'), 'WeaponType'] = 'Tuner'
+    weapDF.loc[(weapDF.WeaponType == 'LucentGauntlet'), 'WeaponType'] = 'MagicGauntlet'
+    weapDF.loc[(weapDF.WeaponType == 'Psy-limiter'), 'WeaponType'] = 'PsyLimiter'
+    weapDF.loc[(weapDF.WeaponType == 'Whispershot'), 'WeaponType'] = 'BreathShooter'
+
+
     weapDF.to_csv("WeaponData.csv", encoding='utf-8')
 
     end = time.time()
