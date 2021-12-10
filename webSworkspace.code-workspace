@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"python.defaultInterpreterPath" : "./env/Scripts"
+		}
+	],
+	"settings": {
+		"python.languageServer": "Pylance"
+	}
+}
