@@ -1,5 +1,4 @@
-from bs4.element import PageElement
-from numpy import true_divide
+from numpy import fabs
 import pandas
 import requests
 import lxml
@@ -11,27 +10,22 @@ from bs4 import BeautifulSoup
 # MAIN PAGE -> GET EQUIPNAME/LINK 
 # TRAVERSE TO EQUIPLINK PAGE -> GET WEAPON SET'S LINK
 # TRAVERSE TO WEAPON'LINK -> RECORD INFORMATION
-weaponLink = []
-weaponNameList = []
 defaulturl = "https://maplestory.fandom.com"
 weaponUrl = "/wiki/Category:Weapons"
-setToTrack = ['Genesis', 'Arcane', 'Utgard','Absolab', 'Fafnir', 'Lapis','Lazuli']
-Mclasses = ['Warrior', 'Bowman', 'Magician','Mage','Thief', 'Pirate']
+secUrl = "/wiki/Category:Secondary_Weapons"
+equipSetUrl = "/wiki/Category:Equipment_Sets"
+setToTrack = ['Genesis', 'Arcane', 'Utgard','Absolab', 'Fafnir', 'Lapis','Lazuli', '']
+Mclasses = ['Warrior', 'Bowman', 'Magician','Thief', 'Pirate']
 trackMinLevel = 140
 
 def main():
     
     start = time.time()
     
-    weapDF = retrieveMainWeap()
-    weapDF.loc[(weapDF.WeaponType == 'Bladecaster'), 'WeaponType'] = 'Tuner'
-    weapDF.loc[(weapDF.WeaponType == 'LucentGauntlet'), 'WeaponType'] = 'MagicGauntlet'
-    weapDF.loc[(weapDF.WeaponType == 'Psy-limiter'), 'WeaponType'] = 'PsyLimiter'
-    weapDF.loc[(weapDF.WeaponType == 'Whispershot'), 'WeaponType'] = 'BreathShooter'
-
-
-    weapDF.to_csv("WeaponData.csv", encoding='utf-8')
-
+    # weapDF = retrieveMainWeap()
+    # weapDF.to_csv("WeaponData.csv", encoding='utf-8')
+    secDf = retrieveSecWeap()
+    secDf.to_csv("SecondaryWeapData.csv", encoding = 'utf-8')
     end = time.time()
 
     print(f"Time take: {end - start}")
@@ -46,23 +40,27 @@ def retrieveMainWeap():
     soup  = BeautifulSoup(page.content, "lxml")
     weaponList = list(soup.find_all('a', class_='category-page__member-link'))
     
-    
+    weaponLink = []
 
     df = pandas.DataFrame()
     for x in weaponList:
         if(x['href'].find("Secondary_Weapons") != -1):
             continue
         weaponLink.append(x['href'])
-        df = df.append(retreiveConsolidatedPage(x['href'], request_session, setToTrack), ignore_index=True)
+        df = df.append(retreiveWeapPage(x['href'], request_session, setToTrack), ignore_index=True)
     
-    # print(retreiveConsolidatedPage(weaponLink[33], request_session, setToTrack))
-    # print(df)
+    
     df = df.fillna(0)
-    print(df)
+    
+    df.loc[(df.WeaponType == 'Bladecaster'), 'WeaponType'] = 'Tuner'
+    df.loc[(df.WeaponType == 'LucentGauntlet'), 'WeaponType'] = 'MagicGauntlet'
+    df.loc[(df.WeaponType == 'Psy-limiter'), 'WeaponType'] = 'PsyLimiter'
+    df.loc[(df.WeaponType == 'Whispershot'), 'WeaponType'] = 'BreathShooter'
+
+
     return df
 
-
-def retreiveConsolidatedPage(suburl, session, trackSet):
+def retreiveWeapPage(suburl, session, trackSet):
 
     start = time.time()
     page = session.get(defaulturl + suburl)
@@ -136,6 +134,169 @@ def retreiveConsolidatedPage(suburl, session, trackSet):
     
     # return
 
+
+def retrieveSecWeap():
+
+    weaponLink = []
+
+    request_session = requests.session()
+    page = request_session.get(defaulturl + secUrl)
+    soup = BeautifulSoup(page.content, 'lxml')
+
+    weapList = soup.find_all('a', class_="category-page__member-link")
+
+    df = pandas.DataFrame()
+    for x in weapList:
+        weaponLink.append(x['href'])
+        df = df.append(retreiveSecPage(x['href'], request_session) , ignore_index=True)
+
+    
+    df = df.fillna(0)
+    
+
+
+    return df
+
+def retreiveSecPage(suburl, session):
+
+    start = time.time()
+    page = session.get(defaulturl + suburl)
+    
+    titleContent = BeautifulSoup(page.content, 'lxml').find_all('div', class_= "mw-parser-output")[0].find('a')
+    weapListLink = titleContent['href']
+    weapType = titleContent.get_text().replace(" ", "")
+
+    if weapType == "Shield":
+        return retrieveShield(weapListLink, session, weapType)
+
+    weapListPage = session.get(defaulturl + weapListLink)
+
+    PageContent = BeautifulSoup(weapListPage.content, 'lxml').find_all('div', class_= "mw-parser-output")[0]
+
+    wikiTables = PageContent.find_all('table', class_='wikitable')
+    headerContent = PageContent.find_all('p')
+
+
+    for i in headerContent:
+        if i.get_text().replace(" ", "").lower().find(weapType.lower()) != -1:
+            headerP = i
+            break
+        if i.get_text().find('exclusive') != -1:
+            headerP = i
+            break
+        continue
+
+
+    headerPContent = list(headerP.contents)
+
+    Jobs = []
+    Cstart = False
+    for i in headerPContent:
+        if i.get_text().find('exclusive') != -1:
+            Cstart = True
+            continue
+        if i.get_text().find('conjunction') != -1:
+            Cstart = False
+            break
+
+        if Cstart == True:
+            if i.name == 'a':
+                JobName = i.next.replace(" ", "") if i.next.find(" ") != -1 else i.next
+                Jobs.append(JobName)
+ 
+    currentDF = pandas.DataFrame()
+
+    ignoreList = ["evolving", "frozen"]
+
+    if len(Jobs) == 0:
+        return currentDF
+    
+    counter = min(len(Jobs), len(wikiTables))
+
+    for c in range(0, counter):
+        tableContent = wikiTables[c].find_all('td')
+        JobType = Jobs[c]
+        for i in range(0, len(tableContent), 3):
+            ItemData = {}
+            if JobType == "Jett":
+                continue
+            elif JobType == "DualBlade":
+                ItemData["ClassType"] = JobType
+                ItemData["WeaponType"] = weapType
+                weaponSet = tableContent[i].contents
+                for w in weaponSet:
+                    if any(ele.lower() in w.get_text().replace(weapType, "").lower() for ele in setToTrack) == True:
+                        EquipName = w.get_text()
+                        break
+                    else:
+                        EquipName = ""
+                if EquipName == "":
+                    continue
+                ItemData["EquipName"] = EquipName
+                
+                EquipLevel = tableContent[i+1].get_text(separator = '\n').split('\n')[0].split(" ")[-1]
+                ItemData["EquipLevel"] = EquipLevel
+
+                EquipStat = tableContent[i+2].get_text(separator = "\n").split("\n")[:-1]
+                ItemData.update(assignToDict(EquipStat))
+            else:
+                ItemData["ClassType"] = JobType
+                ItemData["WeaponType"] = weapType
+                EquipName = tableContent[i].find_all('a')[-1].get_text()
+                if EquipName == "":
+                    continue
+                if any(ele in EquipName.lower() for ele in ignoreList) == True:
+                    continue
+
+                ItemData["EquipName"] = EquipName
+
+                EquipLevel = tableContent[i+1].get_text(separator = '\n').split('\n')[0].split(" ")[-1]
+                ItemData["EquipLevel"] = EquipLevel
+
+                EquipStat = tableContent[i+2].get_text(separator = "\n").split("\n")[:-1]
+                ItemData.update(assignToDict(EquipStat))
+            currentDF = currentDF.append(ItemData, ignore_index=True)
+
+    end = time.time()
+    
+    print(f"Time taken for {weapType} to be added is  {end - start}")  
+    return currentDF
+
+def retrieveShield(weapListLink , session, weapType):
+
+    currentDF =  pandas.DataFrame()
+
+    for cls in Mclasses:
+        newUrl = weapListLink + "/" + cls
+        PageContent = session.get(defaulturl + newUrl)
+        if PageContent.status_code != 200:
+            continue
+        
+        currentContent = BeautifulSoup(PageContent.content, 'lxml').find_all('div', class_="wds-tab__content wds-is-current")[0]
+
+        wikitable = currentContent.find_all('td')
+        
+        for i in range(0, len(wikitable), 3):
+            ItemData = {}
+            ItemData["ClassType"] = cls
+            ItemData["WeaponType"] = weapType
+            EquipName = wikitable[i].find_all('a')[-1].get_text()
+            if EquipName == "":
+                    continue
+            ItemData["EquipName"] = EquipName
+
+            EquipLevel = wikitable[i+1].get_text(separator = '\n').split('\n')[0].split(" ")[-1]
+            if int(EquipLevel) < 110:
+                continue
+            ItemData["EquipLevel"] = EquipLevel
+
+            EquipStat = wikitable[i+2].get_text(separator = "\n").split("\n")[:-1]
+            ItemData.update(assignToDict(EquipStat))
+            currentDF = currentDF.append(ItemData, ignore_index=True)
+    return currentDF
+
+
+
 def returnIndex(ele):
     for i in range(0, len(setToTrack)):
         if setToTrack[i].lower() in ele.lower():
@@ -143,10 +304,11 @@ def returnIndex(ele):
         elif ele.lower() in setToTrack[i].lower():
             return i
 
-
 def assignToDict(tempList):
     
     tempData = {}
+    if tempList == None:
+        return tempData
     
     for i in tempList:
         if i.find("Attack Speed") != -1:
@@ -170,7 +332,7 @@ def assignToDict(tempList):
             else:
                 tempData["MainStat"] = i.split(" ")[1][1:]
             continue
-        elif i == "LUK":
+        elif i.find("LUK") != -1:
             if "MainStat" in tempData:
                 tempData["SecStat"] = i.split(" ")[1][1:]
             else:
@@ -194,7 +356,12 @@ def assignToDict(tempList):
         elif i.find("Speed") != -1:
             tempData["SPD"] = i.split(" ")[-1][1:]
             continue
-        
+        elif i.find("Defense") != -1:
+            tempData["DEF"] = i.split(" ")[-1][1:]
+            continue
+        elif i.find("All Stats") != -1:
+            tempData["AS"] = i.split(" ")[-1][1:]
+            continue
         
     
     
@@ -202,102 +369,3 @@ def assignToDict(tempList):
 
 
 main()
-
-
-# def retrieveSubPageDetails(suburl, session):
-#     pageurl = defaulturl + suburl
-#     page = session.get(pageurl);
-#     soup = BeautifulSoup(page.content, "lxml")
-    
-#     linkTrack = []
-
-#     df = pandas.DataFrame(columns=[])
-    
-#     for a in soup.find_all('a', class_='category-page__member-link'):
-#         for i in a.get_text().split(" "):
-#             if i.lower() in setToTrack:
-#                 linkTrack.append(a['href'])
-#                 dataDict = {}
-#                 dataDict["WeaponType"] = suburl.split("/")[2].split(":")[1]
-#                 dataDict["WeaponSet"] = a['href'].split("/")[2].split("_")[0]
-#                 dataDict.update(retrieveItemStat(a['href'], session))
-                
-#                 df = df.append(dataDict, ignore_index=True)
-    
-    
-#     return df
-    
-# def retrieveItemStat(url, session):
-#     tempTitle = []
-#     tempValue = []
-    
-#     page = session.get(defaulturl + url);
-#     soup = BeautifulSoup(page.content, "lxml")
-#     tableC = soup.find_all('tbody')[0]
-#     th = tableC.find_all('th')
-#     td = tableC.find_all('td')
-    
-    
-#     for i in range(0, len(td), 2):
-#         tempValue.append(td[i].get_text()[:-1])
-
-#     for i in th:
-#         tempTitle.append(i.get_text()[:-1])
-    
-#     tempValue = tempValue[1:]
-#     tempData = {}
-    
-    
-#     for i in range(0, len(tempTitle)):
-#         if tempTitle[i] == "REQ Level":
-#             tempData["Level"] = tempValue[i]
-#             continue
-#         elif tempTitle[i] == "REQ Job":
-#             tempData["ClassType"] = tempValue[i]
-#             continue
-#         elif tempTitle[i] == "Attack Speed":
-#             tempData["AtkSpd"] = tempValue[i].split(" ")[1][1:-1]
-#             continue
-#         elif tempTitle[i] == "STR":
-#             if "MainStat" in tempData:
-#                 tempData["SecStat"] = tempValue[i][1:]
-#             else:
-#                 tempData["MainStat"] = tempValue[i][1:]
-#             continue
-#         elif tempTitle[i] == "DEX":
-#             if "MainStat" in tempData:
-#                 tempData["SecStat"] = tempValue[i][1:]
-#             else:
-#                 tempData["MainStat"] = tempValue[i][1:]
-#             continue        
-#         elif tempTitle[i] == "INT":
-#             if "MainStat" in tempData:
-#                 tempData["SecStat"] = tempValue[i][1:]
-#             else:
-#                 tempData["MainStat"] = tempValue[i][1:]
-#             continue
-#         elif tempTitle[i] == "LUK":
-#             if "MainStat" in tempData:
-#                 tempData["SecStat"] = tempValue[i][1:]
-#             else:
-#                 tempData["MainStat"] = tempValue[i][1:]
-#             continue
-#         elif tempTitle[i] == "Weapon Attack":
-#             tempData["Atk"] = tempValue[i][1:]
-#             continue
-#         elif tempTitle[i] == "Magic Attack":
-#             tempData["MAtk"] = tempValue[i][1:]
-#             continue
-#         elif tempTitle[i].find("Knockback") != -1:
-#             tempData["Knockback"] = tempValue[i][:-1]
-#             continue
-#         elif tempTitle[i].find("Boss") != -1:
-#             tempData["BossDMG"] = tempValue[i][1:-1]
-#             continue
-#         elif tempTitle[i].find("Ignore") != -1:
-#             tempData["IED"] = tempValue[i][1:-1]
-#             continue
-#         elif tempTitle[i].find("Movement") != -1:
-#             tempData["SPD"] = tempValue[i][1:]
-#             continue
-#     return tempData
