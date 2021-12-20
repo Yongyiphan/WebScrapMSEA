@@ -6,6 +6,7 @@ import lxml
 import cchardet
 import time
 from bs4 import BeautifulSoup
+from requests.sessions import session
 
 ### PROGRAM FLOW ####
 # MAIN PAGE -> GET EQUIPNAME/LINK 
@@ -44,28 +45,42 @@ def main():
     linkLists = soup.find_all('a', class_='category-page__member-link')
     
     ignoreSetKeyWords = ['Immortal', 'Eternal','Walker','Anniversary']
+    WeaponDF = pandas.DataFrame()
+    ArmorDF = pandas.DataFrame()
+    AccessoriesDF = pandas.DataFrame()
+    SetEffectDF = pandas.DataFrame()
     for links in linkLists:
         linkText = links.next.lower()
-        # if any(li.lower() in linkText for li in EquipSetTrack) == True and any(ig.lower() in linkText for ig in ignoreSetKeyWords) == False:
-
-        #     linkCollection.append(links['href'])
-        
         for li in EquipSetTrack:
-            if li.lower() in linkText and li.lower() not in ignoreSetKeyWords:
+            if li.lower() in linkText and any(ig.lower() in linkText for ig in ignoreSetKeyWords) == False:
                 equipSetL.append(li)
                 linkCollection.append(links['href'])
+
+                print(f"\n Adding {li} items.\n")
+                tempCollection = retrieveContents(links['href'], request_session, li)
+                if len(tempCollection) == 3:
+                    SetEffectDF = SetEffectDF.append(tempCollection[0], ignore_index=True)
+                    ArmorDF = ArmorDF.append(tempCollection[1], ignore_index=True)
+                    WeaponDF =  WeaponDF.append(tempCollection[2], ignore_index=True)
+                elif len(tempCollection) == 2:
+                    SetEffectDF = SetEffectDF.append(tempCollection[0], ignore_index=True)
+                    AccessoriesDF = AccessoriesDF.append(tempCollection[1], ignore_index=True)
+
 
     # for i in linkCollection:
     #     print(i['href'])
     
-    # retrieveContents returns 3 DF
+    # retrieveContents returns 3/2 DF
     # append accordingly to empty DF
     # fillna --> push to csv
 
-    testSelection = 11
-    cdf = retrieveContents(linkCollection[testSelection], request_session, equipSetL[testSelection])
+    # testSelection = 11
+    # cdf = retrieveContents(linkCollection[testSelection], request_session, equipSetL[testSelection])
 
-    print(cdf[0])
+    SetEffectDF.to_csv('SetEffectData.csv')
+    WeaponDF.to_csv('WeaponDF.csv')
+    ArmorDF.to_csv('ArmorDF.csv')
+    AccessoriesDF.to_csv('AccessoriesDF.csv')
 
     end = time.time()
 
@@ -81,8 +96,10 @@ def retrieveContents(subUrl, session, equipSet):
     totalPageContent = BeautifulSoup(subPage.content, 'lxml')
     wikitables = totalPageContent.find_all('table', class_="wikitable")
 
-    print(subUrl, equipSet)
+    
+
     comList = []
+
     if len(wikitables) == 3:
         setTable = wikitables[0]
         equipTable = wikitables[1]
@@ -98,8 +115,8 @@ def retrieveContents(subUrl, session, equipSet):
         setTable = wikitables[0]
         equipTable = wikitables[1]
 
-        setDF = retrieveSetEffect(setTable)
-        equipDF = retrieveEquips()
+        setDF = retrieveSetEffect(setTable, equipSet)
+        equipDF = retrieveEquips(equipTable, equipSet)
 
         comList = [setDF, equipDF]
 
@@ -109,26 +126,36 @@ def retrieveContents(subUrl, session, equipSet):
 
 def retrieveSetEffect(wikitable, equipSet):
 
+    start = time.time()
     currentDF = pandas.DataFrame()
 
     tdContent = wikitable.find_all('td')
 
-    for i in range(1, len(tdContent), 2):
+    startCounter = len(tdContent) % 2
+
+    for i in range(startCounter, len(tdContent), 2):
         SetData = {}
         SetData['EquipSet'] = equipSet
         SetData['SetEffect'] = tdContent[i].next.next.split(" ")[0]
         statList = tdContent[i].get_text(separator = '\n').split('\n')[1:]
         SetData.update(assignToDict(statList))
         
+        
+
         currentDF = currentDF.append(SetData, ignore_index=True)
 
+    end = time.time()
+    print(currentDF, '\n')
+    print(f"{equipSet} set effect added in {end - start}.")
     
     return currentDF
 
 def retrieveEquips(wikitable, equipSet):
 
+    start = time.time()
     currentDF = pandas.DataFrame()
     tdContent = wikitable.find_all('td')
+
 
     for i in range(1, len(tdContent), 4):
         EquipData = {}
@@ -137,14 +164,25 @@ def retrieveEquips(wikitable, equipSet):
         EquipData['EquipSlot'] = equipslot.replace("\n", "") if equipslot.find('\n')  != -1 else equipslot
 
         requirements = tdContent[i+1].get_text(separator = '\n').split("\n")
-        EquipData['EquipLevel'] = requirements[0].split(" ")[-1]
-        EquipData['ClassType'] = requirements[1].split(" ")[-1]
+        if len(requirements) > 1:
+            EquipData['EquipLevel'] = requirements[0].split(" ")[-1]
+            EquipData['ClassType'] = requirements[1].split(" ")[-1]
+        else:
+            EquipData['EquipLevel'] = requirements[0].split(" ")[-1]
+            EquipData['ClassType'] = 'Any'
 
         effects =  tdContent[i+2].get_text(separator = '\n').split('\n')
         EquipData.update(assignToDict(effects))
 
+        
         currentDF = currentDF.append(EquipData, ignore_index=True)
     
+    end = time.time()
+    print(currentDF, '\n')
+    print(f"{equipSet} equips added in {end -start}. ")
+    
+
+
     return currentDF
 
 def retrieveWeap(wikitable, equipSet):
@@ -153,6 +191,7 @@ def retrieveWeap(wikitable, equipSet):
     tdContent = wikitable.find_all('td')
     
     for i in range(1, len(tdContent), 4):
+        # start = time.time()
         WeapData = {}
         weapType = tdContent[i].get_text()
         WeapData['WeaponType'] = weapType.replace('\n', '') if weapType.find('\n') != -1 else weapType
@@ -161,8 +200,9 @@ def retrieveWeap(wikitable, equipSet):
         requirements = tdContent[i+1].contents
 
         hasHref = False
-        JobType = ""
-
+        JobType = "Any"
+        WeapData['JobType'] = JobType
+        WeapData['Level'] = '0'
         for ahref in requirements:
             if ahref.get_text().lower().find('level') != -1:
                 WeapData['Level']  =  ahref.get_text().split(" ")[-1]
@@ -179,13 +219,20 @@ def retrieveWeap(wikitable, equipSet):
                     WeapData['JobType'] = ahref.get_text().split(' ')[-1]
                     break
         
+        if WeapData["JobType"].lower() == 'xenon':
+            continue
+
+
         weapStats = tdContent[i+2].get_text(separator = '\n').split('\n')
         WeapData.update(assignToDict(weapStats))
+    
         currentDF = currentDF.append(WeapData, ignore_index=True)
         
+        # end =  time.time()
+        # print(f"Time taken to add {equipSet} {WeapData['WeaponType']} is {end - start}. ")
        
 
-
+    print(currentDF, '\n')
         
     return currentDF
 
