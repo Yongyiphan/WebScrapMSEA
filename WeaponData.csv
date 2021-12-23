@@ -1,191 +1,210 @@
-,ClassType,WeaponSet,WeaponType,Level,AtkSpd,Atk,SPD,BossDMG,IED,MainStat,SecStat,HP,MAtk
-0,Pathfinder,Fensalir,AncientBow,140,6,115,14,0,0,0,0,0,0
-1,Pathfinder,Fafnir,AncientBow,150,6,160,0,30,10,40,40,0,0
-2,Pathfinder,Absolab,AncientBow,160,6,192,12,30,10,60,60,0,0
-3,Pathfinder,Arcane,AncientBow,200,6,276,19,30,20,100,100,0,0
-4,Pathfinder,Genesis,AncientBow,200,6,318,19,30,20,150,150,0,0
-5,Blaster,Fensalir,ArmCannon,140,5,90,0,0,0,0,0,0,0
-6,Blaster,Fafnir,ArmCannon,150,5,128,0,30,10,40,40,0,0
-7,Blaster,Absolab,ArmCannon,160,5,154,0,30,10,60,60,0,0
-8,Blaster,Arcane,ArmCannon,200,5,221,0,30,20,100,100,0,0
-9,Blaster,Genesis,ArmCannon,200,5,255,0,30,20,150,150,0,0
-10,Adele,Fensalir,Tuner,140,4,122,0,0,0,0,0,0,0
-11,Adele,Fafnir,Tuner,150,4,171,0,30,10,40,40,0,0
-12,Adele,Absolab,Tuner,160,4,205,0,30,10,60,60,0,0
-13,Adele,Arcane,Tuner,200,4,295,0,30,20,100,100,0,0
-14,Adele,Genesis,Tuner,200,4,340,0,30,20,150,150,0,0
-15,Bowman,Fensalir,Bow,140,6,115,14,0,0,0,0,0,0
-16,Bowman,Fafnir,Bow,150,6,160,0,30,10,40,40,0,0
-17,Bowman,Absolab,Bow,160,6,192,12,30,10,60,60,0,0
-18,Bowman,Arcane,Bow,200,6,276,19,30,20,100,100,0,0
-19,Bowman,Genesis,Bow,200,6,318,19,30,20,150,150,0,0
-20,Phantom,Fensalir,Cane,140,5,118,0,0,0,0,0,0,0
-21,Phantom,Fafnir,Cane,150,5,164,0,30,10,40,0,0,0
-22,Phantom,Absolab,Cane,160,5,197,0,30,10,60,0,0,0
-23,Phantom,Arcane,Cane,200,5,283,0,30,20,100,0,0,0
-24,Phantom,Genesis,Cane,200,5,326,0,30,20,150,0,0,0
-25,Cadena,Fensalir,Chain,140,4,115,0,0,0,0,0,0,0
-26,Cadena,Fafnir,Chain,150,4,160,0,30,10,40,0,0,0
-27,Cadena,Absolab,Chain,160,4,192,0,30,10,60,0,0,0
-28,Cadena,Arcane,Chain,200,4,276,0,30,20,100,0,0,0
-29,Cadena,Genesis,Chain,200,4,318,0,30,20,150,0,0,0
-30,Thief,Fensalir,Claw,140,4,62,0,0,0,0,0,0,0
-31,Thief,Fafnir,Claw,150,4,86,0,30,10,40,0,0,0
-32,Thief,Absolab,Claw,160,4,103,0,30,10,60,0,0,0
-33,Thief,Arcane,Claw,200,4,149,0,30,20,100,0,0,0
-34,Thief,Genesis,Claw,200,5,172,0,30,20,150,0,0,0
-35,Bowman,Fensalir,Crossbow,140,6,118,14,0,0,0,0,0,0
-36,Bowman,Fafnir,Crossbow,150,6,164,0,30,10,40,40,0,0
-37,Bowman,Absolab,Crossbow,160,6,197,0,30,10,60,60,0,0
-38,Bowman,Arcane,Crossbow,200,6,283,19,30,20,100,100,0,0
-39,Bowman,Genesis,Crossbow,200,6,326,19,30,20,150,150,0,0
-40,Thief,Fensalir,Dagger,140,4,115,0,0,0,0,0,0,0
-41,Thief,Fafnir,Dagger,150,4,160,0,30,10,40,0,0,0
-42,Thief,Absolab,Dagger,160,4,192,0,30,10,60,0,0,0
-43,Thief,Arcane,Dagger,200,4,276,0,30,20,100,0,0,0
-44,Thief,Genesis,Dagger,200,4,318,0,30,20,150,0,0,0
-45,DemonAvenger,Fensalir,Desperado,140,6,122,0,0,0,0,0,0,0
-46,DemonAvenger,Fafnir,Desperado,150,6,171,0,30,10,40,0,2000,0
-47,DemonAvenger,Absolab,Desperado,160,6,205,0,30,10,60,0,2250,0
-48,DemonAvenger,Arcane,Desperado,200,6,295,0,30,20,100,0,2500,0
-49,DemonAvenger,Genesis,Desperado,200,6,340,0,30,20,150,0,2800,0
-50,Mercedes,Fensalir,DualBowguns,140,6,115,14,0,0,0,0,0,0
-51,Mercedes,Fafnir,DualBowguns,150,6,160,0,30,10,40,40,0,0
-52,Mercedes,Absolab,DualBowguns,160,6,192,15,30,10,60,60,0,0
-53,Mercedes,Arcane,DualBowguns,200,6,276,0,30,20,100,100,0,0
-54,Mercedes,Genesis,DualBowguns,200,6,318,19,30,20,150,150,0,0
-55,Kanna,Fensalir,Fan,140,4,93,0,0,0,0,0,0,115
-56,Kanna,Fafnir,Fan,150,8,126,0,30,10,40,0,0,204
-57,Kanna,Absolab,Fan,160,8,143,0,30,10,60,0,0,241
-58,Kanna,Arcane,Fan,200,6,206,0,30,20,100,0,0,347
-59,Kanna,Genesis,Fan,200,6,237,0,30,20,150,0,0,400
-60,Pirate,Fensalir,Gun,140,5,90,0,0,0,0,0,0,0
-61,Pirate,Fafnir,Gun,150,5,125,0,30,10,40,40,0,0
-62,Pirate,Absolab,Gun,160,5,150,0,30,10,60,60,0,0
-63,Pirate,Arcane,Gun,200,5,216,0,30,20,100,100,0,0
-64,Pirate,Genesis,Gun,200,5,249,0,30,20,150,150,0,0
-65,Cannoneer,Fensalir,HandCannon,140,8,122,0,0,0,0,0,0,0
-66,Cannoneer,Fafnir,HandCannon,150,8,175,0,30,10,40,40,0,0
-67,Cannoneer,Absolab,HandCannon,160,8,210,0,30,10,60,60,0,0
-68,Cannoneer,Arcane,HandCannon,200,8,302,0,30,20,100,100,0,0
-69,Cannoneer,Genesis,HandCannon,200,8,348,0,30,20,150,150,0,0
-70,Zero,Type1,HeavySword,100,8,102,0,0,0,0,0,0,0
-71,Zero,Type2,HeavySword,110,8,105,0,0,0,0,0,0,0
-72,Zero,Type3,HeavySword,120,8,107,0,0,0,0,0,0,0
-73,Zero,Type4,HeavySword,130,8,114,0,0,0,0,0,0,0
-74,Zero,Type5,HeavySword,140,8,121,0,0,0,8,4,0,0
-75,Zero,Type6,HeavySword,150,8,139,0,0,0,35,20,0,0
-76,Zero,Type7,HeavySword,170,8,173,0,30,10,40,40,0,0
-77,Zero,Type8,HeavySword,180,8,207,0,30,10,60,60,0,0
-78,Zero,Type9,HeavySword,200,8,297,0,30,20,100,100,0,0
-79,Zero,Lapis,HeavySword,200,8,342,0,30,20,150,150,0,0
-80,Hayato,Fensalir,Katana,140,5,118,0,0,0,0,0,0,0
-81,Hayato,Fafnir,Katana,150,5,164,0,30,10,40,40,0,0
-82,Hayato,Absolab,Katana,160,5,197,0,30,10,60,60,0,0
-83,Hayato,Arcane,Katana,200,5,283,0,30,20,100,100,0,0
-84,Hayato,Genesis,Katana,200,5,326,0,30,20,150,150,0,0
-85,Pirate,Fensalir,Knuckle,140,5,90,0,0,0,0,0,0,0
-86,Pirate,Fafnir,Knuckle,150,5,128,0,30,10,40,40,0,0
-87,Pirate,Absolab,Knuckle,160,5,154,0,30,10,60,60,0,0
-88,Pirate,Arcane,Knuckle,200,5,221,0,30,20,100,100,0,0
-89,Pirate,Genesis,Knuckle,200,5,255,0,30,20,150,150,0,0
-90,Zero,Type1,LongSword(Zero),100,6,100,0,0,0,0,0,0,0
-91,Zero,Type2,LongSword(Zero),110,6,103,0,0,0,0,0,0,0
-92,Zero,Type3,LongSword(Zero),120,6,105,0,0,0,0,0,0,0
-93,Zero,Type4,LongSword(Zero),130,6,112,0,0,0,0,0,0,0
-94,Zero,Type5,LongSword(Zero),140,6,117,0,0,0,8,4,0,0
-95,Zero,Type6,LongSword(Zero),150,6,135,0,0,0,35,20,0,0
-96,Zero,Type7,LongSword(Zero),170,6,169,0,30,10,40,40,0,0
-97,Zero,Type8,LongSword(Zero),180,6,203,0,30,10,60,60,0,0
-98,Zero,Type9,LongSword(Zero),200,6,293,0,30,20,100,100,0,0
-99,Zero,Lazuli,LongSword(Zero),200,6,337,0,30,20,150,150,0,0
-100,Illium,Fensalir,MagicGauntlet,140,6,93,0,0,0,0,0,0,153
-101,Illium,Fafnir,MagicGauntlet,150,6,119,0,30,10,40,0,0,201
-102,Illium,Absolab,MagicGauntlet,160,6,143,0,30,10,60,0,0,241
-103,Illium,Arcane,MagicGauntlet,200,6,206,0,30,20,100,0,0,347
-104,Illium,Genesis,MagicGauntlet,200,6,237,0,30,20,150,0,0,400
-105,Warrior,Fensalir,One-HandedAxe,140,5,118,0,0,0,0,0,0,0
-106,Warrior,Fafnir,One-HandedAxe,150,5,164,0,30,10,40,40,0,0
-107,Warrior,Absolab,One-HandedAxe,160,5,197,0,30,10,60,60,0,0
-108,Warrior,Arcane,One-HandedAxe,200,5,283,0,30,20,100,100,0,0
-109,Warrior,Genesis,One-HandedAxe,200,5,326,0,30,20,150,150,0,0
-110,Warrior,Fensalir,One-HandedBluntWeapon,140,5,118,0,0,0,0,0,0,0
-111,Warrior,Fafnir,One-HandedBluntWeapon,150,5,164,0,30,10,40,40,0,0
-112,Warrior,Absolab,One-HandedBluntWeapon,160,5,197,0,30,10,60,60,0,0
-113,Warrior,Arcane,One-HandedBluntWeapon,200,5,283,0,30,20,100,100,0,0
-114,Warrior,Genesis,One-HandedBluntWeapon,200,5,326,0,30,20,150,150,0,0
-115,Warrior,Fensalir,One-HandedSword,140,5,118,0,0,0,0,0,0,0
-116,Warrior,Fafnir,One-HandedSword,150,5,164,0,30,10,40,40,0,0
-117,Warrior,Absolab,One-HandedSword,160,5,197,0,30,10,60,60,0,0
-118,Warrior,Arcane,One-HandedSword,200,5,283,0,30,20,100,100,0,0
-119,Warrior,Genesis,One-HandedSword,200,5,326,0,30,20,150,150,0,0
-120,Warrior,Fensalir,Polearm,140,5,122,0,0,0,0,0,0,0
-121,Warrior,Fafnir,Polearm,150,5,153,0,30,10,40,40,0,0
-122,Warrior,Absolab,Polearm,160,5,184,0,30,10,60,60,0,0
-123,Warrior,Arcane,Polearm,200,5,264,0,30,20,100,100,0,0
-124,Warrior,Genesis,Polearm,200,5,304,0,30,20,150,150,0,0
-125,Kinesis,Fensalir,PsyLimiter,140,6,93,0,0,0,0,0,0,153
-126,Kinesis,Fafnir,PsyLimiter,150,6,119,0,30,10,40,0,0,201
-127,Kinesis,Absolab,PsyLimiter,160,6,143,0,30,10,60,0,0,241
-128,Kinesis,Arcane,PsyLimiter,200,6,206,0,30,20,100,0,0,347
-129,Kinesis,Genesis,PsyLimiter,200,6,237,0,30,20,150,0,0,400
-130,Hoyoung,Fensalir,RitualFan,140,4,115,0,0,0,0,0,0,0
-131,Hoyoung,Fafnir,RitualFan,150,4,160,0,30,10,40,0,0,0
-132,Hoyoung,Absolab,RitualFan,160,4,192,0,30,10,60,0,0,0
-133,Hoyoung,Arcane,RitualFan,200,4,276,0,30,20,100,0,0,0
-134,Hoyoung,Genesis,RitualFan,200,4,318,0,30,20,150,0,0,0
-135,BeastTamer,Fensalir,Scepter,140,6,93,0,0,0,0,0,0,153
-136,BeastTamer,Fafnir,Scepter,150,6,119,0,30,10,40,0,0,201
-137,BeastTamer,Absolab,Scepter,160,6,143,0,30,10,60,0,0,241
-138,BeastTamer,Arcane,Scepter,200,6,206,0,30,10,100,0,0,347
-139,BeastTamer,Genesis,Scepter,200,6,237,0,30,20,150,0,0,400
-140,Luminous,Fensalir,ShiningRod,140,6,93,0,0,0,0,0,0,153
-141,Luminous,Fafnir,ShiningRod,150,6,119,0,30,10,40,0,0,201
-142,Luminous,Absolab,ShiningRod,160,6,143,0,30,10,60,0,0,241
-143,Luminous,Arcane,ShiningRod,200,6,206,0,30,20,100,0,0,347
-144,Luminous,Genesis,ShiningRod,200,6,237,0,30,20,150,0,0,400
-145,AngelicBuster,Fensalir,SoulShooter,140,5,92,0,0,0,0,0,0,0
-146,AngelicBuster,Fafnir,SoulShooter,150,5,128,0,30,10,40,40,0,0
-147,AngelicBuster,Absolab,SoulShooter,160,5,154,0,30,10,60,60,0,0
-148,AngelicBuster,Arcane,SoulShooter,200,5,221,0,30,20,100,100,0,0
-149,AngelicBuster,Genesis,SoulShooter,200,5,255,0,30,20,150,150,0,0
-150,Warrior,Fensalir,Spear,140,6,124,0,0,0,0,0,0,0
-151,Warrior,Fafnir,Spear,150,6,171,0,30,10,40,40,0,0
-152,Warrior,Absolab,Spear,160,6,205,0,30,10,60,60,0,0
-153,Warrior,Arcane,Spear,200,6,295,0,30,20,100,100,0,0
-154,Warrior,Genesis,Spear,200,6,340,0,30,20,150,150,0,0
-155,Magician,Fensalir,Staff,140,8,98,0,0,0,0,0,0,155
-156,Magician,Fafnir,Staff,150,8,126,0,30,10,40,0,0,204
-157,Magician,Absolab,Staff,160,8,151,0,30,10,60,0,0,245
-158,Magician,Arcane,Staff,200,8,218,0,30,20,100,0,0,353
-159,Magician,Genesis,Staff,200,6,251,0,30,20,150,0,0,406
-160,Warrior,Fensalir,Two-HandedAxe,140,6,124,0,0,0,0,0,0,0
-161,Warrior,Fafnir,Two-HandedAxe,150,6,171,0,30,10,40,40,0,0
-162,Warrior,Absolab,Two-HandedAxe,160,6,205,0,30,10,60,60,0,0
-163,Warrior,Arcane,Two-HandedAxe,200,6,295,0,30,20,100,100,0,0
-164,Warrior,Genesis,Two-HandedAxe,200,6,340,0,30,20,150,150,0,0
-165,Warrior,Fensalir,Two-HandedBluntWeapon,140,6,124,0,0,0,0,0,0,0
-166,Warrior,Fafnir,Two-HandedBluntWeapon,150,6,171,0,30,10,40,40,0,0
-167,Warrior,Absolab,Two-HandedBluntWeapon,160,6,205,0,30,10,60,60,0,0
-168,Warrior,Arcane,Two-HandedBluntWeapon,200,6,295,0,30,20,100,100,0,0
-169,Warrior,Genesis,Two-HandedBluntWeapon,200,6,340,0,30,20,150,150,0,0
-170,Warrior,Fensalir,Two-HandedSword,140,6,122,0,0,0,0,0,0,0
-171,Warrior,Fafnir,Two-HandedSword,150,6,171,0,30,10,40,40,0,0
-172,Warrior,Absolab,Two-HandedSword,160,6,205,0,30,10,60,60,0,0
-173,Warrior,Arcane,Two-HandedSword,200,6,295,0,30,20,100,100,0,0
-174,Warrior,Genesis,Two-HandedSword,200,6,340,0,30,20,150,150,0,0
-175,Magician,Fensalir,Wand,140,6,93,0,0,0,0,0,0,153
-176,Magician,Fafnir,Wand,150,6,119,0,30,10,40,0,0,201
-177,Magician,Absolab,Wand,160,6,143,0,30,10,60,0,0,241
-178,Magician,Arcane,Wand,200,6,206,0,30,20,100,0,0,347
-179,Magician,Genesis,Wand,200,6,237,0,30,20,150,0,0,400
-180,Xenon,Fensalir,WhipBlade,140,5,90,0,0,0,0,0,0,0
-181,Xenon,Fafnir,WhipBlade,150,5,128,0,30,10,40,0,0,0
-182,Xenon,Absolab,WhipBlade,160,5,154,0,30,10,60,0,0,0
-183,Xenon,Arcane,WhipBlade,200,5,221,0,30,20,100,0,0,0
-184,Xenon,Genesis,WhipBlade,200,5,255,0,30,20,150,0,0,0
-185,Kain,Fensalir,BreathShooter,140,4,115,14,0,0,0,0,0,0
-186,Kain,Fafnir,BreathShooter,150,4,160,0,30,10,40,40,0,0
-187,Kain,Absolab,BreathShooter,160,4,192,12,30,10,60,60,0,0
-188,Kain,Arcane,BreathShooter,200,4,276,19,30,20,100,100,0,0
-189,Kain,Genesis,BreathShooter,200,4,318,19,30,20,150,150,0,0
+,JobType,WeaponSet,WeaponType,Level,AtkSpd,MainStat,SecStat,Atk,MAtk,SPD,HP,DEF,BossDMG,IED
+0,Kain,8th,Whispershot,140,4,,,115,,14,,,,
+1,Bowman,8th,Bow,140,6,,,115,,14,,,,
+2,Bowman,8th,Crossbow,140,6,,,118,,14,,,,
+3,Bowman,8th,Dual Bowguns,140,6,,,115,,14,,,,
+4,Pathfinder,8th,Ancient Bow,140,6,,,115,,14,,,,
+5,Luminous,8th,Shining Rod,140,6,,,93,153,,,,,
+6,Beast Tamer,8th,Scepter,140,6,,,93,153,,,,,
+7,Kinesis,8th,Psy-limiter,140,6,,,93,153,,,,,
+8,Illium,8th,Lucent Gauntlet,140,6,,,93,153,,,,,
+9,Magician,8th,Wand,140,6,,,93,153,,,,,
+10,Magician,8th,Staff,140,8,,,98,155,,,,,
+11,Kanna,8th,Fan,140,4,,,93,115,,,,,
+12,Angelic Buster,8th,Soul Shooter,140,5,,,92,,,,0,,
+13,Xenon,8th,Whip Blade(Pirate),140,5,,,90,,,,0,,
+14,Pirate,8th,Knuckle,140,5,,,90,,,,0,,
+15,Pirate,8th,Gun,140,5,,,90,,,,0,,
+16,Pirate,8th,Hand Cannon,140,8,,,122,,,,140,,
+17,Xenon,8th,Whip Blade(Thief),140,5,0,,90,,,,,,
+18,Thief,8th,Chain,140,4,0,,115,,,,,,
+19,Thief,8th,Ritual Fan,140,4,0,,115,,,,,,
+20,Thief,8th,Dagger,140,4,0,,115,,,,,,
+21,Thief,8th,Cane,140,5,0,,118,,,,,,
+22,Thief,8th,Claw,140,4,10,,62,,,,,,
+23,Adele,8th,Bladecaster,140,4,,,122,,,,,,
+24,Demon Avenger,8th,Desperado,140,6,,,122,,,,,,
+25,Warrior,8th,One-Handed Sword,140,5,,,118,,,,,,
+26,Warrior,8th,One-Handed Axe,140,5,,,118,,,,,,
+27,Warrior,8th,One-Handed Blunt Weapon,140,5,,,118,,,,,,
+28,Warrior,8th,Two-Handed Sword,140,6,,,122,,,,,,
+29,Warrior,8th,Two-Handed Axe,140,6,,,124,,,,,,
+30,Warrior,8th,Two-Handed Blunt Weapon,140,6,,,124,,,,,,
+31,Warrior,8th,Spear,140,6,,,124,,,,,,
+32,Warrior,8th,Polearm,140,5,,,122,,,,,,
+33,Hayato,8th,Katana,140,5,,,118,,,,,,
+34,Blaster,8th,Arm Cannon,140,5,,,90,,,,,,
+35,Kain,AbsoLab,Whispershot,160,4,60,60,192,,12,,,30,10
+36,Bowman,AbsoLab,Bow,160,6,60,60,192,,12,,,30,10
+37,Bowman,AbsoLab,Crossbow,160,6,60,60,197,,0,,,30,10
+38,Bowman,AbsoLab,Dual Bowguns,160,6,60,60,192,,15,,,30,10
+39,Pathfinder,AbsoLab,Ancient Bow,160,6,60,60,192,,12,,,30,10
+40,Luminous,AbsoLab,Shining Rod,160,6,60,60,143,241,,,,30,10
+41,Beast Tamer,AbsoLab,Scepter,160,6,60,60,143,241,,,,30,10
+42,Kinesis,AbsoLab,Psy-limiter,160,6,60,60,143,241,,,,30,10
+43,Illium,AbsoLab,Lucent Gauntlet,160,6,60,60,143,241,,,,30,10
+44,Magician,AbsoLab,Wand,160,6,60,60,143,241,,,,30,10
+45,Magician,AbsoLab,Staff,160,8,60,60,151,245,,,,30,10
+46,Kanna,AbsoLab,Fan,160,8,60,60,143,241,,,,30,10
+47,Angelic Buster,AbsoLab,Soul Shooter,160,5,60,60,154,,,,0,30,10
+48,Xenon,AbsoLab,Whip Blade(Pirate),160,4,60,60,154,,,,0,30,10
+49,Pirate,AbsoLab,Knuckle,160,6,60,60,154,,,,0,30,10
+50,Pirate,AbsoLab,Gun,160,5,60,60,150,,,,0,30,10
+51,Pirate,AbsoLab,Hand Cannon,160,8,60,60,210,,,,160,30,10
+52,Xenon,AbsoLab,Whip Blade(Thief),160,4,60,60,154,,,,,30,10
+53,Cadena,AbsoLab,Chain,160,ast(4,60,60,192,,,,,30,10
+54,Hoyoung,AbsoLab,Chain,160,4,60,60,192,,,,,30,10
+55,Thief,AbsoLab,Dagger,160,4,60,60,192,,,,,30,10
+56,Thief,AbsoLab,Cane,160,5,60,60,197,,,,,30,10
+57,Thief,AbsoLab,Claw,160,4,60,60,103,,,,,30,10
+58,Adele,AbsoLab,Bladecaster,160,4,60,60,205,,,0,,30,10
+59,Demon Avenger,AbsoLab,Desperado,160,6,60,0,205,,,2250,,30,10
+60,Warrior,AbsoLab,One-Handed Sword,160,5,60,60,197,,,0,,30,10
+61,Warrior,AbsoLab,One-Handed Axe,160,5,60,60,197,,,0,,30,10
+62,Warrior,AbsoLab,One-Handed Mace,160,5,60,60,197,,,0,,30,10
+63,Warrior,AbsoLab,Two-Handed Sword,160,6,60,60,205,,,0,,30,10
+64,Warrior,AbsoLab,Two-Handed Axe,160,6,60,60,205,,,0,,30,10
+65,Warrior,AbsoLab,Two-Handed Mace,160,6,60,60,205,,,0,,30,10
+66,Warrior,AbsoLab,Spear,160,6,60,60,205,,,0,,30,10
+67,Warrior,AbsoLab,Polearm,160,5,60,60,184,,,0,,30,10
+68,Hayato,AbsoLab,Katana,160,5,60,60,197,,,0,,30,10
+69,Blaster,AbsoLab,Arm Cannon,160,5,60,60,154,,,0,,30,10
+70,Kain,Arcane,Whispershot,200,4,100,100,276,,19,,,30,20
+71,Bowman,Arcane,Bow,200,6,100,100,276,,19,,,30,20
+72,Bowman,Arcane,Crossbow,200,6,100,100,283,,19,,,30,20
+73,Bowman,Arcane,Dual Bowguns,200,6,100,100,276,,0,,,30,20
+74,Pathfinder,Arcane,Ancient Bow,200,6,100,100,276,,19,,,30,20
+75,Luminous,Arcane,Shining Rod,200,6,100,100,206,347,,,,30,20
+76,Beast Tamer,Arcane,Scepter,200,6,100,100,206,347,,,,30,10
+77,Kinesis,Arcane,Psy-limiter,200,6,100,100,206,347,,,,30,10
+78,Illium,Arcane,Lucent Gauntlet,200,6,100,100,206,347,,,,30,10
+79,Magician,Arcane,Wand,200,6,100,100,206,347,,,,30,20
+80,Magician,Arcane,Staff,200,6,100,100,218,353,,,,30,20
+81,Kanna,Arcane,Fan,200,6,100,100,206,347,,,,30,20
+82,Angelic Buster,Arcane,Soul Shooter,200,5,100,100,221,,,,0,30,20
+83,Xenon,Arcane,Whip Blade(Pirate),200,5,100,100,221,,,,0,30,20
+84,Pirate,Arcane,Knuckle,200,5,100,100,221,,,,0,30,20
+85,Pirate,Arcane,Gun,200,5,100,100,216,,,,0,30,20
+86,Pirate,Arcane,Hand Cannon,200,5,100,100,302,,,,200,30,20
+87,Xenon,Arcane,Whip Blade(Thief),200,5,100,100,221,,,,,30,20
+88,Cadena,Arcane,Chain,200,4,100,100,276,,,,,30,20
+89,Hoyoung,Arcane,Ritual Fan,200,4,100,100,276,,,,,30,20
+90,Thief,Arcane,Dagger,200,4,100,100,276,,,,,30,20
+91,Thief,Arcane,Cane,200,4,100,100,283,,,,,30,20
+92,Thief,Arcane,Claw,200,4,100,100,149,,,,,30,20
+93,Adele,Arcane,Bladecaster,200,4,100,100,295,,,0,,30,20
+94,Demon Avenger,Arcane,Desperado,200,6,100,0,295,,,2500,,30,20
+95,Warrior,Arcane,One-Handed Sword,200,5,100,100,283,,,0,,30,20
+96,Warrior,Arcane,One-Handed Axe,200,5,100,100,283,,,0,,30,20
+97,Warrior,Arcane,One-Handed Blunt Weapon,200,5,100,100,283,,,0,,30,20
+98,Warrior,Arcane,Two-Handed Sword,200,6,100,100,295,,,0,,30,20
+99,Warrior,Arcane,Two-Handed Axe,200,6,100,100,295,,,0,,30,20
+100,Warrior,Arcane,Two-Handed Blunt Weapon,200,6,100,100,295,,,0,,30,20
+101,Warrior,Arcane,Spear,200,6,100,100,295,,,0,,30,20
+102,Warrior,Arcane,Polearm,200,5,100,100,264,,,0,,30,20
+103,Hayato,Arcane,Katana,200,5,100,100,283,,,0,,30,20
+104,Blaster,Arcane,Arm Cannon,200,5,100,100,221,,,0,,30,20
+105,Luminous,Ardentmill,Shining Rod,145,6,40,25,110,186,,0,0,,5
+106,Adele,Ardentmill,Bladecaster,145,4,40,25,159,0,,0,0,,5
+107,Kain,Ardentmill,Whispershot,145,4,25,40,148,0,,0,0,,5
+108,Angelic Buster,Ardentmill,Soul Shooter,145,5,25,40,118,0,,0,0,,5
+109,Demon Avenger,Ardentmill,Desperado,145,6,25,0,159,0,,2000,0,,5
+110,Xenon,Ardentmill,Whip Blade(Pirate),145,5,20,20,118,0,,0,0,,5
+111,Beast Tamer,Ardentmill,Scepter,145,8,40,25,110,186,,0,0,,5
+112,Kinesis,Ardentmill,Psy-limiter,145,6,40,25,110,186,,0,0,,5
+113,Cadena,Ardentmill,Chain,145,4,25,40,148,0,,0,0,,5
+114,Illium,Ardentmill,Lucent Gauntlet,145,6,40,25,110,186,,0,0,,5
+115,Any,Ardentmill,Ritual Fan,145,4,25,40,148,0,,0,0,,5
+116,Warrior,Ardentmill,One-Handed Sword,145,5,40,25,151,0,,0,0,,5
+117,Warrior,Ardentmill,One-Handed Axe,145,5,40,25,151,0,,0,0,,5
+118,Warrior,Ardentmill,One-Handed Blunt Weapon,145,5,40,25,151,0,,0,0,,5
+119,Thief,Ardentmill,Dagger,145,4,25,40,148,0,,0,0,,5
+120,Thief,Ardentmill,Cane,145,5,25,40,148,0,,0,0,,5
+121,Magician,Ardentmill,Wand,145,6,40,25,110,186,,0,0,,5
+122,Magician,Ardentmill,Staff,145,8,40,25,117,188,,0,0,,5
+123,Warrior,Ardentmill,Two-Handed Sword,145,6,40,25,159,0,,0,0,,5
+124,Warrior,Ardentmill,Two-Handed Axe,145,6,40,25,159,0,,0,0,,5
+125,Warrior,Ardentmill,Two-Handed Blunt Weapon,145,6,40,25,159,0,,0,0,,5
+126,Warrior,Ardentmill,Spear,145,6,40,25,159,0,,0,0,,5
+127,Warrior,Ardentmill,Polearm,145,6,40,25,141,0,,0,0,,5
+128,Bowman,Ardentmill,Bow,145,6,25,40,148,0,,0,0,,5
+129,Bowman,Ardentmill,Crossbow,145,6,25,40,151,0,,0,0,,5
+130,Thief,Ardentmill,Claw,145,4,25,40,80,0,,0,0,,5
+131,Pirate,Ardentmill,Knuckle,145,5,40,25,118,0,,0,0,,5
+132,Pirate,Ardentmill,Gun,145,5,25,40,116,0,,0,0,,5
+133,Bowman,Ardentmill,Dual Bowguns,145,5,25,40,148,0,,0,0,,5
+134,Pirate,Ardentmill,Hand Cannon,145,8,40,25,162,0,,0,121,,5
+135,Hayato,Ardentmill,Katana,145,5,40,25,159,0,,0,0,,5
+136,Kanna,Ardentmill,Fan,145,8,40,25,0,188,,0,0,,5
+137,Blaster,Ardentmill,Arm Cannon,145,5,40,25,118,0,,0,0,,5
+138,Pathfinder,Ardentmill,Ancient Bow,145,6,25,40,148,0,,0,0,,5
+139,Luminous,Dragon Tail,Shining Rod,140,6,35,20,95,161,,,,,
+140,Beast Tamer,Dragon Tail,Scepter,140,6,36,20,95,161,,,,,
+141,Kinesis,Dragon Tail,Psy-limiter,140,6,35,20,95,161,,,,,
+142,Illium,Dragon Tail,Lucent Gauntlet,140,6,35,20,95,161,,,,,
+143,Magician,Dragon Tail,Wand,140,6,35,20,95,161,,,,,
+144,Magician,Dragon Tail,Staff,140,8,35,20,101,163,,,,,
+145,Kanna,Dragon Tail,Fan,140,4,35,20,95,128,,,,,
+146,Kain,Falcon Wing,Whispershot,140,4,20,35,128,,,,,,
+147,Bowman,Falcon Wing,Bow,140,6,20,35,128,,,,,,
+148,Bowman,Falcon Wing,Crossbow,140,6,20,35,131,,,,,,
+149,Bowman,Falcon Wing,Dual Bowguns,140,6,20,35,128,,,,,,
+150,Pathfinder,Falcon Wing,Ancient Bow,140,6,20,35,128,,,,,,
+151,Adele,Lionheart,Bladecaster,140,4,35,20,137,,,0,,,
+152,Demon Avenger,Lionheart,Desperado,140,6,20,0,137,,,1750,,,
+153,Warrior,Lionheart,One-Handed Sword,140,5,35,20,131,,,0,,,
+154,Warrior,Lionheart,One-Handed Axe,140,5,35,20,131,,,0,,,
+155,Warrior,Lionheart,One-Handed Blunt Weapon,140,5,35,20,131,,,0,,,
+156,Warrior,Lionheart,Two-Handed Sword,140,6,35,20,137,,,0,,,
+157,Warrior,Lionheart,Two-Handed Axe,140,6,35,20,137,,,0,,,
+158,Warrior,Lionheart,Two-Handed Blunt Weapon,140,6,35,20,137,,,0,,,
+159,Warrior,Lionheart,Spear,140,6,35,20,137,,,0,,,
+160,Warrior,Lionheart,Polearm,140,5,35,20,122,,,0,,,
+161,Hayato,Lionheart,Katana,140,5,35,20,131,,,0,,,
+162,Blaster,Lionheart,Arm Cannon,140,5,35,20,102,,,0,,,
+163,Xenon,Raven Horn,Whip Blade(Thief),140,5,20,35,102,,,,,,
+164,Cadena,Raven Horn,Chain,140,4,20,35,128,,,,,,
+165,Any,Raven Horn,Ritual Fan,140,4,20,35,128,,,,,,
+166,Thief,Raven Horn,Dagger,140,4,20,35,128,,,,,,
+167,Thief,Raven Horn,Cane,140,5,20,35,131,,,,,,
+168,Thief,Raven Horn,Claw,140,4,20,35,69,,,,,,
+169,Kain,Root Abyss,Whispershot,150,4,40,40,160,,,,,30,10
+170,Bowman,Root Abyss,Bow,150,6,40,40,160,,,,,30,10
+171,Bowman,Root Abyss,Crossbow,150,6,40,40,164,,,,,30,10
+172,Bowman,Root Abyss,Dual Bowguns,150,6,40,40,160,,,,,30,10
+173,Pathfinder,Root Abyss,Ancient Bow,150,6,40,40,160,,,,,30,10
+174,Luminous,Root Abyss,Shining Rod,150,6,40,40,119,201,,,,30,10
+175,Beast Tamer,Root Abyss,Scepter,150,6,40,40,119,201,,,,30,10
+176,Kinesis,Root Abyss,Psy-limiter,150,6,40,40,119,201,,,,30,10
+177,Illium,Root Abyss,Lucent Gauntlet,150,6,40,40,119,201,,,,30,10
+178,Magician,Root Abyss,Wand,150,6,40,40,119,201,,,,30,10
+179,Magician,Root Abyss,Staff,150,8,40,40,126,204,,,,30,10
+180,Kanna,Root Abyss,Fan,150,8,40,40,126,204,,,,30,10
+181,Angelic Buster,Root Abyss,Soul Shooter,150,5,40,40,128,,,,0,30,10
+182,Xenon,Root Abyss,Whip Blade(Pirate),150,5,40,40,128,,,,0,30,10
+183,Pirate,Root Abyss,Knuckle,150,6,40,40,128,,,,0,30,10
+184,Pirate,Root Abyss,Gun,150,5,40,40,125,,,,0,30,10
+185,Pirate,Root Abyss,Hand Cannon,150,8,40,40,175,,,,121,30,10
+186,Xenon,Root Abyss,Whip Blade(Thief),150,5,40,40,128,,,,,30,10
+187,Cadena,Root Abyss,Chain,150,4,40,40,160,,,,,30,10
+188,Hoyoung,Root Abyss,Ritual Fan,150,4,40,40,160,,,,,30,10
+189,Thief,Root Abyss,Dagger,150,4,40,40,160,,,,,30,10
+190,Thief,Root Abyss,Cane,150,5,40,40,164,,,,,30,10
+191,Thief,Root Abyss,Claw,150,4,40,40,86,,,,,30,10
+192,Adele,Root Abyss,Bladecaster,150,4,40,40,171,,,0,,30,10
+193,Demon Avenger,Root Abyss,Desperado,150,6,40,0,171,,,2000,,30,10
+194,Warrior,Root Abyss,One-Handed Sword,150,5,40,40,164,,,0,,30,10
+195,Warrior,Root Abyss,One-Handed Axe,150,5,40,40,164,,,0,,30,10
+196,Warrior,Root Abyss,One-Handed Mace,150,5,40,40,164,,,0,,30,10
+197,Warrior,Root Abyss,Two-Handed Sword,150,6,40,40,171,,,0,,30,10
+198,Warrior,Root Abyss,Two-Handed Axe,150,6,40,40,171,,,0,,30,10
+199,Warrior,Root Abyss,Two-Handed Blunt Weapon,150,6,40,40,171,,,0,,30,10
+200,Warrior,Root Abyss,Spear,150,6,40,40,171,,,0,,30,10
+201,Warrior,Root Abyss,Polearm,150,6,40,40,153,,,0,,30,10
+202,Hayato,Root Abyss,Katana,150,5,40,40,164,,,0,,30,10
+203,Blaster,Root Abyss,Arm Cannon,150,5,40,40,128,,,0,,30,10
+204,Angelic Buster,Shark Tooth,Soul Shooter,140,5,20,35,102,,,,0,,
+205,Xenon,Shark Tooth,Whip Blade(Pirate),140,5,35,20,102,,,,0,,
+206,Pirate,Shark Tooth,Knuckle,140,5,35,20,102,,,,0,,
+207,Pirate,Shark Tooth,Gun,140,5,20,35,100,,,,0,,
+208,Pirate,Shark Tooth,Hand Cannon,140,8,35,20,140,,,,101,,
