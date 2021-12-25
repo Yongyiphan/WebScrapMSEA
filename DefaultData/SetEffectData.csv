@@ -1,4 +1,4 @@
-,EquipSet,SetEffect,MainStat,SecStat,AS,HP,MP,DEF,Atk,MAtk,NormalDMG,IED,BossDMG,CritDMG
+,EquipSet,SetEffect,MainStat,SecStat,AllStat,HP,MP,DEF,ATK,MATK,NDMG,IED,BDMG,CDMG
 0,8th,2,0,0,0,0,0,140,0,0,0,0,0,0
 1,8th,3,0,0,0,9%,9%,0,0,0,2,0,0,0
 2,8th,4,9,0,0,0,0,0,9,0,4,0,0,0

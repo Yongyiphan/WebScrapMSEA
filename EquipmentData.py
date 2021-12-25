@@ -19,17 +19,23 @@ superiorEquipUrl = "/wiki/Category:Superior_Equipment"
 MainStat = ['STR','DEX','INT','LUK']
 EquipSetTrack = [
     'Sengoku', 'Boss Accessory', 'Pitched Boss', 'Seven Days', "Ifia's Treasure",'Mystic','Ardentmill','Blazing Sun'
-    ,'8th', 'Root Abyss','Fafnir','AbsoLab', 'Arcane', 'Genesis'
+    ,'8th', 'Root Abyss','AbsoLab', 'Arcane'
     ,'Lionheart', 'Dragon Tail','Falcon Wing','Raven Horn','Shark Tooth'
     ,'Gold Parts','Pure Gold Parts'
-    ,'Utgard','Lapis','Lazuli'
     ]
-ArmorSet = ['Hat','Top','Btm','Overall','Shoes','Cape','Gloves']
-Mclasses = ['Warrior', 'Bowman', 'Magician','Thief', 'Pirate']
-SetCol = ['EquipSet','SetEffect','MainStat', 'SecStat','AS','HP','MP','DEF','Atk','MAtk','NormalDMG','IED','BossDMG','CritDMG']
-WeapCol = ['WeaponSet','WeaponType','Level','AtkSpd','MainStat','SecStat','Atk','MAtk','SPD','HP','DEF','BossDMG','IED']
-ArmorCol = ['EquipSet','ClassType','EquipSlot','EquipLevel','MainStat','SecStat','HP','MP','DEF','Atk','MAtk','AS','SPD','JUMP','IED']
-AccCol = ['EquipName','EquipSet','ClassType','EquipSlot','EquipLevel','MainStat','SecStat','HP','MP','DEF','Atk','MAtk','AS','SPD','JUMP','IED']
+WeapSetTrack = [
+    'Utgard', 'Lapis','Lazuli'
+    ,'Fafnir','AbsoLab', 'Arcane', 'Genesis'
+    ]
+ArmorSet = ['Hat','Top','Bottom','Overall','Shoes','Cape','Gloves']
+Mclasses = ['Warrior','Knight', 'Bowman', 'Archer', 'Magician','Mage','Thief', 'Pirate']
+##NAMING CONVENTION
+#NAME, SET, TYPE, CLASSTYPE, SLOT
+#LEVEL, MS, SS, AS, HP, MP, DEF, ATK, MATK
+SetCol = ['EquipSet','SetEffect','MainStat', 'SecStat','AllStat','HP','MP','DEF','ATK','MATK','NDMG','IED','BDMG','CDMG']
+WeapCol = ['WeaponSet','WeaponType','Level','AtkSpd','MainStat','SecStat','HP','DEF','ATK','MATK','SPD','BDMG','IED']
+ArmorCol = ['EquipSet','ClassType','EquipSlot','EquipLevel','MainStat','SecStat','AllStat', 'HP','MP','DEF','ATK','MATK','SPD','JUMP','IED']
+AccCol = ['EquipName','EquipSet','ClassType','EquipSlot','EquipLevel','MainStat','SecStat','AllStat','HP','MP','DEF','ATK','MATK','SPD','JUMP','IED']
 trackMinLevel = 140
 
 def main():
@@ -142,11 +148,7 @@ def retrieveContents(subUrl, session, equipSet):
     smallCollection = {}
     smallCollection['SetEffect'] = retrieveSetEffect(wikitables[0], equipSet)
     smallCollection['Armor'], smallCollection['Accessories'] = retrieveEquips(wikitables[1], equipSet)
-    # if len(wikitables) == 3:
-    #     smallCollection['Weapon'] = retrieveWeap(wikitables[2], equipSet)
-    # else:
-    #     smallCollection['Weapon'] = initETDF
-    
+
     
     return smallCollection
 
@@ -181,17 +183,27 @@ def retrieveEquips(wikitable, equipSet):
 
     for i in range(0, len(tdContent), 4):
         EquipData = {}
-        EquipData['EquipSet'] = equipSet
+        EquipData['EquipSet'] = removeN(equipSet,  ['\n'])
         equipName = tdContent[i].get_text()
-        equipslot = tdContent[i+1].get_text()
-        EquipData['EquipSlot'] = removeN(equipslot, '\n')
+        equipslot = removeN(tdContent[i+1].get_text(),'\n')
+        EquipData['EquipSlot'] = equipslot.split(' ')[0] if equipslot.find('Pocket') != -1 else equipslot 
         equipType = 'Armor' if EquipData['EquipSlot'] in ArmorSet else 'Accessories'
         if equipType == 'Accessories':
-            TequipName = removeN(equipName, EquipData['EquipSlot'])
-            EquipData['EquipName'] = removeN(TequipName, '\n')
+            TequipName = removeN(equipName, ['\n', ":"])
+            TequipName = TequipName.split(' ')
+            if EquipData['EquipSlot'] in TequipName:
+                TequipName.remove(EquipData['EquipSlot'])
+            for mc in Mclasses:
+                if mc in TequipName:
+                    TequipName.remove(mc)
+            
+            TequipName = ' '.join(TequipName)
+            EquipData['EquipName'] = TequipName
+            
+            
         
         requirements = tdContent[i+2].get_text(separator = '\n').split("\n")
-        EquipData['EquipLevel'] = requirements[0].split(" ")[-1]
+        EquipData['EquipLevel'] = '0' if requirements[0].find('None') != -1 else requirements[0].split(" ")[-1]
         if len(requirements) > 2:
             EquipData['ClassType'] = requirements[1].split(" ")[-1]
         else:
@@ -278,7 +290,6 @@ def retrieveWeapContent(link, session):
         elif HeaderP.get_text().lower().find('primary') != -1:
             startRecord = False
             for t in HeaderP.contents:
-
                 if t.get_text().lower().find('primary') != -1:
                     startRecord = True
                     continue
@@ -288,6 +299,7 @@ def retrieveWeapContent(link, session):
                     break
                 if t.get_text().lower().find('(') != -1:
                     break
+                
 
     WeapToJob[weaponType] = weapJob
 
@@ -295,7 +307,7 @@ def retrieveWeapContent(link, session):
     currentDF = pandas.DataFrame()
     for i in range(0, len(tableC),3):
         ItemData = {}
-        if any(ele.lower() in tableC[i].get_text().lower() for ele in EquipSetTrack) == True:
+        if any(ele.lower() in tableC[i].get_text().lower() for ele in WeapSetTrack) == True:
             retrievedSet = tableC[i].get_text()[:-1].replace(weaponType, "")
             if retrievedSet.lower().find("sealed") != -1:
                 continue     
@@ -306,7 +318,7 @@ def retrieveWeapContent(link, session):
                 if retrievedSet.lower().find("genesis") != -1:
                     ItemData["WeaponSet"] = 'Genesis'
             else:
-                ItemData["WeaponSet"] = EquipSetTrack[returnIndex(retrievedSet, EquipSetTrack)]
+                ItemData["WeaponSet"] = WeapSetTrack[returnIndex(retrievedSet, WeapSetTrack)]
                 
             ItemData["WeaponType"] = weaponType
             level = tableC[i+1].contents[0].split(" ")[1] 
@@ -630,16 +642,16 @@ def assignToDict(tempList):
             else:
                 tempData['MP'] = MPstr[1:]
         elif i.find("Weapon Attack") != -1:
-            tempData["Atk"] = i.split(" ")[-1][1:]
+            tempData["ATK"] = i.split(" ")[-1][1:]
 
         elif i.find("Magic Attack") != -1:
-            tempData["MAtk"] = i.split(" ")[-1][1:]
+            tempData["MATK"] = i.split(" ")[-1][1:]
         
         elif i.find("All Stats") != -1:
-            tempData["AS"] = i.split(" ")[-1][1:]
+            tempData["AllStat"] = i.split(" ")[-1][1:]
 
         elif i.find("Boss") != -1:
-            tempData["BossDMG"] = i.split(" ")[-1][1:-1]
+            tempData["BDMG"] = i.split(" ")[-1][1:-1]
 
         elif i.find("Ignore") != -1:
             tempData["IED"] = i.split(" ")[-1][1:-1]
@@ -654,10 +666,10 @@ def assignToDict(tempList):
             tempData["JUMP"] = i.split(" ")[-1][1:]
         
         elif i.find("Normal") != -1:
-            tempData['NormalDMG'] = i.split(" ")[-1][1:-1]
+            tempData['NDMG'] = i.split(" ")[-1][1:-1]
 
-        elif i.find("Critical") != -1:
-            tempData['CritDMG'] = i.split(" ")[-1][1:-1]  
+        elif i.find("Critical Damage") != -1:
+            tempData['CDMG'] = i.split(" ")[-1][1:-1]  
 
     
     
@@ -710,6 +722,11 @@ def cleanWTJDF(DF):
     DF.loc[(DF.WeaponType == 'Two-Handed Mace'), 'WeaponType'] = 'Two-Handed Blunt Weapon'
     DF.loc[(DF.WeaponType == 'Two-Handed Hammer'), 'WeaponType'] = 'Two-Handed Blunt Weapon'
 
+    DF.loc[(DF.JobType == 'Arch Mage (Fire, Poison)'), 'JobType'] = 'Fire Poison'
+    DF.loc[(DF.JobType == 'Arch Mage (Ice, Lightning)'), 'JobType'] = 'Ice Lightning'
+
+
+    DF.drop(DF.loc[DF['JobType']=='Jett'].index, inplace = True)
     return DF
 
 main()
