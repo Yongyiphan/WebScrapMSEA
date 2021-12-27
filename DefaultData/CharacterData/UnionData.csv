@@ -1,0 +1,22 @@
+,Effect,Rank B,Rank A,Rank S,Rank SS,Rank SSS,EffectType
+0,Grants flat STR,10,20,40,80,100,FLAT
+1,Max HP,2,3,4,5,6,PERC
+2,Grants flat INT,10,20,40,80,100,FLAT
+3,Max MP,2,3,4,5,6,PERC
+4,Grants flat LUK,10,20,40,80,100,FLAT
+5,Crit Rate,1,2,3,4,5,PERC
+6,Grants flat DEX,10,20,40,80,100,FLAT
+7,Summon Duration,4,6,8,10,12,PERC
+8,Grants flat Max HP,250,500,1000,2000,2500,FLAT
+9,Reduces skill cooldowns,2,3,4,5,6,PERC
+10,Max HP while attacking ,2,4,6,8,10,PERC
+11,Mesos Obtained,1,2,3,4,5,PERC
+12,Max MP while attacking ,2,4,6,8,10,PERC
+13,Crit Damage,1,2,3,5,6,PERC
+14,Ignore DEF,1,2,3,5,6,PERC
+15,Buff Duration,5,10,15,20,25,PERC
+16,Damage,4,8,12,16,20,PERC
+17,Grants flat STR DEX  LUK,5,10,20,40,50,FLAT
+18,Increases Abnormal Status Resistance,1,2,3,4,5,FLAT
+19,Boss Damage,1,2,3,5,6,PERC
+20,EXP Obtained from monsters,4,6,8,10,12,PERC

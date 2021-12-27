@@ -4,6 +4,7 @@ import lxml
 import cchardet
 import time
 from bs4 import BeautifulSoup
+from ComFunc import *
 
 ### PROGRAM FLOW ####
 # MAIN PAGE -> GET EQUIPNAME/LINK 
@@ -52,8 +53,6 @@ def main():
     ArmorDF = pandas.DataFrame()
     AccessoriesDF = pandas.DataFrame()
     SetEffectDF = pandas.DataFrame()
-    GenesisDF = pandas.DataFrame()
-    WeaptoJobDF =  pandas.DataFrame()
 
     ##PROCESS
     ###EQUIPMENT_SETS ==> GATHER TRACKSET LINKS ###
@@ -69,11 +68,9 @@ def main():
 
     SetEffectDF = cleanSetEffectDF(SetEffectDF)
     
-    WeaptoJobDF, WeaponDF = retrieveWeapDF(request_session)
+    WeaponDF = retrieveWeapDF(request_session)
     WeaponDF = cleanWeapDF(WeaponDF)
-    
-    WeaptoJobDF = cleanWTJDF(WeaptoJobDF)
-    
+        
     ArmorDF = ArmorDF.append(tArmor, ignore_index=True)
     ArmorDF = ArmorDF[ArmorCol]
     ArmorDF = ArmorDF.fillna(0)
@@ -86,14 +83,14 @@ def main():
     AccessoriesDF = AccessoriesDF.fillna(0)
     
     SecWeapDF = retrieveSecWeap(request_session)
+    SecWeapDF = cleanSecWeap(SecWeapDF)
     SecWeapDF = SecWeapDF.fillna(0)
     
-    SetEffectDF.to_csv('DefaultData\\SetEffectData.csv')
-    WeaponDF.to_csv('DefaultData\\WeaponData.csv')
-    ArmorDF.to_csv('DefaultData\\ArmorData.csv')
-    AccessoriesDF.to_csv('DefaultData\\AccessoriesData.csv')
-    SecWeapDF.to_csv('DefaultData\\SecondaryWeapData.csv')
-    WeaptoJobDF.to_csv('DefaultData\\ClassWeapData.csv')
+    SetEffectDF.to_csv('DefaultData\\EquipmentData\\SetEffectData.csv')
+    WeaponDF.to_csv('DefaultData\\EquipmentData\\WeaponData.csv')
+    ArmorDF.to_csv('DefaultData\\EquipmentData\\ArmorData.csv')
+    AccessoriesDF.to_csv('DefaultData\\EquipmentData\\AccessoriesData.csv')
+    SecWeapDF.to_csv('DefaultData\EquipmentData\\\SecondaryWeapData.csv')
     
     end = time.time()
 
@@ -143,7 +140,6 @@ def retrieveContents(subUrl, session, equipSet):
     totalPageContent = BeautifulSoup(subPage.content, 'lxml')
     wikitables = totalPageContent.find_all('table', class_="wikitable")
 
-    initETDF = pandas.DataFrame()
 
     smallCollection = {}
     smallCollection['SetEffect'] = retrieveSetEffect(wikitables[0], equipSet)
@@ -230,31 +226,15 @@ def retrieveWeapDF(session):
     soup = BeautifulSoup(Page.content, 'lxml')
     weaponLinksList = soup.find_all('a', class_='category-page__member-link')
     WeapDF = pandas.DataFrame()
-    ClassWeapD = {}
-    LWeaponType = []
-    LJobType = []
-    tempLinkList = []
+
     for link in weaponLinksList:
         if any(link.next.lower().find(t.lower()) != -1 for t in ignoreList) == True:
             continue
-        tempLinkList.append(link['href'])
-        WTJ, currentDF = retrieveWeapContent(link['href'], session)
+        currentDF = retrieveWeapContent(link['href'], session)
         WeapDF = WeapDF.append(currentDF, ignore_index=True)
-        for weap in WTJ:
-            for i in WTJ[weap]:
-                LWeaponType.append(weap)
-                LJobType.append(i)
 
-    ClassWeapD['JobType'] =LJobType
-    ClassWeapD['WeaponType'] = LWeaponType
-    ClassWeapDF = pandas.DataFrame(ClassWeapD)
 
-    # print(ClassWeapDF)
-    
-    # testSelection = 14
-    # cfd = retrieveWeapContent(tempLinkList[testSelection], session)
-    # print(cfd)
-    return ClassWeapDF, WeapDF
+    return WeapDF
 
 def retrieveWeapContent(link, session):
 
@@ -265,43 +245,8 @@ def retrieveWeapContent(link, session):
     WeaponPage = BeautifulSoup(session.get(defaulturl + weaponListLink).content,'lxml')
     titleContent = WeaponPage.find_all('h1',class_='page-header__title')[0]
     MainContent = WeaponPage.find_all('div', class_='mw-parser-output')[0]
-    HeaderP = MainContent.find_all('p')[0]
 
     weaponType = removeN(titleContent.next, ['\n','\t'])
-    weapJob = []
-    WeapToJob = {}
-
-    
-    if any(i.name == 'a' for i in HeaderP.contents) == False:
-        LI = MainContent.find_all('ul')[0].find_all('li')
-        for li in LI:
-            for i in li.contents:
-                if i.name == 'a' and i.nextSibling.get_text().lower().find('(') != -1:
-                    weapJob.append(i.next)
-    
-    else:
-        if HeaderP.get_text().lower().find('exclusive') != -1:
-            for t in HeaderP.contents:
-                if t.previous.find('exclusive') != -1 and t.name == 'a':
-                    weapJob.append(t.next)
-                if t.next.next.find('conjunction') != -1:
-                    break
-        
-        elif HeaderP.get_text().lower().find('primary') != -1:
-            startRecord = False
-            for t in HeaderP.contents:
-                if t.get_text().lower().find('primary') != -1:
-                    startRecord = True
-                    continue
-                if startRecord == True and t.name == 'a':
-                    weapJob.append(t.next)
-                if t.next.next.find('conjunction') != -1:
-                    break
-                if t.get_text().lower().find('(') != -1:
-                    break
-                
-
-    WeapToJob[weaponType] = weapJob
 
     tableC = MainContent.find_all('table',class_='wikitable')[0].find_all('td')
     currentDF = pandas.DataFrame()
@@ -335,7 +280,7 @@ def retrieveWeapContent(link, session):
     print(f'{weaponType} added in {end - start}')
 
 
-    return WeapToJob, currentDF
+    return currentDF
 
 def retrieveSecWeap(session):
     
@@ -348,6 +293,7 @@ def retrieveSecWeap(session):
     df = pandas.DataFrame()
     for x in weapList:
         weaponLink.append(x['href'])
+        
         df = df.append(retreiveSecPage(x['href'], session) , ignore_index=True)
 
     
@@ -402,7 +348,7 @@ def retreiveSecPage(suburl, session):
 
         if Cstart == True:
             if i.name == 'a':
-                JobName = removeN(i.next, ' ')
+                JobName = i.next
                 Jobs.append(JobName)
  
     currentDF = pandas.DataFrame()
@@ -411,6 +357,7 @@ def retreiveSecPage(suburl, session):
 
     if len(Jobs) == 0:
         return currentDF
+
     
     counter = min(len(Jobs), len(wikiTables))
 
@@ -422,7 +369,7 @@ def retreiveSecPage(suburl, session):
             if JobType == "Jett":
                 continue
             elif JobType == "DualBlade":
-                ItemData["ClassType"] = JobType
+                ItemData["ClassName"] = JobType
                 ItemData["WeaponType"] = weapType
                 weaponSet = tableContent[i].contents
                 for w in weaponSet:
@@ -441,7 +388,7 @@ def retreiveSecPage(suburl, session):
                 EquipStat = tableContent[i+2].get_text(separator = "\n").split("\n")[:-1]
                 ItemData.update(assignToDict(EquipStat))
             else:
-                ItemData["ClassType"] = JobType
+                ItemData["ClassName"] = JobType
                 ItemData["WeaponType"] = weapType
                 EquipName = tableContent[i].find_all('a')[-1].get_text()
                 if EquipName == "":
@@ -480,7 +427,7 @@ def retrieveShield(weapListLink , session, weapType):
         
         for i in range(0, len(wikitable), 3):
             ItemData = {}
-            ItemData["ClassType"] = cls
+            ItemData["ClassName"] = cls
             ItemData["WeaponType"] = weapType
             EquipName = wikitable[i].find_all('a')[-1].get_text()
             if EquipName == "":
@@ -584,96 +531,6 @@ def tryantPage(link, session):
 
     return pandas.DataFrame(EquipData)
 
-def returnIndex(ele, setToTrack):
-    for i in range(0, len(setToTrack)):
-        if setToTrack[i].lower() in ele.lower():
-            return i
-        elif ele.lower() in setToTrack[i].lower():
-            return i
-
-def removeN(item, para):
-    
-    if isinstance(para, str):
-        if item.find(para) != -1:
-            return item.replace(para, '')
-        else:
-            return item
-    elif isinstance(para, list):
-        for i in para:
-            if item.find(i) != -1:
-                item = item.replace(i, '')
-        return item
-
-def assignToDict(tempList):
-    
-    tempData = {}
-    if tempList == None:
-        return tempData
-    
-    for i in tempList:
-        if i.find("Attack Speed") != -1:
-            tempData["AtkSpd"] = i.split(" ")[-1][1:-1]
-        
-        elif any(i.find(MS) != -1 for MS in MainStat) == True:
-            if i.find(':') != -1:
-                tempStr = i.split(" ")[1][1:]
-            else:
-                tempStr = i.split(" ")[-1][1:]
-            
-            if "MainStat" in tempData:
-                if 'SecStat' in tempData:
-                    continue
-                tempData["SecStat"] = tempStr
-            else:
-                tempData["MainStat"] = tempStr
-     
-        elif i.find("HP") != -1:
-            HPstr = i.split(" ")[-1][1:]
-            HPstr = removeN(HPstr, ',')
-            if HPstr.find("%") != -1:
-                tempData['HP'] = HPstr
-            else:
-                tempData['HP'] = HPstr[1:]
-        elif i.find("MP") != -1:
-            MPstr = i.split(" ")[-1][1:]
-            MPstr = removeN(MPstr, ',')
-            if MPstr.find("%") != -1:
-                tempData['MP'] = MPstr
-            else:
-                tempData['MP'] = MPstr[1:]
-        elif i.find("Weapon Attack") != -1:
-            tempData["ATK"] = i.split(" ")[-1][1:]
-
-        elif i.find("Magic Attack") != -1:
-            tempData["MATK"] = i.split(" ")[-1][1:]
-        
-        elif i.find("All Stats") != -1:
-            tempData["AllStat"] = i.split(" ")[-1][1:]
-
-        elif i.find("Boss") != -1:
-            tempData["BDMG"] = i.split(" ")[-1][1:-1]
-
-        elif i.find("Ignore") != -1:
-            tempData["IED"] = i.split(" ")[-1][1:-1]
-
-        elif i.find("Defense") != -1:
-            tempData["DEF"] = i.split(" ")[-1][1:]
-
-        elif i.find("Speed") != -1:
-            tempData["SPD"] = i.split(" ")[-1][1:]
-
-        elif i.find("Jump") != -1:
-            tempData["JUMP"] = i.split(" ")[-1][1:]
-        
-        elif i.find("Normal") != -1:
-            tempData['NDMG'] = i.split(" ")[-1][1:-1]
-
-        elif i.find("Critical Damage") != -1:
-            tempData['CDMG'] = i.split(" ")[-1][1:-1]  
-
-    
-    
-    return tempData
 
 def cleanWeapDF(WeapDF):
 
@@ -694,6 +551,7 @@ def cleanWeapDF(WeapDF):
     WeapDF.loc[(WeapDF.WeaponType == 'Two-Handed Mace'), 'WeaponType'] = 'Two-Handed Blunt Weapon'
     WeapDF.loc[(WeapDF.WeaponType == 'Two-Handed Hammer'), 'WeaponType'] = 'Two-Handed Blunt Weapon'
 
+    WeapDF.reset_index(drop = True)
 
     return WeapDF
 
@@ -703,31 +561,20 @@ def cleanSetEffectDF(SEDF):
     SEDF = SEDF[SetCol]
     SEDF = SEDF.fillna(0)
 
+    SEDF.reset_index(drop = True)
+    
     return SEDF
 
-def cleanWTJDF(DF):
+def cleanSecWeap(SecDF):
+    SecDF.drop(SecDF.loc[SecDF['ClassName']=='Beast Tamer'].index, inplace = True)
+    
+    
+    SecDF.loc[(SecDF.ClassName == 'Magician (Fire, Poison)'), 'ClassName'] = 'Fire Poison'
+    SecDF.loc[(SecDF.ClassName == 'Magician (Ice, Lightning)'), 'ClassName'] = 'Ice Lightning'
 
-    DF.drop_duplicates(keep='first', inplace=True)
-
-    DF.loc[(DF.WeaponType == 'Bladecaster'), 'WeaponType'] = 'Tuner'
-    DF.loc[(DF.WeaponType == 'Lucent Gauntlet'), 'WeaponType'] = 'Magic Gauntlet'
-    DF.loc[(DF.WeaponType == 'Psy-limiter'), 'WeaponType'] = 'Psy Limiter'
-    DF.loc[(DF.WeaponType == 'Whispershot'), 'WeaponType'] = 'Breath Shooter'
-    DF.loc[(DF.WeaponType == 'Arm Cannon'), 'WeaponType'] = 'Revolver Gauntlet'
-    DF.loc[(DF.WeaponType == 'Whip Blade'), 'WeaponType'] = 'Energy Sword'
-    DF.loc[(DF.WeaponType == 'Axe'), 'WeaponType'] = 'One-Handed Axe'
-    DF.loc[(DF.WeaponType == 'Saber'), 'WeaponType'] = 'One-Handed Sword'
-    DF.loc[(DF.WeaponType == 'Hammer'), 'WeaponType'] = 'One-Handed Blunt Weapon'
-    DF.loc[(DF.WeaponType == 'One-Handed Mace'), 'WeaponType'] = 'One-Handed Blunt Weapon'
-    DF.loc[(DF.WeaponType == 'Two-Handed Mace'), 'WeaponType'] = 'Two-Handed Blunt Weapon'
-    DF.loc[(DF.WeaponType == 'Two-Handed Hammer'), 'WeaponType'] = 'Two-Handed Blunt Weapon'
-
-    DF.loc[(DF.JobType == 'Arch Mage (Fire, Poison)'), 'JobType'] = 'Fire Poison'
-    DF.loc[(DF.JobType == 'Arch Mage (Ice, Lightning)'), 'JobType'] = 'Ice Lightning'
-
-
-    DF.drop(DF.loc[DF['JobType']=='Jett'].index, inplace = True)
-    return DF
+    SecDF.reset_index(drop = True)
+    
+    return SecDF
 
 main()
 # retrieveTyrant(requests.session())

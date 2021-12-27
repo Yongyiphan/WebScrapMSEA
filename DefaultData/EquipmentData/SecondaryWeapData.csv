@@ -1,0 +1,293 @@
+,ClassName,WeaponType,EquipName,EquipLevel,MainStat,SecStat,ATK,MATK,AllStat,DEF,HP,MP,AtkSpd,BDMG,IED
+0,Ark,Abyssal Path,Initial Path,10,3,3,0,0,0,0,0,0,0,0,0
+1,Ark,Abyssal Path,Secondary Path,30,4,4,1,0,0,0,0,0,0,0,0
+2,Ark,Abyssal Path,Advanced Path,60,6,6,2,0,0,0,0,0,0,0,0
+3,Ark,Abyssal Path,Ultimate Path,100,10,10,3,0,0,0,0,0,0,0,0
+4,Ark,Abyssal Path,Onyx Maple Path,100,8,8,5,0,0,0,0,0,0,0,0
+5,Ark,Abyssal Path,Princess No Path,140,14,14,9,0,0,0,0,0,0,0,0
+6,Bowmaster,Arrow Fletching,Breezy Feather,30,4,4,1,0,0,0,0,0,0,0,0
+7,Bowmaster,Arrow Fletching,Gusty Feather,60,6,6,2,0,0,0,0,0,0,0,0
+8,Bowmaster,Arrow Fletching,Blasted Feather,100,10,10,3,0,0,0,0,0,0,0,0
+9,Bowmaster,Arrow Fletching,Onyx Maple Feather,100,8,8,5,0,0,0,0,0,0,0,0
+10,Bowmaster,Arrow Fletching,Maple Treasure Feather,110,9,9,6,0,0,0,0,0,0,0,0
+11,Bowmaster,Arrow Fletching,Princess No's Feather,140,14,14,9,0,0,0,0,0,0,0,0
+12,Wild Hunters,Arrowhead,Wild Beak,30,4,4,1,0,0,0,0,0,0,0,0
+13,Wild Hunters,Arrowhead,Wild Crow,60,6,6,2,0,0,0,0,0,0,0,0
+14,Wild Hunters,Arrowhead,Wild Heron,100,10,10,3,0,0,0,0,0,0,0,0
+15,Wild Hunters,Arrowhead,Onyx Maple Wild Heron,100,8,8,5,0,0,0,0,0,0,0,0
+16,Wild Hunters,Arrowhead,Maple Treasure Wild Beak,110,9,9,6,0,0,0,0,0,0,0,0
+17,Wild Hunters,Arrowhead,Princess No's Arrowhead,140,14,14,9,0,0,0,0,0,0,0,0
+18,Adele,Bladebinder,Trace Bladebinder,10,3,3,0,0,0,0,0,0,0,0,0
+19,Adele,Bladebinder,Embark Bladebinder,30,4,4,1,0,0,0,0,0,0,0,0
+20,Adele,Bladebinder,Regular Bladebinder,60,6,6,2,0,0,0,0,0,0,0,0
+21,Adele,Bladebinder,Noble Bladebinder,100,10,10,3,0,0,0,0,0,0,0,0
+22,Adele,Bladebinder,Princess No's Immortal Bladebinder,140,14,14,9,0,0,0,0,0,0,0,0
+23,Marksman,Bow Thimble,One Shot,30,4,4,1,0,0,0,0,0,0,0,0
+24,Marksman,Bow Thimble,Sure Shot,60,6,6,2,0,0,0,0,0,0,0,0
+25,Marksman,Bow Thimble,True Shot,100,10,10,3,0,0,0,0,0,0,0,0
+26,Marksman,Bow Thimble,Onyx Maple True Shot,100,8,8,5,0,0,0,0,0,0,0,0
+27,Marksman,Bow Thimble,Maple Treasure True Shot,110,9,9,6,0,0,0,0,0,0,0,0
+28,Marksman,Bow Thimble,Princess No's Wreath,140,14,14,9,0,0,0,0,0,0,0,0
+29,Phantom,Card,Carte Magique,10,0,0,0,0,0,0,0,0,0,0,0
+30,Phantom,Card,Carte Fantasmatique,30,0,0,0,0,0,0,0,0,0,0,0
+31,Phantom,Card,Carte Magnifique,60,0,0,0,0,0,0,0,0,0,0,0
+32,Phantom,Card,Carte Finale,100,0,0,0,0,0,0,0,0,0,0,0
+33,Phantom,Card,Carte Onyx Maple,100,8,8,0,0,0,0,0,0,0,0,0
+34,Phantom,Card,Maple Treasure Carte,110,9,9,0,0,0,0,0,0,0,0,0
+35,Phantom,Card,Princess No's Carte,140,14,14,0,0,0,0,0,0,0,0,0
+36,Blaster,Charge,Rudimentary Charges,10,3,3,0,0,0,0,0,0,0,0,0
+37,Blaster,Charge,Standard Charges,30,4,4,1,0,0,0,0,0,0,0,0
+38,Blaster,Charge,High Powered Charges,60,6,6,2,0,0,0,0,0,0,0,0
+39,Blaster,Charge,Masterwork Charges,100,10,10,3,0,0,0,0,0,0,0,0
+40,Blaster,Charge,Onyx Maple Charges,100,8,8,5,0,0,0,0,0,0,0,0
+41,Blaster,Charge,Princess No's Megaton Charges,140,15,15,10,0,0,0,0,0,0,0,0
+42,Night Lord,Charm,All Souls Charm,30,4,4,1,0,0,0,0,0,0,0,0
+43,Night Lord,Charm,Evil Ender Charm,60,6,6,2,0,0,0,0,0,0,0,0
+44,Night Lord,Charm,Death Sender Charm,100,10,10,3,0,0,0,0,0,0,0,0
+45,Night Lord,Charm,Onyx Maple Death Sender Charm,100,8,8,5,0,0,0,0,0,0,0,0
+46,Night Lord,Charm,Maple Treasure Death Sender Charm,110,9,9,6,0,0,0,0,0,0,0,0
+47,Night Lord,Charm,Princess No's Charm,140,14,14,9,0,0,0,0,0,0,0,0
+48,Kinesis,Chess Piece,Pawn Chess Piece,1,1,1,0,0,0,0,0,0,0,0,0
+49,Kinesis,Chess Piece,Knight Chess Piece,30,4,4,0,1,0,0,0,0,0,0,0
+50,Kinesis,Chess Piece,Rook Chess Piece,60,6,6,0,2,0,0,0,0,0,0,0
+51,Kinesis,Chess Piece,Queen Chess Piece,100,10,10,0,3,0,0,0,0,0,0,0
+52,Kinesis,Chess Piece,Onyx Maple Queen Chess Piece,100,8,8,0,5,0,0,0,0,0,0,0
+53,Kinesis,Chess Piece,Maple Treasure Chess Piece,110,10,10,0,7,0,0,0,0,0,0,0
+54,Kinesis,Chess Piece,Princess No's Oriental King Chess Piece,140,14,14,0,9,0,0,0,0,0,0,0
+55,Xenon,Core Controller,Dual Core Controller,1,0,0,0,0,2,30,0,0,0,0,0
+56,Xenon,Core Controller,Dual Core Controller,10,0,0,0,0,2,150,00,00,0,0,0
+57,Xenon,Core Controller,Quad Core Controller,30,0,0,0,0,2,200,00,00,0,0,0
+58,Xenon,Core Controller,Hexa Core Controller,60,0,0,0,0,2,250,00,00,0,0,0
+59,Xenon,Core Controller,Octa Core Controller,100,0,0,0,0,2,380,00,00,0,0,0
+60,Xenon,Core Controller,Onyx Maple Octo Core Controller,100,0,0,0,0,2,380,00,50,0,0,0
+61,Xenon,Core Controller,Maple Treasure Controller,110,0,0,0,0,3,390,0,50,0,0,0
+62,Xenon,Core Controller,Princess No's Controller,140,0,0,0,0,4,550,00,00,0,0,0
+63,Shadower,Dagger Scabbard,Hidden Shadow,30,4,4,1,0,0,0,0,0,0,0,0
+64,Shadower,Dagger Scabbard,Vanishing Shadow,60,6,6,2,0,0,0,0,0,0,0,0
+65,Shadower,Dagger Scabbard,Slashing Shadow,100,10,10,3,0,0,0,0,0,0,0,0
+66,Shadower,Dagger Scabbard,Onyx Maple Shadow,100,8,8,5,0,0,0,0,0,0,0,0
+67,Shadower,Dagger Scabbard,Maple Treasure Shadow,110,9,9,6,0,0,0,0,0,0,0,0
+68,Shadower,Dagger Scabbard,Princess No's Purple Shadow,140,14,14,9,0,0,0,0,0,0,0,0
+69,Demon Slayer,Demon Aegis,Force Shield of Patience,10,0,0,0,0,0,10,0,0,0,0,0
+70,Demon Slayer,Demon Aegis,Force Shield of Will,30,0,0,0,0,0,30,50,0,0,0,0
+71,Demon Slayer,Demon Aegis,Force Shield of Authority,60,7,7,0,0,0,60,50,0,0,0,0
+72,Demon Slayer,Demon Aegis,Force Shield of Extremes,100,12,12,0,0,0,85,00,0,0,0,0
+73,Demon Slayer,Demon Aegis,Princess No's Accursed Shield,140,17,17,0,0,0,140,68,0,0,0,0
+74,Demon Avenger,Demon Aegis,Force Shield of Patience,10,0,0,0,0,0,10,0,0,0,0,0
+75,Demon Avenger,Demon Aegis,Force Shield of Will,30,0,0,0,0,0,30,50,0,0,0,0
+76,Demon Avenger,Demon Aegis,Force Shield of Authority,60,7,0,0,0,0,60,00,0,0,0,0
+77,Demon Avenger,Demon Aegis,Force Shield of Extremes,100,12,0,0,0,0,85,00,0,0,0,0
+78,Demon Avenger,Demon Aegis,Princess No's Accursed Shield,140,17,0,0,0,0,140,168,0,0,0,0
+79,Evan,Document,Dragon Master's Records,30,4,4,0,1,0,0,0,0,0,0,0
+80,Evan,Document,Dragon Master's Research,60,6,6,0,2,0,0,0,0,0,0,0
+81,Evan,Document,Dragon Master's Legacy,100,10,10,0,3,0,0,0,0,0,0,0
+82,Evan,Document,Onyx Maple Dragon Master's Legacy,100,8,8,0,5,0,0,0,0,0,0,0
+83,Evan,Document,Maple Treasure Legacy,110,9,9,0,6,0,0,0,0,0,0,0
+84,Evan,Document,Princess No's Dragon Legacy,140,14,14,0,9,0,0,0,0,0,0,0
+85,Kaiser,Dragon Essence,Nova's Essence,10,0,0,0,0,2,0,0,0,0,0,0
+86,Kaiser,Dragon Essence,Nova Guardian Essence,30,0,0,0,0,4,10,0,0,0,0,0
+87,Kaiser,Dragon Essence,Nova Justice Essence,60,0,0,0,0,6,20,0,0,0,0,0
+88,Kaiser,Dragon Essence,Nova Truth Essence,100,0,0,0,0,10,30,0,0,0,0,0
+89,Kaiser,Dragon Essence,Nova Onyx Maple Essence,100,0,0,0,0,8,30,0,0,0,0,0
+90,Kaiser,Dragon Essence,Maple Treasure Essence,110,0,0,0,0,9,40,0,0,0,0,0
+91,Kaiser,Dragon Essence,Princess No's Dragon Essence,140,0,0,0,0,14,52,0,0,0,0,0
+92,Hoyoung,Fan Tassel,Mano Fan Tassel,10,3,3,0,0,0,0,0,0,0,0,0
+93,Hoyoung,Fan Tassel,Lapis Lazuli Fan Tassel,30,4,4,1,0,0,0,0,0,0,0,0
+94,Hoyoung,Fan Tassel,Corundum Fan Tassel,60,6,6,2,0,0,0,0,0,0,0,0
+95,Hoyoung,Fan Tassel,Moonstone Fan Tassel,100,10,10,3,0,0,0,0,0,0,0,0
+96,Hoyoung,Fan Tassel,Onyx Maple Fan Tassel,100,8,8,5,0,0,0,0,0,0,0,0
+97,Hoyoung,Fan Tassel,Princess No's Fan Tassel,140,14,14,9,0,0,0,0,0,0,0,0
+98,Corsairs,Far Sight,Eagle Eye,30,4,4,1,0,0,0,0,0,0,0,0
+99,Corsairs,Far Sight,Hawkeye,60,6,6,2,0,0,0,0,0,0,0,0
+100,Corsairs,Far Sight,Falcon Eye,100,10,10,3,0,0,0,0,0,0,0,0
+101,Corsairs,Far Sight,Onyx Maple Falcon Eye,100,8,8,5,0,0,0,0,0,0,0,0
+102,Corsairs,Far Sight,Maple Treasure Falcon Eye,110,9,9,6,0,0,0,0,0,0,0,0
+103,Corsairs,Far Sight,Princess No's Falcon Eye,140,14,14,9,0,0,0,0,0,0,0,0
+104,Shade,Fox Marble,Blue Fox Marble,20,3,3,0,0,0,0,0,0,0,0,0
+105,Shade,Fox Marble,Green Fox Marble,30,4,4,1,0,0,0,0,0,0,0,0
+106,Shade,Fox Marble,Red Fox Marble,60,6,6,2,0,0,0,0,0,0,0,0
+107,Shade,Fox Marble,Golden Fox Marble,100,10,10,3,0,0,0,0,0,0,0,0
+108,Shade,Fox Marble,Onyx Maple Fox Marble,100,8,8,5,0,0,0,0,0,0,0,0
+109,Shade,Fox Marble,Maple Treasure Fox Marble,110,9,9,6,0,0,0,0,0,0,0,0
+110,Shade,Fox Marble,Princess No's Fox Marble,140,14,14,9,0,0,0,0,0,0,0,0
+111,Dark Knight,Iron Chain,Stark Chain,30,4,4,1,0,0,0,0,0,0,0,0
+112,Dark Knight,Iron Chain,Dark Chain,60,6,6,2,0,0,0,0,0,0,0,0
+113,Dark Knight,Iron Chain,Berserk Chain,100,10,10,3,0,0,0,0,0,0,0,0
+114,Dark Knight,Iron Chain,Onyx Maple Chain,100,8,8,5,0,0,0,0,0,0,0,0
+115,Dark Knight,Iron Chain,Maple Treasure Chain,110,9,9,6,0,0,0,0,0,0,0,0
+116,Dark Knight,Iron Chain,Princess No's Flower Chain,140,14,14,9,0,0,0,0,0,0,0,0
+117,Cygnus Knights,Jewel,Ereve Fragment,30,0,0,1,1,4,0,0,0,0,0,0
+118,Cygnus Knights,Jewel,Ereve Idea,60,0,0,2,2,6,0,0,0,0,0,0
+119,Cygnus Knights,Jewel,Ereve Brilliance,100,0,0,3,3,10,0,0,0,0,0,0
+120,Cygnus Knights,Jewel,Onyx Maple Ereve Brilliance,100,0,0,5,5,8,0,0,0,0,0,0
+121,Cygnus Knights,Jewel,Maple Treasure Ereve Brilliance,110,0,0,6,6,9,0,0,0,0,0,0
+122,Cygnus Knights,Jewel,Princess No's Floral Jewel,140,0,0,9,9,14,0,0,0,0,0,0
+123,Dual Blade,Katara,Champion Katara,20,0,0,20,0,0,0,50,0,3,0,0
+124,Dual Blade,Katara,Guardian Katara,30,0,0,25,0,0,0,75,0,3,0,0
+125,Dual Blade,Katara,Justice Katara,40,0,0,31,0,0,0,00,0,3,0,0
+126,Dual Blade,Katara,Majestic Katara,50,0,0,34,0,0,0,25,0,3,0,0
+127,Dual Blade,Katara,Ascalon Katara,60,0,0,40,0,0,0,50,0,3,0,0
+128,Dual Blade,Katara,Heavenly Katara,70,0,0,43,0,0,0,80,0,3,0,0
+129,Dual Blade,Katara,Moonslicer Sword,75,0,0,47,0,0,0,0,0,3,0,0
+130,Dual Blade,Katara,Blazing Dragon Katara,80,0,0,47,0,0,0,10,0,3,0,0
+131,Dual Blade,Katara,Balrog Blazing Dragon Katara,80,0,0,52,0,0,0,10,0,3,0,0
+132,Dual Blade,Katara,Bloodsoaked Katara,90,0,0,48,0,0,0,40,0,3,0,0
+133,Dual Blade,Katara,Balrog Bloodsoaked Katara,90,0,0,54,0,0,0,40,0,3,0,0
+134,Dual Blade,Katara,Bloodsoaked Katara,90,0,0,50,0,0,0,40,0,3,0,0
+135,Dual Blade,Katara,Meteor Katara,100,0,0,52,0,0,0,70,0,3,0,0
+136,Dual Blade,Katara,Dragon Katara,105,0,0,53,0,0,0,0,0,3,0,0
+137,Dual Blade,Katara,Moonshadow Katara,110,0,0,54,0,0,0,00,0,3,0,0
+138,Dual Blade,Katara,Zakum's Poisonic Katara,110,0,0,54,0,0,0,0,0,3,0,0
+139,Dual Blade,Katara,Timeless Katara,120,0,0,58,0,0,0,0,0,3,0,0
+140,Dual Blade,Katara,Reverse Katara,120,0,0,57,0,0,0,0,0,3,0,0
+141,Dual Blade,Katara,Briser Katara,120,0,0,57,0,0,0,0,0,3,0,0
+142,Dual Blade,Katara,Necro Katara,120,0,0,57,0,0,0,0,0,3,0,0
+143,Dual Blade,Katara,VIP Katara,127,4,8,68,0,0,0,0,0,3,0,0
+144,Dual Blade,Katara,Jaihin Katara,130,0,0,60,0,0,0,0,0,3,0,0
+145,Dual Blade,Katara,Utgard Katara,140,0,0,63,0,0,0,0,0,3,0,0
+146,Dual Blade,Katara,Raven Horn Shadow Katara,140,10,0,65,0,0,0,0,0,3,0,0
+147,Dual Blade,Katara,Princess No's Poisoned Sword,140,0,0,93,0,0,0,0,0,3,0,0
+148,Dual Blade,Katara,Scarlet Katara,145,10,0,72,0,0,0,0,0,3,0,0
+149,Dual Blade,Katara,Meister Katara,145,15,0,76,0,0,0,0,0,3,0,0
+150,Dual Blade,Katara,Commerci Katara,150,0,0,68,0,0,0,75,0,3,0,0
+151,Dual Blade,Katara,Tsukuyomi's Sword of Sorrow,150,10,18,70,0,0,0,0,0,3,0,0
+152,Dual Blade,Katara,Fafnir Rapid Edge,150,30,0,81,0,0,0,0,0,3,0,0
+153,Dual Blade,Katara,Terminus Silencer,160,40,0,81,0,0,0,0,0,3,0,0
+154,Dual Blade,Katara,Sweetwater Katara,160,0,0,86,0,0,0,00,0,3,30,10
+155,Dual Blade,Katara,AbsoLab Katara,160,40,0,97,0,0,0,0,0,3,0,0
+156,Dual Blade,Katara,Tsukuyomi's Mournful Blade of the Wolf,160,40,0,97,0,0,0,0,0,3,0,0
+157,Dual Blade,Katara,Arcane Umbra Katara,200,65,0,140,0,0,0,0,0,3,0,0
+158,Hayato,Kodachi,White Tiger Blade,10,1,0,0,0,0,0,0,0,0,0,0
+159,Hayato,Kodachi,Blue Dragon Blade,30,2,0,0,0,0,0,0,0,0,0,0
+160,Hayato,Kodachi,Lake Monster Blade,60,3,0,1,0,0,0,0,0,0,0,0
+161,Hayato,Kodachi,Fire Phoenix Blade,100,4,0,2,0,0,0,0,0,0,0,0
+162,Hayato,Kodachi,Onyx Maple Tiger Blade,100,3,0,2,0,0,0,0,0,0,0,0
+163,Hayato,Kodachi,Maple Treasure Kodachi,110,3,0,2,0,0,0,0,0,0,0,0
+164,Hayato,Kodachi,Princess No's Wakizashi,140,17,17,9,0,0,0,0,0,0,0,0
+165,Illium,Lucent Wings,Basic Lucent Wings,1,1,1,0,0,0,0,0,0,0,0,0
+166,Illium,Lucent Wings,Core Lucent Wings,30,4,4,0,1,0,0,0,0,0,0,0
+167,Illium,Lucent Wings,Holy Lucent Wings,60,6,6,0,2,0,0,0,0,0,0,0
+168,Illium,Lucent Wings,Glory Lucent Wings,100,10,10,0,3,0,0,0,0,0,0,0
+169,Illium,Lucent Wings,Onyx Maple Lucent Wings,100,8,8,0,5,0,0,0,0,0,0,0
+170,Illium,Lucent Wings,Princess No's Lucent Wings,140,14,14,0,9,0,0,0,0,0,0,0
+171,Mercedes,Magic Arrow,Magic Arrows,10,0,0,0,0,0,0,0,0,0,0,0
+172,Mercedes,Magic Arrow,Sharp Magic Arrows,30,0,0,0,0,0,0,0,0,0,0,0
+173,Mercedes,Magic Arrow,Eternal Magic Arrows,60,0,0,0,0,0,0,0,0,0,0,0
+174,Mercedes,Magic Arrow,Infinite Magic Arrows,100,0,0,0,0,0,0,0,0,0,0,0
+175,Mercedes,Magic Arrow,Onyx Maple Magic Arrows,100,8,8,0,0,0,0,0,0,0,0,0
+176,Mercedes,Magic Arrow,Maple Treasure Magic Arrows,110,9,9,0,0,0,0,0,0,0,0,0
+177,Mercedes,Magic Arrow,Princess No's Accursed Arrow,140,14,14,0,0,0,0,0,0,0,0,0
+178,Fire Poison,Magic Book,Rusty Book <Strophe>,30,4,4,0,1,0,0,0,0,0,0,0
+179,Fire Poison,Magic Book,Rusty Book <Antistrophe>,60,6,6,0,2,0,0,0,0,0,0,0
+180,Fire Poison,Magic Book,Rusty Book <Epode>,100,10,10,0,3,0,0,0,0,0,0,0
+181,Fire Poison,Magic Book,Onyx Maple Rusty Book,100,8,8,0,5,0,0,0,0,0,0,0
+182,Fire Poison,Magic Book,Maple Treasure Rusty Book,110,9,9,0,6,0,0,0,0,0,0,0
+183,Fire Poison,Magic Book,Princess No's Flaming Book,140,14,14,0,9,0,0,0,0,0,0,0
+184,Ice Lightning,Magic Book,Metallic Blue Book <Strophe>,30,4,4,0,1,0,0,0,0,0,0,0
+185,Ice Lightning,Magic Book,Metallic Blue Book <Antistrophe>,60,6,6,0,2,0,0,0,0,0,0,0
+186,Ice Lightning,Magic Book,Metallic Blue Book <Epode>,100,10,10,0,3,0,0,0,0,0,0,0
+187,Ice Lightning,Magic Book,Onyx Maple Metallic Book,100,8,8,0,5,0,0,0,0,0,0,0
+188,Ice Lightning,Magic Book,Maple Treasure Metallic Book,110,9,9,0,6,0,0,0,0,0,0,0
+189,Ice Lightning,Magic Book,Princess No's Damp Book,140,14,14,0,9,0,0,0,0,0,0,0
+190,Bishop,Magic Book,White Gold Book <Strophe>,30,4,4,0,1,0,0,0,0,0,0,0
+191,Bishop,Magic Book,White Gold Book <Antistrophe>,60,6,6,0,2,0,0,0,0,0,0,0
+192,Bishop,Magic Book,White Gold Book <Epode>,100,10,10,0,3,0,0,0,0,0,0,0
+193,Bishop,Magic Book,Onyx Maple White Gold Book,100,8,8,0,5,0,0,0,0,0,0,0
+194,Bishop,Magic Book,Maple Treasure White Gold Book,110,9,9,0,6,0,0,0,0,0,0,0
+195,Bishop,Magic Book,Princess No's Golden Book,140,14,14,0,9,0,0,0,0,0,0,0
+196,Battle Mage,Magic Marble,Equalizer Ball,30,4,4,0,1,0,0,0,0,0,0,0
+197,Battle Mage,Magic Marble,Energizer Ball,60,6,6,0,2,0,0,0,0,0,0,0
+198,Battle Mage,Magic Marble,Maximizer Ball,100,10,10,0,3,0,0,0,0,0,0,0
+199,Battle Mage,Magic Marble,Onyx Maple Maximizer Ball,100,8,8,0,5,0,0,0,0,0,0,0
+200,Battle Mage,Magic Marble,Maple Treasure Equalizer Ball,110,9,9,0,6,0,0,0,0,0,0,0
+201,Battle Mage,Magic Marble,Princess No's Accursed Marble,140,14,14,0,9,0,0,0,0,0,0,0
+202,Mechanic,Magnum,Magnum,10,3,0,0,0,0,0,0,0,0,0,0
+203,Mechanic,Magnum,Split Magnum,30,4,0,0,0,0,0,0,0,0,0,0
+204,Mechanic,Magnum,Vital Magnum,60,7,0,0,0,0,0,0,0,0,0,0
+205,Mechanic,Magnum,Eternal Magnum,100,10,0,0,0,0,0,0,0,0,0,0
+206,Mechanic,Magnum,Onyx Maple Magnum,100,8,8,0,0,0,0,0,0,0,0,0
+207,Mechanic,Magnum,Maple Treasure Magnum,110,9,9,0,0,0,0,0,0,0,0,0
+208,Mechanic,Magnum,Princess No's Magnum,140,14,14,0,0,0,0,0,0,0,0,0
+209,Aran,Mass,Silver Beast Mass,30,4,4,1,0,0,0,0,0,0,0,0
+210,Aran,Mass,Phoenix Mass,60,6,6,2,0,0,0,0,0,0,0,0
+211,Aran,Mass,Dragon Mass,100,10,10,3,0,0,0,0,0,0,0,0
+212,Aran,Mass,Onyx Maple Dragon Mass,100,8,8,5,0,0,0,0,0,0,0,0
+213,Aran,Mass,Maple Treasure Dragon Mass,110,9,9,6,0,0,0,0,0,0,0,0
+214,Aran,Mass,Princess No's Flower Ballast,140,14,14,9,0,0,0,0,0,0,0,0
+215,Heroes,Medallion,Powers Medallion,30,4,4,1,0,0,0,0,0,0,0,0
+216,Heroes,Medallion,Orders Medallion,60,6,6,2,0,0,0,0,0,0,0,0
+217,Heroes,Medallion,Virtues Medallion,100,10,10,3,0,0,0,0,0,0,0,0
+218,Heroes,Medallion,Onyx Maple Medal,100,8,8,5,0,0,0,0,0,0,0,0
+219,Heroes,Medallion,Maple Treasure Medal,110,9,9,6,0,0,0,0,0,0,0,0
+220,Heroes,Medallion,Princess No's Medal,140,14,14,9,0,0,0,0,0,0,0,0
+221,Luminous,Orb,Light Orb,10,0,0,0,0,0,0,0,0,0,0,0
+222,Luminous,Orb,Shining Orb,30,0,0,0,0,0,0,0,0,0,0,0
+223,Luminous,Orb,Twinkling Orb,60,0,0,0,0,0,0,0,0,0,0,0
+224,Luminous,Orb,Karma Orb,100,0,0,0,0,0,0,0,0,0,0,0
+225,Luminous,Orb,Onyx Maple Orb,100,8,8,0,0,0,0,0,0,0,0,0
+226,Luminous,Orb,Maple Treasure Orb,110,9,9,0,0,0,0,0,0,0,0,0
+227,Luminous,Orb,Princess No's Soul Orb,140,14,14,0,0,0,0,0,0,0,0,0
+228,Lara,Ornament,Simple Four-Jade Ornament,10,3,3,0,0,0,0,0,0,0,0,0
+229,Lara,Ornament,Subtle Four-Jade Ornament,30,4,4,0,1,0,0,0,0,0,0,0
+230,Lara,Ornament,Flashy Four-Jade Ornament,60,6,6,0,2,0,0,0,0,0,0,0
+231,Lara,Ornament,Radiant Four-Jade Ornament,100,10,10,0,3,0,0,0,0,0,0,0
+232,Lara,Ornament,Immortal Four-Jade Ornament,140,14,14,0,9,0,0,0,0,0,0,0
+233,Cannoneers,Powder Keg,Pin Fire Bomb,30,4,4,1,0,0,0,0,0,0,0,0
+234,Cannoneers,Powder Keg,Rim Fire Bomb,60,6,6,2,0,0,0,0,0,0,0,0
+235,Cannoneers,Powder Keg,Center Fire Bomb,100,10,10,3,0,0,0,0,0,0,0,0
+236,Cannoneers,Powder Keg,Onyx Maple Center Fire Bomb,100,8,8,5,0,0,0,0,0,0,0,0
+237,Cannoneers,Powder Keg,Maple Treasure Center Fire Bomb,110,9,9,6,0,0,0,0,0,0,0,0
+238,Cannoneers,Powder Keg,Princess No's Fire Bomb,140,14,14,9,0,0,0,0,0,0,0,0
+239,Pathfinder,Relic,Potential Relic,10,3,3,0,0,0,0,0,0,0,0,0
+240,Pathfinder,Relic,Awakened Relic,30,4,4,1,0,0,0,0,0,0,0,0
+241,Pathfinder,Relic,Trine Relic,60,6,6,2,0,0,0,0,0,0,0,0
+242,Pathfinder,Relic,Perfect Relic,100,10,10,3,0,0,0,0,0,0,0,0
+243,Pathfinder,Relic,Onyx Maple Relic,100,8,8,5,0,0,0,0,0,0,0,0
+244,Pathfinder,Relic,Princess No's Immortal Relic,140,14,14,9,0,0,0,0,0,0,0,0
+245,Paladin,Rosary,Holy Rosary,30,4,4,1,0,0,0,0,0,0,0,0
+246,Paladin,Rosary,Divine Rosary,60,6,6,2,0,0,0,0,0,0,0,0
+247,Paladin,Rosary,Sacred Rosary,100,10,10,3,0,0,0,0,0,0,0,0
+248,Paladin,Rosary,Onyx Maple Rosary,100,8,8,5,0,0,0,0,0,0,0,0
+249,Paladin,Rosary,Maple Treasure Rosary,110,9,9,6,0,0,0,0,0,0,0,0
+250,Paladin,Rosary,Princess No's Rosary,140,14,14,9,0,0,0,0,0,0,0,0
+251,Warrior,Shield,Blue Dragon Shield,110,7,4,0,0,0,78,0,0,0,0,0
+252,Warrior,Shield,VIP Warrior Shield,127,12,10,0,0,0,150,0,0,0,0,0
+253,Warrior,Shield,Deimos Warrior Shield,130,10,10,0,0,0,118,0,0,0,0,0
+254,Warrior,Shield,Terminus Defender,160,13,13,0,0,0,153,0,0,0,0,0
+255,Magician,Shield,VIP Magician Shield,127,10,4,0,0,0,110,0,0,0,0,0
+256,Magician,Shield,Deimos Sage Shield,130,10,0,0,0,0,71,0,0,0,0,0
+257,Thief,Shield,Dragon Khanjar,120,2,0,15,0,0,5,0,0,0,0,0
+258,Thief,Shield,VIP Thief Shield,127,4,10,0,0,0,134,0,0,0,0,0
+259,Thief,Shield,Deimos Shadow Shield,130,10,0,0,0,0,99,0,0,0,0,0
+260,Angelic Buster,Soul Ring,Pink Soul Ring,10,0,0,0,0,2,100,00,0,0,0,0
+261,Angelic Buster,Soul Ring,Purple Soul Ring,30,0,0,0,0,4,150,00,0,0,0,0
+262,Angelic Buster,Soul Ring,Blue Soul Ring,60,0,0,0,0,6,200,00,0,0,0,0
+263,Angelic Buster,Soul Ring,Green Soul Ring,100,0,0,0,0,10,300,00,0,0,0,0
+264,Angelic Buster,Soul Ring,Onyx Maple Soul Ring,100,0,0,0,0,8,275,00,0,0,0,0
+265,Angelic Buster,Soul Ring,Maple Treasure Soul Ring,110,0,0,0,0,9,280,0,0,0,0,0
+266,Angelic Buster,Soul Ring,Princess No's Soul Ring,140,0,0,0,0,14,475,382,0,0,0,0
+267,Mihile,Soul Shields,Soul Shield of Protection,10,0,0,0,0,0,10,0,0,0,0,0
+268,Mihile,Soul Shields,Soul Shield of Pride,30,0,0,0,0,0,30,50,0,0,0,0
+269,Mihile,Soul Shields,Soul Shield of Courage,60,7,7,0,0,0,60,50,0,0,0,0
+270,Mihile,Soul Shields,Soul Shield of Justice,100,12,12,0,0,0,85,00,10,0,0,0
+271,Mihile,Soul Shields,Onyx Maple Soul Shield,100,10,10,0,0,0,81,60,00,0,0,0
+272,Mihile,Soul Shields,Maple Treasure Soul Shield,110,11,11,0,0,0,0,60,00,0,0,0
+273,Mihile,Soul Shields,Princess No's Soul Shield,140,18,18,0,0,0,120,000,00,0,0,0
+274,Cadena,Warp Forge,Transmitter Type-D,10,3,3,0,0,0,0,0,0,0,0,0
+275,Cadena,Warp Forge,Transmitter Type-C,30,4,4,1,0,0,0,0,0,0,0,0
+276,Cadena,Warp Forge,Transmitter Type-B,60,6,6,2,0,0,0,0,0,0,0,0
+277,Cadena,Warp Forge,Transmitter Type-A,100,10,10,3,0,0,0,0,0,0,0,0
+278,Cadena,Warp Forge,Onyx Maple Transmitter,100,8,8,5,0,0,0,0,0,0,0,0
+279,Cadena,Warp Forge,Princess No's Transmitter,140,14,14,9,0,0,0,0,0,0,0,0
+280,Kain,Weapon Belt,D Basic Weapon Belt,10,3,3,0,0,0,0,0,0,0,0,0
+281,Kain,Weapon Belt,D30A Weapon Belt,30,4,4,1,0,0,0,0,0,0,0,0
+282,Kain,Weapon Belt,D60 Advanced Weapon Belt,60,6,6,2,0,0,0,0,0,0,0,0
+283,Kain,Weapon Belt,D100 Custom Weapon Belt,100,10,10,3,0,0,0,0,0,0,0,0
+284,Kain,Weapon Belt,Onyx Maple D100 Weapon Belt,100,8,8,5,0,0,0,0,0,0,0,0
+285,Kain,Weapon Belt,Princess No's Immortal Weapon Belt,140,14,14,9,0,0,0,0,0,0,0,0
+293,Buccaneers,Wrist Band,Wrist Band,30,4,4,1,0,0,0,0,0,0,0,0
+294,Buccaneers,Wrist Band,Wrist Guard,60,6,6,2,0,0,0,0,0,0,0,0
+295,Buccaneers,Wrist Band,Wrist Armor,100,10,10,3,0,0,0,0,0,0,0,0
+296,Buccaneers,Wrist Band,Onyx Maple Wrist Armor,100,8,8,5,0,0,0,0,0,0,0,0
+297,Buccaneers,Wrist Band,Maple Treasure Wrist Armor,110,9,9,6,0,0,0,0,0,0,0,0
+298,Buccaneers,Wrist Band,Princess No's Skull Armor,140,14,14,9,0,0,0,0,0,0,0,0
