@@ -92,3 +92,15 @@ def assignToDict(tempList):
     
     
     return tempData
+
+
+def removeFLSpace(item):
+    
+    if item[0] == " ":
+        if item[-1] == " ":
+            return item[1:-1]
+        return item[1:]
+    elif item[-1] == " ":
+        return item[:-1]
+    else:
+        return item

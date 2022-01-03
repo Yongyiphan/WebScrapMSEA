@@ -1,12 +1,9 @@
-import os
 import pandas
-import selenium
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup as BS
 import time
-import io
 import requests
 from webdriver_manager.chrome import ChromeDriverManager
 from ComFunc import *
@@ -16,11 +13,11 @@ classesUrl = 'https://grandislibrary.com/classes'
 
 
 
-def main():
+def StartScraping():
     start = time.time()
     CharacterDF, UnionDF, MWeaponDF, SWeaponDF = navigateClasses()
     
-    UnionDF = cleanUDF(UnionDF);
+    UnionDF = cleanUDF(UnionDF)
 
     CharacterDF.to_csv('DefaultData\\CharacterData\\CharacterData.csv')
     UnionDF.to_csv('DefaultData\\CharacterData\\UnionData.csv')
@@ -158,10 +155,9 @@ def retrieveClassPage(subUrl, session):
             if "PWeap" in CS:
                 for weap in td:
                     t = removeN(weap.get_text(), '\n')
-                    t = t[1:] if t[0] == ' ' else t
                     if ClassName == 'Zero':
                         t = 'Heavy Sword'
-                    WeaponList.append(t)
+                    WeaponList.append(removeFLSpace(t))
                 CS['SWeap'] = WeaponList
             else:
                 for weap in td:
@@ -231,5 +227,4 @@ def cleanUDF(DF):
     
     return DF
 
-main()
-# navigateClasses()
+

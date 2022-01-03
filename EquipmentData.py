@@ -39,15 +39,13 @@ ArmorCol = ['EquipSet','ClassType','EquipSlot','EquipLevel','MainStat','SecStat'
 AccCol = ['EquipName','EquipSet','ClassType','EquipSlot','EquipLevel','MainStat','SecStat','AllStat','HP','MP','DEF','ATK','MATK','SPD','JUMP','IED']
 trackMinLevel = 140
 
-def main():
+def StartScraping():
 
-    
 
     ###WEAPON ==> GOTO LINK ==> GOTO HEADER LINK
     ##ITERATE TABLE return DF
 
     start = time.time()
-    request_session = requests.session()
 
     WeaponDF = pandas.DataFrame()
     ArmorDF = pandas.DataFrame()
@@ -60,15 +58,15 @@ def main():
     ## CREATE 2 DATAFRAME
     ## 1: EQUIPMENT SET EFFECTS
     ## 2: EQUIPMENT ARMOR/ACCESSORIES
-    SetEffectDF, ArmorDF, AccessoriesDF = retrieveEquipmentSet(request_session)
+    SetEffectDF, ArmorDF, AccessoriesDF = retrieveEquipmentSet(requests.session())
     
     ##RETRIEVE TYRANT
-    tAcc, tArmor = retrieveTyrant(request_session)
+    tAcc, tArmor = retrieveTyrant(requests.session())
 
 
     SetEffectDF = cleanSetEffectDF(SetEffectDF)
     
-    WeaponDF = retrieveWeapDF(request_session)
+    WeaponDF = retrieveWeapDF(requests.session())
     WeaponDF = cleanWeapDF(WeaponDF)
         
     ArmorDF = ArmorDF.append(tArmor, ignore_index=True)
@@ -79,10 +77,21 @@ def main():
 
 
     AccessoriesDF = AccessoriesDF.append(tAcc, ignore_index=True)
+    EmblemData = {}
+    EmblemData['EquipName'] = "Emblem"
+    EmblemData['EquipSet'] = "Emblem"
+    EmblemData['ClassType'] = 'Any'
+    EmblemData['EquipSlot'] = 'Emblem'
+    EmblemData['EquipLevel'] = 100
+    EmblemData['AllStat'] = 10
+    EmblemData['ATK'] = 2
+    EmblemData['MATK'] = 2
+    EmblemDF = pandas.DataFrame(EmblemData, index=[0])
+    AccessoriesDF = AccessoriesDF.append(EmblemDF, ignore_index=True)
     AccessoriesDF = AccessoriesDF[AccCol]
     AccessoriesDF = AccessoriesDF.fillna(0)
     
-    SecWeapDF = retrieveSecWeap(request_session)
+    SecWeapDF = retrieveSecWeap(requests.session())
     SecWeapDF = cleanSecWeap(SecWeapDF)
     SecWeapDF = SecWeapDF.fillna(0)
     
@@ -96,8 +105,6 @@ def main():
 
     print(f"Total time taken is {end-start}")
     return
-
-
 
 def retrieveEquipmentSet(session):
 
@@ -268,6 +275,8 @@ def retrieveWeapContent(link, session):
             ItemData["WeaponType"] = weaponType
             level = tableC[i+1].contents[0].split(" ")[1] 
             ItemData["Level"] = level[:-1] if level.find('\n') != -1 else level
+            if int(ItemData['Level']) < trackMinLevel:
+                continue
            
             statTable = tableC[i+2].get_text(separator = "\n").split("\n")[:-1]
             ItemData.update(assignToDict(statTable))  
@@ -551,7 +560,9 @@ def cleanWeapDF(WeapDF):
     WeapDF.loc[(WeapDF.WeaponType == 'Two-Handed Mace'), 'WeaponType'] = 'Two-Handed Blunt Weapon'
     WeapDF.loc[(WeapDF.WeaponType == 'Two-Handed Hammer'), 'WeaponType'] = 'Two-Handed Blunt Weapon'
 
+    # WeapDF.drop(WeapDF.loc[int(WeapDF['Level']) < trackMinLevel].index, inplace=True)
     WeapDF.reset_index(drop = True)
+    
 
     return WeapDF
 
@@ -576,5 +587,5 @@ def cleanSecWeap(SecDF):
     
     return SecDF
 
-main()
-# retrieveTyrant(requests.session())
+if __name__ == "__main__":
+    StartScraping()
