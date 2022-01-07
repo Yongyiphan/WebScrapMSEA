@@ -9,18 +9,19 @@ def returnIndex(ele, setToTrack):
         elif ele.lower() in setToTrack[i].lower():
             return i
 
-def removeN(item, para):
+def removeN(item, para, deli):
     
     if isinstance(para, str):
         if item.find(para) != -1:
-            return item.replace(para, '')
+            return item.replace(para, deli)
         else:
             return item
     elif isinstance(para, list):
         for i in para:
             if item.find(i) != -1:
-                item = item.replace(i, '')
+                item = item.replace(i, deli)
         return item
+
 
 def assignToDict(tempList):
     
@@ -47,14 +48,14 @@ def assignToDict(tempList):
      
         elif i.find("HP") != -1:
             HPstr = i.split(" ")[-1][1:]
-            HPstr = removeN(HPstr, ',')
+            HPstr = removeN(HPstr, ',', '')
             if HPstr.find("%") != -1:
                 tempData['HP'] = HPstr
             else:
                 tempData['HP'] = HPstr[1:]
         elif i.find("MP") != -1:
             MPstr = i.split(" ")[-1][1:]
-            MPstr = removeN(MPstr, ',')
+            MPstr = removeN(MPstr, ',', '')
             if MPstr.find("%") != -1:
                 tempData['MP'] = MPstr
             else:

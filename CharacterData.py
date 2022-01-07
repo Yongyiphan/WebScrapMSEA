@@ -104,7 +104,7 @@ def retrieveClassPage(subUrl, session):
         td = tr.find('td')
         if th.get_text().find('Class Group') != -1:
             
-            faction = removeN(td.next, '\n')
+            faction = removeN(td.next, '\n', '')
             if any(c.lower() in faction.lower() for c in ResistanceGrp) == True:
                 faction = 'Resistance'
             elif ClassName == 'Zero':
@@ -132,9 +132,9 @@ def retrieveClassPage(subUrl, session):
             
         elif th.get_text().find('Legion') != -1:
             UET = 'FLAT'
-            UE = removeN(td.contents[0].get_text(), [',', 'and'])
+            UE = removeN(td.contents[0].get_text(), [',', 'and'], '')
             UES = td.contents[1].get_text()
-            UES = removeN(UES, ["+","(", ")"])
+            UES = removeN(UES, ["+","(", ")"], '')
             UES = UES.split('/')
             
             if UES[-1].find('%') != -1:
@@ -154,14 +154,14 @@ def retrieveClassPage(subUrl, session):
             
             if "PWeap" in CS:
                 for weap in td:
-                    t = removeN(weap.get_text(), '\n')
+                    t = removeN(weap.get_text(), '\n', '')
                     if ClassName == 'Zero':
                         t = 'Heavy Sword'
                     WeaponList.append(removeFLSpace(t))
                 CS['SWeap'] = WeaponList
             else:
                 for weap in td:
-                    t = removeN(weap.get_text(), '\n')
+                    t = removeN(weap.get_text(), '\n', '')
                     t = t[1:] if t[0] == ' ' else t
                     if ClassName == 'Zero':
                         t = 'Long Sword'
