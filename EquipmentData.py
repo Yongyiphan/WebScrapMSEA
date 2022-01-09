@@ -377,12 +377,12 @@ def retreiveSecPage(suburl, session):
             ItemData = {}
             if JobType == "Jett":
                 continue
-            elif JobType == "DualBlade":
+            elif JobType == "Dual Blade":
                 ItemData["ClassName"] = JobType
                 ItemData["WeaponType"] = weapType
                 weaponSet = tableContent[i].contents
                 for w in weaponSet:
-                    if any(ele.lower() in w.get_text().replace(weapType, "").lower() for ele in EquipSetTrack) == True:
+                    if any(ele.lower() in w.get_text().replace(weapType, "").lower() for ele in WeapSetTrack) == True:
                         EquipName = w.get_text()
                         break
                     else:
@@ -588,4 +588,5 @@ def cleanSecWeap(SecDF):
     return SecDF
 
 if __name__ == "__main__":
-    StartScraping()
+    # StartScraping()
+    retrieveSecWeap(requests.session())
