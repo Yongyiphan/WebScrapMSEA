@@ -12,7 +12,7 @@ defaultUrl = 'https://strategywiki.org'
 STSFurl = '/wiki/MapleStory/Spell_Trace_and_Star_Force#Star_Force_Enhancement'
 formulaUrl ='/MapleStory/Formulas'
 potentialUrl = '/MapleStory/Potential_System'
-PotDFCol =	['EquipGrp','Grade','GradeT','StatT','Stat','MinLvl','MaxLvl','StatValue','Duration']
+PotDFCol =	['EquipGrp','Grade','GradeT','StatT','Stat','MinLvl','MaxLvl','StatValue','Duration', 'Chance']
 def StartScraping():
 
     start = time.time()
@@ -184,7 +184,20 @@ def retrievePotential():
                     currentDic['StatT'] = 'Perc' if findString(stat, '%') else "Flat"
                     stat = stat.encode("ascii", "ignore")
                     stat = stat.decode()
-                      
+                    checkInt = True
+                    
+                    if stat.split(' ')[0].find('%') != -1:
+                        chance = stat.split(' ')[0]
+                        try:
+                            tempC = removeN(chance, '%', '')
+                            int(tempC)
+                        except ValueError:
+                            checkInt = False
+
+                        if checkInt == True:
+                            currentDic['Chance'] = chance
+                    else:
+                        currentDic['Chance'] = '100%'
                     currentDic['Stat'] = stat
                     currentDic['Duration'] = 0
                 if subtable[statt].name == 'table':
@@ -196,7 +209,10 @@ def retrievePotential():
                         deli = ['\n', '+']
                         tempDic = {}
                         tempDic.update(currentDic)
-                        currentT = removeN(tds[t].get_text(), '\n', '');
+                        currentT = removeN(tds[t].get_text(), '\n', '')
+                        if findString(tempDic['Stat'], 'dealt'):
+                            tempDic['Stat'] = removeN(tempDic['Stat'], 'dealt', '')
+
                         if findString(currentT, 'GMS'):
                             continue
                         if findString(currentT, '-'):
@@ -241,6 +257,11 @@ def retrievePotential():
                         currentDic['Stat'] = stat
                     elif findString(stat, 'Boss Monsters'):
                         currentDic['StatValue'] = stat.split(' ')[-1]
+                    elif findString(stat, 'chance to ignore'):
+                        chance = stat.split('chance')[0]
+                        if "%" in stat.split('ignore')[1]:
+                            currentDic['StatValue'] = stat.split('ignore')[1].split(' ')[1]
+                        currentDic['Stat'] = chance + 'chance to ignore monster damage'
                     else:
                         currentDic['Duration'] = 0
                         currentDic['StatValue'] = 0
@@ -253,6 +274,13 @@ def retrievePotential():
     print(f"Time taken is {end-start}")
     
     return PotDF
+
+def cleanPotDF(DF):
+
+    
+
+    return DF
+
 
 def ATDSF(statList):
     delimiter = ['+', '%', "'s", "s'"]
