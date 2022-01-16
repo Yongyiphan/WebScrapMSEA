@@ -12,6 +12,7 @@ defaultUrl = 'https://strategywiki.org'
 STSFurl = '/wiki/MapleStory/Spell_Trace_and_Star_Force#Star_Force_Enhancement'
 formulaUrl ='/MapleStory/Formulas'
 potentialUrl = '/MapleStory/Potential_System'
+PotDFCol =	['EquipGrp','Grade','GradeT','StatT','Stat','MinLvl','MaxLvl','StatValue','Duration']
 def StartScraping():
 
     start = time.time()
@@ -22,7 +23,7 @@ def StartScraping():
     AddDF = AddDF.fillna(0)
     
     PotDF = retrievePotential()
-    
+    PotDF = PotDF[PotDFCol]
     StarforceDF = StarforceDF.astype(int)
     AddDF = AddDF.astype(int)
     StarforceDF.to_csv('DefaultData\\CalculationsData\\StarforceGains.csv')
@@ -130,13 +131,14 @@ def retrieveWeapMod():
 
     return WeapMDF
 
+
 def retrievePotential():
-    
     start = time.time()
     
     request_session = session()
     Page = request_session.get(defaultUrl + potentialUrl)
     PageContent = bsoup(Page.content, 'lxml')
+    
     
     startR = PageContent.select('#Potentials_List')[0].parent
     endR = PageContent.select('#Bonus_Potential')[0].parent
@@ -157,100 +159,100 @@ def retrievePotential():
             RContent.append(i)
             
     RContent = [value for value in RContent if value != '\n']
-    
     PotDF = pandas.DataFrame()
-    temp = []
-    PotDic = {}
-    tempDic = {}
-    counter = 0
-    startG = False
-    for k in RContent:
-        if k.name == 'h3':
-            EGrp = k.get_text().split('[')[0]
+    currentDic = {}
+    for chunks in RContent:
+        if chunks.name == 'h3':
+            currentDic = {}
+            EGrp = chunks.get_text().split('[')[0]
             if EGrp.find('(') != -1:
                 EGrp = EGrp.split('(')[0]
             EGrp = removeN(EGrp,['and', ','], ';')
-            PotDic['EquipGrp'] = EGrp 
-            startG = True
-        if startG == True:
-            if k.name == 'h4':
-                temp.append(k)
-                t = k.contents[1].next.split(" ")
-                grade = t[0]
-                gradeT = removeFLSpace(removeN(t[1], ['(', ')', '-'], ' '))
-                PotDic['Grade'] = grade      
-                PotDic['GradeT'] = gradeT
-            if k.name == 'div':
-                tables =[value for value in k.contents[1] if value != '\n']
-                for j in range(0, len(tables)):
-                    if tables[j].name == 'h5':
-                        stat = tables[j].get_text().split('[')[0]
-                        PotDic['StatT'] = 'Perc' if stat.find('%') != -1 else 'Flat'
-                        stat = stat.encode("ascii", "ignore")
-                        stat = stat.decode()
-                        stat = removeFLSpace(removeN(stat,'Increase', ''))
-                        PotDic['Stat'] = stat
-                        if tables[j + 1].name == 'table':
-                            test1 = tables[j + 1].find_all('td')
-                            counterT = len(test1) % 2
-                            for d in range(0, len(test1), counterT+2):
-                                deli = ['\n', '+']
-                                tempDic = {}
-                                tempDic.update(PotDic)
-                                if test1[d].next.find('GMS') != -1:
-                                    continue
-                                if test1[d].next.find('+') != -1:
-                                    tempDic['MinLvlRank'] = removeN(test1[d].next, '+', '')
-                                    tempDic['MaxLvl'] = 300
-                                else:
-                                    tempDic['MinLvlRank'] = test1[d].next.split('-')[0]
-                                    tempDic['MaxLvl'] = test1[d].next.split('-')[1]
-                                if counterT ==  1:
-                                    
-                                    tempDic['ValueI'] =  removeN(test1[d + 2].next, deli, '')
-                                else:
-                                    tempDic['ValueI'] =  removeN(test1[d + 1].next, deli, '')
-                                    
-                                
-                                PotDF = PotDF.append(tempDic, ignore_index=True)
-                                
-                        elif tables[j+2].name == 'table':
-                            test1 = tables[j + 2].find_all('td')
-                            counterT = len(test1) % 2
-                            for d in range(0, len(test1), counterT+2):
-                                deli = ['\n', '+']
-                                tempDic = {}
-                                tempDic.update(PotDic)
-                                if test1[d].next.find('GMS') != -1:
-                                    continue
-                                if test1[d].next.find('+') != -1:
-                                    tempDic['MinLvlRank'] = removeN(test1[d].next, '+', '')
-                                    tempDic['MaxLvl'] = 300
-                                else:
-                                    tempDic['MinLvlRank'] = test1[d].next.split('-')[0]
-                                    tempDic['MaxLvl'] = test1[d].next.split('-')[1]
-                                if counterT ==  1:
-                                    tempDic['ValueI'] =  removeN(test1[d + 2].next, deli, '')
-                                else:
-                                    tempDic['ValueI'] =  removeN(test1[d + 1].next, deli, '')
-                                    
-                                
-                                PotDF = PotDF.append(tempDic, ignore_index=True)
+            currentDic['EquipGrp'] = EGrp
+        if chunks.name == 'h4':
+            t = chunks.contents[1].next.split(" ")
+            grade = t[0]
+            gradeT = removeFLSpace(removeN(t[1], ['(', ')', '-'], ' '))
+            currentDic['Grade'] = grade      
+            currentDic['GradeT'] = gradeT
+        if chunks.name == 'div':
+            subtable = chunks.contents[1:][0]
+            subtable = [value for value in subtable if value != '\n']
+            for statt in range(0, len(subtable)):
+                if subtable[statt].name == 'h5':
+                    stat = removeN(subtable[statt].get_text().split('[')[0], ['Increase'], '')
+                    currentDic['StatT'] = 'Perc' if findString(stat, '%') else "Flat"
+                    stat = stat.encode("ascii", "ignore")
+                    stat = stat.decode()
+                      
+                    currentDic['Stat'] = stat
+                    currentDic['Duration'] = 0
+                if subtable[statt].name == 'table':
+                    if subtable[statt-1].name == 'dl':
+                        continue
+                    tds = subtable[statt].find_all('td')
+                    counterT = len(tds) % 2
+                    for t in range(0, len(tds), counterT+2):
+                        deli = ['\n', '+']
+                        tempDic = {}
+                        tempDic.update(currentDic)
+                        currentT = removeN(tds[t].get_text(), '\n', '');
+                        if findString(currentT, 'GMS'):
+                            continue
+                        if findString(currentT, '-'):
+                            te = currentT.split('-')
+                            tempDic['MinLvl'] = te[0]
+                            tempDic['MaxLvl'] = te[-1]
+                            tempDic['StatValue'] = 0
+                        elif currentT[-1] == '+':
+                            te = removeN(currentT, '+', '')
+                            tempDic['MinLvl'] = te
+                            tempDic['MaxLvl'] = 300
+                            tempDic['StatValue'] = 0
+                        if counterT == 1:
+                            tempDic['StatValue'] = removeN(tds[t + 2].next, deli, '')
                         else:
-                            PotDF = PotDF.append(PotDic, ignore_index=True)
-            
-        
-                              
-             
-            
+                            tempDic['StatValue'] = removeN(tds[t + 1].next, deli, '')
+                            
+                        PotDF = PotDF.append(pandas.DataFrame(tempDic, index=[0]), ignore_index=True)
+                if subtable[statt].name == 'p' and findString(subtable[statt].get_text().lower(), 'level requirement'):
+                    te = subtable[statt].get_text().split(':')[-1]
+                    if te.find('or higher')!= -1:
+                        te = te.split("or higher")[0]
+                    te = removeN(te, '\n', '')
+                    currentDic['MinLvl'] = te
+                    currentDic['MaxLvl'] = 300
+                    stat = currentDic['Stat']
+                    if findString(stat, 'being attacked'):
+                        stat = stat.split('seconds')[0]
+                        tempL = stat.split(' ')
+                        stat = tempL[:-2]
+                        stat = " ".join(stat[:-1])
+                        currentDic['Duration'] = tempL[-2]
+                        currentDic['Stat'] = stat
+                    elif findString(stat, 'Cooldown'):
+                        currentDic['StatValue'] =  removeN(stat.split(' ')[-2], ['\n', '-'], '')
+                    elif findString(stat, "Invincibility Time"):
+                        currentDic['StatValue'] =  removeN(stat.split(' ')[-2], ['\n', '+'], '')
+                    elif findString(stat, "Monster's DEF"):
+                        tempL = stat.split(' ')[1]
+                        stat = "Ignore Monster's DEF " + tempL
+                        currentDic['StatValue'] = tempL
+                        currentDic['Stat'] = stat
+                    elif findString(stat, 'Boss Monsters'):
+                        currentDic['StatValue'] = stat.split(' ')[-1]
+                    else:
+                        currentDic['Duration'] = 0
+                        currentDic['StatValue'] = 0
+                    
+                    PotDF = PotDF.append(pandas.DataFrame(currentDic, index=[0]), ignore_index=True)
+                        
     PotDF = PotDF.fillna(0)
     PotDF.drop_duplicates(keep='first', inplace=True)
     end = time.time()
-    
-    print(f"Total time taken is {end - start}")
+    print(f"Time taken is {end-start}")
     
     return PotDF
-
 
 def ATDSF(statList):
     delimiter = ['+', '%', "'s", "s'"]
@@ -286,6 +288,7 @@ def returnPotLevel(lvl):
         return 6
 
 
+
 def findString(s, toFind):
 
     if s.find(toFind) != -1:
@@ -309,6 +312,129 @@ def returnLevelRank(level):
         return 1
 
 if __name__ == "__main__":
-    # retrievePotential()
+    # scrapPotential()
     StartScraping()
+
+# def retrievePotential():
+    
+#     start = time.time()
+    
+#     request_session = session()
+#     Page = request_session.get(defaultUrl + potentialUrl)
+#     PageContent = bsoup(Page.content, 'lxml')
+    
+#     startR = PageContent.select('#Potentials_List')[0].parent
+#     endR = PageContent.select('#Bonus_Potential')[0].parent
+#     MainTables = PageContent.find_all('div' , class_='mw-collapsible-content')[2:]
+#     AllContent = PageContent.find_all('div', class_='mw-parser-output')[0]
+    
+#     RContent = []
+#     reachedEnd = False
+#     startRecording = False
+#     for i in AllContent:
+#         if reachedEnd == True:
+#             break
+#         if i ==  endR:
+#             reachedEnd = True
+#         if  i == startR:
+#             startRecording = True
+#         if startRecording == True:
+#             RContent.append(i)
+            
+#     RContent = [value for value in RContent if value != '\n']
+    
+#     PotDF = pandas.DataFrame()
+#     temp = []
+#     PotDic = {}
+#     tempDic = {}
+#     counter = 0
+#     startG = False
+#     for k in RContent:
+#         if k.name == 'h3':
+#             EGrp = k.get_text().split('[')[0]
+#             if EGrp.find('(') != -1:
+#                 EGrp = EGrp.split('(')[0]
+#             EGrp = removeN(EGrp,['and', ','], ';')
+#             PotDic['EquipGrp'] = EGrp 
+#             startG = True
+#         if startG == True:
+#             if k.name == 'h4':
+#                 temp.append(k)
+#                 t = k.contents[1].next.split(" ")
+#                 grade = t[0]
+#                 gradeT = removeFLSpace(removeN(t[1], ['(', ')', '-'], ' '))
+#                 PotDic['Grade'] = grade      
+#                 PotDic['GradeT'] = gradeT
+#             if k.name == 'div':
+#                 tables =[value for value in k.contents[1] if value != '\n']
+#                 for j in range(0, len(tables)):
+#                     if tables[j].name == 'h5':
+#                         stat = tables[j].get_text().split('[')[0]
+#                         PotDic['StatT'] = 'Perc' if stat.find('%') != -1 else 'Flat'
+#                         stat = stat.encode("ascii", "ignore")
+#                         stat = stat.decode()
+#                         stat = removeFLSpace(removeN(stat,'Increase', ''))
+#                         PotDic['Stat'] = stat
+#                         if tables[j + 1].name == 'table':
+#                             test1 = tables[j + 1].find_all('td')
+#                             counterT = len(test1) % 2
+#                             for d in range(0, len(test1), counterT+2):
+#                                 deli = ['\n', '+']
+#                                 tempDic = {}
+#                                 tempDic.update(PotDic)
+#                                 if test1[d].next.find('GMS') != -1:
+#                                     continue
+#                                 if test1[d].next.find('+') != -1:
+#                                     tempDic['MinLvlRank'] = removeN(test1[d].next, '+', '')
+#                                     tempDic['MaxLvl'] = 300
+#                                 else:
+#                                     tempDic['MinLvlRank'] = test1[d].next.split('-')[0]
+#                                     tempDic['MaxLvl'] = test1[d].next.split('-')[1]
+#                                 if counterT ==  1:
+                                    
+#                                     tempDic['ValueI'] =  removeN(test1[d + 2].next, deli, '')
+#                                 else:
+#                                     tempDic['ValueI'] =  removeN(test1[d + 1].next, deli, '')
+                                    
+                                
+#                                 PotDF = PotDF.append(tempDic, ignore_index=True)
+                                
+#                         elif tables[j+2].name == 'table':
+#                             test1 = tables[j + 2].find_all('td')
+#                             counterT = len(test1) % 2
+#                             for d in range(0, len(test1), counterT+2):
+#                                 deli = ['\n', '+']
+#                                 tempDic = {}
+#                                 tempDic.update(PotDic)
+#                                 if test1[d].next.find('GMS') != -1:
+#                                     continue
+#                                 if test1[d].next.find('+') != -1:
+#                                     tempDic['MinLvlRank'] = removeN(test1[d].next, '+', '')
+#                                     tempDic['MaxLvl'] = 300
+#                                 else:
+#                                     tempDic['MinLvlRank'] = test1[d].next.split('-')[0]
+#                                     tempDic['MaxLvl'] = test1[d].next.split('-')[1]
+#                                 if counterT ==  1:
+#                                     tempDic['ValueI'] =  removeN(test1[d + 2].next, deli, '')
+#                                 else:
+#                                     tempDic['ValueI'] =  removeN(test1[d + 1].next, deli, '')
+                                    
+                                
+#                                 PotDF = PotDF.append(tempDic, ignore_index=True)
+#                         else:
+#                             reachE = False
+                                                        
+#                             PotDF = PotDF.append(PotDic, ignore_index=True)
+            
+        
+                              
+             
+            
+#     PotDF = PotDF.fillna(0)
+#     PotDF.drop_duplicates(keep='first', inplace=True)
+#     end = time.time()
+    
+#     print(f"Total time taken is {end - start}")
+    
+#     return PotDF
 
