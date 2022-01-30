@@ -71,6 +71,7 @@ def StartScraping():
         
     ArmorDF = ArmorDF.append(tArmor, ignore_index=True)
     ArmorDF = ArmorDF[ArmorCol]
+    ArmorDF = cleanArmorDF(ArmorDF)
     ArmorDF = ArmorDF.fillna(0)
     ##MANUALLY ADDING TYRANY
 
@@ -542,7 +543,7 @@ def tryantPage(link, session):
 
 
 def cleanWeapDF(WeapDF):
-
+    
     WeapDF.drop_duplicates(keep='first', inplace=True)
     WeapDF = WeapDF[WeapCol]
     WeapDF = WeapDF.fillna(0)
@@ -565,6 +566,12 @@ def cleanWeapDF(WeapDF):
     
 
     return WeapDF
+
+def cleanArmorDF(DF):
+    
+    
+    
+    return
 
 def cleanSetEffectDF(SEDF):
 

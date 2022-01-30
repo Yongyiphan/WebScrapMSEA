@@ -17,6 +17,8 @@ def StartScraping():
     start = time.time()
     CharacterDF, UnionDF, MWeaponDF, SWeaponDF = navigateClasses()
     
+    CharacterDF = cleanCharDF(CharacterDF)
+    
     UnionDF = cleanUDF(UnionDF)
 
     CharacterDF.to_csv('DefaultData\\CharacterData\\CharacterData.csv')
@@ -227,4 +229,13 @@ def cleanUDF(DF):
     
     return DF
 
+def cleanCharDF(DF):
+    
+    tempCT = pandas.Series(DF['ClassType']).str.replace("Archer", "Bowman")
+    DF['ClassType'] = tempCT
+    
+    return DF
+
+if __name__ == '__main__':
+    StartScraping()
 

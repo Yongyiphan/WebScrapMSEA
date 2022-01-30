@@ -12,7 +12,7 @@ defaultUrl = 'https://strategywiki.org'
 STSFurl = '/wiki/MapleStory/Spell_Trace_and_Star_Force#Star_Force_Enhancement'
 formulaUrl ='/MapleStory/Formulas'
 potentialUrl = '/MapleStory/Potential_System'
-PotDFCol =	['EquipGrp','Grade','GradeT','StatT','Stat','MinLvl','MaxLvl','StatValue','Duration', 'Chance']
+PotDFCol =	['EquipGrp','Grade','GradeT','DisplayStat','StatT','Chance','Duration','MinLvl','MaxLvl','StatValue']
 def StartScraping():
 
     start = time.time()
@@ -180,11 +180,16 @@ def retrievePotential():
             subtable = [value for value in subtable if value != '\n']
             for statt in range(0, len(subtable)):
                 if subtable[statt].name == 'h5':
-                    stat = removeN(subtable[statt].get_text().split('[')[0], ['Increase'], '')
-                    currentDic['StatT'] = 'Perc' if findString(stat, '%') else "Flat"
+                    stat = subtable[statt].get_text().split('[')[0]
                     stat = stat.encode("ascii", "ignore")
                     stat = stat.decode()
+                    stat = removeN(stat, ['Increase'], '')
+                    currentDic['DisplayStat'] = stat.strip()
+                    currentDic['StatT'] = 'Perc' if findString(stat, '%') else "Flat"
+                    
                     checkInt = True
+                    
+                    
                     
                     if stat.split(' ')[0].find('%') != -1:
                         chance = stat.split(' ')[0]
@@ -195,10 +200,12 @@ def retrievePotential():
                             checkInt = False
 
                         if checkInt == True:
-                            currentDic['Chance'] = chance
+                            chance = int(removeN(chance, '%', ''))
+                            currentDic['Chance'] = chance/100
                     else:
-                        currentDic['Chance'] = '100%'
-                    currentDic['Stat'] = stat
+                        currentDic['Chance'] = 1
+                    
+                    
                     currentDic['Duration'] = 0
                 if subtable[statt].name == 'table':
                     if subtable[statt-1].name == 'dl':
@@ -210,8 +217,6 @@ def retrievePotential():
                         tempDic = {}
                         tempDic.update(currentDic)
                         currentT = removeN(tds[t].get_text(), '\n', '')
-                        if findString(tempDic['Stat'], 'dealt'):
-                            tempDic['Stat'] = removeN(tempDic['Stat'], 'dealt', '')
 
                         if findString(currentT, 'GMS'):
                             continue
@@ -229,7 +234,28 @@ def retrievePotential():
                             tempDic['StatValue'] = removeN(tds[t + 2].next, deli, '')
                         else:
                             tempDic['StatValue'] = removeN(tds[t + 1].next, deli, '')
+
+                        if findString(tempDic['StatValue'], 'seconds'):
+                            temp = removeN(tempDic['StatValue'], ['(', ')'], '').split(' ')
+                            hi = temp.index('seconds')
+                            tempDic['Duration'] = temp[hi-1]
                             
+                        if findString(tempDic['StatValue'], 'Level'):
+                            temp = removeN(tempDic['StatValue'], ')', '')
+                            temp = temp.split('(')
+                            tempDic['StatValue'] = temp[-1].capitalize()
+                        
+                        if findString(tempDic['DisplayStat'], 'poison'):
+                            temp = removeN(tempDic['StatValue'], ['(', ')'], '').split(' ')
+                            fdmg = temp.index('damage')
+                            ffor = temp.index('for')
+                            tempDic['StatValue'] = temp[fdmg-1]
+                            tempDic['Duration'] = temp[ffor+1]
+                        
+                        
+                        sStat =  tempDic['StatValue']
+                        if findString(sStat,''):
+                            pass
                         PotDF = PotDF.append(pandas.DataFrame(tempDic, index=[0]), ignore_index=True)
                 if subtable[statt].name == 'p' and findString(subtable[statt].get_text().lower(), 'level requirement'):
                     te = subtable[statt].get_text().split(':')[-1]
@@ -238,30 +264,34 @@ def retrievePotential():
                     te = removeN(te, '\n', '')
                     currentDic['MinLvl'] = te
                     currentDic['MaxLvl'] = 300
-                    stat = currentDic['Stat']
+                    stat = currentDic['DisplayStat']
                     if findString(stat, 'being attacked'):
                         stat = stat.split('seconds')[0]
                         tempL = stat.split(' ')
                         stat = tempL[:-2]
                         stat = " ".join(stat[:-1])
                         currentDic['Duration'] = tempL[-2]
-                        currentDic['Stat'] = stat
                     elif findString(stat, 'Cooldown'):
                         currentDic['StatValue'] =  removeN(stat.split(' ')[-2], ['\n', '-'], '')
+                        currentDic['Duration'] = removeN(stat.split(' ')[-2], ['\n', '-'], '')
                     elif findString(stat, "Invincibility Time"):
                         currentDic['StatValue'] =  removeN(stat.split(' ')[-2], ['\n', '+'], '')
+                        currentDic['Duration'] = removeN(stat.split(' ')[-2], ['\n', '+'], '')
                     elif findString(stat, "Monster's DEF"):
                         tempL = stat.split(' ')[1]
-                        stat = "Ignore Monster's DEF " + tempL
-                        currentDic['StatValue'] = tempL
-                        currentDic['Stat'] = stat
+                        stat = "Ignore Monster's DEF"
+                        currentDic['StatValue'] = removeN(tempL, '+', '')
+                        currentDic['DisplayStat'] = stat
                     elif findString(stat, 'Boss Monsters'):
-                        currentDic['StatValue'] = stat.split(' ')[-1]
+                        tempL = stat.split(' ')
+                        currentDic['DisplayStat'] = " ".join(tempL[:-1])
+                        currentDic['StatValue'] = removeN(tempL[-1], '+', '')
                     elif findString(stat, 'chance to ignore'):
-                        chance = stat.split('chance')[0]
                         if "%" in stat.split('ignore')[1]:
-                            currentDic['StatValue'] = stat.split('ignore')[1].split(' ')[1]
-                        currentDic['Stat'] = chance + 'chance to ignore monster damage'
+                            currentDic['StatValue'] = stat.split('ignore')[1].split(' ')[1]   
+                    elif findString(stat, 'Critical Rate'):
+                        currentDic['StatValue'] = stat.split('+')[-1]  
+                        currentDic['DisplayStat'] = stat.split('+')[0]                   
                     else:
                         currentDic['Duration'] = 0
                         currentDic['StatValue'] = 0
@@ -270,7 +300,11 @@ def retrievePotential():
                         
     PotDF = PotDF.fillna(0)
     PotDF.drop_duplicates(keep='first', inplace=True)
+    PotDF.drop(PotDF[PotDF['DisplayStat'].str.contains('Reflect damage at a chance')].index, inplace=True)
+    temp = pandas.Series(PotDF['DisplayStat']).str.replace("become", "be")
+    PotDF['DisplayStat'] = temp
     end = time.time()
+    # PotDF.to_csv('TestCSV.csv')
     print(f"Time taken is {end-start}")
     
     return PotDF
@@ -340,7 +374,7 @@ def returnLevelRank(level):
         return 1
 
 if __name__ == "__main__":
-    # scrapPotential()
+    # retrievePotential()
     StartScraping()
 
 # def retrievePotential():
