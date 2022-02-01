@@ -17,6 +17,7 @@ secUrl = "/wiki/Category:Secondary_Weapons"
 equipSetUrl = "/wiki/Category:Equipment_Sets"
 genesisWeapUrl = "/wiki/Sealed_Genesis_Weapon_Box"
 superiorEquipUrl = "/wiki/Category:Superior_Equipment"
+androiHeartUrl = "https://maplestory.fandom.com/wiki/Android_Heart"
 MainStat = ['STR','DEX','INT','LUK']
 EquipSetTrack = [
     'Sengoku', 'Boss Accessory', 'Pitched Boss', 'Seven Days', "Ifia's Treasure",'Mystic','Ardentmill','Blazing Sun'
@@ -71,7 +72,6 @@ def StartScraping():
         
     ArmorDF = ArmorDF.append(tArmor, ignore_index=True)
     ArmorDF = ArmorDF[ArmorCol]
-    ArmorDF = cleanArmorDF(ArmorDF)
     ArmorDF = ArmorDF.fillna(0)
     ##MANUALLY ADDING TYRANY
 
@@ -313,6 +313,7 @@ def retrieveSecWeap(session):
 
     return df
 
+
 def retreiveSecPage(suburl, session):
 
     
@@ -541,6 +542,25 @@ def tryantPage(link, session):
 
     return pandas.DataFrame(EquipData)
 
+def retrieveHeart(session):
+    
+    EDF = pandas.DataFrame()
+    PageContent =  session.get(androiHeartUrl)
+
+    mTable = BeautifulSoup(PageContent.content, 'lxml').find_all('table', class_='wikitable')[0].contents[1]
+    tds = mTable.find_all('td')
+    
+    for r in range(0, len(tds), 3):
+        tempDict = {}
+        eName = removeN(tds[r].get_text(), '\n', '')
+        eLvl = removeN(tds[r + 1].get_text(), '\n', '')
+        eStatList = tds[r + 2].get_text(separator = '\n').split('\n');
+        if eName == "Black Heart":
+            continue
+        tempDict[""]
+
+    
+    return
 
 def cleanWeapDF(WeapDF):
     
@@ -567,11 +587,11 @@ def cleanWeapDF(WeapDF):
 
     return WeapDF
 
-def cleanArmorDF(DF):
+def cleanAccDF(DF):
     
+    DF.loc[(DF.EquipSlot == "Android Heart"), "EquipSlot"] = "Heart";
     
-    
-    return
+    return DF
 
 def cleanSetEffectDF(SEDF):
 
@@ -596,4 +616,5 @@ def cleanSecWeap(SecDF):
 
 if __name__ == "__main__":
     # StartScraping()
-    retrieveSecWeap(requests.session())
+    # retrieveSecWeap(requests.session())
+    retrieveHeart(requests.session())
