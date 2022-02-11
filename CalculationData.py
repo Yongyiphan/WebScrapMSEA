@@ -1,4 +1,4 @@
-import bs4
+import chunk
 import pandas
 import requests
 import time
@@ -22,7 +22,10 @@ def StartScraping():
     StarforceDF = StarforceDF.fillna(0)
     AddDF = AddDF.fillna(0)
     
-    PotDF = retrievePotential()
+    session1 = session()
+    PotDF = retrievePotential(session1)
+    BPotDF = retrieveBonusPotential(session1)
+    
     PotDF = PotDF[PotDFCol]
     StarforceDF = StarforceDF.astype(int)
     AddDF = AddDF.astype(int)
@@ -132,10 +135,9 @@ def retrieveWeapMod():
     return WeapMDF
 
 
-def retrievePotential():
+def retrievePotential(request_session):
     start = time.time()
     
-    request_session = session()
     Page = request_session.get(defaultUrl + potentialUrl)
     PageContent = bsoup(Page.content, 'lxml')
     
@@ -309,6 +311,47 @@ def retrievePotential():
     
     return PotDF
 
+def retrieveBonusPotential(request_session):
+    
+    Page = request_session.get(defaultUrl + potentialUrl)
+    PageContent = bsoup(Page.content, 'lxml')
+    
+    startR = PageContent.select('#Bonus_Potential_Stat_List')[0].parent
+    AllContent = PageContent.find_all('div', class_='mw-parser-output')[0]
+    
+    RContent = []
+    startRecording = False
+    for i in AllContent:
+        if i == startR:
+            startRecording = True
+        if startRecording == True:
+            RContent.append(i)
+    
+    currentDic = {}
+    for chunks in RContent:
+        if chunks == '\n':
+            continue
+        if chunks.name == 'h3':
+            currentDic = {}
+            EGrp = chunks.get_text().split('[')[0]
+            EGrp = removeN(EGrp, ['and', ','], ';')
+            currentDic["EquipGrp"] = EGrp
+        if chunks.name == 'h4':
+            t = chunks.get_text().split(')')[0];
+            PGrade = t.split('(')[0]
+            PGradeT = t.split('(')[1]
+            currentDic["Grade"] = PGrade
+            currentDic["GradeT"] = PGradeT
+        if chunks.name == 'div':
+            tables = chunks.contents[-1]
+            for statt in tables:
+                if statt.name == "h5":
+                    stat = statt.get_text().split("[")[0]
+            
+    
+    return
+
+
 def cleanPotDF(DF):
 
     
@@ -375,7 +418,8 @@ def returnLevelRank(level):
 
 if __name__ == "__main__":
     # retrievePotential()
-    StartScraping()
+    retrieveBonusPotential(session())
+    # StartScraping()
 
 # def retrievePotential():
     
