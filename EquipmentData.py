@@ -1,3 +1,5 @@
+from tempfile import tempdir
+from urllib import request
 import pandas
 import requests
 import lxml
@@ -17,7 +19,7 @@ secUrl = "/wiki/Category:Secondary_Weapons"
 equipSetUrl = "/wiki/Category:Equipment_Sets"
 genesisWeapUrl = "/wiki/Sealed_Genesis_Weapon_Box"
 superiorEquipUrl = "/wiki/Category:Superior_Equipment"
-androiHeartUrl = "https://maplestory.fandom.com/wiki/Android_Heart"
+androiHeartUrl = "/wiki/Android_Heart"
 MainStat = ['STR','DEX','INT','LUK']
 EquipSetTrack = [
     'Sengoku', 'Boss Accessory', 'Pitched Boss', 'Seven Days', "Ifia's Treasure",'Mystic','Ardentmill','Blazing Sun'
@@ -53,23 +55,20 @@ def StartScraping():
     AccessoriesDF = pandas.DataFrame()
     SetEffectDF = pandas.DataFrame()
 
+    ArmorSession = requests.session()
+    WeaponSession = requests.session()
+    SecSession = requests.session()
     ##PROCESS
     ###EQUIPMENT_SETS ==> GATHER TRACKSET LINKS ###
     ##ITERATE TRACKSET LINKS
     ## CREATE 2 DATAFRAME
     ## 1: EQUIPMENT SET EFFECTS
     ## 2: EQUIPMENT ARMOR/ACCESSORIES
-    SetEffectDF, ArmorDF, AccessoriesDF = retrieveEquipmentSet(requests.session())
+    SetEffectDF, ArmorDF, AccessoriesDF = retrieveEquipmentSet(ArmorSession)
     
     ##RETRIEVE TYRANT
-    tAcc, tArmor = retrieveTyrant(requests.session())
+    tAcc, tArmor = retrieveTyrant(ArmorSession)
 
-
-    SetEffectDF = cleanSetEffectDF(SetEffectDF)
-    
-    WeaponDF = retrieveWeapDF(requests.session())
-    WeaponDF = cleanWeapDF(WeaponDF)
-        
     ArmorDF = ArmorDF.append(tArmor, ignore_index=True)
     ArmorDF = ArmorDF[ArmorCol]
     ArmorDF = ArmorDF.fillna(0)
@@ -78,21 +77,27 @@ def StartScraping():
 
 
     AccessoriesDF = AccessoriesDF.append(tAcc, ignore_index=True)
-    EmblemData = {}
-    EmblemData['EquipName'] = "Emblem"
-    EmblemData['EquipSet'] = "Emblem"
-    EmblemData['ClassType'] = 'Any'
-    EmblemData['EquipSlot'] = 'Emblem'
-    EmblemData['EquipLevel'] = 100
-    EmblemData['AllStat'] = 10
-    EmblemData['ATK'] = 2
-    EmblemData['MATK'] = 2
+    EmblemData = {
+        "EquipName" : "Emblem",
+        'EquipSet': "Emblem",
+        'ClassType':'Any',
+        'EquipSlot': 'Emblem',
+        'EquipLevel':100,
+        'AllStat': 10,
+        'ATK': 2,
+        'MATK': 2
+    }
     EmblemDF = pandas.DataFrame(EmblemData, index=[0])
     AccessoriesDF = AccessoriesDF.append(EmblemDF, ignore_index=True)
+    AccessoriesDF = AccessoriesDF.append(retrieveHeart(ArmorSession), ignore_index=True)
     AccessoriesDF = AccessoriesDF[AccCol]
     AccessoriesDF = AccessoriesDF.fillna(0)
     
-    SecWeapDF = retrieveSecWeap(requests.session())
+    SetEffectDF = cleanSetEffectDF(SetEffectDF)
+    
+    WeaponDF = retrieveWeapDF(WeaponSession)
+    WeaponDF = cleanWeapDF(WeaponDF)
+    SecWeapDF = retrieveSecWeap(SecSession)
     SecWeapDF = cleanSecWeap(SecWeapDF)
     SecWeapDF = SecWeapDF.fillna(0)
     
@@ -195,8 +200,10 @@ def retrieveEquips(wikitable, equipSet):
         if equipType == 'Accessories':
             TequipName = removeN(equipName, ['\n', ":"], '')
             TequipName = TequipName.split(' ')
-            if EquipData['EquipSlot'] in TequipName:
-                TequipName.remove(EquipData['EquipSlot'])
+            for subi in TequipName:
+                if EquipData['EquipSlot'] == subi or EquipData['EquipSlot'].find(subi) != -1 or subi.find(EquipData['EquipSlot']) != -1:
+                    TequipName.remove(subi)
+
             for mc in Mclasses:
                 if mc in TequipName:
                     TequipName.remove(mc)
@@ -545,23 +552,43 @@ def tryantPage(link, session):
 def retrieveHeart(session):
     
     EDF = pandas.DataFrame()
-    PageContent =  session.get(androiHeartUrl)
+    PageContent =  session.get(defaulturl + androiHeartUrl)
 
     mTable = BeautifulSoup(PageContent.content, 'lxml').find_all('table', class_='wikitable')[0].contents[1]
     tds = mTable.find_all('td')
-    
+    # AccCol = ['EquipName','EquipSet','ClassType','EquipSlot','EquipLevel','MainStat','SecStat','AllStat','HP','MP','DEF','ATK','MATK','SPD','JUMP','IED']
+
     for r in range(0, len(tds), 3):
-        tempDict = {}
-        eName = removeN(tds[r].get_text(), '\n', '')
-        eLvl = removeN(tds[r + 1].get_text(), '\n', '')
-        eStatList = tds[r + 2].get_text(separator = '\n').split('\n');
-        if eName == "Black Heart":
+        
+        eName = removeN(tds[r].get_text(), ['Heart','\n'], '')
+        eName = removeN(eName, ['-'], ' ').rstrip(' ')
+        if eName == "Black":
             continue
-        tempDict[""]
-
+        if eName.find("Fairy") != -1:
+            eName = "Fairy"
+        eLvl = removeN(tds[r + 1].get_text(), '\n', '').split(" ")[-1]
+        eStatList = tds[r + 2].get_text(separator = '\n').split('\n')
+        eStatList = [value for value in eStatList if value != '']
+        tempDict = {
+            "EquipName": eName,
+            "EquipLevel": eLvl,
+            "EquipSet": "None",
+            "ClassType": "Any",
+            "EquipSlot" : "Heart"
+        }
+        
+        tempDict.update(assignToDict(eStatList))
+        EDF = EDF.append(tempDict, ignore_index=True)
     
-    return
+    EDF.loc[(EDF.EquipName == 'Wondroid'), "EquipName"] = "Beautyroid"
+    EDF.loc[(EDF.EquipName == 'Glimmering Wondroid'), "EquipName"] = "Sincere Beautyroid"
 
+    print(EDF)
+    return EDF
+
+
+
+##CLEANING
 def cleanWeapDF(WeapDF):
     
     WeapDF.drop_duplicates(keep='first', inplace=True)
@@ -589,7 +616,7 @@ def cleanWeapDF(WeapDF):
 
 def cleanAccDF(DF):
     
-    DF.loc[(DF.EquipSlot == "Android Heart"), "EquipSlot"] = "Heart";
+    DF.loc[(DF.EquipSlot == "Android Heart"), "EquipSlot"] = "Heart"
     
     return DF
 
@@ -615,6 +642,5 @@ def cleanSecWeap(SecDF):
     return SecDF
 
 if __name__ == "__main__":
-    # StartScraping()
-    # retrieveSecWeap(requests.session())
-    retrieveHeart(requests.session())
+    StartScraping()
+    

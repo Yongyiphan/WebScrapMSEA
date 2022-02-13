@@ -52,7 +52,10 @@ def assignToDict(tempList):
             if HPstr.find("%") != -1:
                 tempData['HP'] = HPstr
             else:
-                tempData['HP'] = HPstr[1:]
+                if HPstr.find("+") != -1:
+                    tempData['HP'] = HPstr[1:]
+                else:
+                    tempData["HP"] = HPstr
         elif i.find("MP") != -1:
             MPstr = i.split(" ")[-1][1:]
             MPstr = removeN(MPstr, ',', '')

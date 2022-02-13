@@ -59,11 +59,11 @@
 57,Hat,Rare,Non prime,DEF,Flat,1.0,0,91,100,50
 58,Hat,Rare,Non prime,DEF,Flat,1.0,0,101,110,55
 59,Hat,Rare,Non prime,DEF,Flat,1.0,0,111,300,60
-60,Hat,Rare,Non prime,10% chance to show rage for 10 seconds when being attacked,Perc,0.1,10, 0 ,300,0
-61,Hat,Rare,Non prime,10% chance to show happy for 10 seconds when being attacked,Perc,0.1,10, 0 ,300,0
-62,Hat,Rare,Non prime,10% chance to fall in love for 10 seconds when being attacked,Perc,0.1,10, 0 ,300,0
-63,Hat,Rare,Non prime,10% chance to feel deeply moved for 10 seconds when being attacked,Perc,0.1,10, 0 ,300,0
-64,Hat,Rare,Non prime,10% chance to show angry for 10 seconds when being attacked,Perc,0.1,10, 0 ,300,0
+60,Hat,Rare,Non prime,10% chance to show rage for 10 seconds when being attacked,Perc,0.1,10, 0 ,300,
+61,Hat,Rare,Non prime,10% chance to show happy for 10 seconds when being attacked,Perc,0.1,10, 0 ,300,
+62,Hat,Rare,Non prime,10% chance to fall in love for 10 seconds when being attacked,Perc,0.1,10, 0 ,300,
+63,Hat,Rare,Non prime,10% chance to feel deeply moved for 10 seconds when being attacked,Perc,0.1,10, 0 ,300,
+64,Hat,Rare,Non prime,10% chance to show angry for 10 seconds when being attacked,Perc,0.1,10, 0 ,300,
 65,Hat,Rare,Prime,STR,Flat,1.0,0,0,20,2
 66,Hat,Rare,Prime,STR,Flat,1.0,0,21,40,4
 67,Hat,Rare,Prime,STR,Flat,1.0,0,41,50,6
@@ -509,6 +509,16 @@
 507,Top ; Overall,Unique,Prime,2% chance to be invincible when attacked,Perc,0.02,5,0,40,5 seconds
 508,Top ; Overall,Unique,Prime,2% chance to be invincible when attacked,Perc,0.02,6,41,80,6 seconds
 509,Top ; Overall,Unique,Prime,2% chance to be invincible when attacked,Perc,0.02,7,81,300,7 seconds
+510,Top ; Overall,Unique,Prime,Reflect damage at a chance,Flat,1.0,0,0,30,20%
+511,Top ; Overall,Unique,Prime,Reflect damage at a chance,Flat,1.0,0,31,50,35%
+512,Top ; Overall,Unique,Prime,Reflect damage at a chance,Flat,1.0,0,51,70,35%
+513,Top ; Overall,Unique,Prime,Reflect damage at a chance,Flat,1.0,0,70,100,50%
+514,Top ; Overall,Unique,Prime,Reflect damage at a chance,Flat,1.0,0,101,300,50%
+515,Top ; Overall,Unique,Prime,Reflect damage at a chance,Flat,1.0,0,0,30,30%
+516,Top ; Overall,Unique,Prime,Reflect damage at a chance,Flat,1.0,0,31,50,50%
+517,Top ; Overall,Unique,Prime,Reflect damage at a chance,Flat,1.0,0,51,70,50%
+518,Top ; Overall,Unique,Prime,Reflect damage at a chance,Flat,1.0,0,70,100,70%
+519,Top ; Overall,Unique,Prime,Reflect damage at a chance,Flat,1.0,0,101,300,70%
 520,Top ; Overall,Unique,Prime,Skills and Potion HP Recovery%,Perc,1.0,0,0,30,10%
 521,Top ; Overall,Unique,Prime,Skills and Potion HP Recovery%,Perc,1.0,0,31,70,20%
 522,Top ; Overall,Unique,Prime,Skills and Potion HP Recovery%,Perc,1.0,0,71,300,30%
@@ -807,6 +817,16 @@
 815,Bottom,Legendary,Prime,All Stats%,Perc,1.0,0,71,300,9%
 816,Bottom,Legendary,Prime,10% chance to ignore 20% of monster damage dealt,Perc,0.1,0, 20 ,300,20%
 817,Bottom,Legendary,Prime,10% chance to ignore 40% of monster damage dealt,Perc,0.1,0, 40 ,300,40%
+818,Bottom,Legendary,Prime,Reflect damage at a chance,Flat,1.0,0,0,30,20%
+819,Bottom,Legendary,Prime,Reflect damage at a chance,Flat,1.0,0,31,50,35%
+820,Bottom,Legendary,Prime,Reflect damage at a chance,Flat,1.0,0,51,70,35%
+821,Bottom,Legendary,Prime,Reflect damage at a chance,Flat,1.0,0,70,100,50%
+822,Bottom,Legendary,Prime,Reflect damage at a chance,Flat,1.0,0,101,300,50%
+823,Bottom,Legendary,Prime,Reflect damage at a chance,Flat,1.0,0,0,30,30%
+824,Bottom,Legendary,Prime,Reflect damage at a chance,Flat,1.0,0,31,50,50%
+825,Bottom,Legendary,Prime,Reflect damage at a chance,Flat,1.0,0,51,70,50%
+826,Bottom,Legendary,Prime,Reflect damage at a chance,Flat,1.0,0,70,100,70%
+827,Bottom,Legendary,Prime,Reflect damage at a chance,Flat,1.0,0,101,300,70%
 828,Bottom,Legendary,Prime,Skills and Potion HP Recovery%,Perc,1.0,0,0,30,20%
 829,Bottom,Legendary,Prime,Skills and Potion HP Recovery%,Perc,1.0,0,31,70,30%
 830,Bottom,Legendary,Prime,Skills and Potion HP Recovery%,Perc,1.0,0,71,300,40%

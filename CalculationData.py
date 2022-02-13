@@ -26,13 +26,21 @@ def StartScraping():
     PotDF = retrievePotential(session1)
     BPotDF = retrieveBonusPotential(session1)
     
+    WeapDF = retrieveWeapMod()
+
+
     PotDF = PotDF[PotDFCol]
+    BPotDF = BPotDF[PotDFCol]
     StarforceDF = StarforceDF.astype(int)
     AddDF = AddDF.astype(int)
+
     StarforceDF.to_csv('DefaultData\\CalculationsData\\StarforceGains.csv')
     AddDF.to_csv('DefaultData\\CalculationsData\\AddStarforceGains.csv')
     PotDF.to_csv('DefaultData\\CalculationsData\\PotentialData.csv')
-    
+    BPotDF.to_csv('DefaultData\\CalculationsData\\BonusPotentialData.csv')
+
+    WeapDF.to_csv('DefaultData\\CalculationsData\\WeapMod.csv')
+
     end = time.time()
     print(f'Total time taken is {end-start}')
 
@@ -131,6 +139,9 @@ def retrieveWeapMod():
     tempD = {'WeaponType':WeaponList, 'Multiplier':WeaponMod}
     WeapMDF = pandas.DataFrame(tempD) 
 
+    end = time.time()
+    print(f"Time taken is {end-start}")
+
 
     return WeapMDF
 
@@ -144,7 +155,6 @@ def retrievePotential(request_session):
     
     startR = PageContent.select('#Potentials_List')[0].parent
     endR = PageContent.select('#Bonus_Potential')[0].parent
-    MainTables = PageContent.find_all('div' , class_='mw-collapsible-content')[2:]
     AllContent = PageContent.find_all('div', class_='mw-parser-output')[0]
     
     RContent = []
@@ -160,10 +170,46 @@ def retrievePotential(request_session):
         if startRecording == True:
             RContent.append(i)
             
-    RContent = [value for value in RContent if value != '\n']
+    PotDF = returnPotentialList(RContent)
+
+    end = time.time()
+    print(f"Time taken is {end-start}")
+
+    
+    return PotDF
+
+def retrieveBonusPotential(request_session):
+    
+    start =  time.time()
+    Page = request_session.get(defaultUrl + potentialUrl)
+    PageContent = bsoup(Page.content, 'lxml')
+    
+    startR = PageContent.select('#Bonus_Potential_Stat_List')[0].parent
+    AllContent = PageContent.find_all('div', class_='mw-parser-output')[0]
+    
+    RContent = []
+    startRecording = False
+    for i in AllContent:
+        if i == startR:
+            startRecording = True
+        if startRecording == True:
+            RContent.append(i)
+    
+    PotDF = returnPotentialList(RContent)
+
+    end = time.time()
+    print(f"Time taken is {end-start}")
+
+    return PotDF
+
+    
+
+def returnPotentialList(RContent):
     PotDF = pandas.DataFrame()
     currentDic = {}
     for chunks in RContent:
+        if chunks == '\n':
+            continue 
         if chunks.name == 'h3':
             currentDic = {}
             EGrp = chunks.get_text().split('[')[0]
@@ -190,9 +236,6 @@ def retrievePotential(request_session):
                     currentDic['StatT'] = 'Perc' if findString(stat, '%') else "Flat"
                     
                     checkInt = True
-                    
-                    
-                    
                     if stat.split(' ')[0].find('%') != -1:
                         chance = stat.split(' ')[0]
                         try:
@@ -206,7 +249,6 @@ def retrievePotential(request_session):
                             currentDic['Chance'] = chance/100
                     else:
                         currentDic['Chance'] = 1
-                    
                     
                     currentDic['Duration'] = 0
                 if subtable[statt].name == 'table':
@@ -299,57 +341,14 @@ def retrievePotential(request_session):
                         currentDic['StatValue'] = 0
                     
                     PotDF = PotDF.append(pandas.DataFrame(currentDic, index=[0]), ignore_index=True)
-                        
-    PotDF = PotDF.fillna(0)
+         
+
     PotDF.drop_duplicates(keep='first', inplace=True)
-    PotDF.drop(PotDF[PotDF['DisplayStat'].str.contains('Reflect damage at a chance')].index, inplace=True)
+    # PotDF.drop(PotDF[PotDF['DisplayStat'].str.contains('Reflect damage at a chance')].index, inplace=True)
     temp = pandas.Series(PotDF['DisplayStat']).str.replace("become", "be")
     PotDF['DisplayStat'] = temp
-    end = time.time()
-    # PotDF.to_csv('TestCSV.csv')
-    print(f"Time taken is {end-start}")
-    
-    return PotDF
 
-def retrieveBonusPotential(request_session):
-    
-    Page = request_session.get(defaultUrl + potentialUrl)
-    PageContent = bsoup(Page.content, 'lxml')
-    
-    startR = PageContent.select('#Bonus_Potential_Stat_List')[0].parent
-    AllContent = PageContent.find_all('div', class_='mw-parser-output')[0]
-    
-    RContent = []
-    startRecording = False
-    for i in AllContent:
-        if i == startR:
-            startRecording = True
-        if startRecording == True:
-            RContent.append(i)
-    
-    currentDic = {}
-    for chunks in RContent:
-        if chunks == '\n':
-            continue
-        if chunks.name == 'h3':
-            currentDic = {}
-            EGrp = chunks.get_text().split('[')[0]
-            EGrp = removeN(EGrp, ['and', ','], ';')
-            currentDic["EquipGrp"] = EGrp
-        if chunks.name == 'h4':
-            t = chunks.get_text().split(')')[0];
-            PGrade = t.split('(')[0]
-            PGradeT = t.split('(')[1]
-            currentDic["Grade"] = PGrade
-            currentDic["GradeT"] = PGradeT
-        if chunks.name == 'div':
-            tables = chunks.contents[-1]
-            for statt in tables:
-                if statt.name == "h5":
-                    stat = statt.get_text().split("[")[0]
-            
-    
-    return
+    return PotDF
 
 
 def cleanPotDF(DF):
@@ -417,130 +416,8 @@ def returnLevelRank(level):
         return 1
 
 if __name__ == "__main__":
-    # retrievePotential()
-    retrieveBonusPotential(session())
-    # StartScraping()
+    
+    StartScraping()
 
-# def retrievePotential():
-    
-#     start = time.time()
-    
-#     request_session = session()
-#     Page = request_session.get(defaultUrl + potentialUrl)
-#     PageContent = bsoup(Page.content, 'lxml')
-    
-#     startR = PageContent.select('#Potentials_List')[0].parent
-#     endR = PageContent.select('#Bonus_Potential')[0].parent
-#     MainTables = PageContent.find_all('div' , class_='mw-collapsible-content')[2:]
-#     AllContent = PageContent.find_all('div', class_='mw-parser-output')[0]
-    
-#     RContent = []
-#     reachedEnd = False
-#     startRecording = False
-#     for i in AllContent:
-#         if reachedEnd == True:
-#             break
-#         if i ==  endR:
-#             reachedEnd = True
-#         if  i == startR:
-#             startRecording = True
-#         if startRecording == True:
-#             RContent.append(i)
-            
-#     RContent = [value for value in RContent if value != '\n']
-    
-#     PotDF = pandas.DataFrame()
-#     temp = []
-#     PotDic = {}
-#     tempDic = {}
-#     counter = 0
-#     startG = False
-#     for k in RContent:
-#         if k.name == 'h3':
-#             EGrp = k.get_text().split('[')[0]
-#             if EGrp.find('(') != -1:
-#                 EGrp = EGrp.split('(')[0]
-#             EGrp = removeN(EGrp,['and', ','], ';')
-#             PotDic['EquipGrp'] = EGrp 
-#             startG = True
-#         if startG == True:
-#             if k.name == 'h4':
-#                 temp.append(k)
-#                 t = k.contents[1].next.split(" ")
-#                 grade = t[0]
-#                 gradeT = removeFLSpace(removeN(t[1], ['(', ')', '-'], ' '))
-#                 PotDic['Grade'] = grade      
-#                 PotDic['GradeT'] = gradeT
-#             if k.name == 'div':
-#                 tables =[value for value in k.contents[1] if value != '\n']
-#                 for j in range(0, len(tables)):
-#                     if tables[j].name == 'h5':
-#                         stat = tables[j].get_text().split('[')[0]
-#                         PotDic['StatT'] = 'Perc' if stat.find('%') != -1 else 'Flat'
-#                         stat = stat.encode("ascii", "ignore")
-#                         stat = stat.decode()
-#                         stat = removeFLSpace(removeN(stat,'Increase', ''))
-#                         PotDic['Stat'] = stat
-#                         if tables[j + 1].name == 'table':
-#                             test1 = tables[j + 1].find_all('td')
-#                             counterT = len(test1) % 2
-#                             for d in range(0, len(test1), counterT+2):
-#                                 deli = ['\n', '+']
-#                                 tempDic = {}
-#                                 tempDic.update(PotDic)
-#                                 if test1[d].next.find('GMS') != -1:
-#                                     continue
-#                                 if test1[d].next.find('+') != -1:
-#                                     tempDic['MinLvlRank'] = removeN(test1[d].next, '+', '')
-#                                     tempDic['MaxLvl'] = 300
-#                                 else:
-#                                     tempDic['MinLvlRank'] = test1[d].next.split('-')[0]
-#                                     tempDic['MaxLvl'] = test1[d].next.split('-')[1]
-#                                 if counterT ==  1:
-                                    
-#                                     tempDic['ValueI'] =  removeN(test1[d + 2].next, deli, '')
-#                                 else:
-#                                     tempDic['ValueI'] =  removeN(test1[d + 1].next, deli, '')
-                                    
-                                
-#                                 PotDF = PotDF.append(tempDic, ignore_index=True)
-                                
-#                         elif tables[j+2].name == 'table':
-#                             test1 = tables[j + 2].find_all('td')
-#                             counterT = len(test1) % 2
-#                             for d in range(0, len(test1), counterT+2):
-#                                 deli = ['\n', '+']
-#                                 tempDic = {}
-#                                 tempDic.update(PotDic)
-#                                 if test1[d].next.find('GMS') != -1:
-#                                     continue
-#                                 if test1[d].next.find('+') != -1:
-#                                     tempDic['MinLvlRank'] = removeN(test1[d].next, '+', '')
-#                                     tempDic['MaxLvl'] = 300
-#                                 else:
-#                                     tempDic['MinLvlRank'] = test1[d].next.split('-')[0]
-#                                     tempDic['MaxLvl'] = test1[d].next.split('-')[1]
-#                                 if counterT ==  1:
-#                                     tempDic['ValueI'] =  removeN(test1[d + 2].next, deli, '')
-#                                 else:
-#                                     tempDic['ValueI'] =  removeN(test1[d + 1].next, deli, '')
-                                    
-                                
-#                                 PotDF = PotDF.append(tempDic, ignore_index=True)
-#                         else:
-#                             reachE = False
-                                                        
-#                             PotDF = PotDF.append(PotDic, ignore_index=True)
-            
-        
-                              
-             
-            
-#     PotDF = PotDF.fillna(0)
-#     PotDF.drop_duplicates(keep='first', inplace=True)
-#     end = time.time()
-    
-#     print(f"Total time taken is {end - start}")
-    
-#     return PotDF
+
 
