@@ -22,6 +22,8 @@ def removeN(item, para, deli):
                 item = item.replace(i, deli)
         return item
 
+def removeNSpace(nlist, deli):
+    return [value for value in nlist if value != deli]
 
 def assignToDict(tempList):
     
@@ -30,6 +32,9 @@ def assignToDict(tempList):
         return tempData
     
     for i in tempList:
+        if i.find('\n') != -1:
+            i = removeN(i, '\n', '')
+        
         if i.find("Attack Speed") != -1:
             tempData["AtkSpd"] = i.split(" ")[-1][1:-1]
         
@@ -92,8 +97,12 @@ def assignToDict(tempList):
 
         elif i.find("Critical Damage") != -1:
             tempData['CDMG'] = i.split(" ")[-1][1:-1]  
-
-    
+        elif i.find('Visible Stats') != -1:
+            tempData["VStat"] = i.split(' ')[-1].lstrip('+')
+        elif i.find('Visible ATT') != -1:
+            tempData["VAtk"] = i.split(' ')[-1].lstrip('+')
+        elif i.find('Visible DEF') != -1:
+            tempData["VDef"] = i.split(' ')[-1].rstrip('%').lstrip('+')
     
     return tempData
 

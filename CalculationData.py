@@ -1,4 +1,5 @@
 import chunk
+from tempfile import tempdir
 import pandas
 import requests
 import time
@@ -13,12 +14,15 @@ STSFurl = '/wiki/MapleStory/Spell_Trace_and_Star_Force#Star_Force_Enhancement'
 formulaUrl ='/MapleStory/Formulas'
 potentialUrl = '/MapleStory/Potential_System'
 PotDFCol =	['EquipGrp','Grade','GradeT','DisplayStat','StatT','Chance','Duration','MinLvl','MaxLvl','StatValue']
+TyrantSFCol = ["SFLevel", "LevelRank", "VStat", "VAtk",	"VDef"]
+
 def StartScraping():
 
     start = time.time()
 
-    StarforceDF, AddDF = retrieveStarforce()
-
+    session0 = session()
+    StarforceDF, AddDF = retrieveStarforce(session0)
+    TyrantSFDF = retrieveTyrantSF(session0)
     StarforceDF = StarforceDF.fillna(0)
     AddDF = AddDF.fillna(0)
     
@@ -33,9 +37,12 @@ def StartScraping():
     BPotDF = BPotDF[PotDFCol]
     StarforceDF = StarforceDF.astype(int)
     AddDF = AddDF.astype(int)
+    TyrantSFDF = TyrantSFDF[TyrantSFCol]
+    TyrantSFDF = TyrantSFDF.astype(int)
 
     StarforceDF.to_csv('DefaultData\\CalculationsData\\StarforceGains.csv')
     AddDF.to_csv('DefaultData\\CalculationsData\\AddStarforceGains.csv')
+    TyrantSFDF.to_csv('DefaultData\\CalculationsData\\SuperiorStarforceGains.csv')
     PotDF.to_csv('DefaultData\\CalculationsData\\PotentialData.csv')
     BPotDF.to_csv('DefaultData\\CalculationsData\\BonusPotentialData.csv')
 
@@ -46,9 +53,8 @@ def StartScraping():
 
     return
 
-def retrieveStarforce():
+def retrieveStarforce(request_session):
     start = time.time()
-    request_session = requests.session()
     Page = request_session.get(defaultUrl + STSFurl)
     MainContent =  bsoup(Page.content, 'lxml')    
     
@@ -86,7 +92,7 @@ def retrieveStarforce():
                         addSF['SFID'] = CSF
 
                         Levelr = [value for value in mR.contents if value != '\n'][0].get_text().split('~')[0]
-                        addSF['LevelRank'] = returnLevelRank(int(Levelr))
+                        addSF['LevelRank'] = returnLevelRank("Normal", int(Levelr))
                         statsL = mR.find_all('ul')[0].get_text().split('\n')
                         addSF.update(ATDSF(statsL))
                         AddDF = AddDF.append(addSF, ignore_index=True)
@@ -106,6 +112,47 @@ def retrieveStarforce():
             print(f'Starforce at {CSF} added in {end-start}')
 
     return currentDF, AddDF
+
+def retrieveTyrantSF(request_session):
+    Page = request_session.get(defaultUrl + STSFurl)
+    MainContent =  bsoup(Page.content, 'lxml')    
+    
+    startR = MainContent.select('#Stats_Boost_2')[0].parent
+    SFCompiledTable = startR.find_next_sibling('table')
+
+    tableR = SFCompiledTable.contents[1].contents[1:]
+    SFDict = pandas.DataFrame()
+    tableR = removeNSpace(tableR, '\n')
+    for sfLvl in tableR:
+        tempDict = pandas.DataFrame()
+        if sfLvl.name == "tr":
+            row = removeNSpace(sfLvl.contents, '\n')
+            lvl = removeN(row[0].next.split(' ')[-1],'★', '')
+            rowT = removeNSpace(row[1], '\n')
+            for c in rowT:
+                tempDict["SFLevel"] = lvl 
+                if c.name == 'table':
+                    tcr = removeNSpace(c, '\n')[0].find_all('td')
+                    LvlRankStore = pandas.DataFrame()
+                    for e in range(0, len(tcr), 2):
+                        temp = {}
+                        if findString(tcr[e].next, '~'):
+                            temp["LevelRank"] = returnLevelRank("Tyrant", tcr[e].next.split('~')[-1])
+                        elif findString(tcr[e].next, "+"):
+                            temp["LevelRank"] = returnLevelRank("Tyrant", tcr[e].next[:-1])
+                        temp.update(assignToDict(tcr[e + 1].contents))
+                        tempDict = tempDict.append(temp, ignore_index=True)
+                elif c.name == 'ul':
+                    vdef = c.get_text().split(' ')[-1].rstrip('%').lstrip('+')
+                    tempDict["VDef"] = vdef
+        SFDict = SFDict.append(tempDict, ignore_index=True)
+    
+    SFDict = SFDict.fillna(0)   
+    
+    return SFDict;
+    
+    
+    
 
 def retrieveWeapMod():
     start = time.time()
@@ -144,7 +191,7 @@ def retrieveWeapMod():
 
 
     return WeapMDF
-
+    
 
 def retrievePotential(request_session):
     start = time.time()
@@ -187,6 +234,7 @@ def retrieveBonusPotential(request_session):
     startR = PageContent.select('#Bonus_Potential_Stat_List')[0].parent
     AllContent = PageContent.find_all('div', class_='mw-parser-output')[0]
     
+    
     RContent = []
     startRecording = False
     for i in AllContent:
@@ -203,7 +251,7 @@ def retrieveBonusPotential(request_session):
     return PotDF
 
     
-
+ 
 def returnPotentialList(RContent):
     PotDF = pandas.DataFrame()
     currentDic = {}
@@ -400,20 +448,40 @@ def findString(s, toFind):
     else:
         return False
 
-def returnLevelRank(level):
+def returnLevelRank(mode, level):
 
     level = int(level)
-
-    if level >= 128 and level <= 137:
-        return 5
-    elif level >= 138 and level <= 149:
-        return 4
-    elif level >= 150 and level <= 159:
-        return 3
-    elif level >= 160 and level <= 199:
-        return 2
-    elif level >= 200:
-        return 1
+    if mode != "Tyrant" :
+        if level >= 128 and level <= 137:
+            return 5
+        elif level >= 138 and level <= 149:
+            return 4
+        elif level >= 150 and level <= 159:
+            return 3
+        elif level >= 160 and level <= 199:
+            return 2
+        elif level >= 200:
+            return 1
+    else:
+        if level >= 0 and level <= 77:
+            return 9
+        elif level >= 78 and level <= 87:
+            return 8
+        elif level >= 88 and level <= 97:	
+            return 7
+        elif level >= 98 and level <= 107:
+            return 6
+        elif level >= 108 and level <= 117:	
+            return 5
+        elif level >= 118 and level <= 127:	
+            return 4
+        elif level >= 128 and level <= 137:
+            return 3
+        elif level >= 138 and level <= 149:
+            return 2
+        elif level >= 150:
+            return 1
+    
 
 if __name__ == "__main__":
     
