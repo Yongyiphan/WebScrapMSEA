@@ -129,6 +129,8 @@ def retrieveClassPage(subUrl, session):
             stat = td.next
             if any(m in td.get_text() for m in specialMod) == True:
                 stat = 'SPECIAL'
+            if td.get_text() == "-" and CS['ClassName'] == "Demon Avenger":
+                stat = "STR"
             
             CS['SecStat'] = stat
             

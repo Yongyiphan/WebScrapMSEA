@@ -32,7 +32,7 @@
 30,Wild Hunter,Resistance,Bowman,DEX,STR,Damage,PERC
 31,Xenon,Resistance,SPECIAL,SPECIAL,-,Grants flat STR DEX  LUK,FLAT
 32,Demon Slayer,Resistance,Warrior,STR,DEX,Increases Abnormal Status Resistance,FLAT
-33,Demon Avenger,Resistance,Warrior,HP,-,Boss Damage,PERC
+33,Demon Avenger,Resistance,Warrior,HP,STR,Boss Damage,PERC
 34,Angelic Buster,Nova,Pirate,DEX,STR,Grants flat DEX,FLAT
 35,Kaiser,Nova,Warrior,STR,DEX,Grants flat STR,FLAT
 36,Cadena,Nova,Thief,LUK,SPECIAL,Grants flat LUK,FLAT
