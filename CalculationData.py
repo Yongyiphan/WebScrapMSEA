@@ -394,8 +394,12 @@ def returnPotentialList(RContent):
     PotDF.drop_duplicates(keep='first', inplace=True)
     # PotDF.drop(PotDF[PotDF['DisplayStat'].str.contains('Reflect damage at a chance')].index, inplace=True)
     temp = pandas.Series(PotDF['DisplayStat']).str.replace("become", "be")
+
     PotDF['DisplayStat'] = temp
 
+    PotDF['EquipGrp'] = PotDF['EquipGrp'].str.replace("Mechanical Heart", "Heart")
+    PotDF['EquipGrp'] = PotDF['EquipGrp'].str.replace("Secondary Weapon", "Secondary")
+    PotDF['EquipGrp'] = PotDF['EquipGrp'].str.replace("Earring", "Earrings")
     return PotDF
 
 

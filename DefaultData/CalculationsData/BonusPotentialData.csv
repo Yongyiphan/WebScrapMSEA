@@ -1338,898 +1338,898 @@
 1336,Gloves,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,21,50,15%
 1337,Gloves,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,51,90,20%
 1338,Gloves,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,91,300,30%
-1339,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,STR,Flat,1.0,0,0,20,1
-1340,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,STR,Flat,1.0,0,21,40,2
-1341,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,STR,Flat,1.0,0,41,50,3
-1342,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,STR,Flat,1.0,0,51,70,4
-1343,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,STR,Flat,1.0,0,71,90,5
-1344,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,STR,Flat,1.0,0,91,300,6
-1345,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEX,Flat,1.0,0,0,20,1
-1346,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEX,Flat,1.0,0,21,40,2
-1347,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEX,Flat,1.0,0,41,50,3
-1348,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEX,Flat,1.0,0,51,70,4
-1349,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEX,Flat,1.0,0,71,90,5
-1350,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEX,Flat,1.0,0,91,300,6
-1351,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,INT,Flat,1.0,0,0,20,1
-1352,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,INT,Flat,1.0,0,21,40,2
-1353,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,INT,Flat,1.0,0,41,50,3
-1354,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,INT,Flat,1.0,0,51,70,4
-1355,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,INT,Flat,1.0,0,71,90,5
-1356,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,INT,Flat,1.0,0,91,300,6
-1357,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,LUK,Flat,1.0,0,0,20,1
-1358,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,LUK,Flat,1.0,0,21,40,2
-1359,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,LUK,Flat,1.0,0,41,50,3
-1360,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,LUK,Flat,1.0,0,51,70,4
-1361,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,LUK,Flat,1.0,0,71,90,5
-1362,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,LUK,Flat,1.0,0,91,300,6
-1363,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,Weapon ATT,Flat,1.0,0,0,50,1
-1364,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,Weapon ATT,Flat,1.0,0,51,100,2
-1365,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,Weapon ATT,Flat,1.0,0,101,300,3
-1366,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,Magic ATT,Flat,1.0,0,0,50,1
-1367,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,Magic ATT,Flat,1.0,0,51,100,2
-1368,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,Magic ATT,Flat,1.0,0,101,300,3
-1369,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,Speed,Flat,1.0,0,0,30,1
-1370,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,Speed,Flat,1.0,0,31,70,2
-1371,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,Speed,Flat,1.0,0,71,110,3
-1372,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,Speed,Flat,1.0,0,111,300,4
-1373,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,Jump,Flat,1.0,0,0,30,1
-1374,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,Jump,Flat,1.0,0,31,70,2
-1375,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,Jump,Flat,1.0,0,71,110,3
-1376,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,Jump,Flat,1.0,0,111,300,4
-1377,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,0,10,5
-1378,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,11,20,10
-1379,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,21,30,15
-1380,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,31,40,20
-1381,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,41,50,25
-1382,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,51,60,30
-1383,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,61,70,35
-1384,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,71,80,40
-1385,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,81,90,45
-1386,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,91,100,50
-1387,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,101,110,55
-1388,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,111,300,60
-1389,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,0,10,5
-1390,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,11,20,10
-1391,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,21,30,15
-1392,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,31,40,20
-1393,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,41,50,25
-1394,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,51,60,30
-1395,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,61,70,35
-1396,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,71,80,40
-1397,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,81,90,45
-1398,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,91,100,50
-1399,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,101,110,55
-1400,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,111,300,60
-1401,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEF,Flat,1.0,0,0,10,5
-1402,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEF,Flat,1.0,0,11,20,10
-1403,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEF,Flat,1.0,0,21,30,15
-1404,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEF,Flat,1.0,0,31,40,20
-1405,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEF,Flat,1.0,0,41,50,25
-1406,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEF,Flat,1.0,0,51,60,30
-1407,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEF,Flat,1.0,0,61,70,35
-1408,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEF,Flat,1.0,0,71,80,40
-1409,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEF,Flat,1.0,0,81,90,45
-1410,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEF,Flat,1.0,0,91,100,50
-1411,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEF,Flat,1.0,0,101,110,55
-1412,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Non prime,DEF,Flat,1.0,0,111,300,60
-1413,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,STR,Flat,1.0,0,0,20,2
-1414,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,STR,Flat,1.0,0,21,50,4
-1415,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,STR,Flat,1.0,0,51,70,6
-1416,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,STR,Flat,1.0,0,71,90,8
-1417,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,STR,Flat,1.0,0,91,300,10
-1418,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,DEX,Flat,1.0,0,0,20,2
-1419,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,DEX,Flat,1.0,0,21,50,4
-1420,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,DEX,Flat,1.0,0,51,70,6
-1421,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,DEX,Flat,1.0,0,71,90,8
-1422,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,DEX,Flat,1.0,0,91,300,10
-1423,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,INT,Flat,1.0,0,0,20,2
-1424,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,INT,Flat,1.0,0,21,50,4
-1425,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,INT,Flat,1.0,0,51,70,6
-1426,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,INT,Flat,1.0,0,71,90,8
-1427,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,INT,Flat,1.0,0,91,300,10
-1428,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,LUK,Flat,1.0,0,0,20,2
-1429,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,LUK,Flat,1.0,0,21,50,4
-1430,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,LUK,Flat,1.0,0,51,70,6
-1431,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,LUK,Flat,1.0,0,71,90,8
-1432,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,LUK,Flat,1.0,0,91,300,10
-1433,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Weapon ATT,Flat,1.0,0,0,20,1
-1434,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Weapon ATT,Flat,1.0,0,21,40,2
-1435,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Weapon ATT,Flat,1.0,0,41,60,4
-1436,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Weapon ATT,Flat,1.0,0,61,80,6
-1437,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Weapon ATT,Flat,1.0,0,81,90,8
-1438,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Weapon ATT,Flat,1.0,0,91,300,10
-1439,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Magic ATT,Flat,1.0,0,0,20,1
-1440,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Magic ATT,Flat,1.0,0,21,40,2
-1441,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Magic ATT,Flat,1.0,0,41,60,4
-1442,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Magic ATT,Flat,1.0,0,61,80,6
-1443,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Magic ATT,Flat,1.0,0,81,90,8
-1444,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Magic ATT,Flat,1.0,0,91,300,10
-1445,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,MaxHP,Flat,1.0,0,0,20,10
-1446,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,MaxHP,Flat,1.0,0,21,50,15
-1447,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,MaxHP,Flat,1.0,0,51,90,50
-1448,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,MaxHP,Flat,1.0,0,91,300,100
-1449,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,MaxMP,Flat,1.0,0,0,20,10
-1450,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,MaxMP,Flat,1.0,0,21,50,15
-1451,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,MaxMP,Flat,1.0,0,51,90,50
-1452,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,MaxMP,Flat,1.0,0,91,300,100
-1453,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,DEF,Flat,1.0,0,0,20,10
-1454,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,DEF,Flat,1.0,0,21,50,15
-1455,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,DEF,Flat,1.0,0,51,90,50
-1456,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,DEF,Flat,1.0,0,91,300,100
-1457,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Speed,Flat,1.0,0,0,20,2
-1458,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Speed,Flat,1.0,0,21,50,3
-1459,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Speed,Flat,1.0,0,51,80,4
-1460,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Speed,Flat,1.0,0,81,110,5
-1461,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Speed,Flat,1.0,0,111,300,6
-1462,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Jump,Flat,1.0,0,0,20,2
-1463,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Jump,Flat,1.0,0,21,50,3
-1464,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Jump,Flat,1.0,0,51,80,4
-1465,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Jump,Flat,1.0,0,81,110,5
-1466,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,Jump,Flat,1.0,0,111,300,6
-1467,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,STR%,Perc,1.0,0,0,90,1%
-1468,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,STR%,Perc,1.0,0,91,300,2%
-1469,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,DEX%,Perc,1.0,0,0,90,1%
-1470,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,DEX%,Perc,1.0,0,91,300,2%
-1471,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,INT%,Perc,1.0,0,0,90,1%
-1472,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,INT%,Perc,1.0,0,91,300,2%
-1473,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,LUK%,Perc,1.0,0,0,90,1%
-1474,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,LUK%,Perc,1.0,0,91,300,2%
-1475,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,DEF%,Perc,1.0,0,0,90,1%
-1476,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,DEF%,Perc,1.0,0,91,300,2%
-1477,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,MaxHP%,Perc,1.0,0,0,90,1%
-1478,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,MaxHP%,Perc,1.0,0,91,300,2%
-1479,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,MaxMP%,Perc,1.0,0,0,90,1%
-1480,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,MaxMP%,Perc,1.0,0,91,300,2%
-1481,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,All Stats,Flat,1.0,0,0,50,1
-1482,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,All Stats,Flat,1.0,0,51,90,2
-1483,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Rare,Prime,All Stats,Flat,1.0,0,91,300,3
-1484,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,STR,Flat,1.0,0,0,20,4
-1485,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,STR,Flat,1.0,0,21,40,6
-1486,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,STR,Flat,1.0,0,41,50,8
-1487,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,STR,Flat,1.0,0,51,70,10
-1488,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,STR,Flat,1.0,0,71,90,12
-1489,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,STR,Flat,1.0,0,91,300,14
-1490,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEX,Flat,1.0,0,0,20,4
-1491,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEX,Flat,1.0,0,21,40,6
-1492,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEX,Flat,1.0,0,41,50,8
-1493,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEX,Flat,1.0,0,51,70,10
-1494,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEX,Flat,1.0,0,71,90,12
-1495,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEX,Flat,1.0,0,91,300,14
-1496,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,INT,Flat,1.0,0,0,20,4
-1497,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,INT,Flat,1.0,0,21,40,6
-1498,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,INT,Flat,1.0,0,41,50,8
-1499,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,INT,Flat,1.0,0,51,70,10
-1500,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,INT,Flat,1.0,0,71,90,12
-1501,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,INT,Flat,1.0,0,91,300,14
-1502,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,LUK,Flat,1.0,0,0,20,4
-1503,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,LUK,Flat,1.0,0,21,40,6
-1504,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,LUK,Flat,1.0,0,41,50,8
-1505,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,LUK,Flat,1.0,0,51,70,10
-1506,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,LUK,Flat,1.0,0,71,90,12
-1507,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,LUK,Flat,1.0,0,91,300,14
-1508,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,Weapon ATT,Flat,1.0,0,0,20,4
-1509,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,Weapon ATT,Flat,1.0,0,21,50,6
-1510,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,Weapon ATT,Flat,1.0,0,51,90,8
-1511,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,Weapon ATT,Flat,1.0,0,91,300,11
-1512,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,Magic ATT,Flat,1.0,0,0,20,4
-1513,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,Magic ATT,Flat,1.0,0,21,50,6
-1514,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,Magic ATT,Flat,1.0,0,51,90,8
-1515,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,Magic ATT,Flat,1.0,0,91,300,11
-1516,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,0,10,15
-1517,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,11,20,30
-1518,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,21,30,45
-1519,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,31,40,60
-1520,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,41,50,75
-1521,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,51,60,90
-1522,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,61,70,105
-1523,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,71,80,120
-1524,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,81,90,135
-1525,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,91,100,150
-1526,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,101,110,165
-1527,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,111,300,180
-1528,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,0,10,15
-1529,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,11,20,30
-1530,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,21,30,45
-1531,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,31,40,60
-1532,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,41,50,75
-1533,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,51,60,90
-1534,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,61,70,105
-1535,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,71,80,120
-1536,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,81,90,135
-1537,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,91,100,150
-1538,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,101,110,165
-1539,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,111,300,180
-1540,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEF,Flat,1.0,0,0,20,15
-1541,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEF,Flat,1.0,0,21,50,20
-1542,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEF,Flat,1.0,0,51,90,60
-1543,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEF,Flat,1.0,0,91,300,120
-1544,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,Speed,Flat,1.0,0,0,30,4
-1545,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,Speed,Flat,1.0,0,31,110,6
-1546,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,Speed,Flat,1.0,0,111,300,8
-1547,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,Jump,Flat,1.0,0,0,30,4
-1548,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,Jump,Flat,1.0,0,31,110,6
-1549,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,Jump,Flat,1.0,0,111,300,8
-1550,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,STR%,Perc,1.0,0,0,20,1%
-1551,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,STR%,Perc,1.0,0,21,50,2%
-1552,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,STR%,Perc,1.0,0,51,90,3%
-1553,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,STR%,Perc,1.0,0,91,300,4%
-1554,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEX%,Perc,1.0,0,0,20,1%
-1555,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEX%,Perc,1.0,0,21,50,2%
-1556,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEX%,Perc,1.0,0,51,90,3%
-1557,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEX%,Perc,1.0,0,91,300,4%
-1558,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,INT%,Perc,1.0,0,0,20,1%
-1559,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,INT%,Perc,1.0,0,21,50,2%
-1560,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,INT%,Perc,1.0,0,51,90,3%
-1561,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,INT%,Perc,1.0,0,91,300,4%
-1562,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,LUK%,Perc,1.0,0,0,20,1%
-1563,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,LUK%,Perc,1.0,0,21,50,2%
-1564,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,LUK%,Perc,1.0,0,51,90,3%
-1565,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,LUK%,Perc,1.0,0,91,300,4%
-1566,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP%,Perc,1.0,0,0,20,1%
-1567,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP%,Perc,1.0,0,21,50,2%
-1568,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP%,Perc,1.0,0,51,90,3%
-1569,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxHP%,Perc,1.0,0,91,300,5%
-1570,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP%,Perc,1.0,0,0,20,1%
-1571,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP%,Perc,1.0,0,21,50,2%
-1572,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP%,Perc,1.0,0,51,90,3%
-1573,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,MaxMP%,Perc,1.0,0,91,300,5%
-1574,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEF%,Perc,1.0,0,0,30,1%
-1575,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEF%,Perc,1.0,0,31,70,2%
-1576,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,DEF%,Perc,1.0,0,71,300,4%
-1577,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,All Stats%,Perc,1.0,0,0,90,1%
-1578,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Epic,Prime,All Stats%,Perc,1.0,0,91,300,2%
-1579,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,STR,Flat,1.0,0,0,20,8
-1580,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,STR,Flat,1.0,0,21,50,10
-1581,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,STR,Flat,1.0,0,51,70,12
-1582,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,STR,Flat,1.0,0,71,90,14
-1583,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,STR,Flat,1.0,0,91,300,16
-1584,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEX,Flat,1.0,0,0,20,8
-1585,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEX,Flat,1.0,0,21,50,10
-1586,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEX,Flat,1.0,0,51,70,12
-1587,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEX,Flat,1.0,0,71,90,14
-1588,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEX,Flat,1.0,0,91,300,16
-1589,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,INT,Flat,1.0,0,0,20,8
-1590,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,INT,Flat,1.0,0,21,50,10
-1591,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,INT,Flat,1.0,0,51,70,12
-1592,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,INT,Flat,1.0,0,71,90,14
-1593,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,INT,Flat,1.0,0,91,300,16
-1594,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,LUK,Flat,1.0,0,0,20,8
-1595,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,LUK,Flat,1.0,0,21,50,10
-1596,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,LUK,Flat,1.0,0,51,70,12
-1597,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,LUK,Flat,1.0,0,71,90,14
-1598,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,LUK,Flat,1.0,0,91,300,16
-1599,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,Weapon ATT,Flat,1.0,0,0,20,6
-1600,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,Weapon ATT,Flat,1.0,0,21,50,8
-1601,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,Weapon ATT,Flat,1.0,0,51,90,10
-1602,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,Weapon ATT,Flat,1.0,0,91,300,12
-1603,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,Magic ATT,Flat,1.0,0,0,20,6
-1604,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,Magic ATT,Flat,1.0,0,21,50,8
-1605,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,Magic ATT,Flat,1.0,0,51,90,10
-1606,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,Magic ATT,Flat,1.0,0,91,300,12
-1607,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEF,Flat,1.0,0,0,20,15
-1608,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEF,Flat,1.0,0,21,50,30
-1609,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEF,Flat,1.0,0,51,90,80
-1610,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEF,Flat,1.0,0,91,300,150
-1611,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,0,10,20
-1612,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,11,20,40
-1613,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,21,30,60
-1614,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,31,40,80
-1615,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,41,50,100
-1616,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,51,60,120
-1617,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,61,70,140
-1618,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,71,80,160
-1619,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,81,90,180
-1620,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,91,100,200
-1621,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,101,110,220
-1622,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,111,300,240
-1623,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,0,10,20
-1624,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,11,20,40
-1625,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,21,30,60
-1626,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,31,40,80
-1627,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,41,50,100
-1628,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,51,60,120
-1629,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,61,70,140
-1630,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,71,80,160
-1631,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,81,90,180
-1632,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,91,100,200
-1633,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,101,110,220
-1634,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,111,300,240
-1635,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,STR%,Perc,1.0,0,0,20,2%
-1636,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,STR%,Perc,1.0,0,21,50,3%
-1637,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,STR%,Perc,1.0,0,51,90,4%
-1638,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,STR%,Perc,1.0,0,91,300,5%
-1639,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEX%,Perc,1.0,0,0,20,2%
-1640,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEX%,Perc,1.0,0,21,50,3%
-1641,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEX%,Perc,1.0,0,51,90,4%
-1642,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEX%,Perc,1.0,0,91,300,5%
-1643,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,INT%,Perc,1.0,0,0,20,2%
-1644,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,INT%,Perc,1.0,0,21,50,3%
-1645,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,INT%,Perc,1.0,0,51,90,4%
-1646,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,INT%,Perc,1.0,0,91,300,5%
-1647,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,LUK%,Perc,1.0,0,0,20,2%
-1648,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,LUK%,Perc,1.0,0,21,50,3%
-1649,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,LUK%,Perc,1.0,0,51,90,4%
-1650,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,LUK%,Perc,1.0,0,91,300,5%
-1651,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP%,Perc,1.0,0,0,20,2%
-1652,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP%,Perc,1.0,0,21,50,3%
-1653,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP%,Perc,1.0,0,51,90,5%
-1654,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxHP%,Perc,1.0,0,91,300,7%
-1655,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP%,Perc,1.0,0,0,20,2%
-1656,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP%,Perc,1.0,0,21,50,3%
-1657,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP%,Perc,1.0,0,51,90,5%
-1658,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,MaxMP%,Perc,1.0,0,91,300,7%
-1659,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEF%,Perc,1.0,0,0,20,2%
-1660,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEF%,Perc,1.0,0,21,50,3%
-1661,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEF%,Perc,1.0,0,51,90,5%
-1662,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEF%,Perc,1.0,0,91,300,7%
-1663,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,All Stats%,Perc,1.0,0,0,20,1%
-1664,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,All Stats%,Perc,1.0,0,21,50,2%
-1665,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,All Stats%,Perc,1.0,0,51,90,3%
-1666,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,All Stats%,Perc,1.0,0,91,300,4%
-1667,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,0,20,5%
-1668,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,21,50,10%
-1669,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,51,90,15%
-1670,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,91,300,20%
-1671,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,STR +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-1672,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,DEX +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-1673,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,INT +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-1674,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Unique,Prime,LUK +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-1675,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,STR,Flat,1.0,0,0,20,8
-1676,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,STR,Flat,1.0,0,21,40,10
-1677,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,STR,Flat,1.0,0,41,50,12
-1678,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,STR,Flat,1.0,0,51,70,14
-1679,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,STR,Flat,1.0,0,71,90,16
-1680,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,STR,Flat,1.0,0,91,300,18
-1681,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEX,Flat,1.0,0,0,20,8
-1682,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEX,Flat,1.0,0,21,40,10
-1683,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEX,Flat,1.0,0,41,50,12
-1684,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEX,Flat,1.0,0,51,70,14
-1685,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEX,Flat,1.0,0,71,90,16
-1686,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEX,Flat,1.0,0,91,300,18
-1687,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,INT,Flat,1.0,0,0,20,8
-1688,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,INT,Flat,1.0,0,21,40,10
-1689,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,INT,Flat,1.0,0,41,50,12
-1690,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,INT,Flat,1.0,0,51,70,14
-1691,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,INT,Flat,1.0,0,71,90,16
-1692,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,INT,Flat,1.0,0,91,300,18
-1693,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,LUK,Flat,1.0,0,0,20,8
-1694,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,LUK,Flat,1.0,0,21,40,10
-1695,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,LUK,Flat,1.0,0,41,50,12
-1696,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,LUK,Flat,1.0,0,51,70,14
-1697,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,LUK,Flat,1.0,0,71,90,16
-1698,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,LUK,Flat,1.0,0,91,300,18
-1699,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Weapon ATT,Flat,1.0,0,0,20,8
-1700,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Weapon ATT,Flat,1.0,0,21,50,10
-1701,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Weapon ATT,Flat,1.0,0,51,90,12
-1702,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Weapon ATT,Flat,1.0,0,91,300,14
-1703,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Magic ATT,Flat,1.0,0,0,20,8
-1704,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Magic ATT,Flat,1.0,0,21,50,10
-1705,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Magic ATT,Flat,1.0,0,51,90,12
-1706,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Magic ATT,Flat,1.0,0,91,300,14
-1707,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEF,Flat,1.0,0,0,20,20
-1708,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEF,Flat,1.0,0,21,50,50
-1709,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEF,Flat,1.0,0,51,90,100
-1710,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEF,Flat,1.0,0,91,300,200
-1711,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,0,10,25
-1712,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,11,20,50
-1713,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,21,30,75
-1714,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,31,40,100
-1715,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,41,50,125
-1716,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,51,60,150
-1717,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,61,70,175
-1718,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,71,80,200
-1719,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,81,90,225
-1720,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,91,100,250
-1721,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,101,110,275
-1722,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,11,300,300
-1723,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,0,10,25
-1724,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,11,20,50
-1725,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,21,30,75
-1726,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,31,40,100
-1727,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,41,50,125
-1728,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,51,60,150
-1729,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,61,70,175
-1730,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,71,80,200
-1731,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,81,90,225
-1732,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,91,100,250
-1733,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,101,110,275
-1734,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,111,300,300
-1735,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,STR%,Perc,1.0,0,0,20,3%
-1736,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,STR%,Perc,1.0,0,21,50,4%
-1737,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,STR%,Perc,1.0,0,51,90,5%
-1738,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,STR%,Perc,1.0,0,91,300,7%
-1739,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEX%,Perc,1.0,0,0,20,3%
-1740,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEX%,Perc,1.0,0,21,50,4%
-1741,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEX%,Perc,1.0,0,51,90,5%
-1742,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEX%,Perc,1.0,0,91,300,7%
-1743,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,INT%,Perc,1.0,0,0,20,3%
-1744,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,INT%,Perc,1.0,0,21,50,4%
-1745,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,INT%,Perc,1.0,0,51,90,5%
-1746,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,INT%,Perc,1.0,0,91,300,7%
-1747,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,LUK%,Perc,1.0,0,0,20,3%
-1748,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,LUK%,Perc,1.0,0,21,50,4%
-1749,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,LUK%,Perc,1.0,0,51,90,5%
-1750,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,LUK%,Perc,1.0,0,91,300,7%
-1751,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP%,Perc,1.0,0,0,20,3%
-1752,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP%,Perc,1.0,0,21,50,5%
-1753,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP%,Perc,1.0,0,51,90,7%
-1754,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxHP%,Perc,1.0,0,91,300,10%
-1755,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP%,Perc,1.0,0,0,20,3%
-1756,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP%,Perc,1.0,0,21,50,5%
-1757,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP%,Perc,1.0,0,51,90,7%
-1758,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,MaxMP%,Perc,1.0,0,91,300,10%
-1759,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEF%,Perc,1.0,0,0,20,3%
-1760,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEF%,Perc,1.0,0,21,50,5%
-1761,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEF%,Perc,1.0,0,51,90,7%
-1762,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEF%,Perc,1.0,0,91,300,10%
-1763,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,All Stats%,Perc,1.0,0,0,20,2%
-1764,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,All Stats%,Perc,1.0,0,21,50,3%
-1765,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,All Stats%,Perc,1.0,0,51,90,4%
-1766,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,All Stats%,Perc,1.0,0,91,300,5%
-1767,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Skill MP Cost Reduction,Flat,1.0,0,0,20,-3%
-1768,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Skill MP Cost Reduction,Flat,1.0,0,21,50,-5%
-1769,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Skill MP Cost Reduction,Flat,1.0,0,51,90,-7%
-1770,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Skill MP Cost Reduction,Flat,1.0,0,91,300,-10%
-1771,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,STR +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-1772,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,DEX +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-1773,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,INT +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-1774,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,LUK +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-1775,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,0,20,2%
-1776,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,21,50,3%
-1777,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,51,90,4%
-1778,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,91,300,5%
-1779,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,0,20,2%
-1780,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,21,50,3%
-1781,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,51,90,4%
-1782,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,91,300,5%
-1783,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,0,20,10%
-1784,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,21,50,15%
-1785,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,51,90,20%
-1786,Face Accessory; Eye Accessory; Ring; Earring; Pendant,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,91,300,30%
-1787,Mechanical Heart; Badge,Rare,Non prime,STR,Flat,1.0,0,0,20,1
-1788,Mechanical Heart; Badge,Rare,Non prime,STR,Flat,1.0,0,21,40,2
-1789,Mechanical Heart; Badge,Rare,Non prime,STR,Flat,1.0,0,41,50,3
-1790,Mechanical Heart; Badge,Rare,Non prime,STR,Flat,1.0,0,51,70,4
-1791,Mechanical Heart; Badge,Rare,Non prime,STR,Flat,1.0,0,71,90,5
-1792,Mechanical Heart; Badge,Rare,Non prime,STR,Flat,1.0,0,91,300,6
-1793,Mechanical Heart; Badge,Rare,Non prime,DEX,Flat,1.0,0,0,20,1
-1794,Mechanical Heart; Badge,Rare,Non prime,DEX,Flat,1.0,0,21,40,2
-1795,Mechanical Heart; Badge,Rare,Non prime,DEX,Flat,1.0,0,41,50,3
-1796,Mechanical Heart; Badge,Rare,Non prime,DEX,Flat,1.0,0,51,70,4
-1797,Mechanical Heart; Badge,Rare,Non prime,DEX,Flat,1.0,0,71,90,5
-1798,Mechanical Heart; Badge,Rare,Non prime,DEX,Flat,1.0,0,91,300,6
-1799,Mechanical Heart; Badge,Rare,Non prime,INT,Flat,1.0,0,0,20,1
-1800,Mechanical Heart; Badge,Rare,Non prime,INT,Flat,1.0,0,21,40,2
-1801,Mechanical Heart; Badge,Rare,Non prime,INT,Flat,1.0,0,41,50,3
-1802,Mechanical Heart; Badge,Rare,Non prime,INT,Flat,1.0,0,51,70,4
-1803,Mechanical Heart; Badge,Rare,Non prime,INT,Flat,1.0,0,71,90,5
-1804,Mechanical Heart; Badge,Rare,Non prime,INT,Flat,1.0,0,91,300,6
-1805,Mechanical Heart; Badge,Rare,Non prime,LUK,Flat,1.0,0,0,20,1
-1806,Mechanical Heart; Badge,Rare,Non prime,LUK,Flat,1.0,0,21,40,2
-1807,Mechanical Heart; Badge,Rare,Non prime,LUK,Flat,1.0,0,41,50,3
-1808,Mechanical Heart; Badge,Rare,Non prime,LUK,Flat,1.0,0,51,70,4
-1809,Mechanical Heart; Badge,Rare,Non prime,LUK,Flat,1.0,0,71,90,5
-1810,Mechanical Heart; Badge,Rare,Non prime,LUK,Flat,1.0,0,91,300,6
-1811,Mechanical Heart; Badge,Rare,Non prime,Weapon ATT,Flat,1.0,0,0,50,1
-1812,Mechanical Heart; Badge,Rare,Non prime,Weapon ATT,Flat,1.0,0,51,100,2
-1813,Mechanical Heart; Badge,Rare,Non prime,Weapon ATT,Flat,1.0,0,101,300,3
-1814,Mechanical Heart; Badge,Rare,Non prime,Magic ATT,Flat,1.0,0,0,50,1
-1815,Mechanical Heart; Badge,Rare,Non prime,Magic ATT,Flat,1.0,0,51,100,2
-1816,Mechanical Heart; Badge,Rare,Non prime,Magic ATT,Flat,1.0,0,101,300,3
-1817,Mechanical Heart; Badge,Rare,Non prime,Speed,Flat,1.0,0,0,30,1
-1818,Mechanical Heart; Badge,Rare,Non prime,Speed,Flat,1.0,0,31,70,2
-1819,Mechanical Heart; Badge,Rare,Non prime,Speed,Flat,1.0,0,71,110,3
-1820,Mechanical Heart; Badge,Rare,Non prime,Speed,Flat,1.0,0,111,300,4
-1821,Mechanical Heart; Badge,Rare,Non prime,Jump,Flat,1.0,0,0,30,1
-1822,Mechanical Heart; Badge,Rare,Non prime,Jump,Flat,1.0,0,31,70,2
-1823,Mechanical Heart; Badge,Rare,Non prime,Jump,Flat,1.0,0,71,110,3
-1824,Mechanical Heart; Badge,Rare,Non prime,Jump,Flat,1.0,0,111,300,4
-1825,Mechanical Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,0,10,5
-1826,Mechanical Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,11,20,10
-1827,Mechanical Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,21,30,15
-1828,Mechanical Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,31,40,20
-1829,Mechanical Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,41,50,25
-1830,Mechanical Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,51,60,30
-1831,Mechanical Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,61,70,35
-1832,Mechanical Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,71,80,40
-1833,Mechanical Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,81,90,45
-1834,Mechanical Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,91,100,50
-1835,Mechanical Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,101,110,55
-1836,Mechanical Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,111,300,60
-1837,Mechanical Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,0,10,5
-1838,Mechanical Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,11,20,10
-1839,Mechanical Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,21,30,15
-1840,Mechanical Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,31,40,20
-1841,Mechanical Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,41,50,25
-1842,Mechanical Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,51,60,30
-1843,Mechanical Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,61,70,35
-1844,Mechanical Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,71,80,40
-1845,Mechanical Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,81,90,45
-1846,Mechanical Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,91,100,50
-1847,Mechanical Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,101,110,55
-1848,Mechanical Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,111,300,60
-1849,Mechanical Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,0,10,5
-1850,Mechanical Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,11,20,10
-1851,Mechanical Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,21,30,15
-1852,Mechanical Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,31,40,20
-1853,Mechanical Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,41,50,25
-1854,Mechanical Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,51,60,30
-1855,Mechanical Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,61,70,35
-1856,Mechanical Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,71,80,40
-1857,Mechanical Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,81,90,45
-1858,Mechanical Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,91,100,50
-1859,Mechanical Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,101,110,55
-1860,Mechanical Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,111,300,60
-1861,Mechanical Heart; Badge,Rare,Prime,STR,Flat,1.0,0,0,20,2
-1862,Mechanical Heart; Badge,Rare,Prime,STR,Flat,1.0,0,21,50,4
-1863,Mechanical Heart; Badge,Rare,Prime,STR,Flat,1.0,0,51,70,6
-1864,Mechanical Heart; Badge,Rare,Prime,STR,Flat,1.0,0,71,90,8
-1865,Mechanical Heart; Badge,Rare,Prime,STR,Flat,1.0,0,91,300,10
-1866,Mechanical Heart; Badge,Rare,Prime,DEX,Flat,1.0,0,0,20,2
-1867,Mechanical Heart; Badge,Rare,Prime,DEX,Flat,1.0,0,21,50,4
-1868,Mechanical Heart; Badge,Rare,Prime,DEX,Flat,1.0,0,51,70,6
-1869,Mechanical Heart; Badge,Rare,Prime,DEX,Flat,1.0,0,71,90,8
-1870,Mechanical Heart; Badge,Rare,Prime,DEX,Flat,1.0,0,91,300,10
-1871,Mechanical Heart; Badge,Rare,Prime,INT,Flat,1.0,0,0,20,2
-1872,Mechanical Heart; Badge,Rare,Prime,INT,Flat,1.0,0,21,50,4
-1873,Mechanical Heart; Badge,Rare,Prime,INT,Flat,1.0,0,51,70,6
-1874,Mechanical Heart; Badge,Rare,Prime,INT,Flat,1.0,0,71,90,8
-1875,Mechanical Heart; Badge,Rare,Prime,INT,Flat,1.0,0,91,300,10
-1876,Mechanical Heart; Badge,Rare,Prime,LUK,Flat,1.0,0,0,20,2
-1877,Mechanical Heart; Badge,Rare,Prime,LUK,Flat,1.0,0,21,50,4
-1878,Mechanical Heart; Badge,Rare,Prime,LUK,Flat,1.0,0,51,70,6
-1879,Mechanical Heart; Badge,Rare,Prime,LUK,Flat,1.0,0,71,90,8
-1880,Mechanical Heart; Badge,Rare,Prime,LUK,Flat,1.0,0,91,300,10
-1881,Mechanical Heart; Badge,Rare,Prime,Weapon ATT,Flat,1.0,0,0,20,1
-1882,Mechanical Heart; Badge,Rare,Prime,Weapon ATT,Flat,1.0,0,21,40,2
-1883,Mechanical Heart; Badge,Rare,Prime,Weapon ATT,Flat,1.0,0,41,60,4
-1884,Mechanical Heart; Badge,Rare,Prime,Weapon ATT,Flat,1.0,0,61,80,6
-1885,Mechanical Heart; Badge,Rare,Prime,Weapon ATT,Flat,1.0,0,81,90,8
-1886,Mechanical Heart; Badge,Rare,Prime,Weapon ATT,Flat,1.0,0,91,300,10
-1887,Mechanical Heart; Badge,Rare,Prime,Magic ATT,Flat,1.0,0,0,20,1
-1888,Mechanical Heart; Badge,Rare,Prime,Magic ATT,Flat,1.0,0,21,40,2
-1889,Mechanical Heart; Badge,Rare,Prime,Magic ATT,Flat,1.0,0,41,60,4
-1890,Mechanical Heart; Badge,Rare,Prime,Magic ATT,Flat,1.0,0,61,80,6
-1891,Mechanical Heart; Badge,Rare,Prime,Magic ATT,Flat,1.0,0,81,90,8
-1892,Mechanical Heart; Badge,Rare,Prime,Magic ATT,Flat,1.0,0,91,300,10
-1893,Mechanical Heart; Badge,Rare,Prime,MaxHP,Flat,1.0,0,0,20,10
-1894,Mechanical Heart; Badge,Rare,Prime,MaxHP,Flat,1.0,0,21,50,15
-1895,Mechanical Heart; Badge,Rare,Prime,MaxHP,Flat,1.0,0,51,90,50
-1896,Mechanical Heart; Badge,Rare,Prime,MaxHP,Flat,1.0,0,91,300,100
-1897,Mechanical Heart; Badge,Rare,Prime,MaxMP,Flat,1.0,0,0,20,10
-1898,Mechanical Heart; Badge,Rare,Prime,MaxMP,Flat,1.0,0,21,50,15
-1899,Mechanical Heart; Badge,Rare,Prime,MaxMP,Flat,1.0,0,51,90,50
-1900,Mechanical Heart; Badge,Rare,Prime,MaxMP,Flat,1.0,0,91,300,100
-1901,Mechanical Heart; Badge,Rare,Prime,DEF,Flat,1.0,0,0,20,10
-1902,Mechanical Heart; Badge,Rare,Prime,DEF,Flat,1.0,0,21,50,15
-1903,Mechanical Heart; Badge,Rare,Prime,DEF,Flat,1.0,0,51,90,50
-1904,Mechanical Heart; Badge,Rare,Prime,DEF,Flat,1.0,0,91,300,100
-1905,Mechanical Heart; Badge,Rare,Prime,Speed,Flat,1.0,0,0,20,2
-1906,Mechanical Heart; Badge,Rare,Prime,Speed,Flat,1.0,0,21,50,3
-1907,Mechanical Heart; Badge,Rare,Prime,Speed,Flat,1.0,0,51,80,4
-1908,Mechanical Heart; Badge,Rare,Prime,Speed,Flat,1.0,0,81,110,5
-1909,Mechanical Heart; Badge,Rare,Prime,Speed,Flat,1.0,0,111,300,6
-1910,Mechanical Heart; Badge,Rare,Prime,Jump,Flat,1.0,0,0,20,2
-1911,Mechanical Heart; Badge,Rare,Prime,Jump,Flat,1.0,0,21,50,3
-1912,Mechanical Heart; Badge,Rare,Prime,Jump,Flat,1.0,0,51,80,4
-1913,Mechanical Heart; Badge,Rare,Prime,Jump,Flat,1.0,0,81,110,5
-1914,Mechanical Heart; Badge,Rare,Prime,Jump,Flat,1.0,0,111,300,6
-1915,Mechanical Heart; Badge,Rare,Prime,STR%,Perc,1.0,0,0,90,1%
-1916,Mechanical Heart; Badge,Rare,Prime,STR%,Perc,1.0,0,91,300,2%
-1917,Mechanical Heart; Badge,Rare,Prime,DEX%,Perc,1.0,0,0,90,1%
-1918,Mechanical Heart; Badge,Rare,Prime,DEX%,Perc,1.0,0,91,300,2%
-1919,Mechanical Heart; Badge,Rare,Prime,INT%,Perc,1.0,0,0,90,1%
-1920,Mechanical Heart; Badge,Rare,Prime,INT%,Perc,1.0,0,91,300,2%
-1921,Mechanical Heart; Badge,Rare,Prime,LUK%,Perc,1.0,0,0,90,1%
-1922,Mechanical Heart; Badge,Rare,Prime,LUK%,Perc,1.0,0,91,300,2%
-1923,Mechanical Heart; Badge,Rare,Prime,DEF%,Perc,1.0,0,0,90,1%
-1924,Mechanical Heart; Badge,Rare,Prime,DEF%,Perc,1.0,0,91,300,2%
-1925,Mechanical Heart; Badge,Rare,Prime,MaxHP%,Perc,1.0,0,0,90,1%
-1926,Mechanical Heart; Badge,Rare,Prime,MaxHP%,Perc,1.0,0,91,300,2%
-1927,Mechanical Heart; Badge,Rare,Prime,MaxMP%,Perc,1.0,0,0,90,1%
-1928,Mechanical Heart; Badge,Rare,Prime,MaxMP%,Perc,1.0,0,91,300,2%
-1929,Mechanical Heart; Badge,Rare,Prime,All Stats,Flat,1.0,0,0,50,1
-1930,Mechanical Heart; Badge,Rare,Prime,All Stats,Flat,1.0,0,51,90,2
-1931,Mechanical Heart; Badge,Rare,Prime,All Stats,Flat,1.0,0,91,300,3
-1932,Mechanical Heart; Badge,Epic,Prime,STR,Flat,1.0,0,0,20,4
-1933,Mechanical Heart; Badge,Epic,Prime,STR,Flat,1.0,0,21,40,6
-1934,Mechanical Heart; Badge,Epic,Prime,STR,Flat,1.0,0,41,50,8
-1935,Mechanical Heart; Badge,Epic,Prime,STR,Flat,1.0,0,51,70,10
-1936,Mechanical Heart; Badge,Epic,Prime,STR,Flat,1.0,0,71,90,12
-1937,Mechanical Heart; Badge,Epic,Prime,STR,Flat,1.0,0,91,300,14
-1938,Mechanical Heart; Badge,Epic,Prime,DEX,Flat,1.0,0,0,20,4
-1939,Mechanical Heart; Badge,Epic,Prime,DEX,Flat,1.0,0,21,40,6
-1940,Mechanical Heart; Badge,Epic,Prime,DEX,Flat,1.0,0,41,50,8
-1941,Mechanical Heart; Badge,Epic,Prime,DEX,Flat,1.0,0,51,70,10
-1942,Mechanical Heart; Badge,Epic,Prime,DEX,Flat,1.0,0,71,90,12
-1943,Mechanical Heart; Badge,Epic,Prime,DEX,Flat,1.0,0,91,300,14
-1944,Mechanical Heart; Badge,Epic,Prime,INT,Flat,1.0,0,0,20,4
-1945,Mechanical Heart; Badge,Epic,Prime,INT,Flat,1.0,0,21,40,6
-1946,Mechanical Heart; Badge,Epic,Prime,INT,Flat,1.0,0,41,50,8
-1947,Mechanical Heart; Badge,Epic,Prime,INT,Flat,1.0,0,51,70,10
-1948,Mechanical Heart; Badge,Epic,Prime,INT,Flat,1.0,0,71,90,12
-1949,Mechanical Heart; Badge,Epic,Prime,INT,Flat,1.0,0,91,300,14
-1950,Mechanical Heart; Badge,Epic,Prime,LUK,Flat,1.0,0,0,20,4
-1951,Mechanical Heart; Badge,Epic,Prime,LUK,Flat,1.0,0,21,40,6
-1952,Mechanical Heart; Badge,Epic,Prime,LUK,Flat,1.0,0,41,50,8
-1953,Mechanical Heart; Badge,Epic,Prime,LUK,Flat,1.0,0,51,70,10
-1954,Mechanical Heart; Badge,Epic,Prime,LUK,Flat,1.0,0,71,90,12
-1955,Mechanical Heart; Badge,Epic,Prime,LUK,Flat,1.0,0,91,300,14
-1956,Mechanical Heart; Badge,Epic,Prime,Weapon ATT,Flat,1.0,0,0,20,4
-1957,Mechanical Heart; Badge,Epic,Prime,Weapon ATT,Flat,1.0,0,21,50,6
-1958,Mechanical Heart; Badge,Epic,Prime,Weapon ATT,Flat,1.0,0,51,90,8
-1959,Mechanical Heart; Badge,Epic,Prime,Weapon ATT,Flat,1.0,0,91,300,11
-1960,Mechanical Heart; Badge,Epic,Prime,Magic ATT,Flat,1.0,0,0,20,4
-1961,Mechanical Heart; Badge,Epic,Prime,Magic ATT,Flat,1.0,0,21,50,6
-1962,Mechanical Heart; Badge,Epic,Prime,Magic ATT,Flat,1.0,0,51,90,8
-1963,Mechanical Heart; Badge,Epic,Prime,Magic ATT,Flat,1.0,0,91,300,11
-1964,Mechanical Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,0,10,15
-1965,Mechanical Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,11,20,30
-1966,Mechanical Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,21,30,45
-1967,Mechanical Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,31,40,60
-1968,Mechanical Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,41,50,75
-1969,Mechanical Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,51,60,90
-1970,Mechanical Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,61,70,105
-1971,Mechanical Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,71,80,120
-1972,Mechanical Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,81,90,135
-1973,Mechanical Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,91,100,150
-1974,Mechanical Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,101,110,165
-1975,Mechanical Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,111,300,180
-1976,Mechanical Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,0,10,15
-1977,Mechanical Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,11,20,30
-1978,Mechanical Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,21,30,45
-1979,Mechanical Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,31,40,60
-1980,Mechanical Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,41,50,75
-1981,Mechanical Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,51,60,90
-1982,Mechanical Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,61,70,105
-1983,Mechanical Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,71,80,120
-1984,Mechanical Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,81,90,135
-1985,Mechanical Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,91,100,150
-1986,Mechanical Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,101,110,165
-1987,Mechanical Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,111,300,180
-1988,Mechanical Heart; Badge,Epic,Prime,DEF,Flat,1.0,0,0,20,15
-1989,Mechanical Heart; Badge,Epic,Prime,DEF,Flat,1.0,0,21,50,20
-1990,Mechanical Heart; Badge,Epic,Prime,DEF,Flat,1.0,0,51,90,60
-1991,Mechanical Heart; Badge,Epic,Prime,DEF,Flat,1.0,0,91,300,120
-1992,Mechanical Heart; Badge,Epic,Prime,Speed,Flat,1.0,0,0,30,4
-1993,Mechanical Heart; Badge,Epic,Prime,Speed,Flat,1.0,0,31,110,6
-1994,Mechanical Heart; Badge,Epic,Prime,Speed,Flat,1.0,0,111,300,8
-1995,Mechanical Heart; Badge,Epic,Prime,Jump,Flat,1.0,0,0,30,4
-1996,Mechanical Heart; Badge,Epic,Prime,Jump,Flat,1.0,0,31,110,6
-1997,Mechanical Heart; Badge,Epic,Prime,Jump,Flat,1.0,0,111,300,8
-1998,Mechanical Heart; Badge,Epic,Prime,STR%,Perc,1.0,0,0,20,1%
-1999,Mechanical Heart; Badge,Epic,Prime,STR%,Perc,1.0,0,21,50,2%
-2000,Mechanical Heart; Badge,Epic,Prime,STR%,Perc,1.0,0,51,90,3%
-2001,Mechanical Heart; Badge,Epic,Prime,STR%,Perc,1.0,0,91,300,4%
-2002,Mechanical Heart; Badge,Epic,Prime,DEX%,Perc,1.0,0,0,20,1%
-2003,Mechanical Heart; Badge,Epic,Prime,DEX%,Perc,1.0,0,21,50,2%
-2004,Mechanical Heart; Badge,Epic,Prime,DEX%,Perc,1.0,0,51,90,3%
-2005,Mechanical Heart; Badge,Epic,Prime,DEX%,Perc,1.0,0,91,300,4%
-2006,Mechanical Heart; Badge,Epic,Prime,INT%,Perc,1.0,0,0,20,1%
-2007,Mechanical Heart; Badge,Epic,Prime,INT%,Perc,1.0,0,21,50,2%
-2008,Mechanical Heart; Badge,Epic,Prime,INT%,Perc,1.0,0,51,90,3%
-2009,Mechanical Heart; Badge,Epic,Prime,INT%,Perc,1.0,0,91,300,4%
-2010,Mechanical Heart; Badge,Epic,Prime,LUK%,Perc,1.0,0,0,20,1%
-2011,Mechanical Heart; Badge,Epic,Prime,LUK%,Perc,1.0,0,21,50,2%
-2012,Mechanical Heart; Badge,Epic,Prime,LUK%,Perc,1.0,0,51,90,3%
-2013,Mechanical Heart; Badge,Epic,Prime,LUK%,Perc,1.0,0,91,300,4%
-2014,Mechanical Heart; Badge,Epic,Prime,MaxHP%,Perc,1.0,0,0,20,1%
-2015,Mechanical Heart; Badge,Epic,Prime,MaxHP%,Perc,1.0,0,21,50,2%
-2016,Mechanical Heart; Badge,Epic,Prime,MaxHP%,Perc,1.0,0,51,90,3%
-2017,Mechanical Heart; Badge,Epic,Prime,MaxHP%,Perc,1.0,0,91,300,5%
-2018,Mechanical Heart; Badge,Epic,Prime,MaxMP%,Perc,1.0,0,0,20,1%
-2019,Mechanical Heart; Badge,Epic,Prime,MaxMP%,Perc,1.0,0,21,50,2%
-2020,Mechanical Heart; Badge,Epic,Prime,MaxMP%,Perc,1.0,0,51,90,3%
-2021,Mechanical Heart; Badge,Epic,Prime,MaxMP%,Perc,1.0,0,91,300,5%
-2022,Mechanical Heart; Badge,Epic,Prime,DEF%,Perc,1.0,0,0,30,1%
-2023,Mechanical Heart; Badge,Epic,Prime,DEF%,Perc,1.0,0,31,70,2%
-2024,Mechanical Heart; Badge,Epic,Prime,DEF%,Perc,1.0,0,71,300,4%
-2025,Mechanical Heart; Badge,Epic,Prime,All Stats%,Perc,1.0,0,0,90,1%
-2026,Mechanical Heart; Badge,Epic,Prime,All Stats%,Perc,1.0,0,91,300,2%
-2027,Mechanical Heart; Badge,Unique,Prime,STR,Flat,1.0,0,0,20,8
-2028,Mechanical Heart; Badge,Unique,Prime,STR,Flat,1.0,0,21,50,10
-2029,Mechanical Heart; Badge,Unique,Prime,STR,Flat,1.0,0,51,70,12
-2030,Mechanical Heart; Badge,Unique,Prime,STR,Flat,1.0,0,71,90,14
-2031,Mechanical Heart; Badge,Unique,Prime,STR,Flat,1.0,0,91,300,16
-2032,Mechanical Heart; Badge,Unique,Prime,DEX,Flat,1.0,0,0,20,8
-2033,Mechanical Heart; Badge,Unique,Prime,DEX,Flat,1.0,0,21,50,10
-2034,Mechanical Heart; Badge,Unique,Prime,DEX,Flat,1.0,0,51,70,12
-2035,Mechanical Heart; Badge,Unique,Prime,DEX,Flat,1.0,0,71,90,14
-2036,Mechanical Heart; Badge,Unique,Prime,DEX,Flat,1.0,0,91,300,16
-2037,Mechanical Heart; Badge,Unique,Prime,INT,Flat,1.0,0,0,20,8
-2038,Mechanical Heart; Badge,Unique,Prime,INT,Flat,1.0,0,21,50,10
-2039,Mechanical Heart; Badge,Unique,Prime,INT,Flat,1.0,0,51,70,12
-2040,Mechanical Heart; Badge,Unique,Prime,INT,Flat,1.0,0,71,90,14
-2041,Mechanical Heart; Badge,Unique,Prime,INT,Flat,1.0,0,91,300,16
-2042,Mechanical Heart; Badge,Unique,Prime,LUK,Flat,1.0,0,0,20,8
-2043,Mechanical Heart; Badge,Unique,Prime,LUK,Flat,1.0,0,21,50,10
-2044,Mechanical Heart; Badge,Unique,Prime,LUK,Flat,1.0,0,51,70,12
-2045,Mechanical Heart; Badge,Unique,Prime,LUK,Flat,1.0,0,71,90,14
-2046,Mechanical Heart; Badge,Unique,Prime,LUK,Flat,1.0,0,91,300,16
-2047,Mechanical Heart; Badge,Unique,Prime,Weapon ATT,Flat,1.0,0,0,20,6
-2048,Mechanical Heart; Badge,Unique,Prime,Weapon ATT,Flat,1.0,0,21,50,8
-2049,Mechanical Heart; Badge,Unique,Prime,Weapon ATT,Flat,1.0,0,51,90,10
-2050,Mechanical Heart; Badge,Unique,Prime,Weapon ATT,Flat,1.0,0,91,300,12
-2051,Mechanical Heart; Badge,Unique,Prime,Magic ATT,Flat,1.0,0,0,20,6
-2052,Mechanical Heart; Badge,Unique,Prime,Magic ATT,Flat,1.0,0,21,50,8
-2053,Mechanical Heart; Badge,Unique,Prime,Magic ATT,Flat,1.0,0,51,90,10
-2054,Mechanical Heart; Badge,Unique,Prime,Magic ATT,Flat,1.0,0,91,300,12
-2055,Mechanical Heart; Badge,Unique,Prime,DEF,Flat,1.0,0,0,20,15
-2056,Mechanical Heart; Badge,Unique,Prime,DEF,Flat,1.0,0,21,50,30
-2057,Mechanical Heart; Badge,Unique,Prime,DEF,Flat,1.0,0,51,90,80
-2058,Mechanical Heart; Badge,Unique,Prime,DEF,Flat,1.0,0,91,300,150
-2059,Mechanical Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,0,10,20
-2060,Mechanical Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,11,20,40
-2061,Mechanical Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,21,30,60
-2062,Mechanical Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,31,40,80
-2063,Mechanical Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,41,50,100
-2064,Mechanical Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,51,60,120
-2065,Mechanical Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,61,70,140
-2066,Mechanical Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,71,80,160
-2067,Mechanical Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,81,90,180
-2068,Mechanical Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,91,100,200
-2069,Mechanical Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,101,110,220
-2070,Mechanical Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,111,300,240
-2071,Mechanical Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,0,10,20
-2072,Mechanical Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,11,20,40
-2073,Mechanical Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,21,30,60
-2074,Mechanical Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,31,40,80
-2075,Mechanical Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,41,50,100
-2076,Mechanical Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,51,60,120
-2077,Mechanical Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,61,70,140
-2078,Mechanical Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,71,80,160
-2079,Mechanical Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,81,90,180
-2080,Mechanical Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,91,100,200
-2081,Mechanical Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,101,110,220
-2082,Mechanical Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,111,300,240
-2083,Mechanical Heart; Badge,Unique,Prime,STR%,Perc,1.0,0,0,20,2%
-2084,Mechanical Heart; Badge,Unique,Prime,STR%,Perc,1.0,0,21,50,3%
-2085,Mechanical Heart; Badge,Unique,Prime,STR%,Perc,1.0,0,51,90,4%
-2086,Mechanical Heart; Badge,Unique,Prime,STR%,Perc,1.0,0,91,300,5%
-2087,Mechanical Heart; Badge,Unique,Prime,DEX%,Perc,1.0,0,0,20,2%
-2088,Mechanical Heart; Badge,Unique,Prime,DEX%,Perc,1.0,0,21,50,3%
-2089,Mechanical Heart; Badge,Unique,Prime,DEX%,Perc,1.0,0,51,90,4%
-2090,Mechanical Heart; Badge,Unique,Prime,DEX%,Perc,1.0,0,91,300,5%
-2091,Mechanical Heart; Badge,Unique,Prime,INT%,Perc,1.0,0,0,20,2%
-2092,Mechanical Heart; Badge,Unique,Prime,INT%,Perc,1.0,0,21,50,3%
-2093,Mechanical Heart; Badge,Unique,Prime,INT%,Perc,1.0,0,51,90,4%
-2094,Mechanical Heart; Badge,Unique,Prime,INT%,Perc,1.0,0,91,300,5%
-2095,Mechanical Heart; Badge,Unique,Prime,LUK%,Perc,1.0,0,0,20,2%
-2096,Mechanical Heart; Badge,Unique,Prime,LUK%,Perc,1.0,0,21,50,3%
-2097,Mechanical Heart; Badge,Unique,Prime,LUK%,Perc,1.0,0,51,90,4%
-2098,Mechanical Heart; Badge,Unique,Prime,LUK%,Perc,1.0,0,91,300,5%
-2099,Mechanical Heart; Badge,Unique,Prime,MaxHP%,Perc,1.0,0,0,20,2%
-2100,Mechanical Heart; Badge,Unique,Prime,MaxHP%,Perc,1.0,0,21,50,3%
-2101,Mechanical Heart; Badge,Unique,Prime,MaxHP%,Perc,1.0,0,51,90,5%
-2102,Mechanical Heart; Badge,Unique,Prime,MaxHP%,Perc,1.0,0,91,300,7%
-2103,Mechanical Heart; Badge,Unique,Prime,MaxMP%,Perc,1.0,0,0,20,2%
-2104,Mechanical Heart; Badge,Unique,Prime,MaxMP%,Perc,1.0,0,21,50,3%
-2105,Mechanical Heart; Badge,Unique,Prime,MaxMP%,Perc,1.0,0,51,90,5%
-2106,Mechanical Heart; Badge,Unique,Prime,MaxMP%,Perc,1.0,0,91,300,7%
-2107,Mechanical Heart; Badge,Unique,Prime,DEF%,Perc,1.0,0,0,20,2%
-2108,Mechanical Heart; Badge,Unique,Prime,DEF%,Perc,1.0,0,21,50,3%
-2109,Mechanical Heart; Badge,Unique,Prime,DEF%,Perc,1.0,0,51,90,5%
-2110,Mechanical Heart; Badge,Unique,Prime,DEF%,Perc,1.0,0,91,300,7%
-2111,Mechanical Heart; Badge,Unique,Prime,All Stats%,Perc,1.0,0,0,20,1%
-2112,Mechanical Heart; Badge,Unique,Prime,All Stats%,Perc,1.0,0,21,50,2%
-2113,Mechanical Heart; Badge,Unique,Prime,All Stats%,Perc,1.0,0,51,90,3%
-2114,Mechanical Heart; Badge,Unique,Prime,All Stats%,Perc,1.0,0,91,300,4%
-2115,Mechanical Heart; Badge,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,0,20,5%
-2116,Mechanical Heart; Badge,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,21,50,10%
-2117,Mechanical Heart; Badge,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,51,90,15%
-2118,Mechanical Heart; Badge,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,91,300,20%
-2119,Mechanical Heart; Badge,Unique,Prime,STR +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-2120,Mechanical Heart; Badge,Unique,Prime,DEX +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-2121,Mechanical Heart; Badge,Unique,Prime,INT +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-2122,Mechanical Heart; Badge,Unique,Prime,LUK +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-2123,Mechanical Heart; Badge,Legendary,Prime,STR,Flat,1.0,0,0,20,8
-2124,Mechanical Heart; Badge,Legendary,Prime,STR,Flat,1.0,0,21,40,10
-2125,Mechanical Heart; Badge,Legendary,Prime,STR,Flat,1.0,0,41,50,12
-2126,Mechanical Heart; Badge,Legendary,Prime,STR,Flat,1.0,0,51,70,14
-2127,Mechanical Heart; Badge,Legendary,Prime,STR,Flat,1.0,0,71,90,16
-2128,Mechanical Heart; Badge,Legendary,Prime,STR,Flat,1.0,0,91,300,18
-2129,Mechanical Heart; Badge,Legendary,Prime,DEX,Flat,1.0,0,0,20,8
-2130,Mechanical Heart; Badge,Legendary,Prime,DEX,Flat,1.0,0,21,40,10
-2131,Mechanical Heart; Badge,Legendary,Prime,DEX,Flat,1.0,0,41,50,12
-2132,Mechanical Heart; Badge,Legendary,Prime,DEX,Flat,1.0,0,51,70,14
-2133,Mechanical Heart; Badge,Legendary,Prime,DEX,Flat,1.0,0,71,90,16
-2134,Mechanical Heart; Badge,Legendary,Prime,DEX,Flat,1.0,0,91,300,18
-2135,Mechanical Heart; Badge,Legendary,Prime,INT,Flat,1.0,0,0,20,8
-2136,Mechanical Heart; Badge,Legendary,Prime,INT,Flat,1.0,0,21,40,10
-2137,Mechanical Heart; Badge,Legendary,Prime,INT,Flat,1.0,0,41,50,12
-2138,Mechanical Heart; Badge,Legendary,Prime,INT,Flat,1.0,0,51,70,14
-2139,Mechanical Heart; Badge,Legendary,Prime,INT,Flat,1.0,0,71,90,16
-2140,Mechanical Heart; Badge,Legendary,Prime,INT,Flat,1.0,0,91,300,18
-2141,Mechanical Heart; Badge,Legendary,Prime,LUK,Flat,1.0,0,0,20,8
-2142,Mechanical Heart; Badge,Legendary,Prime,LUK,Flat,1.0,0,21,40,10
-2143,Mechanical Heart; Badge,Legendary,Prime,LUK,Flat,1.0,0,41,50,12
-2144,Mechanical Heart; Badge,Legendary,Prime,LUK,Flat,1.0,0,51,70,14
-2145,Mechanical Heart; Badge,Legendary,Prime,LUK,Flat,1.0,0,71,90,16
-2146,Mechanical Heart; Badge,Legendary,Prime,LUK,Flat,1.0,0,91,300,18
-2147,Mechanical Heart; Badge,Legendary,Prime,Weapon ATT,Flat,1.0,0,0,20,8
-2148,Mechanical Heart; Badge,Legendary,Prime,Weapon ATT,Flat,1.0,0,21,50,10
-2149,Mechanical Heart; Badge,Legendary,Prime,Weapon ATT,Flat,1.0,0,51,90,12
-2150,Mechanical Heart; Badge,Legendary,Prime,Weapon ATT,Flat,1.0,0,91,300,14
-2151,Mechanical Heart; Badge,Legendary,Prime,Magic ATT,Flat,1.0,0,0,20,8
-2152,Mechanical Heart; Badge,Legendary,Prime,Magic ATT,Flat,1.0,0,21,50,10
-2153,Mechanical Heart; Badge,Legendary,Prime,Magic ATT,Flat,1.0,0,51,90,12
-2154,Mechanical Heart; Badge,Legendary,Prime,Magic ATT,Flat,1.0,0,91,300,14
-2155,Mechanical Heart; Badge,Legendary,Prime,DEF,Flat,1.0,0,0,20,20
-2156,Mechanical Heart; Badge,Legendary,Prime,DEF,Flat,1.0,0,21,50,50
-2157,Mechanical Heart; Badge,Legendary,Prime,DEF,Flat,1.0,0,51,90,100
-2158,Mechanical Heart; Badge,Legendary,Prime,DEF,Flat,1.0,0,91,300,200
-2159,Mechanical Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,0,10,25
-2160,Mechanical Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,11,20,50
-2161,Mechanical Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,21,30,75
-2162,Mechanical Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,31,40,100
-2163,Mechanical Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,41,50,125
-2164,Mechanical Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,51,60,150
-2165,Mechanical Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,61,70,175
-2166,Mechanical Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,71,80,200
-2167,Mechanical Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,81,90,225
-2168,Mechanical Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,91,100,250
-2169,Mechanical Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,101,110,275
-2170,Mechanical Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,11,300,300
-2171,Mechanical Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,0,10,25
-2172,Mechanical Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,11,20,50
-2173,Mechanical Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,21,30,75
-2174,Mechanical Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,31,40,100
-2175,Mechanical Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,41,50,125
-2176,Mechanical Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,51,60,150
-2177,Mechanical Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,61,70,175
-2178,Mechanical Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,71,80,200
-2179,Mechanical Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,81,90,225
-2180,Mechanical Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,91,100,250
-2181,Mechanical Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,101,110,275
-2182,Mechanical Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,111,300,300
-2183,Mechanical Heart; Badge,Legendary,Prime,STR%,Perc,1.0,0,0,20,3%
-2184,Mechanical Heart; Badge,Legendary,Prime,STR%,Perc,1.0,0,21,50,4%
-2185,Mechanical Heart; Badge,Legendary,Prime,STR%,Perc,1.0,0,51,90,5%
-2186,Mechanical Heart; Badge,Legendary,Prime,STR%,Perc,1.0,0,91,300,7%
-2187,Mechanical Heart; Badge,Legendary,Prime,DEX%,Perc,1.0,0,0,20,3%
-2188,Mechanical Heart; Badge,Legendary,Prime,DEX%,Perc,1.0,0,21,50,4%
-2189,Mechanical Heart; Badge,Legendary,Prime,DEX%,Perc,1.0,0,51,90,5%
-2190,Mechanical Heart; Badge,Legendary,Prime,DEX%,Perc,1.0,0,91,300,7%
-2191,Mechanical Heart; Badge,Legendary,Prime,INT%,Perc,1.0,0,0,20,3%
-2192,Mechanical Heart; Badge,Legendary,Prime,INT%,Perc,1.0,0,21,50,4%
-2193,Mechanical Heart; Badge,Legendary,Prime,INT%,Perc,1.0,0,51,90,5%
-2194,Mechanical Heart; Badge,Legendary,Prime,INT%,Perc,1.0,0,91,300,7%
-2195,Mechanical Heart; Badge,Legendary,Prime,LUK%,Perc,1.0,0,0,20,3%
-2196,Mechanical Heart; Badge,Legendary,Prime,LUK%,Perc,1.0,0,21,50,4%
-2197,Mechanical Heart; Badge,Legendary,Prime,LUK%,Perc,1.0,0,51,90,5%
-2198,Mechanical Heart; Badge,Legendary,Prime,LUK%,Perc,1.0,0,91,300,7%
-2199,Mechanical Heart; Badge,Legendary,Prime,MaxHP%,Perc,1.0,0,0,20,3%
-2200,Mechanical Heart; Badge,Legendary,Prime,MaxHP%,Perc,1.0,0,21,50,5%
-2201,Mechanical Heart; Badge,Legendary,Prime,MaxHP%,Perc,1.0,0,51,90,7%
-2202,Mechanical Heart; Badge,Legendary,Prime,MaxHP%,Perc,1.0,0,91,300,10%
-2203,Mechanical Heart; Badge,Legendary,Prime,MaxMP%,Perc,1.0,0,0,20,3%
-2204,Mechanical Heart; Badge,Legendary,Prime,MaxMP%,Perc,1.0,0,21,50,5%
-2205,Mechanical Heart; Badge,Legendary,Prime,MaxMP%,Perc,1.0,0,51,90,7%
-2206,Mechanical Heart; Badge,Legendary,Prime,MaxMP%,Perc,1.0,0,91,300,10%
-2207,Mechanical Heart; Badge,Legendary,Prime,DEF%,Perc,1.0,0,0,20,3%
-2208,Mechanical Heart; Badge,Legendary,Prime,DEF%,Perc,1.0,0,21,50,5%
-2209,Mechanical Heart; Badge,Legendary,Prime,DEF%,Perc,1.0,0,51,90,7%
-2210,Mechanical Heart; Badge,Legendary,Prime,DEF%,Perc,1.0,0,91,300,10%
-2211,Mechanical Heart; Badge,Legendary,Prime,All Stats%,Perc,1.0,0,0,20,2%
-2212,Mechanical Heart; Badge,Legendary,Prime,All Stats%,Perc,1.0,0,21,50,3%
-2213,Mechanical Heart; Badge,Legendary,Prime,All Stats%,Perc,1.0,0,51,90,4%
-2214,Mechanical Heart; Badge,Legendary,Prime,All Stats%,Perc,1.0,0,91,300,5%
-2215,Mechanical Heart; Badge,Legendary,Prime,STR +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-2216,Mechanical Heart; Badge,Legendary,Prime,DEX +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-2217,Mechanical Heart; Badge,Legendary,Prime,INT +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-2218,Mechanical Heart; Badge,Legendary,Prime,LUK +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-2219,Mechanical Heart; Badge,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,0,20,2%
-2220,Mechanical Heart; Badge,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,21,50,3%
-2221,Mechanical Heart; Badge,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,51,90,4%
-2222,Mechanical Heart; Badge,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,91,300,5%
-2223,Mechanical Heart; Badge,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,0,20,2%
-2224,Mechanical Heart; Badge,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,21,50,3%
-2225,Mechanical Heart; Badge,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,51,90,4%
-2226,Mechanical Heart; Badge,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,91,300,5%
-2227,Mechanical Heart; Badge,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,0,20,10%
-2228,Mechanical Heart; Badge,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,21,50,15%
-2229,Mechanical Heart; Badge,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,51,90,20%
-2230,Mechanical Heart; Badge,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,91,300,30%
+1339,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,STR,Flat,1.0,0,0,20,1
+1340,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,STR,Flat,1.0,0,21,40,2
+1341,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,STR,Flat,1.0,0,41,50,3
+1342,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,STR,Flat,1.0,0,51,70,4
+1343,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,STR,Flat,1.0,0,71,90,5
+1344,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,STR,Flat,1.0,0,91,300,6
+1345,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEX,Flat,1.0,0,0,20,1
+1346,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEX,Flat,1.0,0,21,40,2
+1347,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEX,Flat,1.0,0,41,50,3
+1348,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEX,Flat,1.0,0,51,70,4
+1349,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEX,Flat,1.0,0,71,90,5
+1350,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEX,Flat,1.0,0,91,300,6
+1351,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,INT,Flat,1.0,0,0,20,1
+1352,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,INT,Flat,1.0,0,21,40,2
+1353,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,INT,Flat,1.0,0,41,50,3
+1354,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,INT,Flat,1.0,0,51,70,4
+1355,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,INT,Flat,1.0,0,71,90,5
+1356,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,INT,Flat,1.0,0,91,300,6
+1357,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,LUK,Flat,1.0,0,0,20,1
+1358,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,LUK,Flat,1.0,0,21,40,2
+1359,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,LUK,Flat,1.0,0,41,50,3
+1360,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,LUK,Flat,1.0,0,51,70,4
+1361,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,LUK,Flat,1.0,0,71,90,5
+1362,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,LUK,Flat,1.0,0,91,300,6
+1363,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,Weapon ATT,Flat,1.0,0,0,50,1
+1364,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,Weapon ATT,Flat,1.0,0,51,100,2
+1365,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,Weapon ATT,Flat,1.0,0,101,300,3
+1366,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,Magic ATT,Flat,1.0,0,0,50,1
+1367,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,Magic ATT,Flat,1.0,0,51,100,2
+1368,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,Magic ATT,Flat,1.0,0,101,300,3
+1369,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,Speed,Flat,1.0,0,0,30,1
+1370,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,Speed,Flat,1.0,0,31,70,2
+1371,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,Speed,Flat,1.0,0,71,110,3
+1372,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,Speed,Flat,1.0,0,111,300,4
+1373,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,Jump,Flat,1.0,0,0,30,1
+1374,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,Jump,Flat,1.0,0,31,70,2
+1375,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,Jump,Flat,1.0,0,71,110,3
+1376,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,Jump,Flat,1.0,0,111,300,4
+1377,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,0,10,5
+1378,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,11,20,10
+1379,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,21,30,15
+1380,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,31,40,20
+1381,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,41,50,25
+1382,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,51,60,30
+1383,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,61,70,35
+1384,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,71,80,40
+1385,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,81,90,45
+1386,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,91,100,50
+1387,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,101,110,55
+1388,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxHP,Flat,1.0,0,111,300,60
+1389,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,0,10,5
+1390,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,11,20,10
+1391,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,21,30,15
+1392,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,31,40,20
+1393,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,41,50,25
+1394,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,51,60,30
+1395,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,61,70,35
+1396,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,71,80,40
+1397,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,81,90,45
+1398,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,91,100,50
+1399,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,101,110,55
+1400,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,MaxMP,Flat,1.0,0,111,300,60
+1401,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEF,Flat,1.0,0,0,10,5
+1402,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEF,Flat,1.0,0,11,20,10
+1403,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEF,Flat,1.0,0,21,30,15
+1404,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEF,Flat,1.0,0,31,40,20
+1405,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEF,Flat,1.0,0,41,50,25
+1406,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEF,Flat,1.0,0,51,60,30
+1407,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEF,Flat,1.0,0,61,70,35
+1408,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEF,Flat,1.0,0,71,80,40
+1409,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEF,Flat,1.0,0,81,90,45
+1410,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEF,Flat,1.0,0,91,100,50
+1411,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEF,Flat,1.0,0,101,110,55
+1412,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Non prime,DEF,Flat,1.0,0,111,300,60
+1413,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,STR,Flat,1.0,0,0,20,2
+1414,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,STR,Flat,1.0,0,21,50,4
+1415,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,STR,Flat,1.0,0,51,70,6
+1416,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,STR,Flat,1.0,0,71,90,8
+1417,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,STR,Flat,1.0,0,91,300,10
+1418,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,DEX,Flat,1.0,0,0,20,2
+1419,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,DEX,Flat,1.0,0,21,50,4
+1420,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,DEX,Flat,1.0,0,51,70,6
+1421,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,DEX,Flat,1.0,0,71,90,8
+1422,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,DEX,Flat,1.0,0,91,300,10
+1423,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,INT,Flat,1.0,0,0,20,2
+1424,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,INT,Flat,1.0,0,21,50,4
+1425,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,INT,Flat,1.0,0,51,70,6
+1426,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,INT,Flat,1.0,0,71,90,8
+1427,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,INT,Flat,1.0,0,91,300,10
+1428,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,LUK,Flat,1.0,0,0,20,2
+1429,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,LUK,Flat,1.0,0,21,50,4
+1430,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,LUK,Flat,1.0,0,51,70,6
+1431,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,LUK,Flat,1.0,0,71,90,8
+1432,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,LUK,Flat,1.0,0,91,300,10
+1433,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Weapon ATT,Flat,1.0,0,0,20,1
+1434,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Weapon ATT,Flat,1.0,0,21,40,2
+1435,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Weapon ATT,Flat,1.0,0,41,60,4
+1436,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Weapon ATT,Flat,1.0,0,61,80,6
+1437,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Weapon ATT,Flat,1.0,0,81,90,8
+1438,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Weapon ATT,Flat,1.0,0,91,300,10
+1439,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Magic ATT,Flat,1.0,0,0,20,1
+1440,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Magic ATT,Flat,1.0,0,21,40,2
+1441,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Magic ATT,Flat,1.0,0,41,60,4
+1442,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Magic ATT,Flat,1.0,0,61,80,6
+1443,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Magic ATT,Flat,1.0,0,81,90,8
+1444,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Magic ATT,Flat,1.0,0,91,300,10
+1445,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,MaxHP,Flat,1.0,0,0,20,10
+1446,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,MaxHP,Flat,1.0,0,21,50,15
+1447,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,MaxHP,Flat,1.0,0,51,90,50
+1448,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,MaxHP,Flat,1.0,0,91,300,100
+1449,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,MaxMP,Flat,1.0,0,0,20,10
+1450,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,MaxMP,Flat,1.0,0,21,50,15
+1451,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,MaxMP,Flat,1.0,0,51,90,50
+1452,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,MaxMP,Flat,1.0,0,91,300,100
+1453,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,DEF,Flat,1.0,0,0,20,10
+1454,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,DEF,Flat,1.0,0,21,50,15
+1455,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,DEF,Flat,1.0,0,51,90,50
+1456,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,DEF,Flat,1.0,0,91,300,100
+1457,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Speed,Flat,1.0,0,0,20,2
+1458,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Speed,Flat,1.0,0,21,50,3
+1459,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Speed,Flat,1.0,0,51,80,4
+1460,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Speed,Flat,1.0,0,81,110,5
+1461,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Speed,Flat,1.0,0,111,300,6
+1462,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Jump,Flat,1.0,0,0,20,2
+1463,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Jump,Flat,1.0,0,21,50,3
+1464,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Jump,Flat,1.0,0,51,80,4
+1465,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Jump,Flat,1.0,0,81,110,5
+1466,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,Jump,Flat,1.0,0,111,300,6
+1467,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,STR%,Perc,1.0,0,0,90,1%
+1468,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,STR%,Perc,1.0,0,91,300,2%
+1469,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,DEX%,Perc,1.0,0,0,90,1%
+1470,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,DEX%,Perc,1.0,0,91,300,2%
+1471,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,INT%,Perc,1.0,0,0,90,1%
+1472,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,INT%,Perc,1.0,0,91,300,2%
+1473,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,LUK%,Perc,1.0,0,0,90,1%
+1474,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,LUK%,Perc,1.0,0,91,300,2%
+1475,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,DEF%,Perc,1.0,0,0,90,1%
+1476,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,DEF%,Perc,1.0,0,91,300,2%
+1477,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,MaxHP%,Perc,1.0,0,0,90,1%
+1478,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,MaxHP%,Perc,1.0,0,91,300,2%
+1479,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,MaxMP%,Perc,1.0,0,0,90,1%
+1480,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,MaxMP%,Perc,1.0,0,91,300,2%
+1481,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,All Stats,Flat,1.0,0,0,50,1
+1482,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,All Stats,Flat,1.0,0,51,90,2
+1483,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Rare,Prime,All Stats,Flat,1.0,0,91,300,3
+1484,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,STR,Flat,1.0,0,0,20,4
+1485,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,STR,Flat,1.0,0,21,40,6
+1486,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,STR,Flat,1.0,0,41,50,8
+1487,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,STR,Flat,1.0,0,51,70,10
+1488,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,STR,Flat,1.0,0,71,90,12
+1489,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,STR,Flat,1.0,0,91,300,14
+1490,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEX,Flat,1.0,0,0,20,4
+1491,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEX,Flat,1.0,0,21,40,6
+1492,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEX,Flat,1.0,0,41,50,8
+1493,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEX,Flat,1.0,0,51,70,10
+1494,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEX,Flat,1.0,0,71,90,12
+1495,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEX,Flat,1.0,0,91,300,14
+1496,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,INT,Flat,1.0,0,0,20,4
+1497,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,INT,Flat,1.0,0,21,40,6
+1498,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,INT,Flat,1.0,0,41,50,8
+1499,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,INT,Flat,1.0,0,51,70,10
+1500,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,INT,Flat,1.0,0,71,90,12
+1501,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,INT,Flat,1.0,0,91,300,14
+1502,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,LUK,Flat,1.0,0,0,20,4
+1503,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,LUK,Flat,1.0,0,21,40,6
+1504,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,LUK,Flat,1.0,0,41,50,8
+1505,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,LUK,Flat,1.0,0,51,70,10
+1506,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,LUK,Flat,1.0,0,71,90,12
+1507,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,LUK,Flat,1.0,0,91,300,14
+1508,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,Weapon ATT,Flat,1.0,0,0,20,4
+1509,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,Weapon ATT,Flat,1.0,0,21,50,6
+1510,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,Weapon ATT,Flat,1.0,0,51,90,8
+1511,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,Weapon ATT,Flat,1.0,0,91,300,11
+1512,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,Magic ATT,Flat,1.0,0,0,20,4
+1513,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,Magic ATT,Flat,1.0,0,21,50,6
+1514,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,Magic ATT,Flat,1.0,0,51,90,8
+1515,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,Magic ATT,Flat,1.0,0,91,300,11
+1516,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,0,10,15
+1517,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,11,20,30
+1518,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,21,30,45
+1519,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,31,40,60
+1520,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,41,50,75
+1521,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,51,60,90
+1522,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,61,70,105
+1523,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,71,80,120
+1524,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,81,90,135
+1525,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,91,100,150
+1526,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,101,110,165
+1527,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP,Flat,1.0,0,111,300,180
+1528,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,0,10,15
+1529,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,11,20,30
+1530,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,21,30,45
+1531,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,31,40,60
+1532,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,41,50,75
+1533,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,51,60,90
+1534,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,61,70,105
+1535,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,71,80,120
+1536,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,81,90,135
+1537,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,91,100,150
+1538,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,101,110,165
+1539,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP,Flat,1.0,0,111,300,180
+1540,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEF,Flat,1.0,0,0,20,15
+1541,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEF,Flat,1.0,0,21,50,20
+1542,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEF,Flat,1.0,0,51,90,60
+1543,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEF,Flat,1.0,0,91,300,120
+1544,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,Speed,Flat,1.0,0,0,30,4
+1545,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,Speed,Flat,1.0,0,31,110,6
+1546,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,Speed,Flat,1.0,0,111,300,8
+1547,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,Jump,Flat,1.0,0,0,30,4
+1548,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,Jump,Flat,1.0,0,31,110,6
+1549,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,Jump,Flat,1.0,0,111,300,8
+1550,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,STR%,Perc,1.0,0,0,20,1%
+1551,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,STR%,Perc,1.0,0,21,50,2%
+1552,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,STR%,Perc,1.0,0,51,90,3%
+1553,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,STR%,Perc,1.0,0,91,300,4%
+1554,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEX%,Perc,1.0,0,0,20,1%
+1555,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEX%,Perc,1.0,0,21,50,2%
+1556,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEX%,Perc,1.0,0,51,90,3%
+1557,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEX%,Perc,1.0,0,91,300,4%
+1558,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,INT%,Perc,1.0,0,0,20,1%
+1559,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,INT%,Perc,1.0,0,21,50,2%
+1560,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,INT%,Perc,1.0,0,51,90,3%
+1561,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,INT%,Perc,1.0,0,91,300,4%
+1562,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,LUK%,Perc,1.0,0,0,20,1%
+1563,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,LUK%,Perc,1.0,0,21,50,2%
+1564,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,LUK%,Perc,1.0,0,51,90,3%
+1565,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,LUK%,Perc,1.0,0,91,300,4%
+1566,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP%,Perc,1.0,0,0,20,1%
+1567,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP%,Perc,1.0,0,21,50,2%
+1568,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP%,Perc,1.0,0,51,90,3%
+1569,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxHP%,Perc,1.0,0,91,300,5%
+1570,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP%,Perc,1.0,0,0,20,1%
+1571,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP%,Perc,1.0,0,21,50,2%
+1572,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP%,Perc,1.0,0,51,90,3%
+1573,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,MaxMP%,Perc,1.0,0,91,300,5%
+1574,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEF%,Perc,1.0,0,0,30,1%
+1575,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEF%,Perc,1.0,0,31,70,2%
+1576,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,DEF%,Perc,1.0,0,71,300,4%
+1577,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,All Stats%,Perc,1.0,0,0,90,1%
+1578,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Epic,Prime,All Stats%,Perc,1.0,0,91,300,2%
+1579,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,STR,Flat,1.0,0,0,20,8
+1580,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,STR,Flat,1.0,0,21,50,10
+1581,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,STR,Flat,1.0,0,51,70,12
+1582,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,STR,Flat,1.0,0,71,90,14
+1583,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,STR,Flat,1.0,0,91,300,16
+1584,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEX,Flat,1.0,0,0,20,8
+1585,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEX,Flat,1.0,0,21,50,10
+1586,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEX,Flat,1.0,0,51,70,12
+1587,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEX,Flat,1.0,0,71,90,14
+1588,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEX,Flat,1.0,0,91,300,16
+1589,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,INT,Flat,1.0,0,0,20,8
+1590,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,INT,Flat,1.0,0,21,50,10
+1591,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,INT,Flat,1.0,0,51,70,12
+1592,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,INT,Flat,1.0,0,71,90,14
+1593,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,INT,Flat,1.0,0,91,300,16
+1594,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,LUK,Flat,1.0,0,0,20,8
+1595,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,LUK,Flat,1.0,0,21,50,10
+1596,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,LUK,Flat,1.0,0,51,70,12
+1597,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,LUK,Flat,1.0,0,71,90,14
+1598,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,LUK,Flat,1.0,0,91,300,16
+1599,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,Weapon ATT,Flat,1.0,0,0,20,6
+1600,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,Weapon ATT,Flat,1.0,0,21,50,8
+1601,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,Weapon ATT,Flat,1.0,0,51,90,10
+1602,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,Weapon ATT,Flat,1.0,0,91,300,12
+1603,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,Magic ATT,Flat,1.0,0,0,20,6
+1604,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,Magic ATT,Flat,1.0,0,21,50,8
+1605,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,Magic ATT,Flat,1.0,0,51,90,10
+1606,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,Magic ATT,Flat,1.0,0,91,300,12
+1607,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEF,Flat,1.0,0,0,20,15
+1608,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEF,Flat,1.0,0,21,50,30
+1609,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEF,Flat,1.0,0,51,90,80
+1610,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEF,Flat,1.0,0,91,300,150
+1611,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,0,10,20
+1612,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,11,20,40
+1613,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,21,30,60
+1614,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,31,40,80
+1615,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,41,50,100
+1616,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,51,60,120
+1617,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,61,70,140
+1618,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,71,80,160
+1619,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,81,90,180
+1620,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,91,100,200
+1621,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,101,110,220
+1622,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP,Flat,1.0,0,111,300,240
+1623,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,0,10,20
+1624,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,11,20,40
+1625,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,21,30,60
+1626,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,31,40,80
+1627,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,41,50,100
+1628,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,51,60,120
+1629,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,61,70,140
+1630,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,71,80,160
+1631,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,81,90,180
+1632,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,91,100,200
+1633,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,101,110,220
+1634,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP,Flat,1.0,0,111,300,240
+1635,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,STR%,Perc,1.0,0,0,20,2%
+1636,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,STR%,Perc,1.0,0,21,50,3%
+1637,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,STR%,Perc,1.0,0,51,90,4%
+1638,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,STR%,Perc,1.0,0,91,300,5%
+1639,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEX%,Perc,1.0,0,0,20,2%
+1640,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEX%,Perc,1.0,0,21,50,3%
+1641,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEX%,Perc,1.0,0,51,90,4%
+1642,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEX%,Perc,1.0,0,91,300,5%
+1643,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,INT%,Perc,1.0,0,0,20,2%
+1644,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,INT%,Perc,1.0,0,21,50,3%
+1645,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,INT%,Perc,1.0,0,51,90,4%
+1646,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,INT%,Perc,1.0,0,91,300,5%
+1647,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,LUK%,Perc,1.0,0,0,20,2%
+1648,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,LUK%,Perc,1.0,0,21,50,3%
+1649,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,LUK%,Perc,1.0,0,51,90,4%
+1650,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,LUK%,Perc,1.0,0,91,300,5%
+1651,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP%,Perc,1.0,0,0,20,2%
+1652,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP%,Perc,1.0,0,21,50,3%
+1653,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP%,Perc,1.0,0,51,90,5%
+1654,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxHP%,Perc,1.0,0,91,300,7%
+1655,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP%,Perc,1.0,0,0,20,2%
+1656,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP%,Perc,1.0,0,21,50,3%
+1657,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP%,Perc,1.0,0,51,90,5%
+1658,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,MaxMP%,Perc,1.0,0,91,300,7%
+1659,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEF%,Perc,1.0,0,0,20,2%
+1660,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEF%,Perc,1.0,0,21,50,3%
+1661,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEF%,Perc,1.0,0,51,90,5%
+1662,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEF%,Perc,1.0,0,91,300,7%
+1663,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,All Stats%,Perc,1.0,0,0,20,1%
+1664,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,All Stats%,Perc,1.0,0,21,50,2%
+1665,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,All Stats%,Perc,1.0,0,51,90,3%
+1666,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,All Stats%,Perc,1.0,0,91,300,4%
+1667,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,0,20,5%
+1668,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,21,50,10%
+1669,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,51,90,15%
+1670,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,91,300,20%
+1671,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,STR +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+1672,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,DEX +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+1673,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,INT +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+1674,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Unique,Prime,LUK +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+1675,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,STR,Flat,1.0,0,0,20,8
+1676,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,STR,Flat,1.0,0,21,40,10
+1677,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,STR,Flat,1.0,0,41,50,12
+1678,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,STR,Flat,1.0,0,51,70,14
+1679,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,STR,Flat,1.0,0,71,90,16
+1680,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,STR,Flat,1.0,0,91,300,18
+1681,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEX,Flat,1.0,0,0,20,8
+1682,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEX,Flat,1.0,0,21,40,10
+1683,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEX,Flat,1.0,0,41,50,12
+1684,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEX,Flat,1.0,0,51,70,14
+1685,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEX,Flat,1.0,0,71,90,16
+1686,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEX,Flat,1.0,0,91,300,18
+1687,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,INT,Flat,1.0,0,0,20,8
+1688,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,INT,Flat,1.0,0,21,40,10
+1689,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,INT,Flat,1.0,0,41,50,12
+1690,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,INT,Flat,1.0,0,51,70,14
+1691,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,INT,Flat,1.0,0,71,90,16
+1692,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,INT,Flat,1.0,0,91,300,18
+1693,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,LUK,Flat,1.0,0,0,20,8
+1694,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,LUK,Flat,1.0,0,21,40,10
+1695,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,LUK,Flat,1.0,0,41,50,12
+1696,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,LUK,Flat,1.0,0,51,70,14
+1697,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,LUK,Flat,1.0,0,71,90,16
+1698,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,LUK,Flat,1.0,0,91,300,18
+1699,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Weapon ATT,Flat,1.0,0,0,20,8
+1700,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Weapon ATT,Flat,1.0,0,21,50,10
+1701,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Weapon ATT,Flat,1.0,0,51,90,12
+1702,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Weapon ATT,Flat,1.0,0,91,300,14
+1703,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Magic ATT,Flat,1.0,0,0,20,8
+1704,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Magic ATT,Flat,1.0,0,21,50,10
+1705,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Magic ATT,Flat,1.0,0,51,90,12
+1706,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Magic ATT,Flat,1.0,0,91,300,14
+1707,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEF,Flat,1.0,0,0,20,20
+1708,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEF,Flat,1.0,0,21,50,50
+1709,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEF,Flat,1.0,0,51,90,100
+1710,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEF,Flat,1.0,0,91,300,200
+1711,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,0,10,25
+1712,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,11,20,50
+1713,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,21,30,75
+1714,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,31,40,100
+1715,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,41,50,125
+1716,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,51,60,150
+1717,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,61,70,175
+1718,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,71,80,200
+1719,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,81,90,225
+1720,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,91,100,250
+1721,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,101,110,275
+1722,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP,Flat,1.0,0,11,300,300
+1723,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,0,10,25
+1724,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,11,20,50
+1725,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,21,30,75
+1726,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,31,40,100
+1727,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,41,50,125
+1728,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,51,60,150
+1729,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,61,70,175
+1730,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,71,80,200
+1731,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,81,90,225
+1732,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,91,100,250
+1733,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,101,110,275
+1734,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP,Flat,1.0,0,111,300,300
+1735,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,STR%,Perc,1.0,0,0,20,3%
+1736,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,STR%,Perc,1.0,0,21,50,4%
+1737,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,STR%,Perc,1.0,0,51,90,5%
+1738,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,STR%,Perc,1.0,0,91,300,7%
+1739,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEX%,Perc,1.0,0,0,20,3%
+1740,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEX%,Perc,1.0,0,21,50,4%
+1741,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEX%,Perc,1.0,0,51,90,5%
+1742,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEX%,Perc,1.0,0,91,300,7%
+1743,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,INT%,Perc,1.0,0,0,20,3%
+1744,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,INT%,Perc,1.0,0,21,50,4%
+1745,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,INT%,Perc,1.0,0,51,90,5%
+1746,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,INT%,Perc,1.0,0,91,300,7%
+1747,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,LUK%,Perc,1.0,0,0,20,3%
+1748,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,LUK%,Perc,1.0,0,21,50,4%
+1749,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,LUK%,Perc,1.0,0,51,90,5%
+1750,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,LUK%,Perc,1.0,0,91,300,7%
+1751,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP%,Perc,1.0,0,0,20,3%
+1752,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP%,Perc,1.0,0,21,50,5%
+1753,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP%,Perc,1.0,0,51,90,7%
+1754,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxHP%,Perc,1.0,0,91,300,10%
+1755,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP%,Perc,1.0,0,0,20,3%
+1756,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP%,Perc,1.0,0,21,50,5%
+1757,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP%,Perc,1.0,0,51,90,7%
+1758,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,MaxMP%,Perc,1.0,0,91,300,10%
+1759,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEF%,Perc,1.0,0,0,20,3%
+1760,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEF%,Perc,1.0,0,21,50,5%
+1761,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEF%,Perc,1.0,0,51,90,7%
+1762,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEF%,Perc,1.0,0,91,300,10%
+1763,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,All Stats%,Perc,1.0,0,0,20,2%
+1764,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,All Stats%,Perc,1.0,0,21,50,3%
+1765,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,All Stats%,Perc,1.0,0,51,90,4%
+1766,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,All Stats%,Perc,1.0,0,91,300,5%
+1767,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Skill MP Cost Reduction,Flat,1.0,0,0,20,-3%
+1768,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Skill MP Cost Reduction,Flat,1.0,0,21,50,-5%
+1769,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Skill MP Cost Reduction,Flat,1.0,0,51,90,-7%
+1770,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Skill MP Cost Reduction,Flat,1.0,0,91,300,-10%
+1771,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,STR +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+1772,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,DEX +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+1773,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,INT +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+1774,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,LUK +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+1775,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,0,20,2%
+1776,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,21,50,3%
+1777,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,51,90,4%
+1778,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,91,300,5%
+1779,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,0,20,2%
+1780,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,21,50,3%
+1781,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,51,90,4%
+1782,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,91,300,5%
+1783,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,0,20,10%
+1784,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,21,50,15%
+1785,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,51,90,20%
+1786,Face Accessory; Eye Accessory; Ring; Earrings; Pendant,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,91,300,30%
+1787,Heart; Badge,Rare,Non prime,STR,Flat,1.0,0,0,20,1
+1788,Heart; Badge,Rare,Non prime,STR,Flat,1.0,0,21,40,2
+1789,Heart; Badge,Rare,Non prime,STR,Flat,1.0,0,41,50,3
+1790,Heart; Badge,Rare,Non prime,STR,Flat,1.0,0,51,70,4
+1791,Heart; Badge,Rare,Non prime,STR,Flat,1.0,0,71,90,5
+1792,Heart; Badge,Rare,Non prime,STR,Flat,1.0,0,91,300,6
+1793,Heart; Badge,Rare,Non prime,DEX,Flat,1.0,0,0,20,1
+1794,Heart; Badge,Rare,Non prime,DEX,Flat,1.0,0,21,40,2
+1795,Heart; Badge,Rare,Non prime,DEX,Flat,1.0,0,41,50,3
+1796,Heart; Badge,Rare,Non prime,DEX,Flat,1.0,0,51,70,4
+1797,Heart; Badge,Rare,Non prime,DEX,Flat,1.0,0,71,90,5
+1798,Heart; Badge,Rare,Non prime,DEX,Flat,1.0,0,91,300,6
+1799,Heart; Badge,Rare,Non prime,INT,Flat,1.0,0,0,20,1
+1800,Heart; Badge,Rare,Non prime,INT,Flat,1.0,0,21,40,2
+1801,Heart; Badge,Rare,Non prime,INT,Flat,1.0,0,41,50,3
+1802,Heart; Badge,Rare,Non prime,INT,Flat,1.0,0,51,70,4
+1803,Heart; Badge,Rare,Non prime,INT,Flat,1.0,0,71,90,5
+1804,Heart; Badge,Rare,Non prime,INT,Flat,1.0,0,91,300,6
+1805,Heart; Badge,Rare,Non prime,LUK,Flat,1.0,0,0,20,1
+1806,Heart; Badge,Rare,Non prime,LUK,Flat,1.0,0,21,40,2
+1807,Heart; Badge,Rare,Non prime,LUK,Flat,1.0,0,41,50,3
+1808,Heart; Badge,Rare,Non prime,LUK,Flat,1.0,0,51,70,4
+1809,Heart; Badge,Rare,Non prime,LUK,Flat,1.0,0,71,90,5
+1810,Heart; Badge,Rare,Non prime,LUK,Flat,1.0,0,91,300,6
+1811,Heart; Badge,Rare,Non prime,Weapon ATT,Flat,1.0,0,0,50,1
+1812,Heart; Badge,Rare,Non prime,Weapon ATT,Flat,1.0,0,51,100,2
+1813,Heart; Badge,Rare,Non prime,Weapon ATT,Flat,1.0,0,101,300,3
+1814,Heart; Badge,Rare,Non prime,Magic ATT,Flat,1.0,0,0,50,1
+1815,Heart; Badge,Rare,Non prime,Magic ATT,Flat,1.0,0,51,100,2
+1816,Heart; Badge,Rare,Non prime,Magic ATT,Flat,1.0,0,101,300,3
+1817,Heart; Badge,Rare,Non prime,Speed,Flat,1.0,0,0,30,1
+1818,Heart; Badge,Rare,Non prime,Speed,Flat,1.0,0,31,70,2
+1819,Heart; Badge,Rare,Non prime,Speed,Flat,1.0,0,71,110,3
+1820,Heart; Badge,Rare,Non prime,Speed,Flat,1.0,0,111,300,4
+1821,Heart; Badge,Rare,Non prime,Jump,Flat,1.0,0,0,30,1
+1822,Heart; Badge,Rare,Non prime,Jump,Flat,1.0,0,31,70,2
+1823,Heart; Badge,Rare,Non prime,Jump,Flat,1.0,0,71,110,3
+1824,Heart; Badge,Rare,Non prime,Jump,Flat,1.0,0,111,300,4
+1825,Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,0,10,5
+1826,Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,11,20,10
+1827,Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,21,30,15
+1828,Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,31,40,20
+1829,Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,41,50,25
+1830,Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,51,60,30
+1831,Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,61,70,35
+1832,Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,71,80,40
+1833,Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,81,90,45
+1834,Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,91,100,50
+1835,Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,101,110,55
+1836,Heart; Badge,Rare,Non prime,MaxHP,Flat,1.0,0,111,300,60
+1837,Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,0,10,5
+1838,Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,11,20,10
+1839,Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,21,30,15
+1840,Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,31,40,20
+1841,Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,41,50,25
+1842,Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,51,60,30
+1843,Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,61,70,35
+1844,Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,71,80,40
+1845,Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,81,90,45
+1846,Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,91,100,50
+1847,Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,101,110,55
+1848,Heart; Badge,Rare,Non prime,MaxMP,Flat,1.0,0,111,300,60
+1849,Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,0,10,5
+1850,Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,11,20,10
+1851,Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,21,30,15
+1852,Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,31,40,20
+1853,Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,41,50,25
+1854,Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,51,60,30
+1855,Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,61,70,35
+1856,Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,71,80,40
+1857,Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,81,90,45
+1858,Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,91,100,50
+1859,Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,101,110,55
+1860,Heart; Badge,Rare,Non prime,DEF,Flat,1.0,0,111,300,60
+1861,Heart; Badge,Rare,Prime,STR,Flat,1.0,0,0,20,2
+1862,Heart; Badge,Rare,Prime,STR,Flat,1.0,0,21,50,4
+1863,Heart; Badge,Rare,Prime,STR,Flat,1.0,0,51,70,6
+1864,Heart; Badge,Rare,Prime,STR,Flat,1.0,0,71,90,8
+1865,Heart; Badge,Rare,Prime,STR,Flat,1.0,0,91,300,10
+1866,Heart; Badge,Rare,Prime,DEX,Flat,1.0,0,0,20,2
+1867,Heart; Badge,Rare,Prime,DEX,Flat,1.0,0,21,50,4
+1868,Heart; Badge,Rare,Prime,DEX,Flat,1.0,0,51,70,6
+1869,Heart; Badge,Rare,Prime,DEX,Flat,1.0,0,71,90,8
+1870,Heart; Badge,Rare,Prime,DEX,Flat,1.0,0,91,300,10
+1871,Heart; Badge,Rare,Prime,INT,Flat,1.0,0,0,20,2
+1872,Heart; Badge,Rare,Prime,INT,Flat,1.0,0,21,50,4
+1873,Heart; Badge,Rare,Prime,INT,Flat,1.0,0,51,70,6
+1874,Heart; Badge,Rare,Prime,INT,Flat,1.0,0,71,90,8
+1875,Heart; Badge,Rare,Prime,INT,Flat,1.0,0,91,300,10
+1876,Heart; Badge,Rare,Prime,LUK,Flat,1.0,0,0,20,2
+1877,Heart; Badge,Rare,Prime,LUK,Flat,1.0,0,21,50,4
+1878,Heart; Badge,Rare,Prime,LUK,Flat,1.0,0,51,70,6
+1879,Heart; Badge,Rare,Prime,LUK,Flat,1.0,0,71,90,8
+1880,Heart; Badge,Rare,Prime,LUK,Flat,1.0,0,91,300,10
+1881,Heart; Badge,Rare,Prime,Weapon ATT,Flat,1.0,0,0,20,1
+1882,Heart; Badge,Rare,Prime,Weapon ATT,Flat,1.0,0,21,40,2
+1883,Heart; Badge,Rare,Prime,Weapon ATT,Flat,1.0,0,41,60,4
+1884,Heart; Badge,Rare,Prime,Weapon ATT,Flat,1.0,0,61,80,6
+1885,Heart; Badge,Rare,Prime,Weapon ATT,Flat,1.0,0,81,90,8
+1886,Heart; Badge,Rare,Prime,Weapon ATT,Flat,1.0,0,91,300,10
+1887,Heart; Badge,Rare,Prime,Magic ATT,Flat,1.0,0,0,20,1
+1888,Heart; Badge,Rare,Prime,Magic ATT,Flat,1.0,0,21,40,2
+1889,Heart; Badge,Rare,Prime,Magic ATT,Flat,1.0,0,41,60,4
+1890,Heart; Badge,Rare,Prime,Magic ATT,Flat,1.0,0,61,80,6
+1891,Heart; Badge,Rare,Prime,Magic ATT,Flat,1.0,0,81,90,8
+1892,Heart; Badge,Rare,Prime,Magic ATT,Flat,1.0,0,91,300,10
+1893,Heart; Badge,Rare,Prime,MaxHP,Flat,1.0,0,0,20,10
+1894,Heart; Badge,Rare,Prime,MaxHP,Flat,1.0,0,21,50,15
+1895,Heart; Badge,Rare,Prime,MaxHP,Flat,1.0,0,51,90,50
+1896,Heart; Badge,Rare,Prime,MaxHP,Flat,1.0,0,91,300,100
+1897,Heart; Badge,Rare,Prime,MaxMP,Flat,1.0,0,0,20,10
+1898,Heart; Badge,Rare,Prime,MaxMP,Flat,1.0,0,21,50,15
+1899,Heart; Badge,Rare,Prime,MaxMP,Flat,1.0,0,51,90,50
+1900,Heart; Badge,Rare,Prime,MaxMP,Flat,1.0,0,91,300,100
+1901,Heart; Badge,Rare,Prime,DEF,Flat,1.0,0,0,20,10
+1902,Heart; Badge,Rare,Prime,DEF,Flat,1.0,0,21,50,15
+1903,Heart; Badge,Rare,Prime,DEF,Flat,1.0,0,51,90,50
+1904,Heart; Badge,Rare,Prime,DEF,Flat,1.0,0,91,300,100
+1905,Heart; Badge,Rare,Prime,Speed,Flat,1.0,0,0,20,2
+1906,Heart; Badge,Rare,Prime,Speed,Flat,1.0,0,21,50,3
+1907,Heart; Badge,Rare,Prime,Speed,Flat,1.0,0,51,80,4
+1908,Heart; Badge,Rare,Prime,Speed,Flat,1.0,0,81,110,5
+1909,Heart; Badge,Rare,Prime,Speed,Flat,1.0,0,111,300,6
+1910,Heart; Badge,Rare,Prime,Jump,Flat,1.0,0,0,20,2
+1911,Heart; Badge,Rare,Prime,Jump,Flat,1.0,0,21,50,3
+1912,Heart; Badge,Rare,Prime,Jump,Flat,1.0,0,51,80,4
+1913,Heart; Badge,Rare,Prime,Jump,Flat,1.0,0,81,110,5
+1914,Heart; Badge,Rare,Prime,Jump,Flat,1.0,0,111,300,6
+1915,Heart; Badge,Rare,Prime,STR%,Perc,1.0,0,0,90,1%
+1916,Heart; Badge,Rare,Prime,STR%,Perc,1.0,0,91,300,2%
+1917,Heart; Badge,Rare,Prime,DEX%,Perc,1.0,0,0,90,1%
+1918,Heart; Badge,Rare,Prime,DEX%,Perc,1.0,0,91,300,2%
+1919,Heart; Badge,Rare,Prime,INT%,Perc,1.0,0,0,90,1%
+1920,Heart; Badge,Rare,Prime,INT%,Perc,1.0,0,91,300,2%
+1921,Heart; Badge,Rare,Prime,LUK%,Perc,1.0,0,0,90,1%
+1922,Heart; Badge,Rare,Prime,LUK%,Perc,1.0,0,91,300,2%
+1923,Heart; Badge,Rare,Prime,DEF%,Perc,1.0,0,0,90,1%
+1924,Heart; Badge,Rare,Prime,DEF%,Perc,1.0,0,91,300,2%
+1925,Heart; Badge,Rare,Prime,MaxHP%,Perc,1.0,0,0,90,1%
+1926,Heart; Badge,Rare,Prime,MaxHP%,Perc,1.0,0,91,300,2%
+1927,Heart; Badge,Rare,Prime,MaxMP%,Perc,1.0,0,0,90,1%
+1928,Heart; Badge,Rare,Prime,MaxMP%,Perc,1.0,0,91,300,2%
+1929,Heart; Badge,Rare,Prime,All Stats,Flat,1.0,0,0,50,1
+1930,Heart; Badge,Rare,Prime,All Stats,Flat,1.0,0,51,90,2
+1931,Heart; Badge,Rare,Prime,All Stats,Flat,1.0,0,91,300,3
+1932,Heart; Badge,Epic,Prime,STR,Flat,1.0,0,0,20,4
+1933,Heart; Badge,Epic,Prime,STR,Flat,1.0,0,21,40,6
+1934,Heart; Badge,Epic,Prime,STR,Flat,1.0,0,41,50,8
+1935,Heart; Badge,Epic,Prime,STR,Flat,1.0,0,51,70,10
+1936,Heart; Badge,Epic,Prime,STR,Flat,1.0,0,71,90,12
+1937,Heart; Badge,Epic,Prime,STR,Flat,1.0,0,91,300,14
+1938,Heart; Badge,Epic,Prime,DEX,Flat,1.0,0,0,20,4
+1939,Heart; Badge,Epic,Prime,DEX,Flat,1.0,0,21,40,6
+1940,Heart; Badge,Epic,Prime,DEX,Flat,1.0,0,41,50,8
+1941,Heart; Badge,Epic,Prime,DEX,Flat,1.0,0,51,70,10
+1942,Heart; Badge,Epic,Prime,DEX,Flat,1.0,0,71,90,12
+1943,Heart; Badge,Epic,Prime,DEX,Flat,1.0,0,91,300,14
+1944,Heart; Badge,Epic,Prime,INT,Flat,1.0,0,0,20,4
+1945,Heart; Badge,Epic,Prime,INT,Flat,1.0,0,21,40,6
+1946,Heart; Badge,Epic,Prime,INT,Flat,1.0,0,41,50,8
+1947,Heart; Badge,Epic,Prime,INT,Flat,1.0,0,51,70,10
+1948,Heart; Badge,Epic,Prime,INT,Flat,1.0,0,71,90,12
+1949,Heart; Badge,Epic,Prime,INT,Flat,1.0,0,91,300,14
+1950,Heart; Badge,Epic,Prime,LUK,Flat,1.0,0,0,20,4
+1951,Heart; Badge,Epic,Prime,LUK,Flat,1.0,0,21,40,6
+1952,Heart; Badge,Epic,Prime,LUK,Flat,1.0,0,41,50,8
+1953,Heart; Badge,Epic,Prime,LUK,Flat,1.0,0,51,70,10
+1954,Heart; Badge,Epic,Prime,LUK,Flat,1.0,0,71,90,12
+1955,Heart; Badge,Epic,Prime,LUK,Flat,1.0,0,91,300,14
+1956,Heart; Badge,Epic,Prime,Weapon ATT,Flat,1.0,0,0,20,4
+1957,Heart; Badge,Epic,Prime,Weapon ATT,Flat,1.0,0,21,50,6
+1958,Heart; Badge,Epic,Prime,Weapon ATT,Flat,1.0,0,51,90,8
+1959,Heart; Badge,Epic,Prime,Weapon ATT,Flat,1.0,0,91,300,11
+1960,Heart; Badge,Epic,Prime,Magic ATT,Flat,1.0,0,0,20,4
+1961,Heart; Badge,Epic,Prime,Magic ATT,Flat,1.0,0,21,50,6
+1962,Heart; Badge,Epic,Prime,Magic ATT,Flat,1.0,0,51,90,8
+1963,Heart; Badge,Epic,Prime,Magic ATT,Flat,1.0,0,91,300,11
+1964,Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,0,10,15
+1965,Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,11,20,30
+1966,Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,21,30,45
+1967,Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,31,40,60
+1968,Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,41,50,75
+1969,Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,51,60,90
+1970,Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,61,70,105
+1971,Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,71,80,120
+1972,Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,81,90,135
+1973,Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,91,100,150
+1974,Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,101,110,165
+1975,Heart; Badge,Epic,Prime,MaxHP,Flat,1.0,0,111,300,180
+1976,Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,0,10,15
+1977,Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,11,20,30
+1978,Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,21,30,45
+1979,Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,31,40,60
+1980,Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,41,50,75
+1981,Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,51,60,90
+1982,Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,61,70,105
+1983,Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,71,80,120
+1984,Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,81,90,135
+1985,Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,91,100,150
+1986,Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,101,110,165
+1987,Heart; Badge,Epic,Prime,MaxMP,Flat,1.0,0,111,300,180
+1988,Heart; Badge,Epic,Prime,DEF,Flat,1.0,0,0,20,15
+1989,Heart; Badge,Epic,Prime,DEF,Flat,1.0,0,21,50,20
+1990,Heart; Badge,Epic,Prime,DEF,Flat,1.0,0,51,90,60
+1991,Heart; Badge,Epic,Prime,DEF,Flat,1.0,0,91,300,120
+1992,Heart; Badge,Epic,Prime,Speed,Flat,1.0,0,0,30,4
+1993,Heart; Badge,Epic,Prime,Speed,Flat,1.0,0,31,110,6
+1994,Heart; Badge,Epic,Prime,Speed,Flat,1.0,0,111,300,8
+1995,Heart; Badge,Epic,Prime,Jump,Flat,1.0,0,0,30,4
+1996,Heart; Badge,Epic,Prime,Jump,Flat,1.0,0,31,110,6
+1997,Heart; Badge,Epic,Prime,Jump,Flat,1.0,0,111,300,8
+1998,Heart; Badge,Epic,Prime,STR%,Perc,1.0,0,0,20,1%
+1999,Heart; Badge,Epic,Prime,STR%,Perc,1.0,0,21,50,2%
+2000,Heart; Badge,Epic,Prime,STR%,Perc,1.0,0,51,90,3%
+2001,Heart; Badge,Epic,Prime,STR%,Perc,1.0,0,91,300,4%
+2002,Heart; Badge,Epic,Prime,DEX%,Perc,1.0,0,0,20,1%
+2003,Heart; Badge,Epic,Prime,DEX%,Perc,1.0,0,21,50,2%
+2004,Heart; Badge,Epic,Prime,DEX%,Perc,1.0,0,51,90,3%
+2005,Heart; Badge,Epic,Prime,DEX%,Perc,1.0,0,91,300,4%
+2006,Heart; Badge,Epic,Prime,INT%,Perc,1.0,0,0,20,1%
+2007,Heart; Badge,Epic,Prime,INT%,Perc,1.0,0,21,50,2%
+2008,Heart; Badge,Epic,Prime,INT%,Perc,1.0,0,51,90,3%
+2009,Heart; Badge,Epic,Prime,INT%,Perc,1.0,0,91,300,4%
+2010,Heart; Badge,Epic,Prime,LUK%,Perc,1.0,0,0,20,1%
+2011,Heart; Badge,Epic,Prime,LUK%,Perc,1.0,0,21,50,2%
+2012,Heart; Badge,Epic,Prime,LUK%,Perc,1.0,0,51,90,3%
+2013,Heart; Badge,Epic,Prime,LUK%,Perc,1.0,0,91,300,4%
+2014,Heart; Badge,Epic,Prime,MaxHP%,Perc,1.0,0,0,20,1%
+2015,Heart; Badge,Epic,Prime,MaxHP%,Perc,1.0,0,21,50,2%
+2016,Heart; Badge,Epic,Prime,MaxHP%,Perc,1.0,0,51,90,3%
+2017,Heart; Badge,Epic,Prime,MaxHP%,Perc,1.0,0,91,300,5%
+2018,Heart; Badge,Epic,Prime,MaxMP%,Perc,1.0,0,0,20,1%
+2019,Heart; Badge,Epic,Prime,MaxMP%,Perc,1.0,0,21,50,2%
+2020,Heart; Badge,Epic,Prime,MaxMP%,Perc,1.0,0,51,90,3%
+2021,Heart; Badge,Epic,Prime,MaxMP%,Perc,1.0,0,91,300,5%
+2022,Heart; Badge,Epic,Prime,DEF%,Perc,1.0,0,0,30,1%
+2023,Heart; Badge,Epic,Prime,DEF%,Perc,1.0,0,31,70,2%
+2024,Heart; Badge,Epic,Prime,DEF%,Perc,1.0,0,71,300,4%
+2025,Heart; Badge,Epic,Prime,All Stats%,Perc,1.0,0,0,90,1%
+2026,Heart; Badge,Epic,Prime,All Stats%,Perc,1.0,0,91,300,2%
+2027,Heart; Badge,Unique,Prime,STR,Flat,1.0,0,0,20,8
+2028,Heart; Badge,Unique,Prime,STR,Flat,1.0,0,21,50,10
+2029,Heart; Badge,Unique,Prime,STR,Flat,1.0,0,51,70,12
+2030,Heart; Badge,Unique,Prime,STR,Flat,1.0,0,71,90,14
+2031,Heart; Badge,Unique,Prime,STR,Flat,1.0,0,91,300,16
+2032,Heart; Badge,Unique,Prime,DEX,Flat,1.0,0,0,20,8
+2033,Heart; Badge,Unique,Prime,DEX,Flat,1.0,0,21,50,10
+2034,Heart; Badge,Unique,Prime,DEX,Flat,1.0,0,51,70,12
+2035,Heart; Badge,Unique,Prime,DEX,Flat,1.0,0,71,90,14
+2036,Heart; Badge,Unique,Prime,DEX,Flat,1.0,0,91,300,16
+2037,Heart; Badge,Unique,Prime,INT,Flat,1.0,0,0,20,8
+2038,Heart; Badge,Unique,Prime,INT,Flat,1.0,0,21,50,10
+2039,Heart; Badge,Unique,Prime,INT,Flat,1.0,0,51,70,12
+2040,Heart; Badge,Unique,Prime,INT,Flat,1.0,0,71,90,14
+2041,Heart; Badge,Unique,Prime,INT,Flat,1.0,0,91,300,16
+2042,Heart; Badge,Unique,Prime,LUK,Flat,1.0,0,0,20,8
+2043,Heart; Badge,Unique,Prime,LUK,Flat,1.0,0,21,50,10
+2044,Heart; Badge,Unique,Prime,LUK,Flat,1.0,0,51,70,12
+2045,Heart; Badge,Unique,Prime,LUK,Flat,1.0,0,71,90,14
+2046,Heart; Badge,Unique,Prime,LUK,Flat,1.0,0,91,300,16
+2047,Heart; Badge,Unique,Prime,Weapon ATT,Flat,1.0,0,0,20,6
+2048,Heart; Badge,Unique,Prime,Weapon ATT,Flat,1.0,0,21,50,8
+2049,Heart; Badge,Unique,Prime,Weapon ATT,Flat,1.0,0,51,90,10
+2050,Heart; Badge,Unique,Prime,Weapon ATT,Flat,1.0,0,91,300,12
+2051,Heart; Badge,Unique,Prime,Magic ATT,Flat,1.0,0,0,20,6
+2052,Heart; Badge,Unique,Prime,Magic ATT,Flat,1.0,0,21,50,8
+2053,Heart; Badge,Unique,Prime,Magic ATT,Flat,1.0,0,51,90,10
+2054,Heart; Badge,Unique,Prime,Magic ATT,Flat,1.0,0,91,300,12
+2055,Heart; Badge,Unique,Prime,DEF,Flat,1.0,0,0,20,15
+2056,Heart; Badge,Unique,Prime,DEF,Flat,1.0,0,21,50,30
+2057,Heart; Badge,Unique,Prime,DEF,Flat,1.0,0,51,90,80
+2058,Heart; Badge,Unique,Prime,DEF,Flat,1.0,0,91,300,150
+2059,Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,0,10,20
+2060,Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,11,20,40
+2061,Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,21,30,60
+2062,Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,31,40,80
+2063,Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,41,50,100
+2064,Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,51,60,120
+2065,Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,61,70,140
+2066,Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,71,80,160
+2067,Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,81,90,180
+2068,Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,91,100,200
+2069,Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,101,110,220
+2070,Heart; Badge,Unique,Prime,MaxHP,Flat,1.0,0,111,300,240
+2071,Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,0,10,20
+2072,Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,11,20,40
+2073,Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,21,30,60
+2074,Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,31,40,80
+2075,Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,41,50,100
+2076,Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,51,60,120
+2077,Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,61,70,140
+2078,Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,71,80,160
+2079,Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,81,90,180
+2080,Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,91,100,200
+2081,Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,101,110,220
+2082,Heart; Badge,Unique,Prime,MaxMP,Flat,1.0,0,111,300,240
+2083,Heart; Badge,Unique,Prime,STR%,Perc,1.0,0,0,20,2%
+2084,Heart; Badge,Unique,Prime,STR%,Perc,1.0,0,21,50,3%
+2085,Heart; Badge,Unique,Prime,STR%,Perc,1.0,0,51,90,4%
+2086,Heart; Badge,Unique,Prime,STR%,Perc,1.0,0,91,300,5%
+2087,Heart; Badge,Unique,Prime,DEX%,Perc,1.0,0,0,20,2%
+2088,Heart; Badge,Unique,Prime,DEX%,Perc,1.0,0,21,50,3%
+2089,Heart; Badge,Unique,Prime,DEX%,Perc,1.0,0,51,90,4%
+2090,Heart; Badge,Unique,Prime,DEX%,Perc,1.0,0,91,300,5%
+2091,Heart; Badge,Unique,Prime,INT%,Perc,1.0,0,0,20,2%
+2092,Heart; Badge,Unique,Prime,INT%,Perc,1.0,0,21,50,3%
+2093,Heart; Badge,Unique,Prime,INT%,Perc,1.0,0,51,90,4%
+2094,Heart; Badge,Unique,Prime,INT%,Perc,1.0,0,91,300,5%
+2095,Heart; Badge,Unique,Prime,LUK%,Perc,1.0,0,0,20,2%
+2096,Heart; Badge,Unique,Prime,LUK%,Perc,1.0,0,21,50,3%
+2097,Heart; Badge,Unique,Prime,LUK%,Perc,1.0,0,51,90,4%
+2098,Heart; Badge,Unique,Prime,LUK%,Perc,1.0,0,91,300,5%
+2099,Heart; Badge,Unique,Prime,MaxHP%,Perc,1.0,0,0,20,2%
+2100,Heart; Badge,Unique,Prime,MaxHP%,Perc,1.0,0,21,50,3%
+2101,Heart; Badge,Unique,Prime,MaxHP%,Perc,1.0,0,51,90,5%
+2102,Heart; Badge,Unique,Prime,MaxHP%,Perc,1.0,0,91,300,7%
+2103,Heart; Badge,Unique,Prime,MaxMP%,Perc,1.0,0,0,20,2%
+2104,Heart; Badge,Unique,Prime,MaxMP%,Perc,1.0,0,21,50,3%
+2105,Heart; Badge,Unique,Prime,MaxMP%,Perc,1.0,0,51,90,5%
+2106,Heart; Badge,Unique,Prime,MaxMP%,Perc,1.0,0,91,300,7%
+2107,Heart; Badge,Unique,Prime,DEF%,Perc,1.0,0,0,20,2%
+2108,Heart; Badge,Unique,Prime,DEF%,Perc,1.0,0,21,50,3%
+2109,Heart; Badge,Unique,Prime,DEF%,Perc,1.0,0,51,90,5%
+2110,Heart; Badge,Unique,Prime,DEF%,Perc,1.0,0,91,300,7%
+2111,Heart; Badge,Unique,Prime,All Stats%,Perc,1.0,0,0,20,1%
+2112,Heart; Badge,Unique,Prime,All Stats%,Perc,1.0,0,21,50,2%
+2113,Heart; Badge,Unique,Prime,All Stats%,Perc,1.0,0,51,90,3%
+2114,Heart; Badge,Unique,Prime,All Stats%,Perc,1.0,0,91,300,4%
+2115,Heart; Badge,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,0,20,5%
+2116,Heart; Badge,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,21,50,10%
+2117,Heart; Badge,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,51,90,15%
+2118,Heart; Badge,Unique,Prime,Skills and Potion HP Recovery,Flat,1.0,0,91,300,20%
+2119,Heart; Badge,Unique,Prime,STR +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+2120,Heart; Badge,Unique,Prime,DEX +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+2121,Heart; Badge,Unique,Prime,INT +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+2122,Heart; Badge,Unique,Prime,LUK +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+2123,Heart; Badge,Legendary,Prime,STR,Flat,1.0,0,0,20,8
+2124,Heart; Badge,Legendary,Prime,STR,Flat,1.0,0,21,40,10
+2125,Heart; Badge,Legendary,Prime,STR,Flat,1.0,0,41,50,12
+2126,Heart; Badge,Legendary,Prime,STR,Flat,1.0,0,51,70,14
+2127,Heart; Badge,Legendary,Prime,STR,Flat,1.0,0,71,90,16
+2128,Heart; Badge,Legendary,Prime,STR,Flat,1.0,0,91,300,18
+2129,Heart; Badge,Legendary,Prime,DEX,Flat,1.0,0,0,20,8
+2130,Heart; Badge,Legendary,Prime,DEX,Flat,1.0,0,21,40,10
+2131,Heart; Badge,Legendary,Prime,DEX,Flat,1.0,0,41,50,12
+2132,Heart; Badge,Legendary,Prime,DEX,Flat,1.0,0,51,70,14
+2133,Heart; Badge,Legendary,Prime,DEX,Flat,1.0,0,71,90,16
+2134,Heart; Badge,Legendary,Prime,DEX,Flat,1.0,0,91,300,18
+2135,Heart; Badge,Legendary,Prime,INT,Flat,1.0,0,0,20,8
+2136,Heart; Badge,Legendary,Prime,INT,Flat,1.0,0,21,40,10
+2137,Heart; Badge,Legendary,Prime,INT,Flat,1.0,0,41,50,12
+2138,Heart; Badge,Legendary,Prime,INT,Flat,1.0,0,51,70,14
+2139,Heart; Badge,Legendary,Prime,INT,Flat,1.0,0,71,90,16
+2140,Heart; Badge,Legendary,Prime,INT,Flat,1.0,0,91,300,18
+2141,Heart; Badge,Legendary,Prime,LUK,Flat,1.0,0,0,20,8
+2142,Heart; Badge,Legendary,Prime,LUK,Flat,1.0,0,21,40,10
+2143,Heart; Badge,Legendary,Prime,LUK,Flat,1.0,0,41,50,12
+2144,Heart; Badge,Legendary,Prime,LUK,Flat,1.0,0,51,70,14
+2145,Heart; Badge,Legendary,Prime,LUK,Flat,1.0,0,71,90,16
+2146,Heart; Badge,Legendary,Prime,LUK,Flat,1.0,0,91,300,18
+2147,Heart; Badge,Legendary,Prime,Weapon ATT,Flat,1.0,0,0,20,8
+2148,Heart; Badge,Legendary,Prime,Weapon ATT,Flat,1.0,0,21,50,10
+2149,Heart; Badge,Legendary,Prime,Weapon ATT,Flat,1.0,0,51,90,12
+2150,Heart; Badge,Legendary,Prime,Weapon ATT,Flat,1.0,0,91,300,14
+2151,Heart; Badge,Legendary,Prime,Magic ATT,Flat,1.0,0,0,20,8
+2152,Heart; Badge,Legendary,Prime,Magic ATT,Flat,1.0,0,21,50,10
+2153,Heart; Badge,Legendary,Prime,Magic ATT,Flat,1.0,0,51,90,12
+2154,Heart; Badge,Legendary,Prime,Magic ATT,Flat,1.0,0,91,300,14
+2155,Heart; Badge,Legendary,Prime,DEF,Flat,1.0,0,0,20,20
+2156,Heart; Badge,Legendary,Prime,DEF,Flat,1.0,0,21,50,50
+2157,Heart; Badge,Legendary,Prime,DEF,Flat,1.0,0,51,90,100
+2158,Heart; Badge,Legendary,Prime,DEF,Flat,1.0,0,91,300,200
+2159,Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,0,10,25
+2160,Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,11,20,50
+2161,Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,21,30,75
+2162,Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,31,40,100
+2163,Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,41,50,125
+2164,Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,51,60,150
+2165,Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,61,70,175
+2166,Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,71,80,200
+2167,Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,81,90,225
+2168,Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,91,100,250
+2169,Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,101,110,275
+2170,Heart; Badge,Legendary,Prime,MaxHP,Flat,1.0,0,11,300,300
+2171,Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,0,10,25
+2172,Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,11,20,50
+2173,Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,21,30,75
+2174,Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,31,40,100
+2175,Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,41,50,125
+2176,Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,51,60,150
+2177,Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,61,70,175
+2178,Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,71,80,200
+2179,Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,81,90,225
+2180,Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,91,100,250
+2181,Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,101,110,275
+2182,Heart; Badge,Legendary,Prime,MaxMP,Flat,1.0,0,111,300,300
+2183,Heart; Badge,Legendary,Prime,STR%,Perc,1.0,0,0,20,3%
+2184,Heart; Badge,Legendary,Prime,STR%,Perc,1.0,0,21,50,4%
+2185,Heart; Badge,Legendary,Prime,STR%,Perc,1.0,0,51,90,5%
+2186,Heart; Badge,Legendary,Prime,STR%,Perc,1.0,0,91,300,7%
+2187,Heart; Badge,Legendary,Prime,DEX%,Perc,1.0,0,0,20,3%
+2188,Heart; Badge,Legendary,Prime,DEX%,Perc,1.0,0,21,50,4%
+2189,Heart; Badge,Legendary,Prime,DEX%,Perc,1.0,0,51,90,5%
+2190,Heart; Badge,Legendary,Prime,DEX%,Perc,1.0,0,91,300,7%
+2191,Heart; Badge,Legendary,Prime,INT%,Perc,1.0,0,0,20,3%
+2192,Heart; Badge,Legendary,Prime,INT%,Perc,1.0,0,21,50,4%
+2193,Heart; Badge,Legendary,Prime,INT%,Perc,1.0,0,51,90,5%
+2194,Heart; Badge,Legendary,Prime,INT%,Perc,1.0,0,91,300,7%
+2195,Heart; Badge,Legendary,Prime,LUK%,Perc,1.0,0,0,20,3%
+2196,Heart; Badge,Legendary,Prime,LUK%,Perc,1.0,0,21,50,4%
+2197,Heart; Badge,Legendary,Prime,LUK%,Perc,1.0,0,51,90,5%
+2198,Heart; Badge,Legendary,Prime,LUK%,Perc,1.0,0,91,300,7%
+2199,Heart; Badge,Legendary,Prime,MaxHP%,Perc,1.0,0,0,20,3%
+2200,Heart; Badge,Legendary,Prime,MaxHP%,Perc,1.0,0,21,50,5%
+2201,Heart; Badge,Legendary,Prime,MaxHP%,Perc,1.0,0,51,90,7%
+2202,Heart; Badge,Legendary,Prime,MaxHP%,Perc,1.0,0,91,300,10%
+2203,Heart; Badge,Legendary,Prime,MaxMP%,Perc,1.0,0,0,20,3%
+2204,Heart; Badge,Legendary,Prime,MaxMP%,Perc,1.0,0,21,50,5%
+2205,Heart; Badge,Legendary,Prime,MaxMP%,Perc,1.0,0,51,90,7%
+2206,Heart; Badge,Legendary,Prime,MaxMP%,Perc,1.0,0,91,300,10%
+2207,Heart; Badge,Legendary,Prime,DEF%,Perc,1.0,0,0,20,3%
+2208,Heart; Badge,Legendary,Prime,DEF%,Perc,1.0,0,21,50,5%
+2209,Heart; Badge,Legendary,Prime,DEF%,Perc,1.0,0,51,90,7%
+2210,Heart; Badge,Legendary,Prime,DEF%,Perc,1.0,0,91,300,10%
+2211,Heart; Badge,Legendary,Prime,All Stats%,Perc,1.0,0,0,20,2%
+2212,Heart; Badge,Legendary,Prime,All Stats%,Perc,1.0,0,21,50,3%
+2213,Heart; Badge,Legendary,Prime,All Stats%,Perc,1.0,0,51,90,4%
+2214,Heart; Badge,Legendary,Prime,All Stats%,Perc,1.0,0,91,300,5%
+2215,Heart; Badge,Legendary,Prime,STR +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+2216,Heart; Badge,Legendary,Prime,DEX +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+2217,Heart; Badge,Legendary,Prime,INT +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+2218,Heart; Badge,Legendary,Prime,LUK +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+2219,Heart; Badge,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,0,20,2%
+2220,Heart; Badge,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,21,50,3%
+2221,Heart; Badge,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,51,90,4%
+2222,Heart; Badge,Legendary,Prime,Mesos Obtained%,Perc,1.0,0,91,300,5%
+2223,Heart; Badge,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,0,20,2%
+2224,Heart; Badge,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,21,50,3%
+2225,Heart; Badge,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,51,90,4%
+2226,Heart; Badge,Legendary,Prime,Item Drop Rate%,Perc,1.0,0,91,300,5%
+2227,Heart; Badge,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,0,20,10%
+2228,Heart; Badge,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,21,50,15%
+2229,Heart; Badge,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,51,90,20%
+2230,Heart; Badge,Legendary,Prime,Skills and Potion HP Recovery,Flat,1.0,0,91,300,30%
 2231,Weapon,Rare,Non prime,STR,Flat,1.0,0,0,20,1
 2232,Weapon,Rare,Non prime,STR,Flat,1.0,0,21,40,2
 2233,Weapon,Rare,Non prime,STR,Flat,1.0,0,41,50,3
@@ -2908,344 +2908,344 @@
 2906,Emblem,Legendary,Prime,LUK +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
 2907,Emblem,Legendary,Prime,Weapon ATT +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
 2908,Emblem,Legendary,Prime,Magic ATT +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-2909,Secondary Weapon,Rare,Non prime,STR,Flat,1.0,0,0,20,1
-2910,Secondary Weapon,Rare,Non prime,STR,Flat,1.0,0,21,40,2
-2911,Secondary Weapon,Rare,Non prime,STR,Flat,1.0,0,41,50,3
-2912,Secondary Weapon,Rare,Non prime,STR,Flat,1.0,0,51,70,4
-2913,Secondary Weapon,Rare,Non prime,STR,Flat,1.0,0,71,90,5
-2914,Secondary Weapon,Rare,Non prime,STR,Flat,1.0,0,91,300,6
-2915,Secondary Weapon,Rare,Non prime,DEX,Flat,1.0,0,0,20,1
-2916,Secondary Weapon,Rare,Non prime,DEX,Flat,1.0,0,21,40,2
-2917,Secondary Weapon,Rare,Non prime,DEX,Flat,1.0,0,41,50,3
-2918,Secondary Weapon,Rare,Non prime,DEX,Flat,1.0,0,51,70,4
-2919,Secondary Weapon,Rare,Non prime,DEX,Flat,1.0,0,71,90,5
-2920,Secondary Weapon,Rare,Non prime,DEX,Flat,1.0,0,91,300,6
-2921,Secondary Weapon,Rare,Non prime,INT,Flat,1.0,0,0,20,1
-2922,Secondary Weapon,Rare,Non prime,INT,Flat,1.0,0,21,40,2
-2923,Secondary Weapon,Rare,Non prime,INT,Flat,1.0,0,41,50,3
-2924,Secondary Weapon,Rare,Non prime,INT,Flat,1.0,0,51,70,4
-2925,Secondary Weapon,Rare,Non prime,INT,Flat,1.0,0,71,90,5
-2926,Secondary Weapon,Rare,Non prime,INT,Flat,1.0,0,91,300,6
-2927,Secondary Weapon,Rare,Non prime,LUK,Flat,1.0,0,0,20,1
-2928,Secondary Weapon,Rare,Non prime,LUK,Flat,1.0,0,21,40,2
-2929,Secondary Weapon,Rare,Non prime,LUK,Flat,1.0,0,41,50,3
-2930,Secondary Weapon,Rare,Non prime,LUK,Flat,1.0,0,51,70,4
-2931,Secondary Weapon,Rare,Non prime,LUK,Flat,1.0,0,71,90,5
-2932,Secondary Weapon,Rare,Non prime,LUK,Flat,1.0,0,91,300,6
-2933,Secondary Weapon,Rare,Non prime,Weapon ATT,Flat,1.0,0,0,20,1
-2934,Secondary Weapon,Rare,Non prime,Weapon ATT,Flat,1.0,0,21,40,2
-2935,Secondary Weapon,Rare,Non prime,Weapon ATT,Flat,1.0,0,41,60,3
-2936,Secondary Weapon,Rare,Non prime,Weapon ATT,Flat,1.0,0,61,80,4
-2937,Secondary Weapon,Rare,Non prime,Weapon ATT,Flat,1.0,0,81,90,5
-2938,Secondary Weapon,Rare,Non prime,Weapon ATT,Flat,1.0,0,91,300,6
-2939,Secondary Weapon,Rare,Non prime,Magic ATT,Flat,1.0,0,0,20,1
-2940,Secondary Weapon,Rare,Non prime,Magic ATT,Flat,1.0,0,21,40,2
-2941,Secondary Weapon,Rare,Non prime,Magic ATT,Flat,1.0,0,41,60,3
-2942,Secondary Weapon,Rare,Non prime,Magic ATT,Flat,1.0,0,61,80,4
-2943,Secondary Weapon,Rare,Non prime,Magic ATT,Flat,1.0,0,81,90,5
-2944,Secondary Weapon,Rare,Non prime,Magic ATT,Flat,1.0,0,91,300,6
-2945,Secondary Weapon,Rare,Non prime,Speed,Flat,1.0,0,0,30,1
-2946,Secondary Weapon,Rare,Non prime,Speed,Flat,1.0,0,31,70,2
-2947,Secondary Weapon,Rare,Non prime,Speed,Flat,1.0,0,71,110,3
-2948,Secondary Weapon,Rare,Non prime,Speed,Flat,1.0,0,111,300,4
-2949,Secondary Weapon,Rare,Non prime,Jump,Flat,1.0,0,0,30,1
-2950,Secondary Weapon,Rare,Non prime,Jump,Flat,1.0,0,31,70,2
-2951,Secondary Weapon,Rare,Non prime,Jump,Flat,1.0,0,71,110,3
-2952,Secondary Weapon,Rare,Non prime,Jump,Flat,1.0,0,111,300,4
-2953,Secondary Weapon,Rare,Non prime,MaxHP,Flat,1.0,0,0,10,5
-2954,Secondary Weapon,Rare,Non prime,MaxHP,Flat,1.0,0,11,20,10
-2955,Secondary Weapon,Rare,Non prime,MaxHP,Flat,1.0,0,21,30,15
-2956,Secondary Weapon,Rare,Non prime,MaxHP,Flat,1.0,0,31,40,20
-2957,Secondary Weapon,Rare,Non prime,MaxHP,Flat,1.0,0,41,50,25
-2958,Secondary Weapon,Rare,Non prime,MaxHP,Flat,1.0,0,51,60,30
-2959,Secondary Weapon,Rare,Non prime,MaxHP,Flat,1.0,0,61,70,35
-2960,Secondary Weapon,Rare,Non prime,MaxHP,Flat,1.0,0,71,80,40
-2961,Secondary Weapon,Rare,Non prime,MaxHP,Flat,1.0,0,81,90,45
-2962,Secondary Weapon,Rare,Non prime,MaxHP,Flat,1.0,0,91,100,50
-2963,Secondary Weapon,Rare,Non prime,MaxHP,Flat,1.0,0,101,110,55
-2964,Secondary Weapon,Rare,Non prime,MaxHP,Flat,1.0,0,111,300,60
-2965,Secondary Weapon,Rare,Non prime,MaxMP,Flat,1.0,0,0,10,5
-2966,Secondary Weapon,Rare,Non prime,MaxMP,Flat,1.0,0,11,20,10
-2967,Secondary Weapon,Rare,Non prime,MaxMP,Flat,1.0,0,21,30,15
-2968,Secondary Weapon,Rare,Non prime,MaxMP,Flat,1.0,0,31,40,20
-2969,Secondary Weapon,Rare,Non prime,MaxMP,Flat,1.0,0,41,50,25
-2970,Secondary Weapon,Rare,Non prime,MaxMP,Flat,1.0,0,51,60,30
-2971,Secondary Weapon,Rare,Non prime,MaxMP,Flat,1.0,0,61,70,35
-2972,Secondary Weapon,Rare,Non prime,MaxMP,Flat,1.0,0,71,80,40
-2973,Secondary Weapon,Rare,Non prime,MaxMP,Flat,1.0,0,81,90,45
-2974,Secondary Weapon,Rare,Non prime,MaxMP,Flat,1.0,0,91,100,50
-2975,Secondary Weapon,Rare,Non prime,MaxMP,Flat,1.0,0,101,110,55
-2976,Secondary Weapon,Rare,Non prime,MaxMP,Flat,1.0,0,111,300,60
-2977,Secondary Weapon,Rare,Non prime,DEF,Flat,1.0,0,0,10,5
-2978,Secondary Weapon,Rare,Non prime,DEF,Flat,1.0,0,11,20,10
-2979,Secondary Weapon,Rare,Non prime,DEF,Flat,1.0,0,21,30,15
-2980,Secondary Weapon,Rare,Non prime,DEF,Flat,1.0,0,31,40,20
-2981,Secondary Weapon,Rare,Non prime,DEF,Flat,1.0,0,41,50,25
-2982,Secondary Weapon,Rare,Non prime,DEF,Flat,1.0,0,51,60,30
-2983,Secondary Weapon,Rare,Non prime,DEF,Flat,1.0,0,61,70,35
-2984,Secondary Weapon,Rare,Non prime,DEF,Flat,1.0,0,71,80,40
-2985,Secondary Weapon,Rare,Non prime,DEF,Flat,1.0,0,81,90,45
-2986,Secondary Weapon,Rare,Non prime,DEF,Flat,1.0,0,91,100,50
-2987,Secondary Weapon,Rare,Non prime,DEF,Flat,1.0,0,101,110,55
-2988,Secondary Weapon,Rare,Non prime,DEF,Flat,1.0,0,111,300,60
-2989,Secondary Weapon,Rare,Prime,STR,Flat,1.0,0,0,20,2
-2990,Secondary Weapon,Rare,Prime,STR,Flat,1.0,0,21,40,4
-2991,Secondary Weapon,Rare,Prime,STR,Flat,1.0,0,41,50,6
-2992,Secondary Weapon,Rare,Prime,STR,Flat,1.0,0,51,70,8
-2993,Secondary Weapon,Rare,Prime,STR,Flat,1.0,0,71,90,10
-2994,Secondary Weapon,Rare,Prime,STR,Flat,1.0,0,91,300,12
-2995,Secondary Weapon,Rare,Prime,DEX,Flat,1.0,0,0,20,2
-2996,Secondary Weapon,Rare,Prime,DEX,Flat,1.0,0,21,40,4
-2997,Secondary Weapon,Rare,Prime,DEX,Flat,1.0,0,41,50,6
-2998,Secondary Weapon,Rare,Prime,DEX,Flat,1.0,0,51,70,8
-2999,Secondary Weapon,Rare,Prime,DEX,Flat,1.0,0,71,90,10
-3000,Secondary Weapon,Rare,Prime,DEX,Flat,1.0,0,91,300,12
-3001,Secondary Weapon,Rare,Prime,INT,Flat,1.0,0,0,20,2
-3002,Secondary Weapon,Rare,Prime,INT,Flat,1.0,0,21,40,4
-3003,Secondary Weapon,Rare,Prime,INT,Flat,1.0,0,41,50,6
-3004,Secondary Weapon,Rare,Prime,INT,Flat,1.0,0,51,70,8
-3005,Secondary Weapon,Rare,Prime,INT,Flat,1.0,0,71,90,10
-3006,Secondary Weapon,Rare,Prime,INT,Flat,1.0,0,91,300,12
-3007,Secondary Weapon,Rare,Prime,LUK,Flat,1.0,0,0,20,2
-3008,Secondary Weapon,Rare,Prime,LUK,Flat,1.0,0,21,40,4
-3009,Secondary Weapon,Rare,Prime,LUK,Flat,1.0,0,41,50,6
-3010,Secondary Weapon,Rare,Prime,LUK,Flat,1.0,0,51,70,8
-3011,Secondary Weapon,Rare,Prime,LUK,Flat,1.0,0,71,90,10
-3012,Secondary Weapon,Rare,Prime,LUK,Flat,1.0,0,91,300,12
-3013,Secondary Weapon,Rare,Prime,Weapon ATT,Flat,1.0,0,0,20,2
-3014,Secondary Weapon,Rare,Prime,Weapon ATT,Flat,1.0,0,21,40,4
-3015,Secondary Weapon,Rare,Prime,Weapon ATT,Flat,1.0,0,41,60,6
-3016,Secondary Weapon,Rare,Prime,Weapon ATT,Flat,1.0,0,61,80,8
-3017,Secondary Weapon,Rare,Prime,Weapon ATT,Flat,1.0,0,81,90,10
-3018,Secondary Weapon,Rare,Prime,Weapon ATT,Flat,1.0,0,91,300,12
-3019,Secondary Weapon,Rare,Prime,Magic ATT,Flat,1.0,0,0,20,2
-3020,Secondary Weapon,Rare,Prime,Magic ATT,Flat,1.0,0,21,40,4
-3021,Secondary Weapon,Rare,Prime,Magic ATT,Flat,1.0,0,41,60,6
-3022,Secondary Weapon,Rare,Prime,Magic ATT,Flat,1.0,0,61,80,8
-3023,Secondary Weapon,Rare,Prime,Magic ATT,Flat,1.0,0,81,90,10
-3024,Secondary Weapon,Rare,Prime,Magic ATT,Flat,1.0,0,91,300,12
-3025,Secondary Weapon,Rare,Prime,MaxHP,Flat,1.0,0,0,20,10
-3026,Secondary Weapon,Rare,Prime,MaxHP,Flat,1.0,0,21,50,15
-3027,Secondary Weapon,Rare,Prime,MaxHP,Flat,1.0,0,51,90,50
-3028,Secondary Weapon,Rare,Prime,MaxHP,Flat,1.0,0,91,300,100
-3029,Secondary Weapon,Rare,Prime,MaxMP,Flat,1.0,0,0,20,10
-3030,Secondary Weapon,Rare,Prime,MaxMP,Flat,1.0,0,21,50,15
-3031,Secondary Weapon,Rare,Prime,MaxMP,Flat,1.0,0,51,90,50
-3032,Secondary Weapon,Rare,Prime,MaxMP,Flat,1.0,0,91,300,100
-3033,Secondary Weapon,Rare,Prime,DEF,Flat,1.0,0,0,20,10
-3034,Secondary Weapon,Rare,Prime,DEF,Flat,1.0,0,21,50,15
-3035,Secondary Weapon,Rare,Prime,DEF,Flat,1.0,0,51,90,50
-3036,Secondary Weapon,Rare,Prime,DEF,Flat,1.0,0,91,300,100
-3037,Secondary Weapon,Rare,Prime,Speed,Flat,1.0,0,0,20,2
-3038,Secondary Weapon,Rare,Prime,Speed,Flat,1.0,0,21,50,3
-3039,Secondary Weapon,Rare,Prime,Speed,Flat,1.0,0,51,80,4
-3040,Secondary Weapon,Rare,Prime,Speed,Flat,1.0,0,81,110,5
-3041,Secondary Weapon,Rare,Prime,Speed,Flat,1.0,0,111,300,6
-3042,Secondary Weapon,Rare,Prime,Jump,Flat,1.0,0,0,20,2
-3043,Secondary Weapon,Rare,Prime,Jump,Flat,1.0,0,21,50,3
-3044,Secondary Weapon,Rare,Prime,Jump,Flat,1.0,0,51,80,4
-3045,Secondary Weapon,Rare,Prime,Jump,Flat,1.0,0,81,110,5
-3046,Secondary Weapon,Rare,Prime,Jump,Flat,1.0,0,111,300,6
-3047,Secondary Weapon,Rare,Prime,STR%,Perc,1.0,0,0,30,1%
-3048,Secondary Weapon,Rare,Prime,STR%,Perc,1.0,0,31,70,2%
-3049,Secondary Weapon,Rare,Prime,STR%,Perc,1.0,0,71,300,3%
-3050,Secondary Weapon,Rare,Prime,DEX%,Perc,1.0,0,0,30,1%
-3051,Secondary Weapon,Rare,Prime,DEX%,Perc,1.0,0,31,70,2%
-3052,Secondary Weapon,Rare,Prime,DEX%,Perc,1.0,0,71,300,3%
-3053,Secondary Weapon,Rare,Prime,INT%,Perc,1.0,0,0,30,1%
-3054,Secondary Weapon,Rare,Prime,INT%,Perc,1.0,0,31,70,2%
-3055,Secondary Weapon,Rare,Prime,INT%,Perc,1.0,0,71,300,3%
-3056,Secondary Weapon,Rare,Prime,LUK%,Perc,1.0,0,0,30,1%
-3057,Secondary Weapon,Rare,Prime,LUK%,Perc,1.0,0,31,70,2%
-3058,Secondary Weapon,Rare,Prime,LUK%,Perc,1.0,0,71,300,3%
-3059,Secondary Weapon,Rare,Prime,Weapon ATT%,Perc,1.0,0,0,30,1%
-3060,Secondary Weapon,Rare,Prime,Weapon ATT%,Perc,1.0,0,31,70,2%
-3061,Secondary Weapon,Rare,Prime,Weapon ATT%,Perc,1.0,0,71,300,3%
-3062,Secondary Weapon,Rare,Prime,Magic ATT%,Perc,1.0,0,0,30,1%
-3063,Secondary Weapon,Rare,Prime,Magic ATT%,Perc,1.0,0,31,70,2%
-3064,Secondary Weapon,Rare,Prime,Magic ATT%,Perc,1.0,0,71,300,3%
-3065,Secondary Weapon,Rare,Prime,Damage%,Perc,1.0,0,0,30,1%
-3066,Secondary Weapon,Rare,Prime,Damage%,Perc,1.0,0,31,70,2%
-3067,Secondary Weapon,Rare,Prime,Damage%,Perc,1.0,0,71,300,3%
-3068,Secondary Weapon,Rare,Prime,MaxHP%,Perc,1.0,0,0,90,1%
-3069,Secondary Weapon,Rare,Prime,MaxHP%,Perc,1.0,0,91,300,2%
-3070,Secondary Weapon,Rare,Prime,MaxMP%,Perc,1.0,0,0,90,1%
-3071,Secondary Weapon,Rare,Prime,MaxMP%,Perc,1.0,0,91,300,2%
-3072,Secondary Weapon,Rare,Prime,Critical Rate%,Perc,1.0,0,0,30,1%
-3073,Secondary Weapon,Rare,Prime,Critical Rate%,Perc,1.0,0,31,70,2%
-3074,Secondary Weapon,Rare,Prime,Critical Rate%,Perc,1.0,0,71,110,3%
-3075,Secondary Weapon,Rare,Prime,Critical Rate%,Perc,1.0,0,111,300,4%
-3076,Secondary Weapon,Rare,Prime,All Stats,Flat,1.0,0,0,20,1
-3077,Secondary Weapon,Rare,Prime,All Stats,Flat,1.0,0,21,40,2
-3078,Secondary Weapon,Rare,Prime,All Stats,Flat,1.0,0,41,60,3
-3079,Secondary Weapon,Rare,Prime,All Stats,Flat,1.0,0,61,80,4
-3080,Secondary Weapon,Rare,Prime,All Stats,Flat,1.0,0,81,300,5
-3081,Secondary Weapon,Epic,Prime,STR%,Perc,1.0,0,0,30,2%
-3082,Secondary Weapon,Epic,Prime,STR%,Perc,1.0,0,31,70,4%
-3083,Secondary Weapon,Epic,Prime,STR%,Perc,1.0,0,71,300,6%
-3084,Secondary Weapon,Epic,Prime,DEX%,Perc,1.0,0,0,30,2%
-3085,Secondary Weapon,Epic,Prime,DEX%,Perc,1.0,0,31,70,4%
-3086,Secondary Weapon,Epic,Prime,DEX%,Perc,1.0,0,71,300,6%
-3087,Secondary Weapon,Epic,Prime,INT%,Perc,1.0,0,0,30,2%
-3088,Secondary Weapon,Epic,Prime,INT%,Perc,1.0,0,31,70,4%
-3089,Secondary Weapon,Epic,Prime,INT%,Perc,1.0,0,71,300,6%
-3090,Secondary Weapon,Epic,Prime,LUK%,Perc,1.0,0,0,30,2%
-3091,Secondary Weapon,Epic,Prime,LUK%,Perc,1.0,0,31,70,4%
-3092,Secondary Weapon,Epic,Prime,LUK%,Perc,1.0,0,71,300,6%
-3093,Secondary Weapon,Epic,Prime,Weapon ATT%,Perc,1.0,0,0,30,2%
-3094,Secondary Weapon,Epic,Prime,Weapon ATT%,Perc,1.0,0,31,70,4%
-3095,Secondary Weapon,Epic,Prime,Weapon ATT%,Perc,1.0,0,71,300,6%
-3096,Secondary Weapon,Epic,Prime,Magic ATT%,Perc,1.0,0,0,30,2%
-3097,Secondary Weapon,Epic,Prime,Magic ATT%,Perc,1.0,0,31,70,4%
-3098,Secondary Weapon,Epic,Prime,Magic ATT%,Perc,1.0,0,71,300,6%
-3099,Secondary Weapon,Epic,Prime,Damage%,Perc,1.0,0,0,30,2%
-3100,Secondary Weapon,Epic,Prime,Damage%,Perc,1.0,0,31,70,4%
-3101,Secondary Weapon,Epic,Prime,Damage%,Perc,1.0,0,71,300,6%
-3102,Secondary Weapon,Epic,Prime,Critical Rate%,Perc,1.0,0,0,30,2%
-3103,Secondary Weapon,Epic,Prime,Critical Rate%,Perc,1.0,0,31,70,4%
-3104,Secondary Weapon,Epic,Prime,Critical Rate%,Perc,1.0,0,71,300,6%
-3105,Secondary Weapon,Epic,Prime,MaxHP%,Perc,1.0,0,0,20,1%
-3106,Secondary Weapon,Epic,Prime,MaxHP%,Perc,1.0,0,21,50,2%
-3107,Secondary Weapon,Epic,Prime,MaxHP%,Perc,1.0,0,51,90,3%
-3108,Secondary Weapon,Epic,Prime,MaxHP%,Perc,1.0,0,91,300,5%
-3109,Secondary Weapon,Epic,Prime,MaxMP%,Perc,1.0,0,0,20,1%
-3110,Secondary Weapon,Epic,Prime,MaxMP%,Perc,1.0,0,21,50,2%
-3111,Secondary Weapon,Epic,Prime,MaxMP%,Perc,1.0,0,51,90,3%
-3112,Secondary Weapon,Epic,Prime,MaxMP%,Perc,1.0,0,91,300,5%
-3113,Secondary Weapon,Epic,Prime,All Stats%,Perc,1.0,0,0,30,1%
-3114,Secondary Weapon,Epic,Prime,All Stats%,Perc,1.0,0,31,70,2%
-3115,Secondary Weapon,Epic,Prime,All Stats%,Perc,1.0,0,71,300,3%
-3116,Secondary Weapon,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,0,10,20
-3117,Secondary Weapon,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,11,20,23
-3118,Secondary Weapon,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,21,30,26
-3119,Secondary Weapon,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,31,40,29
-3120,Secondary Weapon,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,41,50,32
-3121,Secondary Weapon,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,51,60,35
-3122,Secondary Weapon,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,61,70,38
-3123,Secondary Weapon,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,71,80,41
-3124,Secondary Weapon,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,81,90,44
-3125,Secondary Weapon,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,91,100,47
-3126,Secondary Weapon,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,101,110,50
-3127,Secondary Weapon,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,111,300,53
-3128,Secondary Weapon,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,0,10,20
-3129,Secondary Weapon,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,11,20,23
-3130,Secondary Weapon,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,21,30,26
-3131,Secondary Weapon,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,31,40,29
-3132,Secondary Weapon,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,41,50,32
-3133,Secondary Weapon,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,51,60,35
-3134,Secondary Weapon,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,61,70,38
-3135,Secondary Weapon,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,71,80,41
-3136,Secondary Weapon,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,81,90,44
-3137,Secondary Weapon,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,91,100,47
-3138,Secondary Weapon,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,101,110,50
-3139,Secondary Weapon,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,111,300,53
-3140,Secondary Weapon,Epic,Prime,Ignore Monster's DEF,Perc,1.0,0, 50 ,300,3%
-3141,Secondary Weapon,Unique,Prime,STR%,Perc,1.0,0,0,30,3%
-3142,Secondary Weapon,Unique,Prime,STR%,Perc,1.0,0,31,70,6%
-3143,Secondary Weapon,Unique,Prime,STR%,Perc,1.0,0,71,300,9%
-3144,Secondary Weapon,Unique,Prime,DEX%,Perc,1.0,0,0,30,3%
-3145,Secondary Weapon,Unique,Prime,DEX%,Perc,1.0,0,31,70,6%
-3146,Secondary Weapon,Unique,Prime,DEX%,Perc,1.0,0,71,300,9%
-3147,Secondary Weapon,Unique,Prime,INT%,Perc,1.0,0,0,30,3%
-3148,Secondary Weapon,Unique,Prime,INT%,Perc,1.0,0,31,70,6%
-3149,Secondary Weapon,Unique,Prime,INT%,Perc,1.0,0,71,300,9%
-3150,Secondary Weapon,Unique,Prime,LUK%,Perc,1.0,0,0,30,3%
-3151,Secondary Weapon,Unique,Prime,LUK%,Perc,1.0,0,31,70,6%
-3152,Secondary Weapon,Unique,Prime,LUK%,Perc,1.0,0,71,300,9%
-3153,Secondary Weapon,Unique,Prime,Weapon ATT%,Perc,1.0,0,0,30,3%
-3154,Secondary Weapon,Unique,Prime,Weapon ATT%,Perc,1.0,0,31,70,6%
-3155,Secondary Weapon,Unique,Prime,Weapon ATT%,Perc,1.0,0,71,300,9%
-3156,Secondary Weapon,Unique,Prime,Magic ATT%,Perc,1.0,0,0,30,3%
-3157,Secondary Weapon,Unique,Prime,Magic ATT%,Perc,1.0,0,31,70,6%
-3158,Secondary Weapon,Unique,Prime,Magic ATT%,Perc,1.0,0,71,300,9%
-3159,Secondary Weapon,Unique,Prime,Damage%,Perc,1.0,0,0,30,3%
-3160,Secondary Weapon,Unique,Prime,Damage%,Perc,1.0,0,31,70,6%
-3161,Secondary Weapon,Unique,Prime,Damage%,Perc,1.0,0,71,300,9%
-3162,Secondary Weapon,Unique,Prime,Critical Rate%,Perc,1.0,0,0,30,3%
-3163,Secondary Weapon,Unique,Prime,Critical Rate%,Perc,1.0,0,31,70,6%
-3164,Secondary Weapon,Unique,Prime,Critical Rate%,Perc,1.0,0,71,300,9%
-3165,Secondary Weapon,Unique,Prime,MaxHP%,Perc,1.0,0,0,20,2%
-3166,Secondary Weapon,Unique,Prime,MaxHP%,Perc,1.0,0,21,50,3%
-3167,Secondary Weapon,Unique,Prime,MaxHP%,Perc,1.0,0,51,90,5%
-3168,Secondary Weapon,Unique,Prime,MaxHP%,Perc,1.0,0,91,300,7%
-3169,Secondary Weapon,Unique,Prime,MaxMP%,Perc,1.0,0,0,20,2%
-3170,Secondary Weapon,Unique,Prime,MaxMP%,Perc,1.0,0,21,50,3%
-3171,Secondary Weapon,Unique,Prime,MaxMP%,Perc,1.0,0,51,90,5%
-3172,Secondary Weapon,Unique,Prime,MaxMP%,Perc,1.0,0,91,300,7%
-3173,Secondary Weapon,Unique,Prime,All Stats%,Perc,1.0,0,0,30,2%
-3174,Secondary Weapon,Unique,Prime,All Stats%,Perc,1.0,0,31,70,4%
-3175,Secondary Weapon,Unique,Prime,All Stats%,Perc,1.0,0,71,300,6%
-3176,Secondary Weapon,Unique,Prime,Damage to Boss Monsters,Perc,1.0,0, 50 ,300,12%
-3177,Secondary Weapon,Unique,Prime,Ignore Monster's DEF,Perc,1.0,0, 50 ,300,4%
-3178,Secondary Weapon,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,0,10,40
-3179,Secondary Weapon,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,11,20,45
-3180,Secondary Weapon,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,21,30,50
-3181,Secondary Weapon,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,31,40,55
-3182,Secondary Weapon,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,41,50,60
-3183,Secondary Weapon,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,51,60,65
-3184,Secondary Weapon,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,61,70,70
-3185,Secondary Weapon,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,71,80,75
-3186,Secondary Weapon,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,81,90,80
-3187,Secondary Weapon,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,91,100,85
-3188,Secondary Weapon,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,101,110,90
-3189,Secondary Weapon,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,111,300,95
-3190,Secondary Weapon,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,0,10,40
-3191,Secondary Weapon,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,11,20,45
-3192,Secondary Weapon,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,21,30,50
-3193,Secondary Weapon,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,31,40,55
-3194,Secondary Weapon,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,41,50,60
-3195,Secondary Weapon,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,51,60,65
-3196,Secondary Weapon,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,61,70,70
-3197,Secondary Weapon,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,71,80,75
-3198,Secondary Weapon,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,81,90,80
-3199,Secondary Weapon,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,91,100,85
-3200,Secondary Weapon,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,101,110,90
-3201,Secondary Weapon,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,111,300,95
-3202,Secondary Weapon,Unique,Prime,STR +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-3203,Secondary Weapon,Unique,Prime,DEX +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-3204,Secondary Weapon,Unique,Prime,INT +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-3205,Secondary Weapon,Unique,Prime,LUK +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-3206,Secondary Weapon,Legendary,Prime,STR%,Perc,1.0,0,0,30,6%
-3207,Secondary Weapon,Legendary,Prime,STR%,Perc,1.0,0,31,70,9%
-3208,Secondary Weapon,Legendary,Prime,STR%,Perc,1.0,0,71,300,12%
-3209,Secondary Weapon,Legendary,Prime,DEX%,Perc,1.0,0,0,30,6%
-3210,Secondary Weapon,Legendary,Prime,DEX%,Perc,1.0,0,31,70,9%
-3211,Secondary Weapon,Legendary,Prime,DEX%,Perc,1.0,0,71,300,12%
-3212,Secondary Weapon,Legendary,Prime,INT%,Perc,1.0,0,0,30,6%
-3213,Secondary Weapon,Legendary,Prime,INT%,Perc,1.0,0,31,70,9%
-3214,Secondary Weapon,Legendary,Prime,INT%,Perc,1.0,0,71,300,12%
-3215,Secondary Weapon,Legendary,Prime,LUK%,Perc,1.0,0,0,30,6%
-3216,Secondary Weapon,Legendary,Prime,LUK%,Perc,1.0,0,31,70,9%
-3217,Secondary Weapon,Legendary,Prime,LUK%,Perc,1.0,0,71,300,12%
-3218,Secondary Weapon,Legendary,Prime,Weapon ATT%,Perc,1.0,0,0,30,6%
-3219,Secondary Weapon,Legendary,Prime,Weapon ATT%,Perc,1.0,0,31,70,9%
-3220,Secondary Weapon,Legendary,Prime,Weapon ATT%,Perc,1.0,0,71,300,12%
-3221,Secondary Weapon,Legendary,Prime,Magic ATT%,Perc,1.0,0,0,30,6%
-3222,Secondary Weapon,Legendary,Prime,Magic ATT%,Perc,1.0,0,31,70,9%
-3223,Secondary Weapon,Legendary,Prime,Magic ATT%,Perc,1.0,0,71,300,12%
-3224,Secondary Weapon,Legendary,Prime,Damage%,Perc,1.0,0,0,30,6%
-3225,Secondary Weapon,Legendary,Prime,Damage%,Perc,1.0,0,31,70,9%
-3226,Secondary Weapon,Legendary,Prime,Damage%,Perc,1.0,0,71,300,12%
-3227,Secondary Weapon,Legendary,Prime,Critical Rate%,Perc,1.0,0,0,30,6%
-3228,Secondary Weapon,Legendary,Prime,Critical Rate%,Perc,1.0,0,31,70,9%
-3229,Secondary Weapon,Legendary,Prime,Critical Rate%,Perc,1.0,0,71,300,12%
-3230,Secondary Weapon,Legendary,Prime,MaxHP%,Perc,1.0,0,0,20,3%
-3231,Secondary Weapon,Legendary,Prime,MaxHP%,Perc,1.0,0,21,50,5%
-3232,Secondary Weapon,Legendary,Prime,MaxHP%,Perc,1.0,0,51,90,7%
-3233,Secondary Weapon,Legendary,Prime,MaxHP%,Perc,1.0,0,91,300,10%
-3234,Secondary Weapon,Legendary,Prime,MaxMP%,Perc,1.0,0,0,20,3%
-3235,Secondary Weapon,Legendary,Prime,MaxMP%,Perc,1.0,0,21,50,5%
-3236,Secondary Weapon,Legendary,Prime,MaxMP%,Perc,1.0,0,51,90,7%
-3237,Secondary Weapon,Legendary,Prime,MaxMP%,Perc,1.0,0,91,300,10%
-3238,Secondary Weapon,Legendary,Prime,All Stats%,Perc,1.0,0,0,30,3%
-3239,Secondary Weapon,Legendary,Prime,All Stats%,Perc,1.0,0,31,70,6%
-3240,Secondary Weapon,Legendary,Prime,All Stats%,Perc,1.0,0,71,300,9%
-3241,Secondary Weapon,Legendary,Prime,Critical Damage%,Perc,1.0,0,0,300,1%
-3242,Secondary Weapon,Legendary,Prime,Damage to Boss Monsters,Perc,1.0,0, 50 ,300,18%
-3243,Secondary Weapon,Legendary,Prime,Ignore Monster's DEF,Perc,1.0,0, 50 ,300,5%
-3244,Secondary Weapon,Legendary,Prime,STR +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-3245,Secondary Weapon,Legendary,Prime,DEX +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-3246,Secondary Weapon,Legendary,Prime,INT +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-3247,Secondary Weapon,Legendary,Prime,LUK +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-3248,Secondary Weapon,Legendary,Prime,Weapon ATT +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
-3249,Secondary Weapon,Legendary,Prime,Magic ATT +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+2909,Secondary,Rare,Non prime,STR,Flat,1.0,0,0,20,1
+2910,Secondary,Rare,Non prime,STR,Flat,1.0,0,21,40,2
+2911,Secondary,Rare,Non prime,STR,Flat,1.0,0,41,50,3
+2912,Secondary,Rare,Non prime,STR,Flat,1.0,0,51,70,4
+2913,Secondary,Rare,Non prime,STR,Flat,1.0,0,71,90,5
+2914,Secondary,Rare,Non prime,STR,Flat,1.0,0,91,300,6
+2915,Secondary,Rare,Non prime,DEX,Flat,1.0,0,0,20,1
+2916,Secondary,Rare,Non prime,DEX,Flat,1.0,0,21,40,2
+2917,Secondary,Rare,Non prime,DEX,Flat,1.0,0,41,50,3
+2918,Secondary,Rare,Non prime,DEX,Flat,1.0,0,51,70,4
+2919,Secondary,Rare,Non prime,DEX,Flat,1.0,0,71,90,5
+2920,Secondary,Rare,Non prime,DEX,Flat,1.0,0,91,300,6
+2921,Secondary,Rare,Non prime,INT,Flat,1.0,0,0,20,1
+2922,Secondary,Rare,Non prime,INT,Flat,1.0,0,21,40,2
+2923,Secondary,Rare,Non prime,INT,Flat,1.0,0,41,50,3
+2924,Secondary,Rare,Non prime,INT,Flat,1.0,0,51,70,4
+2925,Secondary,Rare,Non prime,INT,Flat,1.0,0,71,90,5
+2926,Secondary,Rare,Non prime,INT,Flat,1.0,0,91,300,6
+2927,Secondary,Rare,Non prime,LUK,Flat,1.0,0,0,20,1
+2928,Secondary,Rare,Non prime,LUK,Flat,1.0,0,21,40,2
+2929,Secondary,Rare,Non prime,LUK,Flat,1.0,0,41,50,3
+2930,Secondary,Rare,Non prime,LUK,Flat,1.0,0,51,70,4
+2931,Secondary,Rare,Non prime,LUK,Flat,1.0,0,71,90,5
+2932,Secondary,Rare,Non prime,LUK,Flat,1.0,0,91,300,6
+2933,Secondary,Rare,Non prime,Weapon ATT,Flat,1.0,0,0,20,1
+2934,Secondary,Rare,Non prime,Weapon ATT,Flat,1.0,0,21,40,2
+2935,Secondary,Rare,Non prime,Weapon ATT,Flat,1.0,0,41,60,3
+2936,Secondary,Rare,Non prime,Weapon ATT,Flat,1.0,0,61,80,4
+2937,Secondary,Rare,Non prime,Weapon ATT,Flat,1.0,0,81,90,5
+2938,Secondary,Rare,Non prime,Weapon ATT,Flat,1.0,0,91,300,6
+2939,Secondary,Rare,Non prime,Magic ATT,Flat,1.0,0,0,20,1
+2940,Secondary,Rare,Non prime,Magic ATT,Flat,1.0,0,21,40,2
+2941,Secondary,Rare,Non prime,Magic ATT,Flat,1.0,0,41,60,3
+2942,Secondary,Rare,Non prime,Magic ATT,Flat,1.0,0,61,80,4
+2943,Secondary,Rare,Non prime,Magic ATT,Flat,1.0,0,81,90,5
+2944,Secondary,Rare,Non prime,Magic ATT,Flat,1.0,0,91,300,6
+2945,Secondary,Rare,Non prime,Speed,Flat,1.0,0,0,30,1
+2946,Secondary,Rare,Non prime,Speed,Flat,1.0,0,31,70,2
+2947,Secondary,Rare,Non prime,Speed,Flat,1.0,0,71,110,3
+2948,Secondary,Rare,Non prime,Speed,Flat,1.0,0,111,300,4
+2949,Secondary,Rare,Non prime,Jump,Flat,1.0,0,0,30,1
+2950,Secondary,Rare,Non prime,Jump,Flat,1.0,0,31,70,2
+2951,Secondary,Rare,Non prime,Jump,Flat,1.0,0,71,110,3
+2952,Secondary,Rare,Non prime,Jump,Flat,1.0,0,111,300,4
+2953,Secondary,Rare,Non prime,MaxHP,Flat,1.0,0,0,10,5
+2954,Secondary,Rare,Non prime,MaxHP,Flat,1.0,0,11,20,10
+2955,Secondary,Rare,Non prime,MaxHP,Flat,1.0,0,21,30,15
+2956,Secondary,Rare,Non prime,MaxHP,Flat,1.0,0,31,40,20
+2957,Secondary,Rare,Non prime,MaxHP,Flat,1.0,0,41,50,25
+2958,Secondary,Rare,Non prime,MaxHP,Flat,1.0,0,51,60,30
+2959,Secondary,Rare,Non prime,MaxHP,Flat,1.0,0,61,70,35
+2960,Secondary,Rare,Non prime,MaxHP,Flat,1.0,0,71,80,40
+2961,Secondary,Rare,Non prime,MaxHP,Flat,1.0,0,81,90,45
+2962,Secondary,Rare,Non prime,MaxHP,Flat,1.0,0,91,100,50
+2963,Secondary,Rare,Non prime,MaxHP,Flat,1.0,0,101,110,55
+2964,Secondary,Rare,Non prime,MaxHP,Flat,1.0,0,111,300,60
+2965,Secondary,Rare,Non prime,MaxMP,Flat,1.0,0,0,10,5
+2966,Secondary,Rare,Non prime,MaxMP,Flat,1.0,0,11,20,10
+2967,Secondary,Rare,Non prime,MaxMP,Flat,1.0,0,21,30,15
+2968,Secondary,Rare,Non prime,MaxMP,Flat,1.0,0,31,40,20
+2969,Secondary,Rare,Non prime,MaxMP,Flat,1.0,0,41,50,25
+2970,Secondary,Rare,Non prime,MaxMP,Flat,1.0,0,51,60,30
+2971,Secondary,Rare,Non prime,MaxMP,Flat,1.0,0,61,70,35
+2972,Secondary,Rare,Non prime,MaxMP,Flat,1.0,0,71,80,40
+2973,Secondary,Rare,Non prime,MaxMP,Flat,1.0,0,81,90,45
+2974,Secondary,Rare,Non prime,MaxMP,Flat,1.0,0,91,100,50
+2975,Secondary,Rare,Non prime,MaxMP,Flat,1.0,0,101,110,55
+2976,Secondary,Rare,Non prime,MaxMP,Flat,1.0,0,111,300,60
+2977,Secondary,Rare,Non prime,DEF,Flat,1.0,0,0,10,5
+2978,Secondary,Rare,Non prime,DEF,Flat,1.0,0,11,20,10
+2979,Secondary,Rare,Non prime,DEF,Flat,1.0,0,21,30,15
+2980,Secondary,Rare,Non prime,DEF,Flat,1.0,0,31,40,20
+2981,Secondary,Rare,Non prime,DEF,Flat,1.0,0,41,50,25
+2982,Secondary,Rare,Non prime,DEF,Flat,1.0,0,51,60,30
+2983,Secondary,Rare,Non prime,DEF,Flat,1.0,0,61,70,35
+2984,Secondary,Rare,Non prime,DEF,Flat,1.0,0,71,80,40
+2985,Secondary,Rare,Non prime,DEF,Flat,1.0,0,81,90,45
+2986,Secondary,Rare,Non prime,DEF,Flat,1.0,0,91,100,50
+2987,Secondary,Rare,Non prime,DEF,Flat,1.0,0,101,110,55
+2988,Secondary,Rare,Non prime,DEF,Flat,1.0,0,111,300,60
+2989,Secondary,Rare,Prime,STR,Flat,1.0,0,0,20,2
+2990,Secondary,Rare,Prime,STR,Flat,1.0,0,21,40,4
+2991,Secondary,Rare,Prime,STR,Flat,1.0,0,41,50,6
+2992,Secondary,Rare,Prime,STR,Flat,1.0,0,51,70,8
+2993,Secondary,Rare,Prime,STR,Flat,1.0,0,71,90,10
+2994,Secondary,Rare,Prime,STR,Flat,1.0,0,91,300,12
+2995,Secondary,Rare,Prime,DEX,Flat,1.0,0,0,20,2
+2996,Secondary,Rare,Prime,DEX,Flat,1.0,0,21,40,4
+2997,Secondary,Rare,Prime,DEX,Flat,1.0,0,41,50,6
+2998,Secondary,Rare,Prime,DEX,Flat,1.0,0,51,70,8
+2999,Secondary,Rare,Prime,DEX,Flat,1.0,0,71,90,10
+3000,Secondary,Rare,Prime,DEX,Flat,1.0,0,91,300,12
+3001,Secondary,Rare,Prime,INT,Flat,1.0,0,0,20,2
+3002,Secondary,Rare,Prime,INT,Flat,1.0,0,21,40,4
+3003,Secondary,Rare,Prime,INT,Flat,1.0,0,41,50,6
+3004,Secondary,Rare,Prime,INT,Flat,1.0,0,51,70,8
+3005,Secondary,Rare,Prime,INT,Flat,1.0,0,71,90,10
+3006,Secondary,Rare,Prime,INT,Flat,1.0,0,91,300,12
+3007,Secondary,Rare,Prime,LUK,Flat,1.0,0,0,20,2
+3008,Secondary,Rare,Prime,LUK,Flat,1.0,0,21,40,4
+3009,Secondary,Rare,Prime,LUK,Flat,1.0,0,41,50,6
+3010,Secondary,Rare,Prime,LUK,Flat,1.0,0,51,70,8
+3011,Secondary,Rare,Prime,LUK,Flat,1.0,0,71,90,10
+3012,Secondary,Rare,Prime,LUK,Flat,1.0,0,91,300,12
+3013,Secondary,Rare,Prime,Weapon ATT,Flat,1.0,0,0,20,2
+3014,Secondary,Rare,Prime,Weapon ATT,Flat,1.0,0,21,40,4
+3015,Secondary,Rare,Prime,Weapon ATT,Flat,1.0,0,41,60,6
+3016,Secondary,Rare,Prime,Weapon ATT,Flat,1.0,0,61,80,8
+3017,Secondary,Rare,Prime,Weapon ATT,Flat,1.0,0,81,90,10
+3018,Secondary,Rare,Prime,Weapon ATT,Flat,1.0,0,91,300,12
+3019,Secondary,Rare,Prime,Magic ATT,Flat,1.0,0,0,20,2
+3020,Secondary,Rare,Prime,Magic ATT,Flat,1.0,0,21,40,4
+3021,Secondary,Rare,Prime,Magic ATT,Flat,1.0,0,41,60,6
+3022,Secondary,Rare,Prime,Magic ATT,Flat,1.0,0,61,80,8
+3023,Secondary,Rare,Prime,Magic ATT,Flat,1.0,0,81,90,10
+3024,Secondary,Rare,Prime,Magic ATT,Flat,1.0,0,91,300,12
+3025,Secondary,Rare,Prime,MaxHP,Flat,1.0,0,0,20,10
+3026,Secondary,Rare,Prime,MaxHP,Flat,1.0,0,21,50,15
+3027,Secondary,Rare,Prime,MaxHP,Flat,1.0,0,51,90,50
+3028,Secondary,Rare,Prime,MaxHP,Flat,1.0,0,91,300,100
+3029,Secondary,Rare,Prime,MaxMP,Flat,1.0,0,0,20,10
+3030,Secondary,Rare,Prime,MaxMP,Flat,1.0,0,21,50,15
+3031,Secondary,Rare,Prime,MaxMP,Flat,1.0,0,51,90,50
+3032,Secondary,Rare,Prime,MaxMP,Flat,1.0,0,91,300,100
+3033,Secondary,Rare,Prime,DEF,Flat,1.0,0,0,20,10
+3034,Secondary,Rare,Prime,DEF,Flat,1.0,0,21,50,15
+3035,Secondary,Rare,Prime,DEF,Flat,1.0,0,51,90,50
+3036,Secondary,Rare,Prime,DEF,Flat,1.0,0,91,300,100
+3037,Secondary,Rare,Prime,Speed,Flat,1.0,0,0,20,2
+3038,Secondary,Rare,Prime,Speed,Flat,1.0,0,21,50,3
+3039,Secondary,Rare,Prime,Speed,Flat,1.0,0,51,80,4
+3040,Secondary,Rare,Prime,Speed,Flat,1.0,0,81,110,5
+3041,Secondary,Rare,Prime,Speed,Flat,1.0,0,111,300,6
+3042,Secondary,Rare,Prime,Jump,Flat,1.0,0,0,20,2
+3043,Secondary,Rare,Prime,Jump,Flat,1.0,0,21,50,3
+3044,Secondary,Rare,Prime,Jump,Flat,1.0,0,51,80,4
+3045,Secondary,Rare,Prime,Jump,Flat,1.0,0,81,110,5
+3046,Secondary,Rare,Prime,Jump,Flat,1.0,0,111,300,6
+3047,Secondary,Rare,Prime,STR%,Perc,1.0,0,0,30,1%
+3048,Secondary,Rare,Prime,STR%,Perc,1.0,0,31,70,2%
+3049,Secondary,Rare,Prime,STR%,Perc,1.0,0,71,300,3%
+3050,Secondary,Rare,Prime,DEX%,Perc,1.0,0,0,30,1%
+3051,Secondary,Rare,Prime,DEX%,Perc,1.0,0,31,70,2%
+3052,Secondary,Rare,Prime,DEX%,Perc,1.0,0,71,300,3%
+3053,Secondary,Rare,Prime,INT%,Perc,1.0,0,0,30,1%
+3054,Secondary,Rare,Prime,INT%,Perc,1.0,0,31,70,2%
+3055,Secondary,Rare,Prime,INT%,Perc,1.0,0,71,300,3%
+3056,Secondary,Rare,Prime,LUK%,Perc,1.0,0,0,30,1%
+3057,Secondary,Rare,Prime,LUK%,Perc,1.0,0,31,70,2%
+3058,Secondary,Rare,Prime,LUK%,Perc,1.0,0,71,300,3%
+3059,Secondary,Rare,Prime,Weapon ATT%,Perc,1.0,0,0,30,1%
+3060,Secondary,Rare,Prime,Weapon ATT%,Perc,1.0,0,31,70,2%
+3061,Secondary,Rare,Prime,Weapon ATT%,Perc,1.0,0,71,300,3%
+3062,Secondary,Rare,Prime,Magic ATT%,Perc,1.0,0,0,30,1%
+3063,Secondary,Rare,Prime,Magic ATT%,Perc,1.0,0,31,70,2%
+3064,Secondary,Rare,Prime,Magic ATT%,Perc,1.0,0,71,300,3%
+3065,Secondary,Rare,Prime,Damage%,Perc,1.0,0,0,30,1%
+3066,Secondary,Rare,Prime,Damage%,Perc,1.0,0,31,70,2%
+3067,Secondary,Rare,Prime,Damage%,Perc,1.0,0,71,300,3%
+3068,Secondary,Rare,Prime,MaxHP%,Perc,1.0,0,0,90,1%
+3069,Secondary,Rare,Prime,MaxHP%,Perc,1.0,0,91,300,2%
+3070,Secondary,Rare,Prime,MaxMP%,Perc,1.0,0,0,90,1%
+3071,Secondary,Rare,Prime,MaxMP%,Perc,1.0,0,91,300,2%
+3072,Secondary,Rare,Prime,Critical Rate%,Perc,1.0,0,0,30,1%
+3073,Secondary,Rare,Prime,Critical Rate%,Perc,1.0,0,31,70,2%
+3074,Secondary,Rare,Prime,Critical Rate%,Perc,1.0,0,71,110,3%
+3075,Secondary,Rare,Prime,Critical Rate%,Perc,1.0,0,111,300,4%
+3076,Secondary,Rare,Prime,All Stats,Flat,1.0,0,0,20,1
+3077,Secondary,Rare,Prime,All Stats,Flat,1.0,0,21,40,2
+3078,Secondary,Rare,Prime,All Stats,Flat,1.0,0,41,60,3
+3079,Secondary,Rare,Prime,All Stats,Flat,1.0,0,61,80,4
+3080,Secondary,Rare,Prime,All Stats,Flat,1.0,0,81,300,5
+3081,Secondary,Epic,Prime,STR%,Perc,1.0,0,0,30,2%
+3082,Secondary,Epic,Prime,STR%,Perc,1.0,0,31,70,4%
+3083,Secondary,Epic,Prime,STR%,Perc,1.0,0,71,300,6%
+3084,Secondary,Epic,Prime,DEX%,Perc,1.0,0,0,30,2%
+3085,Secondary,Epic,Prime,DEX%,Perc,1.0,0,31,70,4%
+3086,Secondary,Epic,Prime,DEX%,Perc,1.0,0,71,300,6%
+3087,Secondary,Epic,Prime,INT%,Perc,1.0,0,0,30,2%
+3088,Secondary,Epic,Prime,INT%,Perc,1.0,0,31,70,4%
+3089,Secondary,Epic,Prime,INT%,Perc,1.0,0,71,300,6%
+3090,Secondary,Epic,Prime,LUK%,Perc,1.0,0,0,30,2%
+3091,Secondary,Epic,Prime,LUK%,Perc,1.0,0,31,70,4%
+3092,Secondary,Epic,Prime,LUK%,Perc,1.0,0,71,300,6%
+3093,Secondary,Epic,Prime,Weapon ATT%,Perc,1.0,0,0,30,2%
+3094,Secondary,Epic,Prime,Weapon ATT%,Perc,1.0,0,31,70,4%
+3095,Secondary,Epic,Prime,Weapon ATT%,Perc,1.0,0,71,300,6%
+3096,Secondary,Epic,Prime,Magic ATT%,Perc,1.0,0,0,30,2%
+3097,Secondary,Epic,Prime,Magic ATT%,Perc,1.0,0,31,70,4%
+3098,Secondary,Epic,Prime,Magic ATT%,Perc,1.0,0,71,300,6%
+3099,Secondary,Epic,Prime,Damage%,Perc,1.0,0,0,30,2%
+3100,Secondary,Epic,Prime,Damage%,Perc,1.0,0,31,70,4%
+3101,Secondary,Epic,Prime,Damage%,Perc,1.0,0,71,300,6%
+3102,Secondary,Epic,Prime,Critical Rate%,Perc,1.0,0,0,30,2%
+3103,Secondary,Epic,Prime,Critical Rate%,Perc,1.0,0,31,70,4%
+3104,Secondary,Epic,Prime,Critical Rate%,Perc,1.0,0,71,300,6%
+3105,Secondary,Epic,Prime,MaxHP%,Perc,1.0,0,0,20,1%
+3106,Secondary,Epic,Prime,MaxHP%,Perc,1.0,0,21,50,2%
+3107,Secondary,Epic,Prime,MaxHP%,Perc,1.0,0,51,90,3%
+3108,Secondary,Epic,Prime,MaxHP%,Perc,1.0,0,91,300,5%
+3109,Secondary,Epic,Prime,MaxMP%,Perc,1.0,0,0,20,1%
+3110,Secondary,Epic,Prime,MaxMP%,Perc,1.0,0,21,50,2%
+3111,Secondary,Epic,Prime,MaxMP%,Perc,1.0,0,51,90,3%
+3112,Secondary,Epic,Prime,MaxMP%,Perc,1.0,0,91,300,5%
+3113,Secondary,Epic,Prime,All Stats%,Perc,1.0,0,0,30,1%
+3114,Secondary,Epic,Prime,All Stats%,Perc,1.0,0,31,70,2%
+3115,Secondary,Epic,Prime,All Stats%,Perc,1.0,0,71,300,3%
+3116,Secondary,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,0,10,20
+3117,Secondary,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,11,20,23
+3118,Secondary,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,21,30,26
+3119,Secondary,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,31,40,29
+3120,Secondary,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,41,50,32
+3121,Secondary,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,51,60,35
+3122,Secondary,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,61,70,38
+3123,Secondary,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,71,80,41
+3124,Secondary,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,81,90,44
+3125,Secondary,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,91,100,47
+3126,Secondary,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,101,110,50
+3127,Secondary,Epic,Prime,3% chance to recover HP when attacking.,Perc,0.03,0,111,300,53
+3128,Secondary,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,0,10,20
+3129,Secondary,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,11,20,23
+3130,Secondary,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,21,30,26
+3131,Secondary,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,31,40,29
+3132,Secondary,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,41,50,32
+3133,Secondary,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,51,60,35
+3134,Secondary,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,61,70,38
+3135,Secondary,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,71,80,41
+3136,Secondary,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,81,90,44
+3137,Secondary,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,91,100,47
+3138,Secondary,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,101,110,50
+3139,Secondary,Epic,Prime,3% chance to recover MP when attacking.,Perc,0.03,0,111,300,53
+3140,Secondary,Epic,Prime,Ignore Monster's DEF,Perc,1.0,0, 50 ,300,3%
+3141,Secondary,Unique,Prime,STR%,Perc,1.0,0,0,30,3%
+3142,Secondary,Unique,Prime,STR%,Perc,1.0,0,31,70,6%
+3143,Secondary,Unique,Prime,STR%,Perc,1.0,0,71,300,9%
+3144,Secondary,Unique,Prime,DEX%,Perc,1.0,0,0,30,3%
+3145,Secondary,Unique,Prime,DEX%,Perc,1.0,0,31,70,6%
+3146,Secondary,Unique,Prime,DEX%,Perc,1.0,0,71,300,9%
+3147,Secondary,Unique,Prime,INT%,Perc,1.0,0,0,30,3%
+3148,Secondary,Unique,Prime,INT%,Perc,1.0,0,31,70,6%
+3149,Secondary,Unique,Prime,INT%,Perc,1.0,0,71,300,9%
+3150,Secondary,Unique,Prime,LUK%,Perc,1.0,0,0,30,3%
+3151,Secondary,Unique,Prime,LUK%,Perc,1.0,0,31,70,6%
+3152,Secondary,Unique,Prime,LUK%,Perc,1.0,0,71,300,9%
+3153,Secondary,Unique,Prime,Weapon ATT%,Perc,1.0,0,0,30,3%
+3154,Secondary,Unique,Prime,Weapon ATT%,Perc,1.0,0,31,70,6%
+3155,Secondary,Unique,Prime,Weapon ATT%,Perc,1.0,0,71,300,9%
+3156,Secondary,Unique,Prime,Magic ATT%,Perc,1.0,0,0,30,3%
+3157,Secondary,Unique,Prime,Magic ATT%,Perc,1.0,0,31,70,6%
+3158,Secondary,Unique,Prime,Magic ATT%,Perc,1.0,0,71,300,9%
+3159,Secondary,Unique,Prime,Damage%,Perc,1.0,0,0,30,3%
+3160,Secondary,Unique,Prime,Damage%,Perc,1.0,0,31,70,6%
+3161,Secondary,Unique,Prime,Damage%,Perc,1.0,0,71,300,9%
+3162,Secondary,Unique,Prime,Critical Rate%,Perc,1.0,0,0,30,3%
+3163,Secondary,Unique,Prime,Critical Rate%,Perc,1.0,0,31,70,6%
+3164,Secondary,Unique,Prime,Critical Rate%,Perc,1.0,0,71,300,9%
+3165,Secondary,Unique,Prime,MaxHP%,Perc,1.0,0,0,20,2%
+3166,Secondary,Unique,Prime,MaxHP%,Perc,1.0,0,21,50,3%
+3167,Secondary,Unique,Prime,MaxHP%,Perc,1.0,0,51,90,5%
+3168,Secondary,Unique,Prime,MaxHP%,Perc,1.0,0,91,300,7%
+3169,Secondary,Unique,Prime,MaxMP%,Perc,1.0,0,0,20,2%
+3170,Secondary,Unique,Prime,MaxMP%,Perc,1.0,0,21,50,3%
+3171,Secondary,Unique,Prime,MaxMP%,Perc,1.0,0,51,90,5%
+3172,Secondary,Unique,Prime,MaxMP%,Perc,1.0,0,91,300,7%
+3173,Secondary,Unique,Prime,All Stats%,Perc,1.0,0,0,30,2%
+3174,Secondary,Unique,Prime,All Stats%,Perc,1.0,0,31,70,4%
+3175,Secondary,Unique,Prime,All Stats%,Perc,1.0,0,71,300,6%
+3176,Secondary,Unique,Prime,Damage to Boss Monsters,Perc,1.0,0, 50 ,300,12%
+3177,Secondary,Unique,Prime,Ignore Monster's DEF,Perc,1.0,0, 50 ,300,4%
+3178,Secondary,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,0,10,40
+3179,Secondary,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,11,20,45
+3180,Secondary,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,21,30,50
+3181,Secondary,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,31,40,55
+3182,Secondary,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,41,50,60
+3183,Secondary,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,51,60,65
+3184,Secondary,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,61,70,70
+3185,Secondary,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,71,80,75
+3186,Secondary,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,81,90,80
+3187,Secondary,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,91,100,85
+3188,Secondary,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,101,110,90
+3189,Secondary,Unique,Prime,15% chance to recover HP when attacking.,Perc,0.15,0,111,300,95
+3190,Secondary,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,0,10,40
+3191,Secondary,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,11,20,45
+3192,Secondary,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,21,30,50
+3193,Secondary,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,31,40,55
+3194,Secondary,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,41,50,60
+3195,Secondary,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,51,60,65
+3196,Secondary,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,61,70,70
+3197,Secondary,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,71,80,75
+3198,Secondary,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,81,90,80
+3199,Secondary,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,91,100,85
+3200,Secondary,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,101,110,90
+3201,Secondary,Unique,Prime,15% chance to recover MP when attacking.,Perc,0.15,0,111,300,95
+3202,Secondary,Unique,Prime,STR +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+3203,Secondary,Unique,Prime,DEX +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+3204,Secondary,Unique,Prime,INT +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+3205,Secondary,Unique,Prime,LUK +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+3206,Secondary,Legendary,Prime,STR%,Perc,1.0,0,0,30,6%
+3207,Secondary,Legendary,Prime,STR%,Perc,1.0,0,31,70,9%
+3208,Secondary,Legendary,Prime,STR%,Perc,1.0,0,71,300,12%
+3209,Secondary,Legendary,Prime,DEX%,Perc,1.0,0,0,30,6%
+3210,Secondary,Legendary,Prime,DEX%,Perc,1.0,0,31,70,9%
+3211,Secondary,Legendary,Prime,DEX%,Perc,1.0,0,71,300,12%
+3212,Secondary,Legendary,Prime,INT%,Perc,1.0,0,0,30,6%
+3213,Secondary,Legendary,Prime,INT%,Perc,1.0,0,31,70,9%
+3214,Secondary,Legendary,Prime,INT%,Perc,1.0,0,71,300,12%
+3215,Secondary,Legendary,Prime,LUK%,Perc,1.0,0,0,30,6%
+3216,Secondary,Legendary,Prime,LUK%,Perc,1.0,0,31,70,9%
+3217,Secondary,Legendary,Prime,LUK%,Perc,1.0,0,71,300,12%
+3218,Secondary,Legendary,Prime,Weapon ATT%,Perc,1.0,0,0,30,6%
+3219,Secondary,Legendary,Prime,Weapon ATT%,Perc,1.0,0,31,70,9%
+3220,Secondary,Legendary,Prime,Weapon ATT%,Perc,1.0,0,71,300,12%
+3221,Secondary,Legendary,Prime,Magic ATT%,Perc,1.0,0,0,30,6%
+3222,Secondary,Legendary,Prime,Magic ATT%,Perc,1.0,0,31,70,9%
+3223,Secondary,Legendary,Prime,Magic ATT%,Perc,1.0,0,71,300,12%
+3224,Secondary,Legendary,Prime,Damage%,Perc,1.0,0,0,30,6%
+3225,Secondary,Legendary,Prime,Damage%,Perc,1.0,0,31,70,9%
+3226,Secondary,Legendary,Prime,Damage%,Perc,1.0,0,71,300,12%
+3227,Secondary,Legendary,Prime,Critical Rate%,Perc,1.0,0,0,30,6%
+3228,Secondary,Legendary,Prime,Critical Rate%,Perc,1.0,0,31,70,9%
+3229,Secondary,Legendary,Prime,Critical Rate%,Perc,1.0,0,71,300,12%
+3230,Secondary,Legendary,Prime,MaxHP%,Perc,1.0,0,0,20,3%
+3231,Secondary,Legendary,Prime,MaxHP%,Perc,1.0,0,21,50,5%
+3232,Secondary,Legendary,Prime,MaxHP%,Perc,1.0,0,51,90,7%
+3233,Secondary,Legendary,Prime,MaxHP%,Perc,1.0,0,91,300,10%
+3234,Secondary,Legendary,Prime,MaxMP%,Perc,1.0,0,0,20,3%
+3235,Secondary,Legendary,Prime,MaxMP%,Perc,1.0,0,21,50,5%
+3236,Secondary,Legendary,Prime,MaxMP%,Perc,1.0,0,51,90,7%
+3237,Secondary,Legendary,Prime,MaxMP%,Perc,1.0,0,91,300,10%
+3238,Secondary,Legendary,Prime,All Stats%,Perc,1.0,0,0,30,3%
+3239,Secondary,Legendary,Prime,All Stats%,Perc,1.0,0,31,70,6%
+3240,Secondary,Legendary,Prime,All Stats%,Perc,1.0,0,71,300,9%
+3241,Secondary,Legendary,Prime,Critical Damage%,Perc,1.0,0,0,300,1%
+3242,Secondary,Legendary,Prime,Damage to Boss Monsters,Perc,1.0,0, 50 ,300,18%
+3243,Secondary,Legendary,Prime,Ignore Monster's DEF,Perc,1.0,0, 50 ,300,5%
+3244,Secondary,Legendary,Prime,STR +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+3245,Secondary,Legendary,Prime,DEX +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+3246,Secondary,Legendary,Prime,INT +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+3247,Secondary,Legendary,Prime,LUK +2 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+3248,Secondary,Legendary,Prime,Weapon ATT +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
+3249,Secondary,Legendary,Prime,Magic ATT +1 per 10 Character Levels,Flat,1.0,0, 30 ,300,0
