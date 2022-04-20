@@ -39,18 +39,21 @@ def assignToDict(tempList):
             tempData["AtkSpd"] = i.split(" ")[-1][1:-1]
         
         elif any(i.find(MS) != -1 for MS in MainStat) == True:
-            if i.find(':') != -1:
-                tempStr = i.split(" ")[1][1:]
-            else:
-                tempStr = i.split(" ")[-1][1:]
+            #if i.find(':') != -1:
+            #    tempStr = i.split(" ")[1][1:]
+            #else:
+            #    tempStr = i.split(" ")[-1][1:]
             
-            if "MainStat" in tempData:
-                if 'SecStat' in tempData:
-                    continue
-                tempData["SecStat"] = tempStr
-            else:
-                tempData["MainStat"] = tempStr
-     
+            #if "MainStat" in tempData:
+            #    if 'SecStat' in tempData:
+            #        continue
+            #    tempData["SecStat"] = tempStr
+            #else:
+            #    tempData["MainStat"] = tempStr
+            if i.find(':') != -1:
+                tempStr = i.split(':')
+                tempData[tempStr[0]] = tempStr[1].lstrip('+')
+
         elif i.find("HP") != -1:
             HPstr = i.split(" ")[-1][1:]
             HPstr = removeN(HPstr, ',', '')

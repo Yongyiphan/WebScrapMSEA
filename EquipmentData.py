@@ -36,10 +36,15 @@ Mclasses = ['Warrior','Knight', 'Bowman', 'Archer', 'Magician','Mage','Thief', '
 ##NAMING CONVENTION
 #NAME, SET, TYPE, CLASSTYPE, SLOT
 #LEVEL, MS, SS, AS, HP, MP, DEF, ATK, MATK
-SetCol = ['EquipSet','SetEffect','MainStat', 'SecStat','AllStat','HP','MP','DEF','ATK','MATK','NDMG','IED','BDMG','CDMG']
-WeapCol = ['WeaponSet','WeaponType','Level','AtkSpd','MainStat','SecStat','HP','DEF','ATK','MATK','SPD','BDMG','IED']
-ArmorCol = ['EquipSet','ClassType','EquipSlot','EquipLevel','MainStat','SecStat','AllStat', 'HP','MP','DEF','ATK','MATK','SPD','JUMP','IED']
-AccCol = ['EquipName','EquipSet','ClassType','EquipSlot','EquipLevel','MainStat','SecStat','AllStat','HP','MP','DEF','ATK','MATK','SPD','JUMP','IED']
+#SetCol = ['EquipSet','SetEffect','MainStat', 'SecStat','AllStat','HP','MP','DEF','ATK','MATK','NDMG','IED','BDMG','CDMG']
+SetCol = ['EquipSet','SetEffect','STR', 'DEX','INT','LUK','AllStat','HP','MP','DEF','ATK','MATK','NDMG','IED','BDMG','CDMG']
+#WeapCol = ['WeaponSet','WeaponType','Level','AtkSpd','MainStat','SecStat','HP','DEF','ATK','MATK','SPD','BDMG','IED']
+WeapCol = ['WeaponSet','WeaponType','Level','AtkSpd','STR', 'DEX', 'INT', 'LUK','HP','DEF','ATK','MATK','SPD','BDMG','IED']
+#ArmorCol = ['EquipSet','ClassType','EquipSlot','EquipLevel','STR', 'DEX', 'INT', 'LUK','AllStat', 'HP','MP','DEF','ATK','MATK','SPD','JUMP','IED']
+ArmorCol = ['EquipSet','ClassType','EquipSlot','EquipLevel','STR', 'DEX', 'INT', 'LUK','AllStat', 'HP','MP','DEF','ATK','MATK','SPD','JUMP','IED']
+#AccCol = ['EquipName','EquipSet','ClassType','EquipSlot','EquipLevel','MainStat','SecStat','AllStat','HP','MP','DEF','ATK','MATK','SPD','JUMP','IED']
+AccCol = ['EquipName','EquipSet','ClassType','EquipSlot','EquipLevel','STR', 'DEX','INT','LUK','AllStat','HP','MP','DEF','ATK','MATK','SPD','JUMP','IED']
+SecWeapCol = ['ClassName', 'WeaponType','EquipName','EquipLevel','STR','DEX','INT','LUK','AllStat','HP','MP','DEF','ATK','MATK','AtkSpd']
 trackMinLevel = 140
 
 def StartScraping():
@@ -99,6 +104,7 @@ def StartScraping():
     WeaponDF = cleanWeapDF(WeaponDF)
     SecWeapDF = retrieveSecWeap(SecSession)
     SecWeapDF = cleanSecWeap(SecWeapDF)
+    SecWeapDF = SecWeapDF[SecWeapCol]
     SecWeapDF = SecWeapDF.fillna(0)
     
     SetEffectDF.to_csv('DefaultData\\EquipmentData\\SetEffectData.csv')
