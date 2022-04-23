@@ -13,6 +13,7 @@ defaultUrl = 'https://strategywiki.org'
 STSFurl = '/wiki/MapleStory/Spell_Trace_and_Star_Force#Star_Force_Enhancement'
 formulaUrl ='/MapleStory/Formulas'
 potentialUrl = '/MapleStory/Potential_System'
+hyperStatUrl = "/wiki/MapleStory/Hyper_Stats"
 PotDFCol =	['EquipGrp','Grade','GradeT','DisplayStat','StatT','Chance','Duration','MinLvl','MaxLvl','StatValue']
 TyrantSFCol = ["SFLevel", "LevelRank", "VStat", "VAtk",	"VDef"]
 
@@ -402,6 +403,19 @@ def returnPotentialList(RContent):
     PotDF['EquipGrp'] = PotDF['EquipGrp'].str.replace("Earring", "Earrings")
     return PotDF
 
+def retrieveHyperStat():
+    start = time.time()
+    request_session = requests.session()
+    Page = request_session.get(defaultUrl + hyperStatUrl)
+    PageContent = bsoup(Page.content, 'lxml')
+    AllDiv = PageContent.find_all('div')
+
+
+
+    end = time.time()
+
+    print(f"Time Taken to retreive HyperStat is {end - start}")
+    ...
 
 def cleanPotDF(DF):
 
@@ -489,7 +503,8 @@ def returnLevelRank(mode, level):
 
 if __name__ == "__main__":
     
-    StartScraping()
+    #StartScraping()
+    retrieveHyperStat()
 
 
 
