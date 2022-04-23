@@ -9,7 +9,7 @@ def returnIndex(ele, setToTrack):
         elif ele.lower() in setToTrack[i].lower():
             return i
 
-def removeN(item, para, deli):
+def removeN(item, para, deli = ''):
     
     if isinstance(para, str):
         if item.find(para) != -1:
@@ -33,7 +33,7 @@ def assignToDict(tempList):
     
     for i in tempList:
         if i.find('\n') != -1:
-            i = removeN(i, '\n', '')
+            i = removeN(i, '\n')
         
         if i.find("Attack Speed") != -1:
             tempData["AtkSpd"] = i.split(" ")[-1][1:-1]
@@ -56,7 +56,7 @@ def assignToDict(tempList):
 
         elif i.find("HP") != -1:
             HPstr = i.split(" ")[-1][1:]
-            HPstr = removeN(HPstr, ',', '')
+            HPstr = removeN(HPstr, ',')
             if HPstr.find("%") != -1:
                 tempData['HP'] = HPstr
             else:
@@ -66,7 +66,7 @@ def assignToDict(tempList):
                     tempData["HP"] = HPstr
         elif i.find("MP") != -1:
             MPstr = i.split(" ")[-1][1:]
-            MPstr = removeN(MPstr, ',', '')
+            MPstr = removeN(MPstr, ',')
             if MPstr.find("%") != -1:
                 tempData['MP'] = MPstr
             else:

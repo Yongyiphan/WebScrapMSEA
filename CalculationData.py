@@ -1,9 +1,6 @@
-import chunk
-from tempfile import tempdir
-import pandas
 import requests
+import pandas
 import time
-import unicodedata
 from bs4 import BeautifulSoup as bsoup
 from requests import session
 from ComFunc import *
@@ -22,31 +19,30 @@ def StartScraping():
     start = time.time()
 
     session0 = session()
-    StarforceDF, AddDF = retrieveStarforce(session0)
-    TyrantSFDF = retrieveTyrantSF(session0)
+    StarforceDF, AddDF, TyrantSFDF = retrieveStarforce(session0)
     StarforceDF = StarforceDF.fillna(0)
     AddDF = AddDF.fillna(0)
     
-    session1 = session()
-    PotDF = retrievePotential(session1)
-    BPotDF = retrieveBonusPotential(session1)
+    MainPotDF, AddPotDF = retrievePotential(session())
     
     WeapDF = retrieveWeapMod()
 
 
-    PotDF = PotDF[PotDFCol]
-    BPotDF = BPotDF[PotDFCol]
+    MainPotDF = MainPotDF[PotDFCol]
+    AddPotDF = AddPotDF[PotDFCol]
     StarforceDF = StarforceDF.astype(int)
     AddDF = AddDF.astype(int)
     TyrantSFDF = TyrantSFDF[TyrantSFCol]
     TyrantSFDF = TyrantSFDF.astype(int)
+    HyperStatDistDF, HyperStatDF = retrieveHyperStat()
 
     StarforceDF.to_csv('DefaultData\\CalculationsData\\StarforceGains.csv')
     AddDF.to_csv('DefaultData\\CalculationsData\\AddStarforceGains.csv')
     TyrantSFDF.to_csv('DefaultData\\CalculationsData\\SuperiorStarforceGains.csv')
-    PotDF.to_csv('DefaultData\\CalculationsData\\PotentialData.csv')
-    BPotDF.to_csv('DefaultData\\CalculationsData\\BonusPotentialData.csv')
-
+    MainPotDF.to_csv('DefaultData\\CalculationsData\\PotentialData.csv')
+    AddPotDF.to_csv('DefaultData\\CalculationsData\\BonusPotentialData.csv')
+    HyperStatDistDF.to_csv('DefaultData\\CalculationsData\\HyperStatDistribution.csv')
+    HyperStatDF.to_csv('DefaultData\\CalculationsData\\HyperStat.csv')
     WeapDF.to_csv('DefaultData\\CalculationsData\\WeapMod.csv')
 
     end = time.time()
@@ -59,30 +55,24 @@ def retrieveStarforce(request_session):
     Page = request_session.get(defaultUrl + STSFurl)
     MainContent =  bsoup(Page.content, 'lxml')    
     
-    startR = MainContent.select('#Stats_Boost')[0].parent
-    SFCompiledTable = startR.find_next_sibling('table')
+    BasicStartR = MainContent.select('#Stats_Boost')[0].parent
+    BasicSFCompiledTable = BasicStartR.find_next_sibling('table')
 
-    tableR = SFCompiledTable.contents[1].contents
-    tableR = [value for value in tableR if value != '\n'][1:]
-    
+    BasicTableR= [value for value in BasicSFCompiledTable.contents[1].contents if value != '\n'][1:]
+        
     currentDF = pandas.DataFrame()
     AddDF =  pandas.DataFrame()
     
-    for row in tableR:
-        
+    for row in BasicTableR:
         r = [td for td in row.contents if td != '\n']
         currentRow = r[0]
         SFStats = r[1]
-        temp = removeN(currentRow.next, ['★','→'], '').split(',')
+        temp = removeN(currentRow.next, ['★','→']).split(',')
         addSF = {}
         for sfid in temp:
             sfid = [int(value) for value in sfid.split(' ') if value != '']
-            
             SFD = {}
             CSF = max(sfid)
-            
-
-
             SFD['SFID'] = CSF
             if not isinstance(SFStats, list):
                 if CSF > 15:
@@ -109,26 +99,27 @@ def retrieveStarforce(request_session):
             
 
         
-            end = time.time()
-            print(f'Starforce at {CSF} added in {end-start}')
+    break1 = time.time()
+    print(f'Basic Starforce added in {break1 -start}')
 
-    return currentDF, AddDF
+    SupStartR = MainContent.select('#Stats_Boost_2')[0].parent
+    SupSFCompiledTable = SupStartR.find_next_sibling('table')
 
-def retrieveTyrantSF(request_session):
-    Page = request_session.get(defaultUrl + STSFurl)
-    MainContent =  bsoup(Page.content, 'lxml')    
+    SupTableR = removeNSpace(SupSFCompiledTable.contents[1].contents[1:], '\n')
+
+    TyrantDF = retrieveTyrantSF(SupTableR)
+    break2 = time.time()
+    print(f"Superior Starforce added in {break2 - break1}")
+    return currentDF, AddDF, TyrantDF
+
+def retrieveTyrantSF(tableR):
     
-    startR = MainContent.select('#Stats_Boost_2')[0].parent
-    SFCompiledTable = startR.find_next_sibling('table')
-
-    tableR = SFCompiledTable.contents[1].contents[1:]
     SFDict = pandas.DataFrame()
-    tableR = removeNSpace(tableR, '\n')
     for sfLvl in tableR:
         tempDict = pandas.DataFrame()
         if sfLvl.name == "tr":
             row = removeNSpace(sfLvl.contents, '\n')
-            lvl = removeN(row[0].next.split(' ')[-1],'★', '')
+            lvl = removeN(row[0].next.split(' ')[-1],'★')
             rowT = removeNSpace(row[1], '\n')
             for c in rowT:
                 tempDict["SFLevel"] = lvl 
@@ -150,7 +141,7 @@ def retrieveTyrantSF(request_session):
     
     SFDict = SFDict.fillna(0)   
     
-    return SFDict;
+    return SFDict
     
     
     
@@ -181,14 +172,14 @@ def retrieveWeapMod():
 
             
 
-            WeaponList.append(removeFLSpace(removeN(weap, '\n', '')))
-            WeaponMod.append(removeN(td, '\n', ''))
+            WeaponList.append(removeFLSpace(removeN(weap, '\n')))
+            WeaponMod.append(removeN(td, '\n'))
     
     tempD = {'WeaponType':WeaponList, 'Multiplier':WeaponMod}
     WeapMDF = pandas.DataFrame(tempD) 
 
     end = time.time()
-    print(f"Time taken is {end-start}")
+    print(f"Time taken to retrive Weap Mod is {end-start}")
 
 
     return WeapMDF
@@ -205,53 +196,34 @@ def retrievePotential(request_session):
     endR = PageContent.select('#Bonus_Potential')[0].parent
     AllContent = PageContent.find_all('div', class_='mw-parser-output')[0]
     
-    RContent = []
+    MainPotContent = []
+    AddPotContent = []
     reachedEnd = False
     startRecording = False
     for i in AllContent:
-        if reachedEnd == True:
-            break
+        if i == '\n':
+            continue
         if i ==  endR:
             reachedEnd = True
         if  i == startR:
             startRecording = True
         if startRecording == True:
-            RContent.append(i)
-            
-    PotDF = returnPotentialList(RContent)
+            if reachedEnd:
+                AddPotContent.append(i)
+            else:
+                MainPotContent.append(i)
+
+        
+    MainPotDF = returnPotentialList(MainPotContent)
+    AddPotDF = returnPotentialList(AddPotContent)
 
     end = time.time()
-    print(f"Time taken is {end-start}")
+    print(f"Time taken to return Potential Lists {end-start}")
 
     
-    return PotDF
+    return MainPotDF, AddPotDF
 
-def retrieveBonusPotential(request_session):
-    
-    start =  time.time()
-    Page = request_session.get(defaultUrl + potentialUrl)
-    PageContent = bsoup(Page.content, 'lxml')
-    
-    startR = PageContent.select('#Bonus_Potential_Stat_List')[0].parent
-    AllContent = PageContent.find_all('div', class_='mw-parser-output')[0]
-    
-    
-    RContent = []
-    startRecording = False
-    for i in AllContent:
-        if i == startR:
-            startRecording = True
-        if startRecording == True:
-            RContent.append(i)
-    
-    PotDF = returnPotentialList(RContent)
-
-    end = time.time()
-    print(f"Time taken is {end-start}")
-
-    return PotDF
-
-    
+ 
  
 def returnPotentialList(RContent):
     PotDF = pandas.DataFrame()
@@ -280,7 +252,7 @@ def returnPotentialList(RContent):
                     stat = subtable[statt].get_text().split('[')[0]
                     stat = stat.encode("ascii", "ignore")
                     stat = stat.decode()
-                    stat = removeN(stat, ['Increase'], '')
+                    stat = removeN(stat, ['Increase'])
                     currentDic['DisplayStat'] = stat.strip()
                     currentDic['StatT'] = 'Perc' if findString(stat, '%') else "Flat"
                     
@@ -288,13 +260,13 @@ def returnPotentialList(RContent):
                     if stat.split(' ')[0].find('%') != -1:
                         chance = stat.split(' ')[0]
                         try:
-                            tempC = removeN(chance, '%', '')
+                            tempC = removeN(chance, '%')
                             int(tempC)
                         except ValueError:
                             checkInt = False
 
                         if checkInt == True:
-                            chance = int(removeN(chance, '%', ''))
+                            chance = int(removeN(chance, '%'))
                             currentDic['Chance'] = chance/100
                     else:
                         currentDic['Chance'] = 1
@@ -309,7 +281,7 @@ def returnPotentialList(RContent):
                         deli = ['\n', '+']
                         tempDic = {}
                         tempDic.update(currentDic)
-                        currentT = removeN(tds[t].get_text(), '\n', '')
+                        currentT = removeN(tds[t].get_text(), '\n')
 
                         if findString(currentT, 'GMS'):
                             continue
@@ -319,27 +291,27 @@ def returnPotentialList(RContent):
                             tempDic['MaxLvl'] = te[-1]
                             tempDic['StatValue'] = 0
                         elif currentT[-1] == '+':
-                            te = removeN(currentT, '+', '')
+                            te = removeN(currentT, '+')
                             tempDic['MinLvl'] = te
                             tempDic['MaxLvl'] = 300
                             tempDic['StatValue'] = 0
                         if counterT == 1:
-                            tempDic['StatValue'] = removeN(tds[t + 2].next, deli, '')
+                            tempDic['StatValue'] = removeN(tds[t + 2].next, deli)
                         else:
-                            tempDic['StatValue'] = removeN(tds[t + 1].next, deli, '')
+                            tempDic['StatValue'] = removeN(tds[t + 1].next, deli)
 
                         if findString(tempDic['StatValue'], 'seconds'):
-                            temp = removeN(tempDic['StatValue'], ['(', ')'], '').split(' ')
+                            temp = removeN(tempDic['StatValue'], ['(', ')']).split(' ')
                             hi = temp.index('seconds')
                             tempDic['Duration'] = temp[hi-1]
                             
                         if findString(tempDic['StatValue'], 'Level'):
-                            temp = removeN(tempDic['StatValue'], ')', '')
+                            temp = removeN(tempDic['StatValue'], ')')
                             temp = temp.split('(')
                             tempDic['StatValue'] = temp[-1].capitalize()
                         
                         if findString(tempDic['DisplayStat'], 'poison'):
-                            temp = removeN(tempDic['StatValue'], ['(', ')'], '').split(' ')
+                            temp = removeN(tempDic['StatValue'], ['(', ')']).split(' ')
                             fdmg = temp.index('damage')
                             ffor = temp.index('for')
                             tempDic['StatValue'] = temp[fdmg-1]
@@ -354,7 +326,7 @@ def returnPotentialList(RContent):
                     te = subtable[statt].get_text().split(':')[-1]
                     if te.find('or higher')!= -1:
                         te = te.split("or higher")[0]
-                    te = removeN(te, '\n', '')
+                    te = removeN(te, '\n')
                     currentDic['MinLvl'] = te
                     currentDic['MaxLvl'] = 300
                     stat = currentDic['DisplayStat']
@@ -365,20 +337,20 @@ def returnPotentialList(RContent):
                         stat = " ".join(stat[:-1])
                         currentDic['Duration'] = tempL[-2]
                     elif findString(stat, 'Cooldown'):
-                        currentDic['StatValue'] =  removeN(stat.split(' ')[-2], ['\n', '-'], '')
-                        currentDic['Duration'] = removeN(stat.split(' ')[-2], ['\n', '-'], '')
+                        currentDic['StatValue'] =  removeN(stat.split(' ')[-2], ['\n', '-'])
+                        currentDic['Duration'] = removeN(stat.split(' ')[-2], ['\n', '-'])
                     elif findString(stat, "Invincibility Time"):
-                        currentDic['StatValue'] =  removeN(stat.split(' ')[-2], ['\n', '+'], '')
-                        currentDic['Duration'] = removeN(stat.split(' ')[-2], ['\n', '+'], '')
+                        currentDic['StatValue'] =  removeN(stat.split(' ')[-2], ['\n', '+'])
+                        currentDic['Duration'] = removeN(stat.split(' ')[-2], ['\n', '+'])
                     elif findString(stat, "Monster's DEF"):
                         tempL = stat.split(' ')[1]
                         stat = "Ignore Monster's DEF"
-                        currentDic['StatValue'] = removeN(tempL, '+', '')
+                        currentDic['StatValue'] = removeN(tempL, '+')
                         currentDic['DisplayStat'] = stat
                     elif findString(stat, 'Boss Monsters'):
                         tempL = stat.split(' ')
                         currentDic['DisplayStat'] = " ".join(tempL[:-1])
-                        currentDic['StatValue'] = removeN(tempL[-1], '+', '')
+                        currentDic['StatValue'] = removeN(tempL[-1], '+')
                     elif findString(stat, 'chance to ignore'):
                         if "%" in stat.split('ignore')[1]:
                             currentDic['StatValue'] = stat.split('ignore')[1].split(' ')[1]   
@@ -408,14 +380,97 @@ def retrieveHyperStat():
     request_session = requests.session()
     Page = request_session.get(defaultUrl + hyperStatUrl)
     PageContent = bsoup(Page.content, 'lxml')
-    AllDiv = PageContent.find_all('div')
+    
+    AllContent = PageContent.find_all('div', class_='mw-parser-output')[0]
 
 
+    hsDistributionStart = PageContent.select("#Hyper_Stats_Points_Distribution")[0].parent
+    hsDistributionEnd = PageContent.select('#Hyper_Stats')[0].parent
+    RContent = []
+    HyperStatContent = []
 
+    reachedEnd = False
+    startRecording = False
+    for i in AllContent:
+        if i == '\n':
+            continue
+        if i ==  hsDistributionEnd:
+            reachedEnd = True
+        if  i == hsDistributionStart:
+            startRecording = True
+
+        if startRecording == True:
+            if reachedEnd:
+                HyperStatContent.append(i)
+            else:
+                RContent.append(i)
+
+    wikitable = []
+    for i in RContent:
+        table = i.find_all('table', class_="wikitable")
+        if table != []:
+            wikitable.append(table)
+    wikitable = wikitable[0]
+    tdDistContent = [value.find_all('td') for value in wikitable]
+    HyperStatDistDF = retreiveHyperStatDistribution(tdDistContent)
+    CostDict = {
+        "Level" : [],
+        "Cost" : [],
+        "TotalCost" : []
+    }
+    HyperStatDF = pandas.DataFrame()
+    HyperStatDict = None
+    startHyperStatR = False
+    for i, r in enumerate(HyperStatContent) : 
+        if r.name == "table" and i >0 and HyperStatContent[i-1].name == 'p':
+            startHyperStatR = True
+            costTable = r.find_all('td')
+            for i in range(0, len(costTable), 3):
+                CostDict['Level'].append(int(costTable[i].next))
+                CostDict['Cost'].append(int(costTable[i+1].next))
+                CostDict['TotalCost'].append(int(removeN(costTable[i+2].next, '\n')))
+            continue
+        if r.name == "h3":
+            HyperStatDict = {
+                "Stat" : r.get_text().split('[')[0].encode("ascii", "ignore").decode(),
+                "Level":[],
+                "LevelGain":[],
+                "TotalGain":[]
+            }
+            
+        if r.name == 'table' and startHyperStatR:
+            statTable = r.find_all('td')
+            for i in range(0, len(statTable), 3):
+                HyperStatDict['Level'].append(int(statTable[i].next))
+                HyperStatDict['LevelGain'].append(removeN(statTable[i+1].next.split('+')[-1], '%'))
+                HyperStatDict['TotalGain'].append(removeN(statTable[i+2].next.split('+')[-1], ['\n', '%']))
+            HyperStatDF = HyperStatDF.append(pandas.DataFrame(HyperStatDict), ignore_index=True)
+
+            ...
+    
     end = time.time()
 
     print(f"Time Taken to retreive HyperStat is {end - start}")
+    
+    return HyperStatDistDF, HyperStatDF
     ...
+
+def retreiveHyperStatDistribution(TDContent):
+
+    cDict = {
+        "Level" : [],
+        "StatGain" : [],
+        "AccStatGain" :[]
+    }
+    for i in TDContent:
+        for td in range(0, len(i), 3):
+            cDict['Level'].append(int(i[td].next))
+            cDict['StatGain'].append(int(i[td+1].next))
+            cDict['AccStatGain'].append(int(removeN(i[td+2].next.rstrip('\n'), ',')))
+    return pandas.DataFrame(cDict)
+    ...
+
+
 
 def cleanPotDF(DF):
 
@@ -429,7 +484,7 @@ def ATDSF(statList):
     tempD = {}
 
     for stat in statList:
-        stat =  removeN(stat, delimiter, '') 
+        stat =  removeN(stat, delimiter) 
         if findString(stat, '-'):
             stat = stat.replace('-', ' ')
         
@@ -503,8 +558,8 @@ def returnLevelRank(mode, level):
 
 if __name__ == "__main__":
     
-    #StartScraping()
-    retrieveHyperStat()
+    StartScraping()
+    #retrieveHyperStat()
 
 
 

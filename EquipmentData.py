@@ -198,13 +198,13 @@ def retrieveEquips(wikitable, equipSet):
 
     for i in range(0, len(tdContent), 4):
         EquipData = {}
-        EquipData['EquipSet'] = removeN(equipSet,  ['\n'], '')
+        EquipData['EquipSet'] = removeN(equipSet,  ['\n'])
         equipName = tdContent[i].get_text()
-        equipslot = removeN(tdContent[i+1].get_text(),'\n', '')
+        equipslot = removeN(tdContent[i+1].get_text(),'\n')
         EquipData['EquipSlot'] = equipslot.split(' ')[0] if equipslot.find('Pocket') != -1 else equipslot 
         equipType = 'Armor' if EquipData['EquipSlot'] in ArmorSet else 'Accessories'
         if equipType == 'Accessories':
-            TequipName = removeN(equipName, ['\n', ":"], '')
+            TequipName = removeN(equipName, ['\n', ":"])
             TequipName = TequipName.split(' ')
             for subi in TequipName:
                 if EquipData['EquipSlot'] == subi or EquipData['EquipSlot'].find(subi) != -1 or subi.find(EquipData['EquipSlot']) != -1:
@@ -267,7 +267,7 @@ def retrieveWeapContent(link, session):
     titleContent = WeaponPage.find_all('h1',class_='page-header__title')[0]
     MainContent = WeaponPage.find_all('div', class_='mw-parser-output')[0]
 
-    weaponType = removeN(titleContent.next, ['\n','\t'], '')
+    weaponType = removeN(titleContent.next, ['\n','\t'])
 
     tableC = MainContent.find_all('table',class_='wikitable')[0].find_all('td')
     currentDF = pandas.DataFrame()
@@ -499,8 +499,8 @@ def retrieveTyrant(session):
         statList = []
         for row in trContent:
             if row.find('th') and row.find('td'):
-                th = removeN(row.find('th').next, '\n', '')
-                td = removeN(row.find('td').next, '\n', '')
+                th = removeN(row.find('th').next, '\n')
+                td = removeN(row.find('td').next, '\n')
                 if th.lower().find('level') != -1:
                     EquipData['EquipLevel'] = td
                     continue
@@ -539,8 +539,8 @@ def tryantPage(link, session):
     statList = []
     for row in trContent:
         if row.find('th') and row.find('td'):
-            th = removeN(row.find('th').next, '\n', '')
-            td = removeN(row.find('td').next, '\n', '')
+            th = removeN(row.find('th').next, '\n')
+            td = removeN(row.find('td').next, '\n')
             if th.lower().find('level') != -1:
                 EquipData['EquipLevel'] = td
                 continue
@@ -566,13 +566,13 @@ def retrieveHeart(session):
 
     for r in range(0, len(tds), 3):
         
-        eName = removeN(tds[r].get_text(), ['Heart','\n'], '')
+        eName = removeN(tds[r].get_text(), ['Heart','\n'])
         eName = removeN(eName, ['-'], ' ').rstrip(' ')
         if eName == "Black":
             continue
         if eName.find("Fairy") != -1:
             eName = "Fairy"
-        eLvl = removeN(tds[r + 1].get_text(), '\n', '').split(" ")[-1]
+        eLvl = removeN(tds[r + 1].get_text(), '\n').split(" ")[-1]
         eStatList = tds[r + 2].get_text(separator = '\n').split('\n')
         eStatList = [value for value in eStatList if value != '']
         tempDict = {
