@@ -1,436 +1,197 @@
 WeaponType,Set,REQ Level,REQ STR,REQ Job,Attack Speed,STR,DEX,Weapon Attack,Boss Damage,Ignored Enemy Defense,Number of Upgrades
-One Handed Swords,Utgard,150,450,Warrior,Fast (5),40,40,164,30,10,8
-Long Swords,Lazuli,200,600,Zero Alpha,Normal (6),150,150,337,30,20,0,"This weapon is upgraded as you complete specific quests to unseal the Genesis Weapon.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 1|, the weapon will be unsealed with the |Tanadian Ruin| Skill unlocked.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 2|, the following upgrades will be applied:
-|Complete scrolling with Spell Trace 15% Weapon Enhancements (cannot be changed)|
-|22 Star Force Enhancements (cannot be changed)|
-|Unique Potential (can be changed)|
-|Epic Bonus Potential (can be changed)|
-|Unlocked |Aeonian Rise| Skill",
-One Handed Axes,Utgard,200,600,Warrior,Fast (5),150,150,326,30,20,None,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Demon Slayer IV|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 320 (Lv. 6, 65 Points) or higher:
-|
-|Has a 3% chance to deal 10% extra damage on boss monsters.","500,000"
-One Handed Swords,Utgard,200,600,Warrior,Fast (5),100,100,283,30,20,8,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Mihile IV| or |Paladin IV|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 320 (Lv. 6, 65 Points) or higher:
-|
-|Has a 3% chance to deal 10% extra damage on boss monsters.","500,000"
-One Handed Swords,Utgard,200,600,Warrior,Fast (5),100,100,283,30,20,8,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Mihile IV| or |Paladin IV|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 320 (Lv. 6, 65 Points) or higher:
-|
-|Has a 3% chance to deal 10% extra damage on boss monsters.","500,000"
-One Handed Swords,Utgard,200,600,Warrior,Fast (5),100,100,283,30,20,8,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Mihile IV| or |Paladin IV|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 320 (Lv. 6, 65 Points) or higher:
-|
-|Has a 3% chance to deal 10% extra damage on boss monsters.","500,000"
-One Handed Axes,Utgard,110,300,Warrior,Normal (6),5,5,111,30,10,8,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Demon Slayer|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 100 (Level 3, 20 Points) or higher:
-|
-|Has a 3% chance to to deal 10% extra damage on boss monsters","500,000"
-One Handed Swords,Utgard,200,600,Warrior,Fast (5),100,100,283,30,20,8,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Mihile IV| or |Paladin IV|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 320 (Lv. 6, 65 Points) or higher:
-|
-|Has a 3% chance to deal 10% extra damage on boss monsters.","500,000"
-One Handed Axes,Utgard,110,300,Warrior,Normal (6),5,5,111,30,10,8,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Demon Slayer|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 100 (Level 3, 20 Points) or higher:
-|
-|Has a 3% chance to to deal 10% extra damage on boss monsters","500,000"
-One Handed Axes,Utgard,110,300,Warrior,Normal (6),5,5,111,30,10,8,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Demon Slayer|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 100 (Level 3, 20 Points) or higher:
-|
-|Has a 3% chance to to deal 10% extra damage on boss monsters","500,000"
-Heavy Swords,Lapis,140,400,Zero Beta,Slow (8),8,4,121,30,10,8,,
-One Handed Axes,Utgard,110,300,Warrior,Normal (6),5,5,111,30,10,8,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Demon Slayer|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 100 (Level 3, 20 Points) or higher:
-|
-|Has a 3% chance to to deal 10% extra damage on boss monsters","500,000"
-One Handed Blunt Weapons,Utgard,200,600,Warrior,Fast (5),150,150,326,30,20,None,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Demon Slayer IV|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 320 (Lv. 6, 65 Points) or higher:
-|
-|Has a 3% chance to deal 10% extra damage on boss monsters.","500,000"
-One Handed Blunt Weapons,Utgard,200,600,Warrior,Fast (5),150,150,326,30,20,None,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Demon Slayer IV|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 320 (Lv. 6, 65 Points) or higher:
-|
-|Has a 3% chance to deal 10% extra damage on boss monsters.","500,000"
-One Handed Axes,Utgard,110,300,Warrior,Normal (6),5,5,111,30,10,8,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Demon Slayer|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 100 (Level 3, 20 Points) or higher:
-|
-|Has a 3% chance to to deal 10% extra damage on boss monsters","500,000"
-One Handed Blunt Weapons,Utgard,200,600,Warrior,Fast (5),150,150,326,30,20,None,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Demon Slayer IV|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 320 (Lv. 6, 65 Points) or higher:
-|
-|Has a 3% chance to deal 10% extra damage on boss monsters.","500,000"
-Heavy Swords,Lapis,140,400,Zero Beta,Slow (8),8,4,121,30,10,8,,
-One Handed Blunt Weapons,Utgard,200,600,Warrior,Fast (5),150,150,326,30,20,None,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Demon Slayer IV|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 320 (Lv. 6, 65 Points) or higher:
-|
-|Has a 3% chance to deal 10% extra damage on boss monsters.","500,000"
-Heavy Swords,Lapis,140,400,Zero Beta,Slow (8),8,4,121,30,10,8,,
-Heavy Swords,Lapis,140,400,Zero Beta,Slow (8),8,4,121,30,10,8,,
-Heavy Swords,Lapis,140,400,Zero Beta,Slow (8),8,4,121,30,10,8,,
-Heavy Swords,Lapis,110,325,Zero Beta,Slow (8),8,4,105,30,10,7,,
-Heavy Swords,Lapis,110,325,Zero Beta,Slow (8),8,4,105,30,10,7,,
-Heavy Swords,Lapis,110,325,Zero Beta,Slow (8),8,4,105,30,10,7,,
-Heavy Swords,Lapis,110,325,Zero Beta,Slow (8),8,4,105,30,10,7,,
-Fans,Utgard,140,,Kanna,Fast (4),,,93,,,8,,
-Fans,Utgard,150,,Kanna,Slow (8),,,126,30,10,8,,
-Hand Cannons,Utgard,200,600,Pirate,Slow (8),100,100,302,30,20,8,,
-Fans,Utgard,200,,Kanna,Normal (6),,,206,30,20,8,,
-Hand Cannons,Utgard,200,600,Pirate,Slow (8),100,100,302,30,20,8,,
-Hand Cannons,Utgard,200,600,Pirate,Slow (8),100,100,302,30,20,8,,
-Fans,Utgard,200,,Kanna,Normal (6),,,206,30,20,8,,
-Guns,Utgard,200,,Pirate,Fast (5),100,100,216,30,20,8,,
-Hand Cannons,Utgard,200,600,Pirate,Slow (8),100,100,302,30,20,8,,
-Guns,Utgard,200,,Pirate,Fast (5),100,100,216,30,20,8,,
-Long Swords,Lazuli,110,325,Zero Alpha,Normal (6),8,4,103,30,20,7,"This weapon is upgraded as you complete specific quests to unseal the Genesis Weapon.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 1|, the weapon will be unsealed with the |Tanadian Ruin| Skill unlocked.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 2|, the following upgrades will be applied:
-|Complete scrolling with Spell Trace 15% Weapon Enhancements (cannot be changed)|
-|22 Star Force Enhancements (cannot be changed)|
-|Unique Potential (can be changed)|
-|Epic Bonus Potential (can be changed)|
-|Unlocked |Aeonian Rise| Skill",
-Guns,Utgard,200,,Pirate,Fast (5),100,100,216,30,20,8,,
-Long Swords,Lazuli,110,325,Zero Alpha,Normal (6),8,4,103,30,20,7,"This weapon is upgraded as you complete specific quests to unseal the Genesis Weapon.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 1|, the weapon will be unsealed with the |Tanadian Ruin| Skill unlocked.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 2|, the following upgrades will be applied:
-|Complete scrolling with Spell Trace 15% Weapon Enhancements (cannot be changed)|
-|22 Star Force Enhancements (cannot be changed)|
-|Unique Potential (can be changed)|
-|Epic Bonus Potential (can be changed)|
-|Unlocked |Aeonian Rise| Skill",
-Long Swords,Lazuli,110,325,Zero Alpha,Normal (6),8,4,103,30,20,7,"This weapon is upgraded as you complete specific quests to unseal the Genesis Weapon.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 1|, the weapon will be unsealed with the |Tanadian Ruin| Skill unlocked.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 2|, the following upgrades will be applied:
-|Complete scrolling with Spell Trace 15% Weapon Enhancements (cannot be changed)|
-|22 Star Force Enhancements (cannot be changed)|
-|Unique Potential (can be changed)|
-|Epic Bonus Potential (can be changed)|
-|Unlocked |Aeonian Rise| Skill",
-Long Swords,Lazuli,110,325,Zero Alpha,Normal (6),8,4,103,30,20,7,"This weapon is upgraded as you complete specific quests to unseal the Genesis Weapon.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 1|, the weapon will be unsealed with the |Tanadian Ruin| Skill unlocked.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 2|, the following upgrades will be applied:
-|Complete scrolling with Spell Trace 15% Weapon Enhancements (cannot be changed)|
-|22 Star Force Enhancements (cannot be changed)|
-|Unique Potential (can be changed)|
-|Epic Bonus Potential (can be changed)|
-|Unlocked |Aeonian Rise| Skill",
-Long Swords,Lazuli,110,325,Zero Alpha,Normal (6),8,4,103,30,20,7,"This weapon is upgraded as you complete specific quests to unseal the Genesis Weapon.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 1|, the weapon will be unsealed with the |Tanadian Ruin| Skill unlocked.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 2|, the following upgrades will be applied:
-|Complete scrolling with Spell Trace 15% Weapon Enhancements (cannot be changed)|
-|22 Star Force Enhancements (cannot be changed)|
-|Unique Potential (can be changed)|
-|Epic Bonus Potential (can be changed)|
-|Unlocked |Aeonian Rise| Skill",
-Guns,Utgard,200,,Pirate,Fast (5),100,100,216,30,20,8,,
-Long Swords,Lazuli,110,325,Zero Alpha,Normal (6),8,4,103,30,20,7,"This weapon is upgraded as you complete specific quests to unseal the Genesis Weapon.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 1|, the weapon will be unsealed with the |Tanadian Ruin| Skill unlocked.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 2|, the following upgrades will be applied:
-|Complete scrolling with Spell Trace 15% Weapon Enhancements (cannot be changed)|
-|22 Star Force Enhancements (cannot be changed)|
-|Unique Potential (can be changed)|
-|Epic Bonus Potential (can be changed)|
-|Unlocked |Aeonian Rise| Skill",
-Long Swords,Lazuli,110,325,Zero Alpha,Normal (6),8,4,103,30,20,7,"This weapon is upgraded as you complete specific quests to unseal the Genesis Weapon.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 1|, the weapon will be unsealed with the |Tanadian Ruin| Skill unlocked.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 2|, the following upgrades will be applied:
-|Complete scrolling with Spell Trace 15% Weapon Enhancements (cannot be changed)|
-|22 Star Force Enhancements (cannot be changed)|
-|Unique Potential (can be changed)|
-|Epic Bonus Potential (can be changed)|
-|Unlocked |Aeonian Rise| Skill",
-Long Swords,Lazuli,110,325,Zero Alpha,Normal (6),8,4,103,30,20,7,"This weapon is upgraded as you complete specific quests to unseal the Genesis Weapon.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 1|, the weapon will be unsealed with the |Tanadian Ruin| Skill unlocked.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 2|, the following upgrades will be applied:
-|Complete scrolling with Spell Trace 15% Weapon Enhancements (cannot be changed)|
-|22 Star Force Enhancements (cannot be changed)|
-|Unique Potential (can be changed)|
-|Epic Bonus Potential (can be changed)|
-|Unlocked |Aeonian Rise| Skill",
-Long Swords,Lazuli,110,325,Zero Alpha,Normal (6),8,4,103,30,20,7,"This weapon is upgraded as you complete specific quests to unseal the Genesis Weapon.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 1|, the weapon will be unsealed with the |Tanadian Ruin| Skill unlocked.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 2|, the following upgrades will be applied:
-|Complete scrolling with Spell Trace 15% Weapon Enhancements (cannot be changed)|
-|22 Star Force Enhancements (cannot be changed)|
-|Unique Potential (can be changed)|
-|Epic Bonus Potential (can be changed)|
-|Unlocked |Aeonian Rise| Skill",
-Heavy Swords,Lapis,200,600,Zero Beta,Slow (8),150,150,342,30,20,0,"This weapon is upgraded as you complete specific quests to unseal the Genesis Weapon.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 1|, the weapon will be unsealed with the |Tanadian Ruin| Skill unlocked.|After completing the quest |[Genesis Weapon] Power Unbound, Stage 2|, the following upgrades will be applied:
-|Complete scrolling with Spell Trace 15% Weapon Enhancements (cannot be changed)|
-|22 Star Force Enhancements (cannot be changed)|
-|Unique Potential (can be changed)|
-|Epic Bonus Potential (can be changed)|
-|Unlocked |Aeonian Rise| Skill",
-Hand Cannons,Utgard,160,480,Pirate,Slow (8),60,60,210,30,10,8,,
-Fans,Utgard,160,,Kanna,Slow (8),,,143,30,10,8,,
-Guns,Utgard,160,,Pirate,Fast (5),60,60,150,30,10,8,,
-Katanas,Utgard,140,400,Hayato,Fast (5),,,118,,,8,,
-Katanas,Utgard,200,600,Hayato,Fast (5),150,150,326,30,20,None,,
-Knuckles,Utgard,200,600,Pirate,Fast (5),150,150,255,30,20,None,,
-Katanas,Utgard,200,600,Hayato,Fast (5),100,100,283,30,20,8,,
-Knuckles,Utgard,200,600,Pirate,Fast (5),150,150,255,30,20,None,,
-Knuckles,Utgard,200,600,Pirate,Fast (5),150,150,255,30,20,None,,
-Knuckles,Utgard,200,600,Pirate,Fast (5),150,150,255,30,20,None,,
-Lucent Gauntlets,Utgard,150,,Illium,Normal (6),,,119,30,10,8,,
-Katanas,Utgard,200,600,Hayato,Fast (5),100,100,283,30,20,8,,
-Lucent Gauntlets,Utgard,150,,Illium,Normal (6),,,119,30,10,8,,
-Ritual Fans,Utgard,200,,Hoyoung,Fast (4),,150,318,30,20,None,,
-Ritual Fans,Utgard,200,,Hoyoung,Fast (4),,150,318,30,20,None,,
-Lucent Gauntlets,Utgard,150,,Illium,Normal (6),,,119,30,10,8,,
-One Handed Blunt Weapons,Utgard,200,600,Warrior,Fast (5),100,100,283,30,20,8,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Demon Slayer|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 100 (Level 3, 20 Points) or higher:
-|
-|Has a 3% chance to to deal 10% extra damage on boss monsters","500,000"
-One Handed Blunt Weapons,Utgard,200,600,Warrior,Fast (5),100,100,283,30,20,8,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Demon Slayer|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 100 (Level 3, 20 Points) or higher:
-|
-|Has a 3% chance to to deal 10% extra damage on boss monsters","500,000"
-Lucent Gauntlets,Utgard,150,,Illium,Normal (6),,,119,30,10,8,,
-Ritual Fans,Utgard,200,,Hoyoung,Fast (4),,150,318,30,20,None,,
-Ritual Fans,Utgard,200,,Hoyoung,Fast (4),,150,318,30,20,None,,
-Polearms,Utgard,200,600,Warrior,Fast (5),150,150,304,30,20,None,,
-Polearms,Utgard,200,600,Warrior,Fast (5),150,150,304,30,20,None,,
-Polearms,Utgard,200,600,Warrior,Fast (5),100,100,264,30,20,8,"When Diligence EXP is 100 (Lv. 3, 20 Points) or higher:
-|Has a chance to add Instant Death effect.|
-|When attacking |Mammal|-type enemies:
-|
-|Damage: +20%|
-|When your job is |Hayato|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10","500,000"
-Scepters,Utgard,150,,Beast Tamer,Normal (6),,,119,30,10,8,,
-Polearms,Utgard,150,450,Warrior,Fast (5),40,40,153,30,10,8,"When Diligence EXP is 100 (Lv. 3, 20 Points) or higher:
-|Has a chance to add Instant Death effect.|
-|When attacking |Mammal|-type enemies:
-|
-|Damage: +20%|
-|When your job is |Hayato|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10","500,000"
-Scepters,Utgard,150,,Beast Tamer,Normal (6),,,119,30,10,8,,
-Scepters,Utgard,150,,Beast Tamer,Normal (6),,,119,30,10,8,,
-Scepters,Utgard,150,,Beast Tamer,Normal (6),,,119,30,10,8,,
-Polearms,Utgard,150,450,Warrior,Fast (5),40,40,153,30,10,8,"When Diligence EXP is 100 (Lv. 3, 20 Points) or higher:
-|Has a chance to add Instant Death effect.|
-|When attacking |Mammal|-type enemies:
-|
-|Damage: +20%|
-|When your job is |Hayato|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10","500,000"
-Katanas,Utgard,160,480,Hayato,Fast (5),60,60,197,30,10,8,,
-Psy limiters,Utgard,140,,Kinesis,Normal (6),,,93,30,20,8,,
-Knuckles,Utgard,160,480,Pirate,Fast (5),60,60,154,30,10,8,,
-Psy limiters,Utgard,140,,Kinesis,Normal (6),,,93,30,20,8,,
-Lucent Gauntlets,Utgard,160,,Illium,Normal (6),,,143,30,10,8,,
-Shining Rods,Utgard,140,,Luminous,Normal (6),,,93,,,8,,
-Psy limiters,Utgard,140,,Kinesis,Normal (6),,,93,30,20,8,,
-Psy limiters,Utgard,140,,Kinesis,Normal (6),,,93,30,20,8,,
-Shining Rods,Utgard,150,,Luminous,Normal (6),,,119,30,10,8,,
-Shining Rods,Utgard,150,,Luminous,Normal (6),,,119,30,10,8,,
-Shining Rods,Utgard,150,,Luminous,Normal (6),,,119,30,10,8,,
-Whispershots,Utgard,200,,Kain,Fast (4),100,100,276,30,20,8,,
-Whispershots,Utgard,200,,Kain,Fast (4),100,100,276,30,20,8,,
-Whispershots,Utgard,160,,Kain,Fast (4),60,60,192,30,10,8,,
-Whispershots,Utgard,160,,Kain,Fast (4),60,60,192,30,10,8,,
-One Handed Swords,Utgard,160,480,Warrior,Fast (5),60,60,197,30,10,8,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Mihile IV| or |Paladin IV|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 320 (Lv. 6, 65 Points) or higher:
-|
-|Has a 3% chance to deal 10% extra damage on boss monsters.","500,000"
-One Handed Blunt Weapons,Utgard,160,480,Warrior,Fast (5),60,60,197,30,10,8,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Demon Slayer|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 100 (Level 3, 20 Points) or higher:
-|
-|Has a 3% chance to to deal 10% extra damage on boss monsters","500,000"
-One Handed Axes,Utgard,160,480,Warrior,Fast (5),60,60,197,30,10,8,"When attacking |Mammal|-type enemies:
-|Damage: +20%|
-|When your job is |Demon Slayer|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10%|
-|When Diligence EXP is 100 (Level 3, 20 Points) or higher:
-|
-|Has a 3% chance to to deal 10% extra damage on boss monsters","500,000"
-Ritual Fans,Utgard,160,,Hoyoung,Fast (4),,60,192,30,10,8,,
-Polearms,Utgard,160,480,Warrior,Fast (5),60,60,184,30,10,8,"When Diligence EXP is 100 (Lv. 3, 20 Points) or higher:
-|Has a chance to add Instant Death effect.|
-|When attacking |Mammal|-type enemies:
-|
-|Damage: +20%|
-|When your job is |Hayato|:
-|
-|Critical Rate: +5%|
-|Critical Damage: +10","500,000"
-Scepters,Utgard,160,,Beast Tamer,Normal (6),,,143,30,10,8,,
-Two Handed Axes,Utgard,200,600,Warrior,Normal (6),100,100,295,30,20,8,,
-Two Handed Axes,Utgard,200,600,Warrior,Normal (6),100,100,295,30,20,8,,
-Two Handed Axes,Utgard,200,600,Warrior,Normal (6),100,100,295,30,20,8,,
-Two Handed Axes,Utgard,200,600,Warrior,Normal (6),100,100,295,30,20,8,,
-Shining Rods,Utgard,160,,Luminous,Normal (6),,,143,30,10,8,,
-Psy limiters,Utgard,160,,Kinesis,Normal (6),,,143,30,10,8,,
-Whispershots,Utgard,160,,Kain,Fast (4),60,60,192,30,10,8,,
-Whip Blades,Utgard,200,,Xenon,Fast (5),100,100,221,30,20,8,,
-Staffs,Utgard,140,,Magician,Normal (6),,,98,,,8,,
-Whip Blades,Utgard,200,,Xenon,Fast (5),100,100,221,30,20,8,,
-Whip Blades,Utgard,200,,Xenon,Fast (5),100,100,221,30,20,8,,
-Whip Blades,Utgard,200,,Xenon,Fast (5),100,100,221,30,20,8,,
-Staffs,Utgard,150,,Magician,Slow (8),,,126,30,10,8,,
-Staffs,Utgard,200,,Magician,Slow (8),,,218,30,20,8,,
-Two Handed Swords,Utgard,200,600,Warrior,Normal (6),100,100,295,30,20,8,,
-Two Handed Swords,Utgard,200,600,Warrior,Normal (6),100,100,295,30,20,8,,
-Two Handed Swords,Utgard,160,480,Warrior,Normal (6),60,60,205,30,10,8,,
-Two Handed Axes,Utgard,160,480,Warrior,Normal (6),60,60,205,30,10,8,,
-Staffs,Utgard,160,,Magician,Slow (8),,,151,30,10,8,,
-Two Handed Swords,Utgard,160,480,Warrior,Normal (6),60,60,205,30,10,8,,
-Wands,Utgard,160,,Magician,Normal (6),,,143,30,10,8,,
-Wands,Utgard,160,,Magician,Normal (6),,,143,30,10,8,,
-Wands,Utgard,160,,Magician,Normal (6),,,143,30,10,8,,
-Two Handed Blunt Weapons,Utgard,160,480,Warrior,Normal (6),60,60,205,30,10,8,,
-Wands,Utgard,160,,Magician,Normal (6),,,143,30,10,8,,
-Two Handed Blunt Weapons,Utgard,160,480,Warrior,Normal (6),60,60,205,30,10,8,,
-Whip Blades,Utgard,160,,Xenon,Fast (5),100,60,154,30,10,8,,
-Two Handed Blunt Weapons,Utgard,160,480,Warrior,Normal (6),60,60,205,30,10,8,,
-Staffs,Utgard,160,,Magician,Slow (8),,,151,30,10,8,,
-Two Handed Blunt Weapons,Utgard,160,480,Warrior,Normal (6),60,60,205,30,10,8,,
-Two Handed Swords,Utgard,160,480,Warrior,Normal (6),60,60,205,30,10,8,,
-Two Handed Blunt Weapons,Utgard,160,480,Warrior,Normal (6),60,60,205,30,10,8,,
-Wands,Utgard,160,,Magician,Normal (6),,,143,30,10,8,,
-Soul Shooters,Utgard,150,,Angelic Buster,Fast (5),40,40,128,30,10,8,,
-Soul Shooters,Utgard,150,,Angelic Buster,Fast (5),40,40,128,30,10,8,,
-Soul Shooters,Utgard,150,,Angelic Buster,Fast (5),40,40,128,30,10,8,,
-Soul Shooters,Utgard,150,,Angelic Buster,Fast (5),40,40,128,30,10,8,,
-Spears,Utgard,140,430,Warrior,Normal (6),,,124,,,8,,
-Soul Shooters,Utgard,160,,Angelic Buster,Fast (5),60,60,154,30,10,8,,
-Ancient Bows,Utgard,200,,Pathfinder,Normal (6),100,100,276,30,20,8,,
-Spears,Utgard,200,600,Warrior,Normal (6),150,150,340,30,20,None,,
-Ancient Bows,Utgard,160,,Pathfinder,Normal (6),60,60,192,30,10,8,,
-Ancient Bows,Utgard,160,,Pathfinder,Normal (6),60,60,192,30,10,8,,
-Spears,Utgard,200,600,Warrior,Normal (6),150,150,340,30,20,None,,
-Spears,Utgard,200,600,Warrior,Normal (6),150,150,340,30,20,None,,
-Spears,Utgard,200,600,Warrior,Normal (6),150,150,340,30,20,None,,
-Ancient Bows,Utgard,160,,Pathfinder,Normal (6),60,60,192,30,10,8,,
-Ancient Bows,Utgard,160,,Pathfinder,Normal (6),60,60,192,30,10,8,,
-Chains,Utgard,160,,Cadena,Fast (4),,60,192,30,10,8,,
-Bladecasters,Utgard,140,480,Adele,Fast (4),60,60,122,30,10,8,,
-Crossbows,Utgard,160,,Bowman,Normal (6),60,60,197,30,10,8,,
-Arm Cannons,Utgard,200,600,Blaster,Fast (5),100,100,221,30,20,8,,
-Canes,Utgard,140,,Thief,Fast (4),,60,118,30,10,8,,
-Claws,Utgard,160,,Thief,Fast (4),,60,103,30,10,8,,
-Bows,Utgard,200,,Bowman,Normal (6),100,100,276,30,20,8,,
-Daggers,Utgard,160,,Thief,Fast (4),,60,192,30,10,8,,
-Dual Bowguns,Utgard,160,,Bowman,Normal (6),60,60,192,30,10,8,,
-Desperados,Utgard,160,480,Demon Avenger,Normal (6),60,,205,30,10,8,,
-Bladecasters,Utgard,200,600,Adele,Fast (4),100,100,295,30,20,8,,
-Bladecasters,Utgard,200,600,Adele,Fast (4),100,100,295,30,20,8,,
-Arm Cannons,Utgard,200,600,Blaster,Fast (5),100,100,221,30,20,8,,
-Bladecasters,Utgard,200,600,Adele,Fast (4),100,100,295,30,20,8,,
-Bladecasters,Utgard,200,600,Adele,Fast (4),100,100,295,30,20,8,,
-Arm Cannons,Utgard,200,600,Blaster,Fast (5),100,100,221,30,20,8,,
-Arm Cannons,Utgard,200,600,Blaster,Fast (5),100,100,221,30,20,8,,
-Arm Cannons,Utgard,200,600,Blaster,Fast (5),100,100,221,30,20,8,,
-Bows,Utgard,200,,Bowman,Normal (6),100,100,276,30,20,8,,
-Bows,Utgard,200,,Bowman,Normal (6),100,100,276,30,20,8,,
-Bows,Utgard,200,,Bowman,Normal (6),100,100,276,30,20,8,,
-Bows,Utgard,200,,Bowman,Normal (6),100,100,276,30,20,8,,
-Canes,Utgard,150,,Thief,Fast (5),,40,164,30,10,8,,
-Canes,Utgard,150,,Thief,Fast (5),,40,164,30,10,8,,
-Canes,Utgard,150,,Thief,Fast (5),,40,164,30,10,8,,
-Claws,Utgard,140,,Thief,Fast (4),,60,62,30,10,8,,
-Canes,Utgard,150,,Thief,Fast (5),,40,164,30,10,8,,
-Claws,Utgard,200,,Thief,Fast (4),,100,149,30,20,8,,
-Chains,Utgard,150,,Cadena,Fast (4),,40,160,30,10,8,,
-Dual Bowguns,Utgard,150,,Bowman,Normal (6),40,40,160,30,10,8,,
-Claws,Utgard,200,,Thief,Fast (4),,150,172,30,20,None,,
-Chains,Utgard,150,,Cadena,Fast (4),,40,160,30,10,8,,
-Chains,Utgard,150,,Cadena,Fast (4),,40,160,30,10,8,,
-Claws,Utgard,200,,Thief,Fast (4),,150,172,30,20,None,,
-Chains,Utgard,150,,Cadena,Fast (4),,40,160,30,10,8,,
-Crossbows,Utgard,200,,Bowman,Normal (6),150,150,326,30,20,None,,
-Dual Bowguns,Utgard,200,,Bowman,Normal (6),100,100,276,30,20,8,,
-Daggers,Utgard,200,,Thief,Fast (4),,100,276,30,20,8,,
-Dual Bowguns,Utgard,200,,Bowman,Normal (6),100,100,276,30,20,8,,
-Crossbows,Utgard,200,,Bowman,Normal (6),150,150,326,30,20,None,,
-Dual Bowguns,Utgard,200,,Bowman,Normal (6),100,100,276,30,20,8,,
-Crossbows,Utgard,200,,Bowman,Normal (6),150,150,326,30,20,None,,
-Crossbows,Utgard,200,,Bowman,Normal (6),150,150,326,30,20,None,,
-Daggers,Utgard,200,,Thief,Fast (4),,100,276,30,20,8,,
-Daggers,Utgard,200,,Thief,Fast (4),,100,276,30,20,8,,
-Desperados,Utgard,140,430,Demon Avenger,Normal (6),100,100,122,30,20,8,,
-Desperados,Utgard,140,430,Demon Avenger,Normal (6),100,100,122,30,20,8,,
-Desperados,Utgard,140,430,Demon Avenger,Normal (6),100,100,122,30,20,8,,
-Desperados,Utgard,140,430,Demon Avenger,Normal (6),100,100,122,30,20,8,,
-Daggers,Utgard,150,,Thief,Fast (4),,40,160,30,10,8,,
+Long Swords,Lazuli,170,450,Zero Alpha,Normal (6),40,40,169,30,10,8
+Long Swords,Lazuli,130,370,Zero Alpha,Normal (6),,,112,,,7
+Long Swords,Lazuli,150,420,Zero Alpha,Normal (6),35,20,135,,,8
+Long Swords,Lazuli,140,400,Zero Alpha,Normal (6),8,4,117,,,8
+Long Swords,Lazuli,120,340,Zero Alpha,Normal (6),,,105,,,7
+Long Swords,Lazuli,200,600,Zero Alpha,Normal (6),100,100,293,30,20,8
+Long Swords,Lazuli,110,325,Zero Alpha,Normal (6),,,103,,,7
+Long Swords,Lazuli,180,480,Zero Alpha,Normal (6),60,60,203,30,10,8
+Lucent Gauntlets,Fafnir,150,,Illium,Normal (6),,,119,30,10,8
+Lucent Gauntlets,Utgard,140,,Illium,Normal (6),,,93,,,8
+Lucent Gauntlets,Genesis,200,,Illium,Normal (6),,,237,30,20,None
+Lucent Gauntlets,Arcane,200,,Illium,Normal (6),,,206,30,20,8
+One Handed Axes,Lapis,105,300,Warrior,Normal (6),1,1,101,,,7
+One Handed Axes,Genesis,200,600,Warrior,Fast (5),150,150,326,30,20,None
+Long Swords,Lazuli,100,310,Zero Alpha,Normal (6),,,100,,,7
+One Handed Axes,Utgard,140,410,Warrior,Fast (5),,,118,,,8
+Dual Bowguns,Utgard,140,,Bowman,Normal (6),,,115,,,8
+Dual Bowguns,Genesis,200,,Bowman,Normal (6),150,150,318,30,20,None
+Dual Bowguns,Arcane,200,,Bowman,Normal (6),100,100,276,30,20,8
+Fans,Utgard,140,,Kanna,Fast (4),,,93,,,8
+Fans,Fafnir,150,,Kanna,Slow (8),,,126,30,10,8
+Dual Bowguns,Fafnir,150,,Bowman,Normal (6),40,40,160,30,10,8
+Fans,Genesis,200,,Kanna,Normal (6),,,237,30,20,None
+Fans,Arcane,200,,Kanna,Normal (6),,,206,30,20,8
+Guns,Utgard,140,,Pirate,Fast (5),,,90,,,8
+Heavy Swords,Lapis,180,480,Zero Beta,Slow (8),60,60,207,30,10,8
+Guns,Fafnir,150,,Pirate,Fast (5),40,40,125,30,10,8
+Dual Bowguns,AbsoLab,160,,Bowman,Normal (6),60,60,192,30,10,8
+Guns,Genesis,200,,Pirate,Fast (5),150,150,249,30,20,None
+Guns,Arcane,200,,Pirate,Fast (5),100,100,216,30,20,8
+Guns,AbsoLab,160,,Pirate,Fast (5),60,60,150,30,10,8
+Fans,AbsoLab,160,,Kanna,Slow (8),,,143,30,10,8
+Heavy Swords,Lapis,200,600,Zero Beta,Slow (8),100,100,297,30,20,8
+Heavy Swords,Lapis,170,450,Zero Beta,Slow (8),40,40,173,30,10,8
+Heavy Swords,Lapis,150,420,Zero Beta,Slow (8),35,20,139,,,8
+Heavy Swords,Lapis,130,370,Zero Beta,Slow (8),,,114,,,7
+Heavy Swords,Lapis,110,325,Zero Beta,Slow (8),,,105,,,7
+Hand Cannons,Genesis,200,600,Pirate,Fast (5),150,150,348,30,20,None
+Heavy Swords,Lapis,100,310,Zero Beta,Slow (8),,,102,,,7
+Hand Cannons,Utgard,140,,Pirate,Slow (8),,,122,,,8
+Hand Cannons,Fafnir,150,450,Pirate,Slow (8),40,40,175,30,10,8
+Heavy Swords,Lapis,120,340,Zero Beta,Slow (8),,,107,,,7
+Hand Cannons,Arcane,200,600,Pirate,Slow (8),100,100,302,30,20,8
+Katanas,Genesis,200,600,Hayato,Fast (5),150,150,326,30,20,None
+Katanas,Utgard,140,400,Hayato,Fast (5),,,118,,,8
+Heavy Swords,Lapis,140,400,Zero Beta,Slow (8),8,4,121,,,8
+Katanas,Fafnir,150,450,Hayato,Fast (5),40,40,164,30,10,8
+Katanas,Arcane,200,600,Hayato,Fast (5),100,100,283,30,20,8
+Knuckles,Utgard,140,,Pirate,Fast (5),,,90,,,8
+Knuckles,Genesis,200,600,Pirate,Fast (5),150,150,255,30,20,None
+Knuckles,Fafnir,150,450,Pirate,Fast (5),40,40,128,30,10,8
+Knuckles,Arcane,200,600,Pirate,Fast (5),100,100,221,30,20,8
+One Handed Axes,Lapis,110,300,Warrior,Normal (6),5,5,111,,,8
+One Handed Swords,Fafnir,150,450,Warrior,Fast (5),40,40,164,30,10,8
+One Handed Axes,Arcane,200,600,Warrior,Fast (5),100,100,283,30,20,8
+One Handed Swords,Utgard,140,410,Warrior,Fast (5),,,118,,,8
+One Handed Swords,Lapis,105,325,Warrior,Fast (5),1,1,101,,,7
+One Handed Axes,Fafnir,150,450,Warrior,Fast (5),40,40,164,30,10,8
+One Handed Swords,Genesis,200,600,Warrior,Fast (5),150,150,326,30,20,None
+One Handed Swords,Arcane,200,600,Warrior,Fast (5),100,100,283,30,20,8
+One Handed Blunt Weapons,Utgard,140,320,Warrior,Fast (5),,,118,,,8
+One Handed Blunt Weapons,Lapis,105,265,Warrior,Normal (6),1,1,101,,,7
+One Handed Blunt Weapons,Genesis,200,600,Warrior,Fast (5),150,150,326,30,20,None
+Polearms,Lapis,105,300,Hayato,Normal (6),1,1,101,,,7
+One Handed Blunt Weapons,Fafnir,150,450,Warrior,Fast (5),40,40,164,30,10,8
+Polearms,Utgard,140,430,Warrior,Fast (5),,,122,,,8
+One Handed Blunt Weapons,Arcane,200,600,Warrior,Fast (5),100,100,283,30,20,8
+One Handed Blunt Weapons,Lapis,110,265,Warrior,Normal (6),5,5,111,,,8
+Polearms,Genesis,200,600,Warrior,Fast (5),150,150,304,30,20,None
+Polearms,Arcane,200,600,Warrior,Fast (5),100,100,264,30,20,8
+Polearms,Fafnir,150,450,Warrior,Fast (5),40,40,153,30,10,8
+Heavy Swords,Genesis,200,600,Zero Beta,Slow (8),150,150,342,30,20,0
+Hand Cannons,AbsoLab,160,480,Pirate,Slow (8),60,60,210,30,10,8
+Psy limiters,Genesis,200,,Kinesis,Normal (6),,,237,30,20,None
+Katanas,AbsoLab,160,480,Hayato,Fast (5),60,60,197,30,10,8
+Psy limiters,Utgard,140,,Kinesis,Normal (6),,,93,,,8
+Psy limiters,Fafnir,150,,Kinesis,Normal (6),,,110,30,10,8
+Psy limiters,Arcane,200,,Kinesis,Normal (6),,,206,30,20,8
+Long Swords,Genesis,200,600,Zero Alpha,Normal (6),150,150,337,30,20,0
+Knuckles,AbsoLab,160,480,Pirate,Fast (5),60,60,154,30,10,8
+One Handed Axes,AbsoLab,160,480,Warrior,Fast (5),60,60,197,30,10,8
+One Handed Blunt Weapons,AbsoLab,160,480,Warrior,Fast (5),60,60,197,30,10,8
+Lucent Gauntlets,AbsoLab,160,,Illium,Normal (6),,,143,30,10,8
+One Handed Swords,AbsoLab,160,480,Warrior,Fast (5),60,60,197,30,10,8
+Polearms,AbsoLab,160,480,Warrior,Fast (5),60,60,184,30,10,8
+Scepters,Utgard,140,,Beast Tamer,Normal (6),,,93,,,8
+Scepters,Genesis,200,,Beast Tamer,Normal (6),,,237,30,20,None
+Scepters,Fafnir,150,,Beast Tamer,Normal (6),,,119,30,10,8
+Scepters,Arcane,200,,Beast Tamer,Normal (6),,,206,30,20,8
+Ritual Fans,Utgard,140,,Hoyoung,Fast (4),,,115,,,8
+Ritual Fans,Genesis,200,,Hoyoung,Fast (4),,150,318,30,20,None
+Ritual Fans,Fafnir,150,,Hoyoung,Fast (4),,40,160,30,10,8
+Whispershots,Genesis,200,,Kain,Fast (4),150,150,318,30,20,None
+Whispershots,Utgard,140,,Kain,Fast (4),,,115,,,8
+Ritual Fans,Arcane,200,,Hoyoung,Fast (4),,100,276,30,20,8
+Whispershots,Fafnir,150,,Kain,Fast (4),40,40,160,30,10,8
+Whispershots,Arcane,200,,Kain,Fast (4),100,100,276,30,20,8
+Wands,Utgard,140,,Magician,Normal (6),,,93,,,8
+Psy limiters,AbsoLab,160,,Kinesis,Normal (6),,,143,30,10,8
+Wands,Arcane,200,,Magician,Normal (6),,,206,30,20,8
+Wands,Genesis,200,,Magician,Normal (6),,,237,30,20,None
+Wands,Fafnir,150,,Magician,Normal (6),,,119,30,10,8
+Whip Blades,Utgard,140,,Xenon,Fast (5),,,90,,,8
+Whip Blades,Genesis,200,,Xenon,Fast (5),150,150,255,30,20,None
+Whip Blades,Fafnir,150,,Xenon,Fast (5),,40,128,30,10,8
+Whip Blades,Arcane,200,,Xenon,Fast (5),100,100,221,30,20,8
+Two Handed Blunt Weapons,Utgard,140,430,Warrior,Normal (6),,,124,,,8
+Two Handed Blunt Weapons,Genesis,200,600,Warrior,Normal (6),150,150,340,30,20,None
+Two Handed Blunt Weapons,Fafnir,150,450,Warrior,Normal (6),40,40,171,30,10,8
+Two Handed Axes,Genesis,200,600,Warrior,Normal (6),150,150,340,30,20,None
+Shining Rods,Utgard,140,,Luminous,Normal (6),,,93,,,8
+Shining Rods,Genesis,200,,Luminous,Normal (6),,,237,30,20,None
+Shining Rods,Fafnir,150,,Luminous,Normal (6),,,119,30,10,8
+Two Handed Axes,Fafnir,150,450,Warrior,Normal (6),40,40,171,30,10,8
+Two Handed Blunt Weapons,Arcane,200,600,Warrior,Normal (6),100,100,295,30,20,8
+Shining Rods,Arcane,200,,Luminous,Normal (6),,,206,30,20,8
+Two Handed Axes,Utgard,140,430,Warrior,Normal (6),,,124,,,8
+Two Handed Axes,Arcane,200,600,Warrior,Normal (6),100,100,295,30,20,8
+Ritual Fans,AbsoLab,160,,Hoyoung,Fast (4),,60,192,30,10,8
+Two Handed Swords,Genesis,200,600,Warrior,Normal (6),150,150,340,30,20,None
+Whispershots,AbsoLab,160,,Kain,Fast (4),60,60,192,30,10,8
+Scepters,AbsoLab,160,,Beast Tamer,Normal (6),,,143,30,10,8
+Two Handed Swords,Arcane,200,600,Warrior,Normal (6),100,100,295,30,20,8
+Two Handed Swords,Utgard,140,430,Warrior,Normal (6),,,122,,,8
+Two Handed Swords,Fafnir,150,450,Warrior,Normal (6),40,40,171,30,10,8
+Wands,AbsoLab,160,,Magician,Normal (6),,,143,30,10,8
+Whip Blades,AbsoLab,160,,Xenon,Fast (5),,60,154,30,10,8
+Two Handed Blunt Weapons,AbsoLab,160,480,Warrior,Normal (6),60,60,205,30,10,8
+Shining Rods,AbsoLab,160,,Luminous,Normal (6),,,143,30,10,8
+Two Handed Axes,AbsoLab,160,480,Warrior,Normal (6),60,60,205,30,10,8
+Two Handed Swords,AbsoLab,160,480,Warrior,Normal (6),60,60,205,30,10,8
+Staffs,Utgard,140,,Magician,Normal (6),,,98,,,8
+Staffs,Fafnir,150,,Magician,Slow (8),,,126,30,10,8
+Soul Shooters,Arcane,200,,Angelic Buster,Fast (5),100,100,221,30,20,8
+Soul Shooters,Fafnir,150,,Angelic Buster,Fast (5),40,40,128,30,10,8
+Staffs,Arcane,200,,Magician,Slow (8),,,218,30,20,8
+Soul Shooters,Genesis,200,,Angelic Buster,Fast (5),150,150,255,30,20,None
+Staffs,AbsoLab,160,,Magician,Slow (8),,,151,30,10,8
+Soul Shooters,Utgard,140,,Angelic Buster,Fast (5),,,92,,,8
+Staffs,Genesis,200,,Magician,Slow (8),,,251,30,20,None
+Spears,Utgard,140,430,Warrior,Normal (6),,,124,,,8
+Soul Shooters,AbsoLab,160,,Angelic Buster,Fast (5),60,60,154,30,10,8
+Spears,Genesis,200,600,Warrior,Normal (6),150,150,340,30,20,None
+Spears,Fafnir,150,450,Warrior,Normal (6),40,40,171,30,10,8
+Spears,Arcane,200,600,Warrior,Normal (6),100,100,295,30,20,8
+Ancient Bows,Fafnir,150,,Pathfinder,Normal (6),40,40,160,30,10,8
+Ancient Bows,Arcane,200,,Pathfinder,Normal (6),100,100,276,30,20,8
+Spears,AbsoLab,160,480,Warrior,Normal (6),60,60,205,30,10,8
+Ancient Bows,Utgard,140,,Pathfinder,Normal (6),,,115,,,8
+Ancient Bows,Genesis,200,,Pathfinder,Normal (6),150,150,318,30,20,None
+Ancient Bows,AbsoLab,160,,Pathfinder,Normal (6),60,60,192,30,10,8
+Desperados,AbsoLab,160,480,Demon Avenger,Normal (6),60,,205,30,10,8
+Daggers,AbsoLab,160,,Thief,Fast (4),,60,192,30,10,8
+Desperados,Utgard,140,430,Demon Avenger,Normal (6),,,122,,,8
+Desperados,Genesis,200,600,Demon Avenger,Fast (5),150,,340,30,20,None
+Desperados,Fafnir,150,450,Demon Avenger,Normal (6),40,,171,30,10,8
+Desperados,Arcane,200,600,Demon Avenger,Normal (6),100,100,295,30,20,8
+Daggers,Utgard,140,,Thief,Fast (4),,,115,,,8
+Daggers,Genesis,200,,Thief,Fast (4),,150,318,30,20,None
+Daggers,Fafnir,150,,Thief,Fast (4),,40,160,30,10,8
+Arm Cannons,AbsoLab,160,480,Blaster,Fast (5),60,60,154,30,10,8
+Bows,Fafnir,150,,Bowman,Normal (6),40,40,160,30,10,8
+Bows,AbsoLab,160,,Bowman,Normal (6),60,60,192,30,10,8
+Bladecasters,AbsoLab,160,480,Adele,Fast (4),60,60,205,30,10,8
+Bows,Utgard,140,,Bowman,Normal (6),,,115,,,8
+Bows,Genesis,200,,Bowman,Normal (6),150,150,318,30,20,None
+Daggers,Arcane,200,,Thief,Fast (4),,100,276,30,20,8
+Canes,Utgard,140,,Thief,Fast (4),,,118,,,8
+Chains,Genesis,200,,Cadena,Fast (4),,150,318,30,20,None
+Canes,Arcane,200,,Thief,Fast (5),,100,283,30,20,8
+Canes,Genesis,200,,Thief,Fast (5),,150,326,30,20,None
+Chains,Utgard,140,,Cadena,Fast (4),,,115,,,8
+Chains,Fafnir,150,,Cadena,Fast (4),,40,160,30,10,8
+Canes,Fafnir,150,,Thief,Fast (5),,40,164,30,10,8
+Claws,Utgard,140,,Thief,Fast (4),,,62,,,8
+Chains,Arcane,200,,Cadena,Fast (4),,100,276,30,20,8
+Claws,Genesis,200,,Thief,Fast (4),,150,172,30,20,None
+Claws,Fafnir,150,,Thief,Fast (4),,40,86,30,10,8
+Claws,Arcane,200,,Thief,Fast (4),,100,149,30,20,8
+Crossbows,Utgard,140,,Bowman,Normal (6),,,118,,,8
+Crossbows,Genesis,200,,Bowman,Normal (6),150,150,326,30,20,None
+Crossbows,Arcane,200,,Bowman,Normal (6),100,100,283,30,20,8
+Crossbows,Fafnir,150,,Bowman,Normal (6),40,40,164,30,10,8
+Canes,AbsoLab,160,,Thief,Fast (5),,60,197,30,10,8
+Arm Cannons,Genesis,200,600,Blaster,Fast (5),150,150,255,30,20,None
+Arm Cannons,Utgard,140,,Blaster,Fast (5),,,90,,,8
+Bladecasters,Genesis,200,600,Adele,Fast (4),150,150,340,30,20,None
+Bladecasters,Fafnir,150,450,Adele,Fast (4),40,40,171,30,10,8
+Bladecasters,Arcane,200,600,Adele,Fast (4),100,100,295,30,20,8
+Arm Cannons,Arcane,200,600,Blaster,Fast (5),100,100,221,30,20,8
+Bladecasters,Utgard,140,,Adele,Fast (4),,,122,,,8
+Arm Cannons,Fafnir,150,450,Blaster,Fast (5),40,40,128,30,10,8
+Chains,AbsoLab,160,,Cadena,Fast (4),,60,192,30,10,8
+Claws,AbsoLab,160,,Thief,Fast (4),,60,103,30,10,8
+Crossbows,AbsoLab,160,,Bowman,Normal (6),60,60,197,30,10,8
+Bows,Arcane,200,,Bowman,Normal (6),100,100,276,30,20,8

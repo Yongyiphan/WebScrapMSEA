@@ -31,28 +31,28 @@ class WeapondataSpider(scrapy.Spider):
     name = 'EquipmentData'
     allowed_domains = ['maplestory.fandom.com']
     start_urls = ["http://maplestory.fandom.com/wiki/Category:Weapons"]
-    custom_settings = {"FEEDS":{"results.csv":{"format":"csv"}}}
+    custom_settings = {
+        "FEEDS":
+            {"WeaponData.json":{"format":"json", "overwrite" : True}}
+    }
 
-    DictKeys = []
-    WeapDict = pandas.DataFrame()
+    
 
     def parse(self, response):
         #for href in response.xpath('//li[@class="category-page__member"]/a/@href').extract():
-        request = []
         for href in response.css('a.category-page__member-link::attr(href)'):
             wtype = " ".join(re.split('_|-' , href.extract().split(':')[-1])).strip(' ')
             url = response.urljoin(href.extract())
             yield scrapy.Request(url, callback=self.WeaponType, meta = {"WeaponType" : wtype})
             ...
         
-        print(request)
         
-    
     def WeaponType(self, response):
-        ItemDict = {}
-        ItemDict["WeaponType"] = response.meta.get('WeaponType')
+        
         for href in response.css('a.category-page__member-link::attr(href)'):
-            hrefcat = re.split('/|_|%', href.extract())
+            ItemDict = {}
+            ItemDict["WeaponType"] = response.meta.get('WeaponType')
+            hrefcat = re.split('/|_|%| ', href.extract())
             match = False
             for wtrack in WeapSetTrack:
                 if wtrack in hrefcat:
@@ -61,8 +61,8 @@ class WeapondataSpider(scrapy.Spider):
             if match:
                 url = response.urljoin(href.extract())
                 yield scrapy.Request(url, callback=self.IndividualWeapon, cb_kwargs= {'item' : ItemDict})
-        
-        
+
+
     
     def IndividualWeapon(self, response, item):
         tables = response.css('div.mw-parser-output > table > tbody > tr')
@@ -72,25 +72,17 @@ class WeapondataSpider(scrapy.Spider):
             td = row.xpath('td//text()').getall()
             if "Tradability\n" in th:
                 break
+            if "Extra Stats\n" in th:
+                continue
             if th != []:
                 key = th[0].strip('\n ')
-                if key not in self.DictKeys:
-                    self.DictKeys.append(key)
                 value = "|".join(td).strip("|\n+%")
                 item[key] = value
-        
-        for keys in self.DictKeys:
-            if keys not in item.keys():
-                item[keys] = 0
-        
-        self.WeapDict = self.WeapDict.append(pandas.DataFrame(item, index=[0]), ignore_index=True)
-        
         return item 
-        
-                            
+    
 
 
 
-#process = CrawlerProcess(get_project_settings())
-#process.crawl(WeapondataSpider)
-#process.start()
+#process = CrawlerProcess(get_pondataSpider)
+#process.start()project_settings())
+#process.crawl(Wea
