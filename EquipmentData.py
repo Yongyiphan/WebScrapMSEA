@@ -6,6 +6,7 @@ import lxml
 import cchardet
 import time
 from bs4 import BeautifulSoup
+import re
 from ComFunc import *
 
 ### PROGRAM FLOW ####
@@ -55,11 +56,6 @@ def StartScraping():
 
     start = time.time()
 
-    WeaponDF = pandas.DataFrame()
-    ArmorDF = pandas.DataFrame()
-    AccessoriesDF = pandas.DataFrame()
-    SetEffectDF = pandas.DataFrame()
-
     ArmorSession = requests.session()
     WeaponSession = requests.session()
     SecSession = requests.session()
@@ -72,16 +68,13 @@ def StartScraping():
     SetEffectDF, ArmorDF, AccessoriesDF = retrieveEquipmentSet(ArmorSession)
     
     ##RETRIEVE TYRANT
-    tAcc, tArmor = retrieveTyrant(ArmorSession)
 
-    ArmorDF = ArmorDF.append(tArmor, ignore_index=True)
     ArmorDF = ArmorDF[ArmorCol]
     ArmorDF = ArmorDF.fillna(0)
     ##MANUALLY ADDING TYRANY
 
 
 
-    AccessoriesDF = AccessoriesDF.append(tAcc, ignore_index=True)
     EmblemData = {
         "EquipName" : "Emblem",
         'EquipSet': "Emblem",
@@ -94,7 +87,6 @@ def StartScraping():
     }
     EmblemDF = pandas.DataFrame(EmblemData, index=[0])
     AccessoriesDF = AccessoriesDF.append(EmblemDF, ignore_index=True)
-    AccessoriesDF = AccessoriesDF.append(retrieveHeart(ArmorSession), ignore_index=True)
     AccessoriesDF = AccessoriesDF[AccCol]
     AccessoriesDF = AccessoriesDF.fillna(0)
     
@@ -131,6 +123,7 @@ def retrieveEquipmentSet(session):
     SetEffectDF = pandas.DataFrame()
 
     for links in linkLists:
+
         linkText = links.next.lower()
         for li in EquipSetTrack:
             if li.lower() in linkText and any(ig.lower() in linkText for ig in ignoreSetKeyWords) == False:
@@ -147,6 +140,12 @@ def retrieveEquipmentSet(session):
                 print(f"{li} equips added in {Mend - Mstart }. ")
                 break
 
+    tAcc, tArmor = retrieveTyrant(session)
+    ArmorDF =  ArmorDF.append(tArmor, ignore_index=True)
+    AccessoriesDF = AccessoriesDF.append(tAcc, ignore_index=True)
+
+    AccessoriesDF = AccessoriesDF.append(retrieveHeart(session), ignore_index=True)
+
     return SetEffectDF, ArmorDF, AccessoriesDF
 
 def retrieveContents(subUrl, session, equipSet):
@@ -155,11 +154,11 @@ def retrieveContents(subUrl, session, equipSet):
     subPage = session.get(defaulturl + subUrl)
     if subPage.status_code != 200:
         return
-    
+
     totalPageContent = BeautifulSoup(subPage.content, 'lxml')
     wikitables = totalPageContent.find_all('table', class_="wikitable")
 
-
+    
     smallCollection = {}
     smallCollection['SetEffect'] = retrieveSetEffect(wikitables[0], equipSet)
     smallCollection['Armor'], smallCollection['Accessories'] = retrieveEquips(wikitables[1], equipSet)
@@ -170,16 +169,19 @@ def retrieveContents(subUrl, session, equipSet):
 def retrieveSetEffect(wikitable, equipSet):
 
     #SCRAPING EACH TABLE
-    start = time.time()
     currentDF = pandas.DataFrame()
 
     tdContent = wikitable.find_all('td')
 
     startCounter = len(tdContent) % 2
-
+    classType = 'Any'
+    for c in Mclasses: 
+        if c in equipSet:
+            classType = c
     for i in range(startCounter, len(tdContent), 2):
         SetData = {}
         SetData['EquipSet'] = equipSet
+        SetData['ClassType'] = classType
         SetData['SetEffect'] = tdContent[i].next.next.split(" ")[0]
         statList = tdContent[i].get_text(separator = '\n').split('\n')[1:]
         SetData.update(assignToDict(statList))
@@ -522,38 +524,7 @@ def retrieveTyrant(session):
 
     return tyrantAcc, tyrantArmor
 
-def tryantPage(link, session):
-    PageContent = session.get(defaulturl + link)
 
-    soup = BeautifulSoup(PageContent.content,'lxml').find_all('div', class_='mw-parser-output')[0]
-    big = soup.find_all('big')[0].get_text().split(' ')
-    title = big[:-1] if big[-1] == '' else big 
-    print(type(title))
-    equipSet = title[0]
-    equipSlot = title[-1]
-    
-    trContent = soup.find_all('tr')[2:]
-    EquipData = {}
-    EquipData['EquipSet'] = equipSet
-    EquipData['EquipSlot'] = equipSlot
-    statList = []
-    for row in trContent:
-        if row.find('th') and row.find('td'):
-            th = removeN(row.find('th').next, '\n')
-            td = removeN(row.find('td').next, '\n')
-            if th.lower().find('level') != -1:
-                EquipData['EquipLevel'] = td
-                continue
-            elif th.lower().find('job') != -1:
-                EquipData['ClassType'] = td
-            if th.lower().find('upgrades') != -1:
-                EquipData.update(assignToDict(statList))
-                break
-            statList.append(th + ': ' + td)
-
-    
-
-    return pandas.DataFrame(EquipData)
 
 def retrieveHeart(session):
     
@@ -589,7 +560,6 @@ def retrieveHeart(session):
     EDF.loc[(EDF.EquipName == 'Wondroid'), "EquipName"] = "Beautyroid"
     EDF.loc[(EDF.EquipName == 'Glimmering Wondroid'), "EquipName"] = "Sincere Beautyroid"
 
-    print(EDF)
     return EDF
 
 

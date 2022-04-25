@@ -11,6 +11,7 @@ STSFurl = '/wiki/MapleStory/Spell_Trace_and_Star_Force#Star_Force_Enhancement'
 formulaUrl ='/MapleStory/Formulas'
 potentialUrl = '/MapleStory/Potential_System'
 hyperStatUrl = "/wiki/MapleStory/Hyper_Stats"
+flameUrl = "/wiki/MapleStory/Bonus_Stats"
 PotDFCol =	['EquipGrp','Grade','GradeT','DisplayStat','StatT','Chance','Duration','MinLvl','MaxLvl','StatValue']
 TyrantSFCol = ["SFLevel", "LevelRank", "VStat", "VAtk",	"VDef"]
 
@@ -125,7 +126,6 @@ def retrieveTyrantSF(tableR):
                 tempDict["SFLevel"] = lvl 
                 if c.name == 'table':
                     tcr = removeNSpace(c, '\n')[0].find_all('td')
-                    LvlRankStore = pandas.DataFrame()
                     for e in range(0, len(tcr), 2):
                         temp = {}
                         if findString(tcr[e].next, '~'):
@@ -412,7 +412,7 @@ def retrieveHyperStat():
             wikitable.append(table)
     wikitable = wikitable[0]
     tdDistContent = [value.find_all('td') for value in wikitable]
-    HyperStatDistDF = retreiveHyperStatDistribution(tdDistContent)
+    HyperStatDistDF = retrieveHyperStatDistribution(tdDistContent)
     CostDict = {
         "Level" : [],
         "Cost" : [],
@@ -442,8 +442,8 @@ def retrieveHyperStat():
             statTable = r.find_all('td')
             for i in range(0, len(statTable), 3):
                 HyperStatDict['Level'].append(int(statTable[i].next))
-                HyperStatDict['LevelGain'].append(removeN(statTable[i+1].next.split('+')[-1], '%'))
-                HyperStatDict['TotalGain'].append(removeN(statTable[i+2].next.split('+')[-1], ['\n', '%']))
+                HyperStatDict['TotalGain'].append(removeN(statTable[i+1].next.split('+')[-1], '%'))
+                HyperStatDict['LevelGain'].append(removeN(statTable[i+2].next.split('+')[-1], ['\n', '%']))
             HyperStatDF = HyperStatDF.append(pandas.DataFrame(HyperStatDict), ignore_index=True)
 
             ...
@@ -455,7 +455,7 @@ def retrieveHyperStat():
     return HyperStatDistDF, HyperStatDF
     ...
 
-def retreiveHyperStatDistribution(TDContent):
+def retrieveHyperStatDistribution(TDContent):
 
     cDict = {
         "Level" : [],
@@ -470,13 +470,19 @@ def retreiveHyperStatDistribution(TDContent):
     return pandas.DataFrame(cDict)
     ...
 
+def retrieveFlame():
 
+    PageContent = GetPageContent(defaultUrl + flameUrl)
+    
+
+    ...
 
 def cleanPotDF(DF):
 
     
 
     return DF
+
 
 
 def ATDSF(statList):

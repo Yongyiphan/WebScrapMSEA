@@ -1,5 +1,10 @@
 
+import requests
+import bs4 as bsoup
+
 MainStat = ['STR','DEX','INT','LUK']
+
+
 
 
 def returnIndex(ele, setToTrack):
@@ -109,6 +114,15 @@ def assignToDict(tempList):
     
     return tempData
 
+def GetPageContent(url, session =  requests.session()):
+
+    request_session = session
+    Page = request_session.get(url)
+    
+    return bsoup(Page.content, 'lxml')
+
+
+    ...
 
 def removeFLSpace(item):
     
@@ -120,3 +134,4 @@ def removeFLSpace(item):
         return item[:-1]
     else:
         return item
+
